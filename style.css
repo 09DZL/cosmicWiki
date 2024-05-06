@@ -53,7 +53,7 @@ h1 {
 	padding-top: 30px;
 	padding-bottom: 30px;
 	color: white;
-	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(asset/background.png);
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(background.png);
 	background-color: rgba(0, 0, 0, 0.1);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -155,7 +155,7 @@ footer {
 }
 
 .joinContent {
-	background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url(asset/j_background.png);
+	background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url(j_background.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
