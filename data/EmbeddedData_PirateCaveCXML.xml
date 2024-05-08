@@ -1,0 +1,1147 @@
+<Objects>
+	
+	<Object type="0xff92" id="PCave Cave Wall Supported Lantern">
+		<Class>DoubleWall</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0xdb</Index>
+		</Texture>
+		<Animation prob="1" period="0.6">
+			<Frame time="0.2">
+				<Texture>
+					<File>lofiEnvironment4</File>
+					<Index>0xdc</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.2">
+				<Texture>
+					<File>lofiEnvironment4</File>
+					<Index>0xdd</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.2">
+				<Texture>
+					<File>lofiEnvironment4</File>
+					<Index>0xde</Index>
+				</Texture>
+			</Frame>
+		</Animation>
+		<Top>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0xd7</Index>
+			</Texture>
+		</Top>
+		<HitSound>monster/stone_walls_hit</HitSound>
+		<DeathSound>monster/stone_walls_death</DeathSound>
+		<Static/>
+		<FullOccupy/>
+		<OccupySquare/>
+		<EnemyOccupySquare/>
+		<BlocksSight/>
+	</Object>
+	<Object type="0xff93" id="PCave Cave Wall Supported">
+		<Class>DoubleWall</Class>
+		<RandomTexture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0xd8</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0xd9</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0xda</Index>
+			</Texture>
+		</RandomTexture>
+		<Top>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0xd7</Index>
+			</Texture>
+		</Top>
+		<HitSound>monster/stone_walls_hit</HitSound>
+		<DeathSound>monster/stone_walls_death</DeathSound>
+		<Static/>
+		<FullOccupy/>
+		<OccupySquare/>
+		<EnemyOccupySquare/>
+		<BlocksSight/>
+	</Object>
+	<Object type="0xff94" id="PCave Cave Wall Lantern">
+		<Class>DoubleWall</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0xd3</Index>
+		</Texture>
+		<Animation prob="1" period="0.6">
+			<Frame time="0.2">
+				<Texture>
+					<File>lofiEnvironment4</File>
+					<Index>0xd4</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.2">
+				<Texture>
+					<File>lofiEnvironment4</File>
+					<Index>0xd5</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.2">
+				<Texture>
+					<File>lofiEnvironment4</File>
+					<Index>0xd6</Index>
+				</Texture>
+			</Frame>
+		</Animation>
+		<Top>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0xca</Index>
+			</Texture>
+		</Top>
+		<HitSound>monster/stone_walls_hit</HitSound>
+		<DeathSound>monster/stone_walls_death</DeathSound>
+		<Static/>
+		<FullOccupy/>
+		<OccupySquare/>
+		<EnemyOccupySquare/>
+		<BlocksSight/>
+	</Object>
+	<Object type="0xff95" id="PCave Cave Wall Basic">
+		<Class>DoubleWall</Class>
+		<RandomTexture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0xce</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0xcf</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0xd0</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0xd1</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0xd2</Index>
+			</Texture>
+		</RandomTexture>
+		<Top>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0xca</Index>
+			</Texture>
+		</Top>
+		<HitSound>monster/stone_walls_hit</HitSound>
+		<DeathSound>monster/stone_walls_death</DeathSound>
+		<Static/>
+		<FullOccupy/>
+		<OccupySquare/>
+		<EnemyOccupySquare/>
+		<BlocksSight/>
+	</Object>
+	<Object type="0xff96" id="PCave Floating Bottle">
+		<Class>GameObject</Class>
+		<Animation prob="1" period="0.4">
+			<Frame time="0.2">
+				<Texture>
+					<File>lofiEnvironment4</File>
+					<Index>0xcc</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.2">
+				<Texture>
+					<File>lofiEnvironment4</File>
+					<Index>0xcd</Index>
+				</Texture>
+			</Frame>
+		</Animation>
+		<Static/>
+	</Object>
+	<Object type="0xff99" id="PCave Lantern">
+		<Class>GameObject</Class>
+		<Animation prob="1" period="0.8">
+			<Frame time="0.2">
+				<Texture>
+					<File>lofiEnvironment4</File>
+					<Index>0xc6</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.2">
+				<Texture>
+					<File>lofiEnvironment4</File>
+					<Index>0xc7</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.2">
+				<Texture>
+					<File>lofiEnvironment4</File>
+					<Index>0xc8</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.2">
+				<Texture>
+					<File>lofiEnvironment4</File>
+					<Index>0xc9</Index>
+				</Texture>
+			</Frame>
+		</Animation>
+		<Static/>
+	</Object>
+	<Object type="0xff9a" id="PCave Obj1 Random">
+		<Class>GameObject</Class>
+		<RandomTexture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0xc2</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0xc3</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0xc4</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0xc5</Index>
+			</Texture>
+		</RandomTexture>
+		<Static/>
+	</Object>
+	<Object type="0xff9b" id="PCave Crate Random">
+		<Class>GameObject</Class>
+		<RandomTexture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0xbe</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0xbf</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0xc0</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0xc1</Index>
+			</Texture>
+		</RandomTexture>
+		<Static/>
+	</Object>
+	<Object type="0xff9c" id="PCave Barrel Random">
+		<Class>GameObject</Class>
+		<RandomTexture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0xba</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0xbb</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0xbc</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0xbd</Index>
+			</Texture>
+		</RandomTexture>
+		<Static/>
+	</Object>
+	<Object type="0xff9d" id="PCave Bottle Random">
+		<Class>GameObject</Class>
+		<RandomTexture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0xb8</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0xb9</Index>
+			</Texture>
+		</RandomTexture>
+		<Static/>
+	</Object>
+	<Object type="0xff9e" id="PCave Furniture Random">
+		<Class>GameObject</Class>
+		<RandomTexture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0xb5</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0xb6</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0xb7</Index>
+			</Texture>
+		</RandomTexture>
+		<Static/>
+	</Object>
+	<Object type="0xff9f" id="PCave Wood Hole">
+		<Class>GameObject</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0xb4</Index>
+		</Texture>
+		<Static/>
+	</Object>
+	<Object type="0xffaa" id="PCave Manhole Transparent">
+		<Class>GameObject</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0xaf</Index>
+		</Texture>
+		<Static/>
+	</Object>
+	<Object type="0xffaf" id="PCave Pillar">
+		<Class>Wall</Class>
+		<Height>4</Height>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0xab</Index>
+		</Texture>
+		<Top>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0xaa</Index>
+			</Texture>
+		</Top>
+		<HitSound>monster/stone_walls_hit</HitSound>
+		<DeathSound>monster/stone_walls_death</DeathSound>
+		<Static/>
+		<FullOccupy/>
+		<OccupySquare/>
+		<EnemyOccupySquare/>
+		<BlocksSight/>
+	</Object>
+	<Object type="0xffb0" id="PCave Cage Random">
+		<Class>GameObject</Class>
+		<RandomTexture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0xa6</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0xa7</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0xa8</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0xa9</Index>
+			</Texture>
+		</RandomTexture>
+		<Static/>
+	</Object>
+	<Object type="0xffb5" id="PCave Wall Basic">
+		<Class>DoubleWall</Class>
+		<RandomTexture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x8a</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x8b</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x8c</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x8d</Index>
+			</Texture>
+		</RandomTexture>
+		<Top>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x89</Index>
+			</Texture>
+		</Top>
+		<HitSound>monster/stone_walls_hit</HitSound>
+		<DeathSound>monster/stone_walls_death</DeathSound>
+		<Static/>
+		<FullOccupy/>
+		<OccupySquare/>
+		<EnemyOccupySquare/>
+		<BlocksSight/>
+	</Object>
+	<Object type="0xffb4" id="PCave Wall Lantern">
+		<Class>DoubleWall</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x8e</Index>
+		</Texture>
+		<Animation prob="1" period="0.8">
+			<Frame time="0.2">
+				<Texture>
+					<File>lofiEnvironment4</File>
+					<Index>0x8e</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.2">
+				<Texture>
+					<File>lofiEnvironment4</File>
+					<Index>0x8f</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.2">
+				<Texture>
+					<File>lofiEnvironment4</File>
+					<Index>0x90</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.2">
+				<Texture>
+					<File>lofiEnvironment4</File>
+					<Index>0x91</Index>
+				</Texture>
+			</Frame>
+		</Animation>
+		<Top>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x89</Index>
+			</Texture>
+		</Top>
+		<HitSound>monster/stone_walls_hit</HitSound>
+		<DeathSound>monster/stone_walls_death</DeathSound>
+		<Static/>
+		<FullOccupy/>
+		<OccupySquare/>
+		<EnemyOccupySquare/>
+		<BlocksSight/>
+	</Object>
+	<Object type="0xffb3" id="PCave Wall Painting Random">
+		<Class>DoubleWall</Class>
+		<RandomTexture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x92</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x93</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x94</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x95</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x96</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x97</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x98</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x99</Index>
+			</Texture>
+		</RandomTexture>
+		<Top>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x89</Index>
+			</Texture>
+		</Top>
+		<HitSound>monster/stone_walls_hit</HitSound>
+		<DeathSound>monster/stone_walls_death</DeathSound>
+		<Static/>
+		<FullOccupy/>
+		<OccupySquare/>
+		<EnemyOccupySquare/>
+		<BlocksSight/>
+	</Object>
+	<Object type="0x0927" id="Redbeard, The Pirate King">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters</File>
+			<Index>4</Index>
+		</AnimatedTexture>
+		<HitSound>monster/pirate_king_hit</HitSound>
+		<DeathSound>monster/pirate_king_death</DeathSound>
+		<Size>130</Size>
+		<MaxHitPoints>4125</MaxHitPoints>
+		<Defense>0</Defense>
+		<Boss>0</Boss>
+		<Quest/>
+		<Hero/>
+		<StasisImmune/>
+		<Level>1</Level>
+		<PhysicalDefense>10</PhysicalDefense>
+		<MagicDefense>5</MagicDefense>
+		<XpMult>3</XpMult>
+		<NoArticle/>
+		<Projectile id="0">
+			<ObjectId>Redbeard Blade Big Proj</ObjectId>
+			<Damage>30</Damage>
+			<Speed>70</Speed>
+			<Size>110</Size>
+			<LifetimeMS>2714</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Redbeard Canonball Big Proj</ObjectId>
+			<Damage>30</Damage>
+			<Speed>80</Speed>
+			<LifetimeMS>2375</LifetimeMS>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Redbeard Bount</ObjectId>
+			<Damage>25</Damage>
+			<Speed>75</Speed>
+			<LifetimeMS>2366</LifetimeMS>
+			<Size>100</Size>
+			<Amplitude>0.9</Amplitude>
+			<Frequency>0.65</Frequency>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Redbeard Strike</ObjectId>
+			<Damage>30</Damage>
+			<Speed>45</Speed>
+			<LifetimeMS>2777</LifetimeMS>
+			<Size>100</Size>
+		</Projectile>
+		<Projectile id="4">
+			<ObjectId>Redbeard Wave Big Proj</ObjectId>
+			<Damage>30</Damage>
+			<Speed>45</Speed>
+			<LifetimeMS>2777</LifetimeMS>
+			<Size>100</Size>
+		</Projectile>
+		<Projectile id="5">
+			<ObjectId>Redbeard Slash</ObjectId>
+			<Damage>25</Damage>
+			<Speed>70</Speed>
+			<Size>120</Size>
+			<LifetimeMS>2714</LifetimeMS>
+		</Projectile>
+		<Projectile id="6">
+			<ObjectId>Redbeard Slash</ObjectId>
+			<Damage>15</Damage>
+			<Speed>60</Speed>
+			<Size>100</Size>
+			<LifetimeMS>2714</LifetimeMS>
+		</Projectile>
+		<Projectile id="7">
+			<ObjectId>Redbeard Slash</ObjectId>
+			<Damage>20</Damage>
+			<Speed>50</Speed>
+			<Size>80</Size>
+			<LifetimeMS>2714</LifetimeMS>
+		</Projectile>
+		<Projectile id="8">
+			<ObjectId>Redbeard Canonball Big Proj</ObjectId>
+			<Damage>25</Damage>
+			<Speed>80</Speed>
+			<Size>130</Size>
+			<LifetimeMS>2375</LifetimeMS>
+		</Projectile>
+		<Projectile id="9">
+			<ObjectId>Redbeard Bount</ObjectId>
+			<Damage>30</Damage>
+			<Speed>75</Speed>
+			<LifetimeMS>2366</LifetimeMS>
+			<Size>90</Size>
+			<Wavy/>
+		</Projectile>
+	</Object>
+	<Object type="0xff8a" id="Redbeard Blade Big Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiCharBig</File>
+			<Index>0x13</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xff89" id="Redbeard Wave Big Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiCharBig</File>
+			<Index>0x14</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xff88" id="Redbeard Canonball Big Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0xed</Index>
+		</Texture>
+		<Rotation>60</Rotation>
+	</Object>
+	<Object type="0xff87" id="Redbeard Canonball Small Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0xee</Index>
+		</Texture>
+		<Rotation>60</Rotation>
+	</Object>
+	<Object type="0xff86" id="Redbeard Canonball Big Lit Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0xef</Index>
+		</Texture>
+		<Rotation>60</Rotation>
+	</Object>
+	<Object type="0xff85" id="Redbeard Canonball Small Lit Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0xf0</Index>
+		</Texture>
+		<Rotation>60</Rotation>
+	</Object>
+	<Object type="0xfd25" id="Redbeard Normal">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xf0</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfd26" id="Redbeard Strike">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xf1</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfd27" id="Redbeard Bount">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xf2</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfd28" id="Redbeard Slash">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xf3</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x683" id="Pirate Worker">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x8rHero1</File>
+			<Index>0x25</Index>
+		</AnimatedTexture>
+		<HitSound>monster/pirates_hit</HitSound>
+		<DeathSound>monster/pirates_death</DeathSound>
+		<Size>105</Size>
+		<MaxHitPoints>65</MaxHitPoints>
+		<Defense>0</Defense>
+		<Projectile id="0">
+			<ObjectId>Pirate Barrel Proj</ObjectId>
+			<Damage>8</Damage>
+			<Speed>180</Speed>
+			<LifetimeMS>500</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xff84" id="Pirate Barrel Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0xec</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x684" id="Pirate Carpenter">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x8rHero1</File>
+			<Index>0x26</Index>
+		</AnimatedTexture>
+		<HitSound>monster/pirates_hit</HitSound>
+		<DeathSound>monster/pirates_death</DeathSound>
+		<Size>110</Size>
+		<MaxHitPoints>225</MaxHitPoints>
+		<Defense>0</Defense>
+		<Projectile id="0">
+			<ObjectId>Pirate Plank Proj</ObjectId>
+			<Damage>10</Damage>
+			<Speed>70</Speed>
+			<LifetimeMS>1142</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Pirate Hammer Proj</ObjectId>
+			<Damage>35</Damage>
+			<Speed>25</Speed>
+			<Boomerang/>
+			<LifetimeMS>2400</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xff83" id="Pirate Plank Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0xf1</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xff82" id="Pirate Hammer Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0xf2</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xff81" id="Pirate Blade Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0xf3</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x685" id="Pirate Children">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x8rHero1</File>
+			<Index>0x27</Index>
+		</AnimatedTexture>
+		<HitSound>monster/pirates_hit</HitSound>
+		<DeathSound>monster/pirates_death</DeathSound>
+		<Size>75</Size>
+		<MaxHitPoints>30</MaxHitPoints>
+		<Defense>0</Defense>
+		<Projectile id="0">
+			<ObjectId>Pirate Blade Proj</ObjectId>
+			<Damage>6</Damage>
+			<Speed>50</Speed>
+			<LifetimeMS>1200</LifetimeMS>
+			<wavy/>
+		</Projectile>
+	</Object>
+	<Object type="0x686" id="Pirate Soldier">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x8rHero1</File>
+			<Index>0x28</Index>
+		</AnimatedTexture>
+		<HitSound>monster/pirates_hit</HitSound>
+		<DeathSound>monster/pirates_death</DeathSound>
+		<Size>100</Size>
+		<MaxHitPoints>75</MaxHitPoints>
+		<Defense>2</Defense>
+		<Projectile id="0">
+			<ObjectId>Pirate Wave Proj</ObjectId>
+			<Damage>15</Damage>
+			<Speed>90</Speed>
+			<LifetimeMS>888</LifetimeMS>
+			<Size>100</Size>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Pirate Wave Proj</ObjectId>
+			<Damage>10</Damage>
+			<Speed>80</Speed>
+			<LifetimeMS>875</LifetimeMS>
+			<Size>80</Size>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Pirate Wave Proj</ObjectId>
+			<Damage>8</Damage>
+			<Speed>70</Speed>
+			<LifetimeMS>857</LifetimeMS>
+			<Size>60</Size>
+		</Projectile>
+	</Object>
+	<Object type="0xff80" id="Pirate Double Blade Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0xf4</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xff7f" id="Pirate Wave Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0xf5</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x687" id="Pirate Berserk">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x8rHero1</File>
+			<Index>0x29</Index>
+		</AnimatedTexture>
+		<HitSound>monster/cave_pirates_hit</HitSound>
+		<DeathSound>monster/cave_pirates_death</DeathSound>
+		<Size>100</Size>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Defense>0</Defense>
+		<Projectile id="0">
+			<ObjectId>Pirate Double Blade Proj</ObjectId>
+			<Damage>15</Damage>
+			<Speed>66</Speed>
+			<LifetimeMS>600</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Pirate Wave Proj</ObjectId>
+			<Damage>25</Damage>
+			<Speed>5</Speed>
+			<LifetimeMS>2000</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0x688" id="Pirate Sharpshooter">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x8rHero1</File>
+			<Index>0x2a</Index>
+		</AnimatedTexture>
+		<HitSound>monster/cave_pirates_hit</HitSound>
+		<DeathSound>monster/cave_pirates_death</DeathSound>
+		<Size>100</Size>
+		<MaxHitPoints>75</MaxHitPoints>
+		<Defense>0</Defense>
+		<Projectile id="0">
+			<ObjectId>Pirate Bullet Proj</ObjectId>
+			<Damage>45</Damage>
+			<Speed>60</Speed>
+			<Decelerate/>
+			<LifetimeMS>2000</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xff7e" id="Pirate Bullet Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0xf6</Index>
+		</Texture>
+		<AngleCorrection>0</AngleCorrection>
+	</Object>
+	<Object type="0x689" id="Pirate Veteran">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x8rHero1</File>
+			<Index>0x2b</Index>
+		</AnimatedTexture>
+		<HitSound>monster/cave_pirates_hit</HitSound>
+		<DeathSound>monster/cave_pirates_death</DeathSound>
+		<Size>100</Size>
+		<MaxHitPoints>70</MaxHitPoints>
+		<Defense>0</Defense>
+		<Projectile id="0">
+			<ObjectId>Pirate Blade 2 Proj</ObjectId>
+			<Damage>20</Damage>
+			<Speed>60</Speed>
+			<LifetimeMS>600</LifetimeMS>
+			<Size>80</Size>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Pirate Wave Proj</ObjectId>
+			<Damage>6</Damage>
+			<Speed>60</Speed>
+			<LifetimeMS>600</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xff7d" id="Pirate Blade 2 Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0xf7</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xff7c" id="Pirate Captain">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x8rHero1</File>
+			<Index>0x2c</Index>
+		</AnimatedTexture>
+		<HitSound>monster/cave_pirates_hit</HitSound>
+		<DeathSound>monster/cave_pirates_death</DeathSound>
+		<Size>100</Size>
+		<MaxHitPoints>200</MaxHitPoints>
+		<Defense>0</Defense>
+		<Projectile id="0">
+			<ObjectId>Pirate Bullet Lit Small Proj</ObjectId>
+			<Damage>10</Damage>
+			<Speed>60</Speed>
+			<LifetimeMS>600</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Redbeard Canonball Small Proj</ObjectId>
+			<Damage>25</Damage>
+			<Speed>80</Speed>
+			<Size>40</Size>
+			<LifetimeMS>600</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xff7b" id="Pirate Bullet Lit Small Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0xf8</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x68a" id="Monkey">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x8rHero1</File>
+			<Index>0x2d</Index>
+		</AnimatedTexture>
+		<HitSound>monster/cave_pirates_hit</HitSound>
+		<DeathSound>monster/cave_pirates_death</DeathSound>
+		<Size>100</Size>
+		<MaxHitPoints>5</MaxHitPoints>
+		<Defense>0</Defense>
+		<Projectile id="0">
+			<ObjectId>Monkey Proj 1</ObjectId>
+			<Damage>6</Damage>
+			<Speed>60</Speed>
+			<LifetimeMS>600</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Monkey Proj 2</ObjectId>
+			<Damage>6</Damage>
+			<Speed>60</Speed>
+			<LifetimeMS>600</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xff7a" id="Monkey Proj 1">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0xf9</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xff79" id="Monkey Proj 2">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0xfa</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x68b" id="Parrot">
+		<Group>Cave Pirate Pets</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x8rHero1</File>
+			<Index>0x2e</Index>
+		</AnimatedTexture>
+		<HitSound>monster/cave_pirates_hit</HitSound>
+		<DeathSound>monster/cave_pirates_death</DeathSound>
+		<Size>70</Size>
+		<MaxHitPoints>5</MaxHitPoints>
+		<Defense>0</Defense>
+		<Projectile id="0">
+			<ObjectId>Parrot Proj 1</ObjectId>
+			<Damage>6</Damage>
+			<Speed>60</Speed>
+			<LifetimeMS>600</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Parrot Proj 2</ObjectId>
+			<Damage>6</Damage>
+			<Speed>60</Speed>
+			<LifetimeMS>600</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xff78" id="Parrot Proj 1">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0xfb</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xff77" id="Parrot Proj 2">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0xfc</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x68c" id="Crab">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x8rHero1</File>
+			<Index>0x2f</Index>
+		</AnimatedTexture>
+		<HitSound>monster/cave_pirates_hit</HitSound>
+		<DeathSound>monster/cave_pirates_death</DeathSound>
+		<Size>70</Size>
+		<MaxHitPoints>5</MaxHitPoints>
+		<Defense>0</Defense>
+		<Projectile id="0">
+			<ObjectId>Crab Proj 1</ObjectId>
+			<Damage>6</Damage>
+			<Speed>60</Speed>
+			<LifetimeMS>600</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Pirate Wave Proj</ObjectId>
+			<Damage>6</Damage>
+			<Speed>60</Speed>
+			<LifetimeMS>600</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xff76" id="Crab Proj 1">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0xfd</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x68d" id="Lil Hermit">
+		<Group>Cave Pirate Pets</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x8rHero1</File>
+			<Index>0x30</Index>
+		</AnimatedTexture>
+		<HitSound>monster/cave_pirates_hit</HitSound>
+		<DeathSound>monster/cave_pirates_death</DeathSound>
+		<Size>70</Size>
+		<MaxHitPoints>5</MaxHitPoints>
+		<Defense>0</Defense>
+		<Projectile id="0">
+			<ObjectId>Lil Hermit Proj 1</ObjectId>
+			<Damage>6</Damage>
+			<Speed>60</Speed>
+			<LifetimeMS>600</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Lil Hermit Proj 2</ObjectId>
+			<Damage>6</Damage>
+			<Speed>60</Speed>
+			<LifetimeMS>600</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xff75" id="Lil Hermit Proj 1">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0xfe</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xff74" id="Lil Hermit Proj 2">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0xff</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x2396" id="Pirate Cannon">
+		<DisplayId>Cannon</DisplayId>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>79</Index>
+		</AnimatedTexture>
+		<HitSound>monster/traps_hit</HitSound>
+		<DeathSound>monster/traps_death</DeathSound>
+		<MaxHitPoints>250</MaxHitPoints>
+		<PhysicalDefense>0</PhysicalDefense>
+		<MagicDefense>0</MagicDefense>
+		<Size>100</Size>
+		<Projectile id="0">
+			<ObjectId>Redbeard Canonball Big Proj</ObjectId>
+			<Damage>25</Damage>
+			<Speed>40</Speed>
+			<Size>80</Size>
+			<LifetimeMS>4200</LifetimeMS>
+		</Projectile>
+		<XpMult>1.0</XpMult>
+	</Object>
+	<Object type="0x68f" id="Treasure Chest">
+		<Group></Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<Texture>
+			<File>lofiCharBig</File>
+			<Index>0x15</Index>
+		</Texture>
+		<AltTexture id="1">
+			<Texture>
+				<File>lofiCharBig</File>
+				<Index>0x16</Index>
+			</Texture>
+		</AltTexture>
+		<Hero/>
+		<Quest/>
+		<HitSound>monster/cave_pirates_hit</HitSound>
+		<DeathSound>monster/cave_pirates_death</DeathSound>
+		<Size>120</Size>
+		<MaxHitPoints>250</MaxHitPoints>
+		<NoMiniMap/>
+		<Defense>0</Defense>
+	</Object>
+	<Object type="0x69f" id="Open Treasure Chest">
+		<Group></Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<Texture>
+			<File>lofiCharBig</File>
+			<Index>0x16</Index>
+		</Texture>
+		<HitSound>monster/rocks_hit</HitSound>
+		<DeathSound>monster/rocks_death</DeathSound>
+		<Size>120</Size>
+		<MaxHitPoints>300</MaxHitPoints>
+		<NoMiniMap/>
+		<Defense>0</Defense>
+	</Object>
+</Objects>

@@ -1,0 +1,184 @@
+<Objects>
+	<Object type="0x0307" id="Sharpshooter">
+		<Class>Player</Class>
+		<Description>The Lethal Ranger</Description>
+		<RoleDescription>The Sharpshooter is a physical-dps class, excelling in medium-range combat with a focus on high damage output.Ideal for players who enjoy dealing significant damage from a distance.</RoleDescription>
+		<AbilityDescription>The key ability of this class is a unique quiver that unleashes a volley of arrows. These arrows not only pierce and deal significant damage to multiple enemies but also have the added effect of slowing or paralyzing targets.</AbilityDescription>
+		<AnimatedTexture>
+			<File>players</File>
+			<Index>0</Index>
+		</AnimatedTexture>
+		<HitSound>player/archer_hit</HitSound>
+		<DeathSound>player/archer_death</DeathSound>
+		<Player/>
+		<Size>90</Size>
+		<BloodProb>1.6</BloodProb>
+		<SlotTypes>3, 15, 6, 9, 27, 28</SlotTypes>
+		<Equipment>0xf18, 0xf31, 0xf27, 0xf26, 0xBC54, 0xBC55</Equipment>
+		<MaxHitPoints>150;650;700;750;800</MaxHitPoints>
+		<MaxMagicPoints>150;250;300;375;400</MaxMagicPoints>
+		<Power>15;45;50;55;65</Power>
+		<Dexterity>10;40;45;50;55</Dexterity>
+		<Defense>5;15;20;25;30</Defense>
+		<Speed>10;40;45;50;55</Speed>
+		<HpRegen>15;50;55;60;65</HpRegen>
+		<MpRegen>15;50;55;60;65</MpRegen>
+		<Evasion>15;50;55;60;65</Evasion>
+		<Tenacity>10;30;35;40;45</Tenacity>
+		<CriticalDamage>20;55;60;70;80</CriticalDamage>
+		<CriticalHit>10;40;45;50;60</CriticalHit>
+		<MagicFind>0;0;0;0;0</MagicFind>
+	</Object>
+	<Object type="0x030e" id="Stormcaster">
+		<Class>Player</Class>
+		<Description>The Arcane Artillerist</Description>
+		<RoleDescription>The Stormcaster is a magic-damage class, masterful at medium-range combat. This class is ideal for players who enjoy controlling the battlefield with potent AoE spells.</RoleDescription>
+		<AbilityDescription>The Stormcaster's signature ability lies in casting wide-reaching AoE spells, dealing damage to all foes within their range.</AbilityDescription>
+		<AnimatedTexture>
+			<File>players</File>
+			<Index>1</Index>
+		</AnimatedTexture>
+		<HitSound>player/wizard_hit</HitSound>
+		<DeathSound>player/wizard_death</DeathSound>
+		<Player/>
+		<Size>90</Size>
+		<BloodProb>1.6</BloodProb>
+		<SlotTypes>17, 11, 14, 9, 27, 28</SlotTypes>
+		<Equipment>0xf16, 0xfd16, 0xf29, 0xf26, 0xBC54, 0xBC55</Equipment>
+		<MaxHitPoints>150;650;700;750;800</MaxHitPoints>
+		<MaxMagicPoints>100;200;250;300;350</MaxMagicPoints>
+		<Power>15;45;50;55;65</Power>
+		<Dexterity>10;40;45;50;55</Dexterity>
+		<Defense>5;15;20;25;30</Defense>
+		<Speed>10;35;40;45;50</Speed>
+		<HpRegen>15;45;50;55;60</HpRegen>
+		<MpRegen>15;40;50;60;70</MpRegen>
+		<Evasion>10;40;50;55;60</Evasion>
+		<Tenacity>10;25;30;35;40</Tenacity>
+		<CriticalDamage>10;15;20;30;40</CriticalDamage>
+		<CriticalHit>5;15;20;30;40</CriticalHit>
+		<MagicFind>0;0;0;0;0</MagicFind>
+	</Object>
+	<Object type="0x0310" id="Cleric">
+		<Class>Player</Class>
+		<Description>The Healing Beacon</Description>
+		<RoleDescription>The Cleric is a magic-support class, excelling in providing vital aid to allies during combat. This class focuses on sustaining their team through healing and buffs rather than direct combat.</RoleDescription>
+		<AbilityDescription>The Cleric's primary ability is to heal allies within a certain area, providing essential recovery during battle. Additionally, they can apply healing buffs, further amplifying their supportive capabilities.</AbilityDescription>
+		<AnimatedTexture>
+			<File>players</File>
+			<Index>2</Index>
+		</AnimatedTexture>
+		<HitSound>player/priest_hit</HitSound>
+		<DeathSound>player/priest_death</DeathSound>
+		<Player/>
+		<Size>90</Size>
+		<BloodProb>1.0</BloodProb>
+		<SlotTypes>8, 4, 14, 9, 27, 28</SlotTypes>
+		<Equipment>0xf12, 0xfd15, 0xf29, 0xf26, 0xBC54, 0xBC55</Equipment>
+		<MaxHitPoints>150;700;750;800;850</MaxHitPoints>
+		<MaxMagicPoints>100;280;300;350;420</MaxMagicPoints>
+		<Power>15;45;50;55;65</Power>
+		<Dexterity>10;40;45;50;55</Dexterity>
+		<Defense>5;20;25;30;35</Defense>
+		<Speed>10;30;40;45;50</Speed>
+		<HpRegen>20;50;60;70;80</HpRegen>
+		<MpRegen>20;60;70;80;85</MpRegen>
+		<Evasion>10;30;35;40;50</Evasion>
+		<Tenacity>20;50;60;70;75</Tenacity>
+		<CriticalDamage>10;30;35;40;45</CriticalDamage>
+		<CriticalHit>10;20;25;30;35</CriticalHit>
+		<MagicFind>0;0;0;0;0</MagicFind>
+	</Object>
+	<Object type="0x031e" id="Sentinel">
+		<Class>Player</Class>
+		<Description>The Stoic Defender</Description>
+		<RoleDescription>The Sentinel is a steadfast physical-support class, excelling in protective frontline engagements. Ideal for players who revel in a defensive playstyle, this class shines in its ability to shield allies and control the flow of battle.</RoleDescription>
+		<AbilityDescription>The Sentinel's abilities are geared towards damage mitigation and ally protection. They provide a formidable shield when casting their ability.</AbilityDescription>
+		<AnimatedTexture>
+			<File>players</File>
+			<Index>3</Index>
+		</AnimatedTexture>
+		<HitSound>player/knight_hit</HitSound>
+		<DeathSound>player/knight_death</DeathSound>
+		<Player/>
+		<Size>100</Size>
+		<BloodProb>0.6</BloodProb>
+		<SlotTypes>1, 5, 7, 9, 27, 28</SlotTypes>
+		<Equipment>0xf01, 0xf30, 0xf28, 0xf26, 0xBC54, 0xBC55</Equipment>
+		<MaxHitPoints>150;750;800;825;875</MaxHitPoints>
+		<MaxMagicPoints>100;225;300;350;375</MaxMagicPoints>
+		<Power>15;45;50;55;65</Power>
+		<Dexterity>10;40;45;50;55</Dexterity>
+		<Defense>10;35;40;45;50</Defense>
+		<Speed>10;35;40;42;43</Speed>
+		<HpRegen>20;50;60;70;80</HpRegen>
+		<MpRegen>20;50;60;70;80</MpRegen>
+		<Evasion>10;30;35;40;45</Evasion>
+		<Tenacity>10;30;40;50;55</Tenacity>
+		<CriticalDamage>10;30;40;50;55</CriticalDamage>
+		<CriticalHit>10;30;35;40;45</CriticalHit>
+		<MagicFind>0;0;0;0;0</MagicFind>
+	</Object>
+	
+	<Object type="0x814" id="Vanguard">
+		<Class>Player</Class>
+		<Description>The Offensive Frontliner</Description>
+		<RoleDescription>The Vanguard is a vigorous physical-dps class, excelling in close-range, aggressive melee combat. Perfect for players who enjoy leading the charge and dealing substantial damage.</RoleDescription>
+		<AbilityDescription>The Vanguard's abilities focus on boosting their own attack power and enhancing the combat efficiency of their allies. They can provide significant buffs that increase damage output and attack speed.</AbilityDescription>
+		<AnimatedTexture>
+			<File>players</File>
+			<Index>4</Index>
+		</AnimatedTexture>
+		<HitSound>player/knight_hit</HitSound>
+		<DeathSound>player/knight_death</DeathSound>
+		<Player/>
+		<Size>95</Size>
+		<BloodProb>0.6</BloodProb>
+		<SlotTypes>1, 16, 7, 9, 27, 28</SlotTypes>
+		<Equipment>0xf01, 0xBD81, 0xf28, 0xf26, 0xBC54, 0xBC55</Equipment>
+		<MaxHitPoints>150;700;750;800;850</MaxHitPoints>
+		<MaxMagicPoints>100;300;325;350;375</MaxMagicPoints>
+		<Power>15;60;70;75;80</Power>
+		<Dexterity>10;40;45;50;55</Dexterity>
+		<Defense>5;20;25;30;35</Defense>
+		<Speed>10;35;40;45;50</Speed>
+		<HpRegen>15;50;55;60;65</HpRegen>
+		<MpRegen>20;65;70;75;80</MpRegen>
+		<Evasion>10;45;50;55;60</Evasion>
+		<Tenacity>20;60;70;75;80</Tenacity>
+		<CriticalDamage>20;60;70;75;80</CriticalDamage>
+		<CriticalHit>10;40;45;50;55</CriticalHit>
+		<MagicFind>0;0;0;0;0</MagicFind>
+	</Object>
+
+	<Object type="0x815" id="Shadowblade">
+		<Class>Player</Class>
+		<Description>The Elusive Striker</Description>
+		<RoleDescription>The Shadowblade is a swift and agile physical-dps class, specializing in quick, evasive combat tactics. This class is ideal for players who prefer a hit-and-run playstyle, using speed and stealth to outmaneuver opponents with precision.</RoleDescription>
+		<AbilityDescription>The hallmark ability of this class is the invincible dash, allowing them to swiftly move through enemies while remaining untouchable.</AbilityDescription>
+		<HitSound>player/archer_hit</HitSound>
+		<DeathSound>player/archer_death</DeathSound>
+		<Player/>
+		<Size>90</Size>
+		<BloodProb>0.4</BloodProb>
+		<AnimatedTexture>
+			<File>players</File>
+			<Index>7</Index>
+		</AnimatedTexture>
+		<SlotTypes>1, 25, 6, 9, 27, 28</SlotTypes>
+		<Equipment>0xf01, 0x3001, 0xf27, 0xf26, 0xBC54, 0xBC55</Equipment>
+		<MaxHitPoints>100;650;700;725;750</MaxHitPoints>
+		<MaxMagicPoints max="240">100;200;225;250;280</MaxMagicPoints>
+		<Power>15;50;55;60;65</Power>
+		<Dexterity>20;60;70;75;80</Dexterity>
+		<Defense>5;15;20;25;30</Defense>
+		<Speed>15;50;55;60;65</Speed>
+		<HpRegen>10;40;45;50;55</HpRegen>
+		<MpRegen>10;40;45;50;55</MpRegen>
+		<Evasion>20;60;70;75;80</Evasion>
+		<Tenacity>10;30;35;40;45</Tenacity>
+		<CriticalDamage>10;50;55;60;65</CriticalDamage>
+		<CriticalHit>20;70;80;85;90</CriticalHit>
+		<MagicFind>0;0;0;0;0</MagicFind>
+	</Object>
+</Objects>

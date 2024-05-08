@@ -1,0 +1,298 @@
+<Objects>
+	<Object type="0x2502" id="Spaceship">
+		<Enemy/>
+		<NoExp/>
+		<Flying/>
+
+		<NoMiniMap/>
+		<NotHittable/>
+		<Class>Character</Class>
+		<Size>60</Size>
+		<RandomTexture>
+			<Texture>
+				<File>8x8TilesAndObjectsA</File>
+				<Index>0xe4</Index>
+			</Texture>
+			<Texture>
+				<File>8x8TilesAndObjectsA</File>
+				<Index>0xe3</Index>
+			</Texture>
+			<Texture>
+				<File>8x8TilesAndObjectsA</File>
+				<Index>0xf4</Index>
+			</Texture>
+			<Texture>
+				<File>8x8TilesAndObjectsA</File>
+				<Index>0xf3</Index>
+			</Texture>
+		</RandomTexture>
+		<ShadowColor>0x000000</ShadowColor>
+	</Object>
+
+	<Object type="0x2501" id="Astroid">
+		<Enemy/>
+		<NoExp/>
+		<NotHittable/>
+
+		<Flying/>
+		<NoMiniMap/>
+		<Class>Character</Class>
+		<Size>60</Size>
+		<RandomTexture>
+			<Texture>
+				<File>8x8TilesAndObjectsA</File>
+				<Index>0xe1</Index>
+			</Texture>
+			<Texture>
+				<File>8x8TilesAndObjectsA</File>
+				<Index>0xe2</Index>
+			</Texture>
+			<Texture>
+				<File>8x8TilesAndObjectsA</File>
+				<Index>0xf1</Index>
+			</Texture>
+			<Texture>
+				<File>8x8TilesAndObjectsA</File>
+				<Index>0xf2</Index>
+			</Texture>
+		</RandomTexture>
+		<ShadowColor>0x000000</ShadowColor>
+	</Object>
+	<Object type="0xBFf5" id="Sun">
+		<Enemy/>
+		<NoMiniMap/>
+		<NoExp/>
+		<NotHittable/>
+		<Class>Character</Class>
+		<Size>140</Size>
+		<Texture>
+			<File>Obj32x32</File>
+			<Index>0x06</Index>
+		</Texture>
+		<Animation prob="1.0" period="0.0">
+			<Frame time="0.2">
+				<Texture>
+					<File>Obj32x32</File>
+					<Index>0x05</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.2">
+				<Texture>
+					<File>Obj32x32</File>
+					<Index>0x06</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.2">
+				<Texture>
+					<File>Obj32x32</File>
+					<Index>0x07</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.2">
+				<Texture>
+					<File>Obj32x32</File>
+					<Index>0x08</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.2">
+				<Texture>
+					<File>Obj32x32</File>
+					<Index>0x15</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.2">
+				<Texture>
+					<File>Obj32x32</File>
+					<Index>0x16</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.2">
+				<Texture>
+					<File>Obj32x32</File>
+					<Index>0x17</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.2">
+				<Texture>
+					<File>Obj32x32</File>
+					<Index>0x18</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.2">
+				<Texture>
+					<File>Obj32x32</File>
+					<Index>0x25</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.2">
+				<Texture>
+					<File>Obj32x32</File>
+					<Index>0x26</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.2">
+				<Texture>
+					<File>Obj32x32</File>
+					<Index>0x27</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.2">
+				<Texture>
+					<File>Obj32x32</File>
+					<Index>0x28</Index>
+				</Texture>
+			</Frame>
+		</Animation>
+		<ShadowColor>0xe6b400</ShadowColor>
+		<ShadowSize>1200</ShadowSize>
+	</Object>
+	<Object type="0x0712" id="Earth Planet">
+		<Class>Portal</Class>
+		<Size>100</Size>
+		<NexusPortal/>
+		<DungeonName>Realm</DungeonName>
+		<ShowName/>
+		<Texture>
+			<File>16x16Objectsb</File>
+			<Index>0x18</Index>
+		</Texture>
+		<ShadowColor>0x00BB00</ShadowColor>
+		<ShadowSize>140</ShadowSize>
+	</Object>
+	<Object type="0xBFF6" id="Wormhole">
+		<Class>Portal</Class>
+		<Size>100</Size>
+		<IntergamePortal/>
+		<NexusPortal/>
+		<DungeonName>Realm</DungeonName>
+		<Texture>
+			<File>16x16Objectsb</File>
+			<Index>0x00</Index>
+		</Texture>
+		<Animation prob="1.0" period="0.0">
+			<Frame time="0.2">
+				<Texture>
+					<File>16x16Objectsb</File>
+					<Index>0x00</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.2">
+				<Texture>
+					<File>16x16Objectsb</File>
+					<Index>0x01</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.2">
+				<Texture>
+					<File>16x16Objectsb</File>
+					<Index>0x02</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.2">
+				<Texture>
+					<File>16x16Objectsb</File>
+					<Index>0x03</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.2">
+				<Texture>
+					<File>16x16Objectsb</File>
+					<Index>0x04</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.2">
+				<Texture>
+					<File>16x16Objectsb</File>
+					<Index>0x05</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.2">
+				<Texture>
+					<File>16x16Objectsb</File>
+					<Index>0x06</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.2">
+				<Texture>
+					<File>16x16Objectsb</File>
+					<Index>0x07</Index>
+				</Texture>
+			</Frame>
+		</Animation>
+		<ShadowColor>0x0000BB</ShadowColor>
+		<ShadowSize>160</ShadowSize>
+	</Object>
+
+	<Object type="0x072f" id="Guild Hall Portal">
+		<Class>GuildHallPortal</Class>
+		<IntergamePortal/>
+		<DungeonName>Guild Hall</DungeonName>
+		<Texture>
+			<File>16x16Objectsb</File>
+			<Index>0x08</Index>
+		</Texture>
+		<Animation prob="1.0" period="0.0">
+			<Frame time="0.1">
+				<Texture>
+					<File>16x16Objectsb</File>
+					<Index>0x08</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.1">
+				<Texture>
+					<File>16x16Objectsb</File>
+					<Index>0x09</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.1">
+				<Texture>
+					<File>16x16Objectsb</File>
+					<Index>0x0a</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.1">
+				<Texture>
+					<File>16x16Objectsb</File>
+					<Index>0x0b</Index>
+				</Texture>
+			</Frame>
+		</Animation>
+		<ShadowColor>0x964B00</ShadowColor>
+	</Object>
+	<Object type="0x0720" id="Vault Portal">
+		<Class>Portal</Class>
+		<IntergamePortal/>
+		<DungeonName>Vault</DungeonName>
+		<Texture>
+			<File>16x16Objectsb</File>
+			<Index>0x10</Index>
+		</Texture>
+		<Animation prob="1.0" period="0.0">
+			<Frame time="0.1">
+				<Texture>
+					<File>16x16Objectsb</File>
+					<Index>0x10</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.1">
+				<Texture>
+					<File>16x16Objectsb</File>
+					<Index>0x11</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.1">
+				<Texture>
+					<File>16x16Objectsb</File>
+					<Index>0x12</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.1">
+				<Texture>
+					<File>16x16Objectsb</File>
+					<Index>0x0c</Index>
+				</Texture>
+			</Frame>
+		</Animation>
+		<ShadowColor>0xFFD700</ShadowColor>
+	</Object>
+</Objects>

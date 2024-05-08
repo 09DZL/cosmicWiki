@@ -1,0 +1,308 @@
+<Objects>
+	<Object type="0x23a0" id="Wood Log">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xf0</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>A log of wood.</Description>
+		<BagType>2</BagType>
+		<Stackable size="16"/>
+	</Object>
+	<Object type="0x23a1" id="Wood Plank">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xf1</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>A plank of wood.</Description>
+		<BagType>2</BagType>
+		<Stackable size="32"/>
+	</Object>
+	<Object type="0x23a8" id="Ironwood Plank">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xf2</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>A plank of iron wood.</Description>
+		<BagType>2</BagType>
+		<Stackable size="32"/>
+	</Object>
+	<Object type="0x23a2" id="Quiberry">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xf3</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>A Quiberry, tastes like liquor.</Description>
+		<BagType>2</BagType>
+		<Stackable size="5"/>
+		<Consumable/>
+		<Heal/>
+		<OldSound>use_potion</OldSound>
+		<Activate amount="25">Heal</Activate>
+	</Object>
+	<Object type="0x23a3" id="Rock">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xe0</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>A stone rock.</Description>
+		<BagType>2</BagType>
+		<Stackable size="32"/>
+	</Object>
+	<Object type="0x23a4" id="Iron Ore">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xe1</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>A clump of Iron.</Description>
+		<BagType>2</BagType>
+		<Stackable size="32"/>
+	</Object>
+	<Object type="0x23a5" id="Titanium Shard">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xe2</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>A shard of Titanium.</Description>
+		<BagType>2</BagType>
+		<Stackable size="32"/>
+	</Object>
+	<Object type="0x23a6" id="Magma Stone">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xe3</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>A stone of Magma.</Description>
+		<BagType>2</BagType>
+		<Stackable size="32"/>
+	</Object>
+	<Object type="0x23a7" id="Uranium">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xe4</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>A block of Uranium.</Description>
+		<BagType>2</BagType>
+		<Stackable size="32"/>
+	</Object>
+	<Object type="0x23a9" id="Stone Potion">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0x1b</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>Stone carved into the shape of a potion.</Description>
+		<Sound>use_potion</Sound>
+		<Stackable size="6"/>
+		<Consumable/>
+		<Heal/>
+		<OldSound>use_potion</OldSound>
+		<Activate amount="50">Heal</Activate>
+		<Activate effect="Stunned" duration="1">ConditionEffectSelf</Activate>
+		<BagType>2</BagType>
+	</Object>
+	<Object type="0x23aa" id="Obsidian Wood Plank">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xe5</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>Wood that has been modified with Magma Stones.</Description>
+		<BagType>2</BagType>
+		<Stackable size="32"/>
+	</Object>
+	<Object type="0x23ab" id="Blood Remnants">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x72</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>Remnants of the Bloody Tissue, holds honest blood magic.</Description>
+		<BagType>2</BagType>
+		<Rarity>Rare</Rarity>
+		<Stackable size="8"/>
+	</Object>
+	<Object type="0x23ac" id="Ectoplasm">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x01</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>The material for the manifestation of spirits.</Description>
+		<BagType>2</BagType>
+		<Rarity>Rare</Rarity>
+		<Stackable size="8"/>
+	</Object>
+	<Object type="0x23ad" id="Carnelian">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x64</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>An orange type of chalcedony, magically enhanced to become forgeable.</Description>
+		<BagType>2</BagType>
+		<Rarity>Rare</Rarity>
+		<Stackable size="8"/>
+	</Object>
+	<Object type="0x23ae" id="Charged Battery">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x03</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>A battery charged with the core of a war golem.</Description>
+		<BagType>2</BagType>
+		<Rarity>Rare</Rarity>
+		<Stackable size="8"/>
+	</Object>
+	<Object type="0x23af" id="Glass Bottle">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x3c</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>An empty bottle, used for potion crafting.</Description>
+		<BagType>2</BagType>
+		<Rarity>Common</Rarity>
+		<Stackable size="32"/>
+	</Object>
+	<Object type="0x23b0" id="Clump Of Sand">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xb2</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>Sand found in the desert, could be smelted.</Description>
+		<BagType>2</BagType>
+		<Stackable size="32"/>
+	</Object>
+	<Object type="0x23b1" id="Coal">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xb3</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>Coal found in the desert, used for smelting.</Description>
+		<BagType>2</BagType>
+		<Stackable size="32"/>
+	</Object>
+	<Object type="0x23b2" id="Crystalline Rock">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xa3</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>Crystalline rocks, created to reinforce items.</Description>
+		<BagType>2</BagType>
+		<Stackable size="32"/>
+	</Object>
+	<Object type="0x23b3" id="Coral Fruit">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xe6</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Sound>use_potion</Sound>
+		<Stackable size="4"/>
+		<Consumable/>
+		<Heal/>
+		<OldSound>use_potion</OldSound>
+		<Activate amount="60">Heal</Activate>
+	</Object>
+	<Object type="0x23b4" id="Activation Sludge">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xbf</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<BagType>2</BagType>
+		<Rarity>Rare</Rarity>
+		<Stackable size="8"/>
+	</Object>
+	<Object type="0x23b5" id="Umbral Shard">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xd7</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<BagType>2</BagType>
+		<Rarity>Rare</Rarity>
+		<Stackable size="8"/>
+	</Object>
+	<Object type="0x23b6" id="Umbral Plate">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xe7</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<BagType>2</BagType>
+		<Rarity>Legendary</Rarity>
+		<Stackable size="8"/>
+	</Object>
+	<Object type="0x23b7" id="Eternal Frost Flame">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xe8</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<BagType>2</BagType>
+		<Rarity>Legendary</Rarity>
+		<Stackable size="8"/>
+	</Object>
+</Objects>

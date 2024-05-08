@@ -1,0 +1,357 @@
+<Objects>
+	<Object type="0xBC0" id="Feral Boar">
+		<Enemy/>
+		<Class>Character</Class>
+		<Boss>0</Boss>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>0</Index>
+		</AnimatedTexture>
+		<Hero/>
+		<Quest/>
+		<HitSound>monster/lizard_god_hit</HitSound>
+		<DeathSound>monster/lizard_god_death</DeathSound>
+		<Size>175</Size>
+		<MaxHitPoints>7500</MaxHitPoints>
+		<XpMult>2.25</XpMult>
+		<Projectile id="0">
+			<ObjectId>Feral Boar Slash</ObjectId>
+			<Damage>25</Damage>
+			<Speed>100</Speed>
+			<Size>80</Size>
+			<LifetimeMS>1300</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Feral Boar Slash</ObjectId>
+			<Damage>20</Damage>
+			<Speed>110</Speed>
+			<Size>95</Size>
+			<LifetimeMS>2023</LifetimeMS>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Feral Boar Slash</ObjectId>
+			<Damage>26</Damage>
+			<Speed>80</Speed>
+			<Size>110</Size>
+			<LifetimeMS>3500</LifetimeMS>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Feral Boar Cross</ObjectId>
+			<Damage>22</Damage>
+			<Speed>25</Speed>
+			<Size>90</Size>
+			<ArmorPiercing/>
+			<LifetimeMS>4800</LifetimeMS>
+		</Projectile>
+		<Projectile id="4">
+			<ObjectId>Feral Boar Ball</ObjectId>
+			<Damage>30</Damage>
+			<Speed>50</Speed>
+			<Size>120</Size>
+			<ArmorPiercing/>
+			<LifetimeMS>3800</LifetimeMS>
+		</Projectile>
+		<Projectile id="5">
+			<ObjectId>Feral Boar Claw</ObjectId>
+			<Damage>25</Damage>
+			<Speed>60</Speed>
+			<Size>100</Size>
+			<LifetimeMS>2800</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xBC1" id="Feral Boar Slash">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs</File>
+			<Index>0xdc</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBC2" id="Feral Boar Cross">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs</File>
+			<Index>0xcb</Index>
+		</Texture>
+		<Rotation>60</Rotation>
+	</Object>
+	<Object type="0xBC3" id="Feral Boar Ball">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs</File>
+			<Index>0xcc</Index>
+		</Texture>
+		<Rotation>60</Rotation>
+	</Object>
+	<Object type="0xBC4" id="Feral Boar Claw">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs</File>
+			<Index>0xdb</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBC5" id="Forest Elf Archer">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>72</Index>
+		</AnimatedTexture>
+		<HitSound>monster/dark_elves_hit</HitSound>
+		<DeathSound>monster/dark_elves_death</DeathSound>
+		<Size>110</Size>
+		<MaxHitPoints>200</MaxHitPoints>
+		<XpMult>1.25</XpMult>
+		<Projectile id="0">
+			<ObjectId>Forest Elf Archer Arrow</ObjectId>
+			<Damage>10</Damage>
+			<Speed>80</Speed>
+			<Size>100</Size>
+			<LifetimeMS>1250</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xBC6" id="Forest Elf Archer Arrow">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xe2</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBC7" id="Forest Elf Mage">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>74</Index>
+		</AnimatedTexture>
+		<HitSound>monster/dark_elves_hit</HitSound>
+		<DeathSound>monster/dark_elves_death</DeathSound>
+		<Size>110</Size>
+		<MaxHitPoints>200</MaxHitPoints>
+		<XpMult>1.25</XpMult>
+		<Projectile id="0">
+			<ObjectId>Forest Elf Mage Cast</ObjectId>
+			<Damage>15</Damage>
+			<Speed>90</Speed>
+			<Size>100</Size>
+			<Amplitude>0.6</Amplitude>
+			<Frequency>1</Frequency>
+			<LifetimeMS>1400</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xBC8" id="Forest Elf Mage Cast">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xe3</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBC9" id="Forest Elf Rogue">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>76</Index>
+		</AnimatedTexture>
+		<HitSound>monster/dark_elves_hit</HitSound>
+		<DeathSound>monster/dark_elves_death</DeathSound>
+		<Size>110</Size>
+		<MaxHitPoints>225</MaxHitPoints>
+		<XpMult>1.50</XpMult>
+		<Projectile id="0">
+			<ObjectId>Forest Elf Rogue Shot</ObjectId>
+			<Damage>25</Damage>
+			<Speed>60</Speed>
+			<Size>100</Size>
+			<LifetimeMS>750</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xBC10" id="Forest Elf Rogue Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xe4</Index>
+		</Texture>
+	</Object>
+	<Object type="0xBC11" id="Forest Elf Shaman">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x12</File>
+			<Index>0</Index>
+		</AnimatedTexture>
+		<HitSound>monster/dark_elves_hit</HitSound>
+		<DeathSound>monster/dark_elves_death</DeathSound>
+		<Size>125</Size>
+		<MaxHitPoints>600</MaxHitPoints>
+		<XpMult>2.25</XpMult>
+		<Projectile id="0">
+			<ObjectId>Forest Elf Shaman Shot</ObjectId>
+			<Damage>20</Damage>
+			<Speed>60</Speed>
+			<Size>100</Size>
+			<LifetimeMS>3666</LifetimeMS>
+			<Accelerate/>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Forest Elf Shaman Bolt</ObjectId>
+			<Damage>25</Damage>
+			<Speed>80</Speed>
+			<Size>120</Size>
+			<LifetimeMS>1125</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xBC12" id="Forest Elf Shaman Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xd2</Index>
+		</Texture>
+		<Rotation>360</Rotation>
+	</Object>
+	<Object type="0xBC13" id="Forest Elf Shaman Bolt">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xd3</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBC14" id="Squirrel Knight">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>75</Index>
+		</AnimatedTexture>
+		<HitSound>monster/hobbits_hit</HitSound>
+		<DeathSound>monster/hobbits_death</DeathSound>
+		<Size>90</Size>
+		<MaxHitPoints>350</MaxHitPoints>
+		<XpMult>1.25</XpMult>
+		<Projectile id="0">
+			<ObjectId>Squirrel Knight Shot</ObjectId>
+			<Damage>30</Damage>
+			<Speed>60</Speed>
+			<Size>90</Size>
+			<LifetimeMS>1333</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xBC15" id="Squirrel Knight Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xd4</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBC16" id="Squirrel Warrior">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>73</Index>
+		</AnimatedTexture>
+		<HitSound>monster/hobbits_hit</HitSound>
+		<DeathSound>monster/hobbits_death</DeathSound>
+		<Size>90</Size>
+		<MaxHitPoints>300</MaxHitPoints>
+		<XpMult>1.25</XpMult>
+		<Projectile id="0">
+			<ObjectId>Squirrel Warrior Shot</ObjectId>
+			<Damage>15</Damage>
+			<Speed>70</Speed>
+			<Size>90</Size>
+			<LifetimeMS>857</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xBC17" id="Squirrel Warrior Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xc4</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBC18" id="Wild Boar Piglet">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x8dEncounters</File>
+			<Index>1</Index>
+		</AnimatedTexture>
+		<HitSound>monster/dragons_hit</HitSound>
+		<DeathSound>monster/dragons_death</DeathSound>
+		<Size>120</Size>
+		<MaxHitPoints>250</MaxHitPoints>
+		<XpMult>1.25</XpMult>
+		<Projectile id="0">
+			<ObjectId>Wild Boar Piglet Shot</ObjectId>
+			<Damage>12</Damage>
+			<Speed>50</Speed>
+			<Size>120</Size>
+			<LifetimeMS>1500</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Wild Boar Piglet Shot</ObjectId>
+			<Damage>12</Damage>
+			<Speed>60</Speed>
+			<Size>120</Size>
+			<LifetimeMS>1500</LifetimeMS>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Wild Boar Piglet Shot</ObjectId>
+			<Damage>12</Damage>
+			<Speed>70</Speed>
+			<Size>120</Size>
+			<LifetimeMS>1500</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xBC19" id="Wild Boar Piglet Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xb3</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBC20" id="Wild Boar">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x8dEncounters</File>
+			<Index>0</Index>
+		</AnimatedTexture>
+		<HitSound>monster/dragons_hit</HitSound>
+		<DeathSound>monster/dragons_death</DeathSound>
+		<Size>140</Size>
+		<MaxHitPoints>400</MaxHitPoints>
+		<XpMult>1.75</XpMult>
+		<Projectile id="0">
+			<ObjectId>Wild Boar Piglet Shot</ObjectId>
+			<Damage>18</Damage>
+			<Speed>65</Speed>
+			<Size>140</Size>
+			<LifetimeMS>1000</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Wild Boar Shot</ObjectId>
+			<Damage>25</Damage>
+			<Speed>60</Speed>
+			<Size>120</Size>
+			<Boomerang/>
+			<LifetimeMS>2333</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xBC21" id="Wild Boar Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xb4</Index>
+		</Texture>
+		<Rotation>60</Rotation>
+	</Object>
+</Objects>

@@ -1,0 +1,302 @@
+<Objects>
+	<Object type="0xfa40" id="Quiberry Bush">
+		<Class>HarvestableEntity</Class>
+		<MinPower>0</MinPower>
+		<EffectiveTools>1, 3</EffectiveTools>
+		<HarvestableEntity/>
+		<ResetTime>80</ResetTime>
+		<Enemy/>
+		<Texture>
+			<File>Big0</File>
+			<Index>0xe0</Index>
+		</Texture>
+		<AltTexture id="1">
+			<Texture>
+				<File>Big0</File>
+				<Index>0xe1</Index>
+			</Texture>
+		</AltTexture>
+		<HitSound>monster/trees_hit</HitSound>
+		<DeathSound>monster/tress_death</DeathSound>
+		<MaxHitPoints>300</MaxHitPoints>
+		<MinSize>100</MinSize>
+		<MaxSize>120</MaxSize>
+		<NoMiniMap/>
+	</Object>
+	<Object type="0xfa50" id="Wood Deposit">
+		<DisplayId>Oak Tree</DisplayId>
+		<Class>HarvestableEntity</Class>
+		<MinPower>0</MinPower>
+		<EffectiveTools>1, 3</EffectiveTools>
+		<HarvestableEntity/>
+		<ResetTime>320</ResetTime>
+		<Enemy/>
+		<Texture>
+			<File>Big0</File>
+			<Index>0xf0</Index>
+		</Texture>
+		<AltTexture id="1">
+			<Texture>
+				<File>Big0</File>
+				<Index>0xf1</Index>
+			</Texture>
+		</AltTexture>
+		<Z>-0.10</Z>
+		<HitSound>monster/trees_hit</HitSound>
+		<DeathSound>monster/tress_death</DeathSound>
+		<MaxHitPoints>400</MaxHitPoints>
+		<MinSize>100</MinSize>
+		<MaxSize>120</MaxSize>
+		<NoMiniMap/>
+	</Object>
+	<Object type="0xfa51" id="Iron Ore Deposit">
+		<Class>HarvestableEntity</Class>
+		<MinPower>21</MinPower>
+		<EffectiveTools>1, 2</EffectiveTools>
+		<HarvestableEntity/>
+		<ResetTime>600</ResetTime>
+		<Enemy/>
+		<Texture>
+			<File>Big0</File>
+			<Index>0xef</Index>
+		</Texture>
+		<AltTexture id="1">
+			<Texture>
+				<File>Big0</File>
+				<Index>0xee</Index>
+			</Texture>
+		</AltTexture>
+		<Z>-0.10</Z>
+		<HitSound>monster/rocks_hit</HitSound>
+		<DeathSound>monster/rocks_death</DeathSound>
+		<MaxHitPoints>500</MaxHitPoints>
+		<MinSize>100</MinSize>
+		<MaxSize>120</MaxSize>
+		<NoMiniMap/>
+	</Object>
+	<Object type="0xfa52" id="Stone Deposit">
+		<Class>HarvestableEntity</Class>
+		<MinPower>0</MinPower>
+		<EffectiveTools>1, 2, 4</EffectiveTools>
+		<HarvestableEntity/>
+		<ResetTime>600</ResetTime>
+		<Enemy/>
+		<Texture>
+			<File>Big0</File>
+			<Index>0xff</Index>
+		</Texture>
+		<AltTexture id="1">
+			<Texture>
+				<File>Big0</File>
+				<Index>0xfe</Index>
+			</Texture>
+		</AltTexture>
+		<HitSound>monster/rocks_hit</HitSound>
+		<DeathSound>monster/rocks_death</DeathSound>
+		<MaxHitPoints>200</MaxHitPoints>
+		<MinSize>100</MinSize>
+		<MaxSize>120</MaxSize>
+		<SizeStep>5</SizeStep>
+		<XpMult>0.0</XpMult>
+		<Z>-0.10</Z>
+		<NoMiniMap/>
+	</Object>
+	<Object type="0xfa53" id="Titanium Deposit">
+		<Class>HarvestableEntity</Class>
+		<MinPower>30</MinPower>
+		<EffectiveTools>1, 2, 4</EffectiveTools>
+		<ResetTime>1200</ResetTime>
+		<HarvestableEntity/>
+		<Enemy/>
+		<Texture>
+			<File>Big0</File>
+			<Index>0xdf</Index>
+		</Texture>
+		<AltTexture id="1">
+			<Texture>
+				<File>Big0</File>
+				<Index>0xde</Index>
+			</Texture>
+		</AltTexture>
+		<HitSound>monster/rocks_hit</HitSound>
+		<DeathSound>monster/rocks_death</DeathSound>
+		<MaxHitPoints>1200</MaxHitPoints>
+		<MinSize>100</MinSize>
+		<MaxSize>120</MaxSize>
+		<SizeStep>5</SizeStep>
+		<XpMult>0.0</XpMult>
+		<Z>-0.10</Z>
+		<NoMiniMap/>
+	</Object>
+	<Object type="0xfa72" id="Magma Orb Deposit">
+		<Class>HarvestableEntity</Class>
+		<MinPower>40</MinPower>
+		<EffectiveTools>3</EffectiveTools>
+		<ResetTime>1200</ResetTime>
+		<HarvestableEntity/>
+		<Enemy/>
+		<Texture>
+			<File>Big0</File>
+			<Index>0xce</Index>
+		</Texture>
+		<AltTexture id="1">
+			<Texture>
+				<File>Big0</File>
+				<Index>0xcc</Index>
+			</Texture>
+		</AltTexture>
+		<AltTexture id="2">
+			<Texture>
+				<File>Big0</File>
+				<Index>0xce</Index>
+			</Texture>
+		</AltTexture>
+		<AltTexture id="3">
+			<Texture>
+				<File>Big0</File>
+				<Index>0xcd</Index>
+			</Texture>
+		</AltTexture>
+		<AltTexture id="4">
+			<Texture>
+				<File>Big0</File>
+				<Index>0xcf</Index>
+			</Texture>
+		</AltTexture>
+		<HitSound>monster/rocks_hit</HitSound>
+		<DeathSound>monster/rocks_death</DeathSound>
+		<MaxHitPoints>1200</MaxHitPoints>
+		<MinSize>100</MinSize>
+		<MaxSize>120</MaxSize>
+		<NoMiniMap/>
+	</Object>
+	<Object type="0xfa73" id="Uranium Deposit">
+		<Class>HarvestableEntity</Class>
+		<MinPower>50</MinPower>
+		<EffectiveTools>2</EffectiveTools>
+		<ResetTime>1200</ResetTime>
+		<HarvestableEntity/>
+		<Enemy/>
+		<Texture>
+			<File>Big0</File>
+			<Index>0xbf</Index>
+		</Texture>
+		<AltTexture id="1">
+			<Texture>
+				<File>Big0</File>
+				<Index>0xbe</Index>
+			</Texture>
+		</AltTexture>
+		<HitSound>monster/rocks_hit</HitSound>
+		<DeathSound>monster/rocks_death</DeathSound>
+		<MaxHitPoints>2000</MaxHitPoints>
+		<MinSize>100</MinSize>
+		<MaxSize>120</MaxSize>
+		<SizeStep>5</SizeStep>
+		<XpMult>0.0</XpMult>
+		<Z>-0.10</Z>
+		<NoMiniMap/>
+	</Object>
+	<Object type="0xfa74" id="Sand Deposit">
+		<Class>HarvestableEntity</Class>
+		<MinPower>22</MinPower>
+		<EffectiveTools>1, 2, 4</EffectiveTools>
+		<ResetTime>360</ResetTime>
+		<HarvestableEntity/>
+		<Enemy/>
+		<Texture>
+			<File>Big0</File>
+			<Index>0x19</Index>
+		</Texture>
+		<AltTexture id="1">
+			<Texture>
+				<File>Big0</File>
+				<Index>0x19</Index>
+			</Texture>
+		</AltTexture>
+		<HitSound>monster/rocks_hit</HitSound>
+		<DeathSound>monster/rocks_death</DeathSound>
+		<MaxHitPoints>150</MaxHitPoints>
+		<MinSize>100</MinSize>
+		<MaxSize>120</MaxSize>
+		<SizeStep>5</SizeStep>
+		<XpMult>0.0</XpMult>
+		<NoMiniMap/>
+	</Object>
+	<Object type="0xfa75" id="Coal Deposit">
+		<Class>HarvestableEntity</Class>
+		<MinPower>22</MinPower>
+		<EffectiveTools>1, 2, 4</EffectiveTools>
+		<ResetTime>360</ResetTime>
+		<HarvestableEntity/>
+		<Enemy/>
+		<Texture>
+			<File>Big0</File>
+			<Index>0x1b</Index>
+		</Texture>
+		<AltTexture id="1">
+			<Texture>
+				<File>Big0</File>
+				<Index>0x1b</Index>
+			</Texture>
+		</AltTexture>
+		<HitSound>monster/rocks_hit</HitSound>
+		<DeathSound>monster/rocks_death</DeathSound>
+		<MaxHitPoints>425</MaxHitPoints>
+		<MinSize>100</MinSize>
+		<MaxSize>120</MaxSize>
+		<SizeStep>5</SizeStep>
+		<XpMult>0.0</XpMult>
+		<NoMiniMap/>
+	</Object>
+	<Object type="0xfa76" id="Crystalline Rock Deposit">
+		<Class>HarvestableEntity</Class>
+		<MinPower>60</MinPower>
+		<EffectiveTools>2</EffectiveTools>
+		<ResetTime>1260</ResetTime>
+		<HarvestableEntity/>
+		<Enemy/>
+		<Texture>
+			<File>Big0</File>
+			<Index>0x1c</Index>
+		</Texture>
+		<AltTexture id="1">
+			<Texture>
+				<File>Big0</File>
+				<Index>0x1c</Index>
+			</Texture>
+		</AltTexture>
+		<HitSound>monster/rocks_hit</HitSound>
+		<DeathSound>monster/rocks_death</DeathSound>
+		<MaxHitPoints>2500</MaxHitPoints>
+		<MinSize>110</MinSize>
+		<MaxSize>130</MaxSize>
+		<SizeStep>5</SizeStep>
+		<XpMult>0.0</XpMult>
+		<NoMiniMap/>
+	</Object>
+	<Object type="0xfa77" id="Coral Fruit Deposit">
+		<Class>HarvestableEntity</Class>
+		<MinPower>54</MinPower>
+		<EffectiveTools>1, 3</EffectiveTools>
+		<HarvestableEntity/>
+		<ResetTime>1260</ResetTime>
+		<Enemy/>
+		<Texture>
+			<File>16x16Objectsb</File>
+			<Index>0x44</Index>
+		</Texture>
+		<AltTexture id="1">
+			<Texture>
+				<File>16x16Objectsb</File>
+				<Index>0x45</Index>
+			</Texture>
+		</AltTexture>
+		<HitSound>monster/trees_hit</HitSound>
+		<DeathSound>monster/tress_death</DeathSound>
+		<MaxHitPoints>1800</MaxHitPoints>
+		<MinSize>100</MinSize>
+		<MaxSize>120</MaxSize>
+		<NoMiniMap/>
+	</Object>
+</Objects>

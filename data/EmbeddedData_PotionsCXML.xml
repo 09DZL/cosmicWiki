@@ -1,0 +1,575 @@
+﻿<Objects>
+	<Object type="0x023D" id="Life Vial of Vitality">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>potions</File>
+			<Index>0x00</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Rarity>Common</Rarity>
+		<Description>A gentle brew that subtly enhances one's vitality, offering a small boost to life force.</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="1" stat="0">StatPotion</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+
+	<Object type="0x023E" id="Life Elixir of Vigor">
+		<Class>Equipment</Class>
+		<Texture>
+			<File>potions</File>
+			<Index>0x01</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Rarity>Uncommon</Rarity>
+		<Description>A potent concoction designed to invigorate and significantly increase one's life energy.</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="2" stat="0">StatPotion</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+
+	<Object type="0x023F" id="Life Infusion of Revival">
+		<Class>Equipment</Class>
+		<Texture>
+			<File>potions</File>
+			<Index>0x02</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Rarity>Rare</Rarity>
+		<Description>An exquisite infusion that surges through the body, massively augmenting vitality and bestowing a surge of life.</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="3" stat="0">StatPotion</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+
+	<Object type="0x0240" id="Mana Vial of Clarity">
+		<Class>Equipment</Class>
+		<Texture>
+			<File>potions</File>
+			<Index>0x10</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Rarity>Common</Rarity>
+		<Description>A clear, calming liquid that slightly raises one's magical reserves, enhancing mana.</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="1" stat="1">StatPotion</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+
+	<Object type="0x0241" id="Mana Elixir of Depth">
+		<Class>Equipment</Class>
+		<Texture>
+			<File>potions</File>
+			<Index>0x12</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Rarity>Uncommon</Rarity>
+		<Description>This deep, rich elixir expands one's magical capacity, offering a substantial increase in mana.</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="2" stat="1">StatPotion</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+
+	<Object type="0x0242" id="Mana Infusion of the Mystic">
+		<Class>Equipment</Class>
+		<Texture>
+			<File>potions</File>
+			<Index>0x12</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Rarity>Rare</Rarity>
+		<Description>A mystical blend that dramatically boosts magical energy, deeply enhancing mana reserves.</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="3" stat="1">StatPotion</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+
+	<Object type="0x0243" id="Power Vial of Force">
+		<Class>Equipment</Class>
+		<Texture>
+			<File>potions</File>
+			<Index>0x20</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Rarity>Common</Rarity>
+		<Description>A fiery draft that bestows a minor increase to one's power, fueling physical strength.</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="1" stat="2">StatPotion</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+
+	<Object type="0x0244" id="Power Elixir of Might">
+		<Class>Equipment</Class>
+		<Texture>
+			<File>potions</File>
+			<Index>0x21</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Rarity>Uncommon</Rarity>
+		<Description>A powerful elixir that considerably enhances physical strength, imbuing might.</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="2" stat="2">StatPotion</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+
+	<Object type="0x0245" id="Power Infusion of Dominion">
+		<Class>Equipment</Class>
+		<Texture>
+			<File>potions</File>
+			<Index>0x22</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Rarity>Rare</Rarity>
+		<Description>A dominant concoction granting a monumental boost in power, asserting dominance over physical challenges.</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="3" stat="2">StatPotion</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+
+	<Object type="0x0246" id="Defense Vial of Guarding">
+		<Class>Equipment</Class>
+		<Texture>
+			<File>potions</File>
+			<Index>0x30</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Rarity>Common</Rarity>
+		<Description>A protective potion that slightly bolsters one's defenses against harm.</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="1" stat="3">StatPotion</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+
+	<Object type="0x0247" id="Defense Elixir of Fortification">
+		<Class>Equipment</Class>
+		<Texture>
+			<File>potions</File>
+			<Index>0x31</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Rarity>Uncommon</Rarity>
+		<Description>An elixir that strengthens one's resilience, significantly raising defense capabilities.</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="2" stat="3">StatPotion</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+
+	<Object type="0x0248" id="Defense Infusion of Impenetrability">
+		<Class>Equipment</Class>
+		<Texture>
+			<File>potions</File>
+			<Index>0x32</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Rarity>Rare</Rarity>
+		<Description>An infusion that vastly improves defenses, rendering one nearly impervious to damage.</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="3" stat="3">StatPotion</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+	<Object type="0x0249" id="Speed Vial of Swift">
+		<Class>Equipment</Class>
+		<Texture>
+			<File>potions</File>
+			<Index>0x40</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Rarity>Common</Rarity>
+		<Description>A light concoction that marginally increases swiftness, enhancing movement speed.</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="1" stat="4">StatPotion</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+
+	<Object type="0x024A" id="Speed Elixir of Haste">
+		<Class>Equipment</Class>
+		<Texture>
+			<File>potions</File>
+			<Index>0x41</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Rarity>Uncommon</Rarity>
+		<Description>An invigorating elixir that significantly boosts speed, quickening pace and reflexes.</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="2" stat="4">StatPotion</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+
+	<Object type="0x024B" id="Speed Infusion of the Wind">
+		<Class>Equipment</Class>
+		<Texture>
+			<File>potions</File>
+			<Index>0x42</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Rarity>Rare</Rarity>
+		<Description>A powerful draft that infuses one with the essence of wind, drastically increasing speed.</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="3" stat="4">StatPotion</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+
+	<Object type="0x024C" id="Dexterity Vial of Nimbleness">
+		<Class>Equipment</Class>
+		<Texture>
+			<File>potions</File>
+			<Index>0x50</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Rarity>Common</Rarity>
+		<Description>A nimble brew that provides a slight improvement to dexterity, aiding in agility.</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="1" stat="5">StatPotion</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+
+	<Object type="0x024D" id="Dexterity Elixir of Precision">
+		<Class>Equipment</Class>
+		<Texture>
+			<File>potions</File>
+			<Index>0x51</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Rarity>Uncommon</Rarity>
+		<Description>An elixir that sharply enhances precision, significantly improving dexterity.</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="2" stat="5">StatPotion</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+
+	<Object type="0x024E" id="Dexterity Infusion of Mastery">
+		<Class>Equipment</Class>
+		<Texture>
+			<File>potions</File>
+			<Index>0x52</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Rarity>Rare</Rarity>
+		<Description>An advanced infusion that masterfully increases dexterity, perfecting agility and precision.</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="3" stat="5">StatPotion</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+	<Object type="0x024F" id="Vitality Vial of Blossoming">
+		<Class>Equipment</Class>
+		<Texture>
+			<File>potions</File>
+			<Index>0x60</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Rarity>Common</Rarity>
+		<Description>A revitalizing potion that slightly increases vitality, nurturing one's health.</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="1" stat="6">StatPotion</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+
+	<Object type="0x0250" id="Vitality Elixir of Growth">
+		<Class>Equipment</Class>
+		<Texture>
+			<File>potions</File>
+			<Index>0x61</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Rarity>Uncommon</Rarity>
+		<Description>A growth elixir that significantly enhances vitality, promoting robust health.</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="2" stat="6">StatPotion</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+
+	<Object type="0x0251" id="Vitality Infusion of Flourishing">
+		<Class>Equipment</Class>
+		<Texture>
+			<File>potions</File>
+			<Index>0x62</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Rarity>Rare</Rarity>
+		<Description>A potent infusion that greatly amplifies vitality, leading to flourishing health.</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="3" stat="6">StatPotion</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+
+	<Object type="0x0252" id="Wisdom Vial of Insight">
+		<Class>Equipment</Class>
+		<Texture>
+			<File>potions</File>
+			<Index>0x70</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Rarity>Common</Rarity>
+		<Description>A potion that grants a small boost to wisdom, slightly expanding knowledge and insight.</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="1" stat="7">StatPotion</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+
+	<Object type="0x0253" id="Wisdom Elixir of Enlightenment">
+		<Class>Equipment</Class>
+		<Texture>
+			<File>potions</File>
+			<Index>0x71</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Rarity>Uncommon</Rarity>
+		<Description>An enlightening elixir that significantly increases wisdom, broadening understanding.</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="2" stat="7">StatPotion</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+
+	<Object type="0x0254" id="Wisdom Infusion of the Sage">
+		<Class>Equipment</Class>
+		<Texture>
+			<File>potions</File>
+			<Index>0x72</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Rarity>Rare</Rarity>
+		<Description>A sage infusion that greatly enhances wisdom, offering deep enlightenment.</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="3" stat="7">StatPotion</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+	<Object type="0x0255" id="Evasion Vial of Shadows">
+		<Class>Equipment</Class>
+		<Texture>
+			<File>potions</File>
+			<Index>0x80</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Rarity>Common</Rarity>
+		<Description>A shadowy potion that slightly increases evasion, granting minor nimbleness.</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="1" stat="8">StatPotion</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+
+	<Object type="0x0256" id="Evasion Elixir of the Phantom">
+		<Class>Equipment</Class>
+		<Texture>
+			<File>potions</File>
+			<Index>0x81</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Rarity>Uncommon</Rarity>
+		<Description>An elusive elixir that significantly enhances evasion, cloaking one in phantom-like agility.</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="2" stat="8">StatPotion</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+
+	<Object type="0x0257" id="Evasion Infusion of the Mirage">
+		<Class>Equipment</Class>
+		<Texture>
+			<File>potions</File>
+			<Index>0x82</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Rarity>Rare</Rarity>
+		<Description>A mirage infusion that greatly increases evasion, making one nearly untouchable.</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="3" stat="8">StatPotion</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+
+	<Object type="0x0258" id="Tenacity Vial of Steadfastness">
+		<Class>Equipment</Class>
+		<Texture>
+			<File>potions</File>
+			<Index>0x90</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Rarity>Common</Rarity>
+		<Description>A steadfast potion that provides a small increase in tenacity, bolstering resilience.</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="1" stat="9">StatPotion</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+
+	<Object type="0x0259" id="Tenacity Elixir of Resilience">
+		<Class>Equipment</Class>
+		<Texture>
+			<File>potions</File>
+			<Index>0x91</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Rarity>Uncommon</Rarity>
+		<Description>A resilient elixir that significantly boosts tenacity, enhancing one's endurance.</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="2" stat="9">StatPotion</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+
+	<Object type="0x025A" id="Tenacity Infusion of the Indomitable">
+		<Class>Equipment</Class>
+		<Texture>
+			<File>potions</File>
+			<Index>0x92</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Rarity>Rare</Rarity>
+		<Description>An indomitable infusion that vastly increases tenacity, making one's spirit unyielding.</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="3" stat="9">StatPotion</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+
+	<Object type="0x025B" id="Crit Damage Vial of Sharpness">
+		<Class>Equipment</Class>
+		<Texture>
+			<File>potions</File>
+			<Index>0xA0</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Rarity>Common</Rarity>
+		<Description>A sharp potion that slightly increases critical damage, honing attacks.</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="1" stat="10">StatPotion</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+
+	<Object type="0x025C" id="Crit Damage Elixir of the Berserker">
+		<Class>Equipment</Class>
+		<Texture>
+			<File>potions</File>
+			<Index>0xA1</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Rarity>Uncommon</Rarity>
+		<Description>A berserker's elixir that significantly boosts critical damage, unleashing fury.</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="2" stat="10">StatPotion</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+
+	<Object type="0x025D" id="Crit Damage Infusion of Annihilation">
+		<Class>Equipment</Class>
+		<Texture>
+			<File>potions</File>
+			<Index>0xA2</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Rarity>Rare</Rarity>
+		<Description>An annihilating infusion that massively increases critical damage, devastating foes.</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="3" stat="10">StatPotion</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+
+	<Object type="0x025E" id="Crit Hit Vial of Precision">
+		<Class>Equipment</Class>
+		<Texture>
+			<File>potions</File>
+			<Index>0xB0</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Rarity>Common</Rarity>
+		<Description>A precise potion that marginally increases critical hit chances, refining accuracy.</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="1" stat="11">StatPotion</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+
+	<Object type="0x025F" id="Crit Hit Elixir of Focus">
+		<Class>Equipment</Class>
+		<Texture>
+			<File>potions</File>
+			<Index>0xB1</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Rarity>Uncommon</Rarity>
+		<Description>A focused elixir that significantly increases critical hit chances, sharpening focus.</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="2" stat="11">StatPotion</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+
+	<Object type="0x0260" id="Crit Hit Infusion of Fate">
+		<Class>Equipment</Class>
+		<Texture>
+			<File>potions</File>
+			<Index>0xB2</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Rarity>Rare</Rarity>
+		<Description>A fate-infused potion that greatly increases critical hit chances, altering the course of battles.</Description>
+		<Sound>use_potion</Sound>
+		<Activate amount="3" stat="11">StatPotion</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+	</Object>
+</Objects>

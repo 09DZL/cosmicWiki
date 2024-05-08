@@ -1,0 +1,383 @@
+<Objects>
+	<Object type="0x600" id="Pirate">
+		<Group>Pirates</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x8rBeach</File>
+			<Index>1</Index>
+		</AnimatedTexture>
+		<HitSound>monster/pirates_hit</HitSound>
+		<DeathSound>monster/pirates_death</DeathSound>
+		<Size>100</Size>
+		<MaxHitPoints>50</MaxHitPoints>
+		<Defense>0</Defense>
+		<Terrain>ShoreSand</Terrain>
+		<Projectile id="0">
+			<ObjectId>Pirate Proj</ObjectId>
+			<Size>85</Size>
+			<Damage>5</Damage>
+			<Speed>60</Speed>
+			<LifetimeMS>700</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xffc0" id="Pirate Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x7d</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x601" id="Piratess">
+		<Group>Pirates</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x8rBeach</File>
+			<Index>2</Index>
+		</AnimatedTexture>
+		<HitSound>monster/pirates_hit</HitSound>
+		<DeathSound>monster/pirates_death</DeathSound>
+		<Size>100</Size>
+		<MaxHitPoints>40</MaxHitPoints>
+		<Defense>0</Defense>
+		<Terrain>ShoreSand</Terrain>
+		<SpawnProb>1.0</SpawnProb>
+		<Projectile id="0">
+			<ObjectId>Piratess Proj</ObjectId>
+			<Damage>7</Damage>
+			<Size>85</Size>
+			<Speed>80</Speed>
+			<LifetimeMS>700</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xffbf" id="Piratess Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x7e</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x602" id="Snake">
+		<Group>Snakes</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x8dBeach</File>
+			<Index>0</Index>
+		</AnimatedTexture>
+		<HitSound>monster/snakes_hit</HitSound>
+		<DeathSound>monster/snakes_death</DeathSound>
+		<MinSize>40</MinSize>
+		<MaxSize>80</MaxSize>
+		<MaxHitPoints>8</MaxHitPoints>
+		<Defense>0</Defense>
+		<Terrain>ShoreSand</Terrain>
+		<SpawnProb>1.0</SpawnProb>
+		<Spawn>
+			<Mean>5</Mean>
+			<StdDev>1</StdDev>
+			<Min>2</Min>
+			<Max>7</Max>
+		</Spawn>
+		<Projectile id="0">
+			<ObjectId>Snake Proj</ObjectId>
+			<Damage>5</Damage>
+			<Speed>40</Speed>
+			<ArmorPiercing/>
+			<Amplitude>0.2</Amplitude>
+			<Frequency>1</Frequency>
+			<LifetimeMS>2000</LifetimeMS>
+			<Size>50</Size>
+		</Projectile>
+	</Object>
+	<Object type="0xffb6" id="Snake Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x84</Index>
+		</Texture>
+		<AngleCorrection>0</AngleCorrection>
+	</Object>
+	<Object type="0x603" id="Poison Scorpion">
+		<Group>Scorpions</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x8rBeach</File>
+			<Index>4</Index>
+		</AnimatedTexture>
+		<HitSound>monster/scorpions_hit</HitSound>
+		<DeathSound>monster/scorpions_death</DeathSound>
+		<MinSize>70</MinSize>
+		<MaxSize>90</MaxSize>
+		<MaxHitPoints>40</MaxHitPoints>
+		<Defense>0</Defense>
+		<Terrain>ShoreSand</Terrain>
+		<Projectile id="0">
+			<ObjectId>Poison Scorpion Proj</ObjectId>
+			<Damage>5</Damage>
+			<Speed>40</Speed>
+			<LifetimeMS>2000</LifetimeMS>
+			<Size>75</Size>
+		</Projectile>
+	</Object>
+	<Object type="0xffc2" id="Poison Scorpion Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x7b</Index>
+		</Texture>
+		<AngleCorrection>0</AngleCorrection>
+	</Object>
+	<Object type="0xfd07" id="Beach Crab Basic">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x84</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfd05" id="Beach Crab">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>64</Index>
+		</AnimatedTexture>
+		<MinSize>70</MinSize>
+		<MaxSize>90</MaxSize>
+		<HitSound>monster/spiders_hit</HitSound>
+		<DeathSound>monster/spiders_death</DeathSound>
+		<Defense>0</Defense>
+		<MaxHitPoints>25</MaxHitPoints>
+		<Terrain>MidForest</Terrain>
+		<Spawn>
+			<Mean>5</Mean>
+			<StdDev>1</StdDev>
+			<Min>2</Min>
+			<Max>4</Max>
+		</Spawn>
+		<Projectile id="0">
+			<ObjectId>Beach Crab Basic</ObjectId>
+			<Damage>4</Damage>
+			<Size>60</Size>
+			<Speed>40</Speed>
+			<LifetimeMS>750</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0x604" id="Scorpion Queen">
+		<Group>Scorpions</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x8rBeach</File>
+			<Index>5</Index>
+		</AnimatedTexture>
+		<HitSound>monster/scorpions_hit</HitSound>
+		<DeathSound>monster/scorpions_death</DeathSound>
+		<Size>150</Size>
+		<MaxHitPoints>325</MaxHitPoints>
+		<PhysicalDefense>2</PhysicalDefense>
+		<MagicDefense>2</MagicDefense>
+		<Terrain>ShoreSand</Terrain>
+		<Quest/>
+		<Level>2</Level>
+		<XpMult>2</XpMult>
+		<SpawnProb>0.75</SpawnProb>
+		<Projectile id="0">
+			<ObjectId>Scorpion Queen Proj</ObjectId>
+			<Damage>13</Damage>
+			<Speed>50</Speed>
+			<Size>85</Size>
+			<LifetimeMS>2000</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xffc1" id="Scorpion Queen Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x7c</Index>
+		</Texture>
+		<AngleCorrection>0</AngleCorrection>
+	</Object>
+	<Object type="0x0953" id="Bandit Leader">
+		<Group>Bandits</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x8rBeach</File>
+			<Index>10</Index>
+		</AnimatedTexture>
+		<HitSound>monster/elves_hit</HitSound>
+		<DeathSound>monster/elves_death</DeathSound>
+		<Size>150</Size>
+		<MaxHitPoints>280</MaxHitPoints>
+		<Defense>2</Defense>
+		<Terrain>ShoreSand</Terrain>
+		<Quest/>
+		<Level>2</Level>
+		<XpMult>1.6</XpMult>
+		<SpawnProb>0.75</SpawnProb>
+		<Projectile id="0">
+			<ObjectId>Bandit Leader Proj</ObjectId>
+			<Damage>10</Damage>
+			<Speed>70</Speed>
+			<Size>75</Size>
+			<LifetimeMS>850</LifetimeMS>
+		</Projectile>
+		<!-- Granade Color FF452B -->
+	</Object>
+	<Object type="0xffbe" id="Bandit Leader Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x7f</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x0954" id="Bandit Enemy">
+		<Group>Bandits</Group>
+		<DisplayId>Bandit</DisplayId>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x8rBeach</File>
+			<Index>11</Index>
+		</AnimatedTexture>
+		<HitSound>monster/elves_hit</HitSound>
+		<DeathSound>monster/elves_death</DeathSound>
+		<Size>100</Size>
+		<MaxHitPoints>50</MaxHitPoints>
+		<Defense>1</Defense>
+		<Terrain>ShoreSand</Terrain>
+		<Projectile id="0">
+			<ObjectId>Bandit Enemy Proj</ObjectId>
+			<Damage>9</Damage>
+			<Speed>60</Speed>
+			<Size>60</Size>
+			<LifetimeMS>600</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Bandit Enemy Proj</ObjectId>
+			<Damage>8</Damage>
+			<Speed>60</Speed>
+			<Size>60</Size>
+			<LifetimeMS>1000</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xffbd" id="Bandit Enemy Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x80</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xffbc" id="Bandit Wizard">
+		<Group>Bandits</Group>
+		<DisplayId>Bandit</DisplayId>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x8rHero1</File>
+			<Index>0x22</Index>
+		</AnimatedTexture>
+		<HitSound>monster/elves_hit</HitSound>
+		<DeathSound>monster/elves_death</DeathSound>
+		<Size>100</Size>
+		<MaxHitPoints>50</MaxHitPoints>
+		<Defense>1</Defense>
+		<Terrain>ShoreSand</Terrain>
+		<Projectile id="0">
+			<ObjectId>Bandit Wizard Proj</ObjectId>
+			<Damage>9</Damage>
+			<Speed>70</Speed>
+			<Size>90</Size>
+			<LifetimeMS>1200</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xffbb" id="Bandit Wizard Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x81</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xffba" id="Bandit Assassin">
+		<Group>Bandits</Group>
+		<DisplayId>Bandit</DisplayId>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x8rHero1</File>
+			<Index>0x23</Index>
+		</AnimatedTexture>
+		<HitSound>monster/elves_hit</HitSound>
+		<DeathSound>monster/elves_death</DeathSound>
+		<Size>100</Size>
+		<MaxHitPoints>50</MaxHitPoints>
+		<Defense>1</Defense>
+		<Terrain>ShoreSand</Terrain>
+		<Projectile id="0">
+			<ObjectId>Bandit Assassin Proj</ObjectId>
+			<Damage>9</Damage>
+			<Speed>60</Speed>
+			<Size>60</Size>
+			<LifetimeMS>600</LifetimeMS>
+		</Projectile>
+		<!-- Granade Color 58BC58 -->
+	</Object>
+	<Object type="0xffb9" id="Bandit Assassin Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x82</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xffb8" id="Bandit Archer">
+		<Group>Bandits</Group>
+		<DisplayId>Bandit</DisplayId>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x8rHero1</File>
+			<Index>0x24</Index>
+		</AnimatedTexture>
+		<HitSound>monster/elves_hit</HitSound>
+		<DeathSound>monster/elves_death</DeathSound>
+		<Size>100</Size>
+		<MaxHitPoints>50</MaxHitPoints>
+		<Defense>1</Defense>
+		<Terrain>ShoreSand</Terrain>
+		<Projectile id="0">
+			<ObjectId>Bandit Archer Proj</ObjectId>
+			<Damage>9</Damage>
+			<Speed>60</Speed>
+			<Size>60</Size>
+			<LifetimeMS>600</LifetimeMS>
+		</Projectile>
+		<!-- Granade Color 58BC58 -->
+	</Object>
+	<Object type="0xffb7" id="Bandit Archer Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x83</Index>
+		</Texture>
+		<AngleCorrection>0</AngleCorrection>
+	</Object>
+	<Object type="0xffc5" id="Red Cube Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x78</Index>
+		</Texture>
+		<AngleCorrection>0</AngleCorrection>
+	</Object>
+
+</Objects>

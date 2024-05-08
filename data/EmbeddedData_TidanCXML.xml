@@ -1,0 +1,2501 @@
+<Objects>
+	<Object type="0x4031" id="Golden Apple">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x19</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Sound>use_potion</Sound>
+		<Stackable size="1"/>
+		<Consumable/>
+		<Usable/>
+		<Rarity>Legendary</Rarity>
+		<BagType>6</BagType>
+		<OldSound>use_potion</OldSound>
+		<Activate amount="225">Heal</Activate>
+	</Object>
+	<Object type="0x4030" id="Vitalius Missile">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xca</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x4029" id="Vitalius">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xba</Index>
+		</Texture>
+		<SlotType>17</SlotType>
+		<RateOfFire>1.3</RateOfFire>
+		<Sound>weapon/wand_of_dark_magic</Sound>
+		<Projectile>
+			<ObjectId>Vitalius Missile</ObjectId>
+			<Size>100</Size>
+			<Speed>130</Speed>
+			<Damage>121</Damage>
+			<LifetimeMS>538</LifetimeMS>
+			<Amplitude>0.75</Amplitude>
+			<Frequency>2</Frequency>
+		</Projectile>
+		<DamageType Physical="0" Magical="1"/>
+		<Rarity>Legendary</Rarity>
+		<BagType>6</BagType>
+		<NumProjectiles>2</NumProjectiles>
+		<ArcGap>0</ArcGap>
+	</Object>
+	<Object type="0x4028" id="Blood Bending Projectile">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xcb</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x4027" id="Blood Bending Wand">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xbb</Index>
+		</Texture>
+		<SlotType>8</SlotType>
+		<RateOfFire>1.30</RateOfFire>
+		<Sound>weapon/wand_of_death</Sound>
+		<Projectile>
+			<ObjectId>Blood Bending Projectile</ObjectId>
+			<Speed>140</Speed>
+			<Damage>69</Damage>
+			<LifetimeMS>500</LifetimeMS>
+			<Amplitude>0.2</Amplitude>
+			<Frequency>1.5</Frequency>
+			<ArmorPiercing/>
+		</Projectile>
+		<DamageType Physical="0" Magical="1"/>
+		<OffsetValues X="0.10" Y="0.20"/>
+		<NumProjectiles>2</NumProjectiles>
+		<Rarity>Legendary</Rarity>
+		<BagType>6</BagType>
+	</Object>
+	<Object type="0x4026" id="Blood Bath Projectile">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xc9</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x4025" id="Blood Bath">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xb9</Index>
+		</Texture>
+		<SlotType>1</SlotType>
+		<RateOfFire>1.4</RateOfFire>
+		<Sound>weapon/mithril_sword</Sound>
+		<Projectile>
+			<ObjectId>Blood Bath Projectile</ObjectId>
+			<Speed>120</Speed>
+			<Damage>74</Damage>
+			<LifetimeMS>353</LifetimeMS>
+			<ArmorPiercing/>
+			<Amplitude>0.12</Amplitude>
+			<Frequency>1</Frequency>
+		</Projectile>
+		<NumProjectiles>3</NumProjectiles>
+		<DamageType Physical="0" Magical="1"/>
+		<ArcGap>11</ArcGap>
+		<Rarity>Legendary</Rarity>
+		<BagType>6</BagType>
+	</Object>
+	<Object type="0x4024" id="Blood Spinner Projectile">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xc8</Index>
+		</Texture>
+		<Rotation>70</Rotation>
+	</Object>
+	<Object type="0x4023" id="Blood Spinner">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xb8</Index>
+		</Texture>
+		<SlotType>3</SlotType>
+		<RateOfFire>1.2</RateOfFire>
+		<Sound>weapon/mithril_sword</Sound>
+		<Projectile>
+			<ObjectId>Blood Spinner Projectile</ObjectId>
+			<Speed>140</Speed>
+			<Damage>70</Damage>
+			<LifetimeMS>428</LifetimeMS>
+			<Size>100</Size>
+			<MultiHit maxTargets = "2"/>
+		</Projectile>
+		<NumProjectiles>3</NumProjectiles>
+		<DamageType Physical="0" Magical="1"/>
+		<Rarity>Legendary</Rarity>
+		<BagType>6</BagType>
+		<ArcGap>10</ArcGap>
+	</Object>
+	<Object type="0x4021" id="Challenger's Crown">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xa9</Index>
+		</Texture>
+		<SlotType>9</SlotType>
+		<ActivateOnEquip stat="2" amount="14">IncrementStat</ActivateOnEquip>
+		<Rarity>Legendary</Rarity>
+		<BagType>6</BagType>
+	</Object>
+	<Object type="0x4020" id="Competitor's Crown">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xa8</Index>
+		</Texture>
+		<SlotType>9</SlotType>
+		<ActivateOnEquip stat="11" amount="14">IncrementStat</ActivateOnEquip>
+		<Rarity>Legendary</Rarity>
+		<BagType>6</BagType>
+	</Object>
+	<Object type="0x4019" id="Champion's Crown">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x98</Index>
+		</Texture>
+		<SlotType>9</SlotType>
+		<ActivateOnEquip stat="2" amount="14">IncrementStat</ActivateOnEquip>
+		<Rarity>Legendary</Rarity>
+		<BagType>6</BagType>
+	</Object>
+
+	<Object type="0x4018" id="Competitor's Platemail">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xa7</Index>
+		</Texture>
+		<SlotType>7</SlotType>
+		<ActivateOnEquip stat="0" amount="100">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="1" amount="100">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="8" amount="14">IncrementStat</ActivateOnEquip>
+		<Rarity>Legendary</Rarity>
+		<BagType>6</BagType>
+	</Object>
+	<Object type="0x4017" id="Competitor's Overcoat">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x97</Index>
+		</Texture>
+		<SlotType>14</SlotType>
+		<ActivateOnEquip stat="0" amount="100">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="1" amount="100">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="8" amount="14">IncrementStat</ActivateOnEquip>
+		<Rarity>Legendary</Rarity>
+		<BagType>6</BagType>
+	</Object>
+	<Object type="0x4022" id="Competitor's Jacket">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xb7</Index>
+		</Texture>
+
+		<SlotType>6</SlotType>
+		<ActivateOnEquip stat="0" amount="100">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="1" amount="100">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="8" amount="14">IncrementStat</ActivateOnEquip>
+		<Rarity>Legendary</Rarity>
+		<BagType>6</BagType>
+	</Object>
+
+
+	<Object type="0x4016" id="Pivotal-Morphic Hide">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xcd</Index>
+		</Texture>
+		<SlotType>6</SlotType>
+		<ActivateOnEquip stat="1" amount="100">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="3" amount="18">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="11" amount="10">IncrementStat</ActivateOnEquip>
+		<Rarity>Legendary</Rarity>
+		<BagType>6</BagType>
+	</Object>
+
+	<Object type="0x4015" id="Pivotal-Morphic Mantle">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xcc</Index>
+		</Texture>
+		<SlotType>14</SlotType>
+		<ActivateOnEquip stat="1" amount="85">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="3" amount="15">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="11" amount="10">IncrementStat</ActivateOnEquip>
+		<Rarity>Legendary</Rarity>
+		<BagType>6</BagType>
+	</Object>
+
+	<Object type="0x4014" id="Pivotal-Morphic Chestplate">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xce</Index>
+		</Texture>
+		<SlotType>7</SlotType>
+		<ActivateOnEquip stat="1" amount="100">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="3" amount="24">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="11" amount="10">IncrementStat</ActivateOnEquip>
+		<Rarity>Legendary</Rarity>
+		<BagType>6</BagType>
+	</Object>
+
+	<Object type="0x4013" id="Polymorphic Hide">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xbd</Index>
+		</Texture>
+		<ActivateOnEquip stat="1" amount="80">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="3" amount="16">IncrementStat</ActivateOnEquip>
+
+		<SlotType>6</SlotType>
+		<Rarity>Rare</Rarity>
+		<BagType>5</BagType>
+	</Object>
+
+	<Object type="0x4012" id="Polymorphic Mantle">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xbc</Index>
+		</Texture>
+		<SlotType>14</SlotType>
+		<ActivateOnEquip stat="1" amount="65">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="3" amount="13">IncrementStat</ActivateOnEquip>
+		<Rarity>Rare</Rarity>
+		<BagType>5</BagType>
+	</Object>
+
+	<Object type="0x4011" id="Polymorphic Chestplate">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xbe</Index>
+		</Texture>
+		<SlotType>7</SlotType>
+		<ActivateOnEquip stat="1" amount="90">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="3" amount="21">IncrementStat</ActivateOnEquip>
+		<Rarity>Rare</Rarity>
+		<BagType>5</BagType>
+	</Object>
+
+	<Object type="0x4010" id="Luminescent Scorpion Projectile 4">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x72</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x4009" id="Luminescent Scorpion Projectile 3">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x73</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x4008" id="Luminescent Scorpion Projectile 2">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x74</Index>
+		</Texture>
+		<Rotation>30</Rotation>
+	</Object>
+	<Object type="0x4007" id="Luminescent Scorpion Projectile 1">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x75</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x4006" id="Luminescent Scorpion Projectile 0">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x76</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+
+	<Object type="0x4005" id="Luminescent Scorpion King">
+		<Class>Character</Class>
+		<Boss>2</Boss>
+		<Enemy/>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>65</Index>
+		</AnimatedTexture>
+		<HitSound>monster/flaming_skulls_hit</HitSound>
+		<DeathSound>monster/flaming_skulls_death</DeathSound>
+		<Size>160</Size>
+		<MaxHitPoints>120000</MaxHitPoints>
+		<Defense>35</Defense>
+		<Quest/>
+		<XpMult>2.0</XpMult>
+		<Projectile id="4">
+			<ObjectId>Luminescent Scorpion Projectile 0</ObjectId>
+			<Damage>110</Damage>
+			<Speed>60</Speed>
+			<MultiHit/>
+			<LifetimeMS>5600</LifetimeMS>
+			<Size>100</Size>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Luminescent Scorpion Projectile 1</ObjectId>
+			<Damage>110</Damage>
+			<Speed>60</Speed>
+			<MultiHit/>
+			<ArmorPiercing/>
+			<LifetimeMS>5600</LifetimeMS>
+			<Size>100</Size>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Luminescent Scorpion Projectile 2</ObjectId>
+			<Damage>120</Damage>
+			<Speed>60</Speed>
+			<MultiHit/>
+			<Accelerate/>
+			<LifetimeMS>5600</LifetimeMS>
+			<Size>80</Size>
+		</Projectile>
+		<Projectile id="0">
+			<ObjectId>Luminescent Scorpion Projectile 0</ObjectId>
+			<Damage>120</Damage>
+			<Speed>100</Speed>
+			<MultiHit/>
+			<ArmorPiercing/>
+			<ConditionEffects duration="5">Slowed_I</ConditionEffects>
+			<LifetimeMS>5000</LifetimeMS>
+			<Size>110</Size>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Luminescent Scorpion Projectile 4</ObjectId>
+			<Damage>80</Damage>
+			<Speed>140</Speed>
+			<MultiHit/>
+			<Accelerate/>
+			<ArmorPiercing/>
+			<LifetimeMS>5000</LifetimeMS>
+			<PassesCover/>
+			<Size>100</Size>
+		</Projectile>
+		<Z>-0.20</Z>
+		<DisplayId>Luminescent Scorpion King</DisplayId>
+	</Object>
+
+	<Object type="0x4137" id="Umbral Champion">
+		<DisplayId>Umbral Champion</DisplayId>
+		<Boss>2</Boss>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>64</Index>
+		</AnimatedTexture>
+		<HitSound>monster/flaming_skulls_hit</HitSound>
+		<DeathSound>monster/flaming_skulls_death</DeathSound>
+		<Size>150</Size>
+		<MaxHitPoints>126500</MaxHitPoints>
+		<Defense>60</Defense>
+		<XpMult>3.0</XpMult>
+		<Quest/>
+		<Level>60</Level>
+		<Projectile id="0">
+			<ObjectId>The Keyper Projectile 0</ObjectId>
+			<Speed>50</Speed>
+			<Damage>180</Damage>
+			<LifetimeMS>4000</LifetimeMS>
+			<Amplitude>0.8</Amplitude>
+			<Frequency>4</Frequency>
+			<ConditionEffects duration="5">Bleeding</ConditionEffects>
+			<Size>100</Size>
+			<MultiHit/>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>The Keyper Projectile 1</ObjectId>
+			<Speed>50</Speed>
+			<Damage>150</Damage>
+			<LifetimeMS>4000</LifetimeMS>
+			<Size>100</Size>
+			<MultiHit/>
+			<ArmorPiercing/>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>The Keyper Projectile 2</ObjectId>
+			<Speed>50</Speed>
+			<Damage>200</Damage>
+			<LifetimeMS>4000</LifetimeMS>
+			<Size>90</Size>
+			<MultiHit/>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>The Keyper Projectile 3</ObjectId>
+			<Speed>75</Speed>
+			<Damage>200</Damage>
+			<LifetimeMS>3000</LifetimeMS>
+			<Size>90</Size>
+			<MultiHit/>
+		</Projectile>
+		<Projectile id="4">
+			<ObjectId>The Keyper Projectile 4</ObjectId>
+			<Speed>60</Speed>
+			<Damage>150</Damage>
+			<LifetimeMS>2000</LifetimeMS>
+			<Amplitude>0.9</Amplitude>
+			<Frequency>2</Frequency>
+			<Size>100</Size>
+		</Projectile>
+	</Object>
+
+	<Object type="0x4141" id="The Keyper Projectile 0">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x66</Index>
+		</Texture>
+		<Rotation>60</Rotation>
+	</Object>
+	<Object type="0x4142" id="The Keyper Projectile 1">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x65</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x4143" id="The Keyper Projectile 2">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x64</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x4144" id="The Keyper Projectile 3">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x62</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x4145" id="The Keyper Projectile 4">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x63</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+
+	<Object type="0xa782" id="Hide of Depth">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x35</Index>
+		</Texture>
+		<SlotType>6</SlotType>
+		<ActivateOnEquip stat="0" amount="125">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="1" amount="375">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="6" amount="30">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="7" amount="30">IncrementStat</ActivateOnEquip>
+		<Rarity>Legendary</Rarity>
+		<BagType>6</BagType>
+	</Object>
+
+	<Object type="0xa781" id="Dragonsoul Katana Projectile">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x88</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xa780" id="Dragonsoul Katana">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x78</Index>
+		</Texture>
+		<SlotType>1</SlotType>
+		<RateOfFire>1.15</RateOfFire>
+		<Sound>weapon/mithril_sword</Sound>
+		<Projectile>
+			<ObjectId>Dragonsoul Katana Projectile</ObjectId>
+			<Speed>140</Speed>
+			<Damage>325</Damage>
+			<LifetimeMS>428</LifetimeMS>
+			<ArmorPiercing/>
+		</Projectile>
+		<NumProjectiles>1</NumProjectiles>
+		<ActivateOnEquip stat="0" amount="60">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="1" amount="-60">IncrementStat</ActivateOnEquip>
+		<DamageType Physical="1" Magical="0"/>
+		<Rarity>Legendary</Rarity>
+		<BagType>6</BagType>
+	</Object>
+
+	<Object type="0xa77f" id="Granite Mantle">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x42</Index>
+		</Texture>
+		<SlotType>6</SlotType>
+		<ActivateOnEquip stat="0" amount="250">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="3" amount="15">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="1" amount="-50">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="4" amount="-3">IncrementStat</ActivateOnEquip>
+		<Rarity>Rare</Rarity>
+		<BagType>5</BagType>
+	</Object>
+
+	<Object type="0xa77e" id="Granite Ring">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x43</Index>
+		</Texture>
+		<SlotType>9</SlotType>
+		<ActivateOnEquip stat="0" amount="140">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="1" amount="-70">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="3" amount="5">IncrementStat</ActivateOnEquip>
+		<Rarity>Rare</Rarity>
+		<BagType>5</BagType>
+	</Object>
+	<Object type="0xa77d" id="Kharanos Fire Attack">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x53</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xa77c" id="Kharanos Ice Attack">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x44</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xa77b" id="Kharanos Spin">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x42</Index>
+		</Texture>
+		<Rotation>20</Rotation>
+	</Object>
+	<Object type="0x7878" id="Kharanos, the Lost Dragon">
+		<DisplayId>Kharanos, the Lost Dragon</DisplayId>
+		<Boss>2</Boss>
+		<Enemy/>
+		<Class>Character</Class>
+		<Quest/>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>63</Index>
+		</AnimatedTexture>
+		<HitSound>monster/golems_hit</HitSound>
+		<DeathSound>monster/beholder_death</DeathSound>
+		<MaxHitPoints>95000</MaxHitPoints>
+		<Projectile id="0">
+			<ObjectId>Kharanos Fire Attack</ObjectId>
+			<Speed>65</Speed>
+			<Damage>135</Damage>
+			<Size>100</Size>
+			<MultiHit/>
+			<LifetimeMS>4000</LifetimeMS>
+			<ConditionEffect duration="2">Bleeding</ConditionEffect>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Kharanos Spin</ObjectId>
+			<Speed>45</Speed>
+			<Damage>245</Damage>
+			<Size>80</Size>
+			<LifetimeMS>5000</LifetimeMS>
+			<MultiHit/>
+			<PassesCover/>
+			<Amplitude>0.1</Amplitude>
+			<Frequency>50</Frequency>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Kharanos Ice Attack</ObjectId>
+			<Speed>85</Speed>
+			<Damage>125</Damage>
+			<Size>100</Size>
+			<LifetimeMS>3000</LifetimeMS>
+			<MultiHit/>
+			<ConditionEffect duration="1">Slowed_I</ConditionEffect>
+		</Projectile>
+		<Size>180</Size>
+	</Object>
+
+
+	<Object type="0xa77a" id="Inferno Blade Projectile">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x69</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xa779" id="Inferno Blade">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x59</Index>
+		</Texture>
+		<SlotType>1</SlotType>
+		<RateOfFire>1.25</RateOfFire>
+		<Sound>weapon/mithril_sword</Sound>
+		<Projectile>
+			<ObjectId>Inferno Blade Projectile</ObjectId>
+			<Speed>160</Speed>
+			<Damage>285</Damage>
+			<LifetimeMS>234</LifetimeMS>
+		</Projectile>
+		<NumProjectiles>1</NumProjectiles>
+		<ActivateOnEquip stat="0" amount="-60">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="11" amount="5">IncrementStat</ActivateOnEquip>
+		<DamageType Physical="1" Magical="0"/>
+		<Rarity>Legendary</Rarity>
+		<BagType>6</BagType>
+	</Object>
+
+	<Object type="0xa778" id="Shimmer Shaker Projectile">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x68</Index>
+		</Texture>
+		<AngleCorrection>5</AngleCorrection>
+	</Object>
+	<Object type="0xa777" id="Shimmer Shaker">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x58</Index>
+		</Texture>
+		<SlotType>1</SlotType>
+		<RateOfFire>1</RateOfFire>
+		<Sound>weapon/mithril_sword</Sound>
+		<Projectile>
+			<ObjectId>Shimmer Shaker Projectile</ObjectId>
+			<Speed>140</Speed>
+			<Damage>100</Damage>
+			<LifetimeMS>321</LifetimeMS>
+			<Amplitude>0.45</Amplitude>
+			<Frequency>1</Frequency>
+			<Size>90</Size>
+		</Projectile>
+		<NumProjectiles>4</NumProjectiles>
+		<ActivateOnEquip stat="0" amount="30">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="10" amount="10">IncrementStat</ActivateOnEquip>
+		<DamageType Physical="1" Magical="0"/>
+		<Rarity>Legendary</Rarity>
+		<BagType>6</BagType>
+		<ArcGap>6</ArcGap>
+	</Object>
+
+	<Object type="0xa776" id="Knights Guard">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x49</Index>
+		</Texture>
+		<SlotType>5</SlotType>
+		<Sound>spell/fire_spray</Sound>
+		<Activate amount="300" duration="6" radius="6" color="0xE7452E">Barrier</Activate>
+		<Activate effect="Armored_I" duration="4" statmod="6">ConditionEffectSelf</Activate>
+		<Usable/>
+		<ActivateOnEquip stat="0" amount="75">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="9" amount="15">IncrementStat</ActivateOnEquip>
+		<MpCost>95</MpCost>
+		<Cooldown>5</Cooldown>
+		<BagType>6</BagType>
+		<Rarity>Legendary</Rarity>
+	</Object>
+
+	<Object type="0xa775" id="Eclipse's Nightfall Wand Projectile">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x66</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xa774" id="Eclipse's Nightfall">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x56</Index>
+		</Texture>
+		<SlotType>8</SlotType>
+		<RateOfFire>1.30</RateOfFire>
+		<Sound>weapon/wand_of_death</Sound>
+		<Projectile>
+			<ObjectId>Eclipse's Nightfall Wand Projectile</ObjectId>
+			<Speed>160</Speed>
+			<Damage>170</Damage>
+			<LifetimeMS>500</LifetimeMS>
+		</Projectile>
+		<ArmorPiercing/>
+		<DamageType Physical="0" Magical="1"/>
+		<NumProjectiles>1</NumProjectiles>
+		<Rarity>Legendary</Rarity>
+		<BagType>6</BagType>
+	</Object>
+
+	<Object type="0xa773" id="Chloroflare Wand Projectile">
+		<Class>Projectile</Class>
+		<RandomTexture>
+			<Texture>
+				<File>lofiObj5</File>
+				<Index>0x48</Index>
+			</Texture>
+			<Texture>
+				<File>lofiObj5</File>
+				<Index>0x47</Index>
+			</Texture>
+		</RandomTexture>
+		<AngleCorrection>0</AngleCorrection>
+	</Object>
+	<Object type="0xa772" id="Chloroflare Wand">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x57</Index>
+		</Texture>
+		<SlotType>8</SlotType>
+		<RateOfFire>1.30</RateOfFire>
+		<Sound>weapon/wand_of_death</Sound>
+		<Projectile>
+			<ObjectId>Chloroflare Wand Projectile</ObjectId>
+			<Speed>160</Speed>
+			<Damage>105</Damage>
+			<LifetimeMS>500</LifetimeMS>
+		</Projectile>
+		<DamageType Physical="0" Magical="1"/>
+		<OffsetValues X="0.20" Y="0.20"/>
+		<NumProjectiles>2</NumProjectiles>
+		<Rarity>Rare</Rarity>
+		<BagType>6</BagType>
+	</Object>
+
+	<Object type="0xa771" id="Seaweed Necklace">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x38</Index>
+		</Texture>
+		<SlotType>9</SlotType>
+		<ActivateOnEquip stat="1" amount="45">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="4" amount="5">IncrementStat</ActivateOnEquip>
+		<Rarity>Uncommon</Rarity>
+		<BagType>4</BagType>
+	</Object>
+
+	<Object type="0xa770" id="Roseleaf Grimoire">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x37</Index>
+		</Texture>
+		<SlotType>4</SlotType>
+		<Sound>spell/light_heal</Sound>
+		<Usable/>
+		<Rarity>Rare</Rarity>
+		<BagType>6</BagType>
+		<MpCost>95</MpCost>
+		<ActivateOnEquip stat="9" amount="12">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="6" amount="12">IncrementStat</ActivateOnEquip>
+		<Activate effect="Swift_III" duration="4" statmod="4">ConditionEffectSelf</Activate>
+		<Activate range="5" amount="100" statmod="7">HealNova</Activate>
+	</Object>
+
+	<Object type="0xa76f" id="Spider Eye Ring">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x3a</Index>
+		</Texture>
+		<SlotType>9</SlotType>
+		<ActivateOnEquip stat="6" amount="7">IncrementStat</ActivateOnEquip>
+		<Rarity>Uncommon</Rarity>
+		<BagType>4</BagType>
+	</Object>
+
+	<Object type="0xa76e" id="Springwood Jewel">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x39</Index>
+		</Texture>
+		<SlotType>9</SlotType>
+		<ActivateOnEquip stat="0" amount="80">IncrementStat</ActivateOnEquip>
+		<Rarity>Uncommon</Rarity>
+		<BagType>4</BagType>
+	</Object>
+
+	<Object type="0xa76d" id="Orchid Ember Ring">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x2a</Index>
+		</Texture>
+		<SlotType>9</SlotType>
+		<ActivateOnEquip stat="0" amount="60">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="2" amount="6">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="7" amount="8">IncrementStat</ActivateOnEquip>
+		<Rarity>Rare</Rarity>
+		<BagType>5</BagType>
+	</Object>
+
+	<Object type="0xa76c" id="Eclipse Attire">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x28</Index>
+		</Texture>
+		<SlotType>6</SlotType>
+		<ActivateOnEquip stat="1" amount="80">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="3" amount="12">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="7" amount="7">IncrementStat</ActivateOnEquip>
+		<Rarity>Rare</Rarity>
+		<BagType>5</BagType>
+	</Object>
+
+	<Object type="0xa76b" id="Sunlit Haori">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x29</Index>
+		</Texture>
+		<SlotType>6</SlotType>
+		<ActivateOnEquip stat="3" amount="16">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="5" amount="7">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="11" amount="5">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="9" amount="18">IncrementStat</ActivateOnEquip>
+		<Rarity>Legendary</Rarity>
+		<BagType>6</BagType>
+	</Object>
+
+	<Object type="0xa76a" id="Windrunner">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x27</Index>
+		</Texture>
+		<SlotType>6</SlotType>
+		<ActivateOnEquip stat="2" amount="8">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="4" amount="20">IncrementStat</ActivateOnEquip>
+		<Rarity>Rare</Rarity>
+		<BagType>5</BagType>
+	</Object>
+
+	<Object type="0xa762" id="Metallic Slime Armor">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xc7</Index>
+		</Texture>
+		<SlotType>14</SlotType>
+		<ActivateOnEquip stat="0" amount="80">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="4" amount="6">IncrementStat</ActivateOnEquip>
+		<Rarity>Uncommon</Rarity>
+		<BagType>5</BagType>
+	</Object>
+
+	<Object type="0xa761" id="Slimeforged Mantle">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xc6</Index>
+		</Texture>
+		<SlotType>6</SlotType>
+		<ActivateOnEquip stat="0" amount="65">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="4" amount="8">IncrementStat</ActivateOnEquip>
+		<Rarity>Uncommon</Rarity>
+		<BagType>5</BagType>
+	</Object>
+
+	<Object type="0xa760" id="Slime-Encased Chestplate">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xc5</Index>
+		</Texture>
+		<SlotType>7</SlotType>
+		<ActivateOnEquip stat="0" amount="90">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="4" amount="4">IncrementStat</ActivateOnEquip>
+		<Rarity>Uncommon</Rarity>
+		<BagType>5</BagType>
+	</Object>
+
+	<Object type="0xa759" id="Nightfall Nimbus">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xd6</Index>
+		</Texture>
+		<SlotType>17</SlotType>
+		<RateOfFire>1.25</RateOfFire>
+		<Sound>weapon/wand_of_dark_magic</Sound>
+		<Projectile>
+			<ObjectId>Nightfall Nimbus Missile</ObjectId>
+			<Size>100</Size>
+			<Amplitude>0.3</Amplitude>
+			<Frequency>1.5</Frequency>
+			<Speed>80</Speed>
+			<Damage>90</Damage>
+			<LifetimeMS>1214</LifetimeMS>
+			<Accelerate/>
+		</Projectile>
+		<ActivateOnEquip stat="0" amount="25">IncrementStat</ActivateOnEquip>
+		<DamageType Physical="1" Magical="0"/>
+		<Rarity>Uncommon</Rarity>
+		<NumProjectiles>3</NumProjectiles>
+		<BagType>5</BagType>
+		<ArcGap>3</ArcGap>
+	</Object>
+	<Object type="0xa758" id="Nightfall Nimbus Missile">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xe6</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+
+	<Object type="0xa757" id="Heavenshimmer Saber Projectile">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xe5</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xa756" id="Heavenshimmer Saber">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xd5</Index>
+		</Texture>
+		<SlotType>1</SlotType>
+		<RateOfFire>1.25</RateOfFire>
+		<Sound>weapon/mithril_sword</Sound>
+		<Projectile>
+			<ObjectId>Heavenshimmer Saber Projectile</ObjectId>
+			<Speed>160</Speed>
+			<Damage>270</Damage>
+			<LifetimeMS>218</LifetimeMS>
+			<Accelerate/>
+		</Projectile>
+		<NumProjectiles>1</NumProjectiles>
+		<DamageType Physical="1" Magical="0"/>
+		<Rarity>Uncommon</Rarity>
+		<BagType>5</BagType>
+	</Object>
+
+
+
+
+
+
+
+
+	<Object type="0xa755" id="Radiance Boss Slime Spawner">
+		<Enemy/>
+		<Class>Character</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x32</Index>
+		</Texture>
+		<NoMiniMap/>
+		<NoExp/>
+		<NotHittable/>
+		<Size>0</Size>
+		<MaxHitPoints>9999999</MaxHitPoints>
+	</Object>
+	<Object type="0xa754" id="Shadowlight Devourer Proj 2">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x60</Index>
+		</Texture>
+		<Rotation>60</Rotation>
+	</Object>
+
+	<Object type="0xa753" id="Shadowlight Devourer Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x61</Index>
+		</Texture>
+		<Rotation>60</Rotation>
+	</Object>
+
+	<Object type="0xa742" id="Shadowlight Devourer">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>95</Index>
+		</AnimatedTexture>
+		<HitSound>monster/slimes_hit</HitSound>
+		<DeathSound>monster/slimes_death</DeathSound>
+		<Size>200</Size>
+		<MaxHitPoints>1500</MaxHitPoints>
+		<Projectile id="0">
+			<ObjectId>Shadowlight Devourer Proj</ObjectId>
+			<Damage>20</Damage>
+			<Speed>30</Speed>
+			<LifetimeMS>8200</LifetimeMS>
+			<Size>100</Size>
+			<Accelerate/>
+			<ConditionEffect duration="6">Blind</ConditionEffect>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Shadowlight Devourer Proj 2</ObjectId>
+			<Damage>30</Damage>
+			<Speed>90</Speed>
+			<LifetimeMS>1200</LifetimeMS>
+			<Size>120</Size>
+		</Projectile>
+	</Object>
+
+	<Object type="0xa751" id="Radiant Seraphim Proj 2">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x70</Index>
+		</Texture>
+		<Rotation>60</Rotation>
+	</Object>
+
+	<Object type="0xa750" id="Radiant Seraphim Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x71</Index>
+		</Texture>
+		<Rotation>60</Rotation>
+	</Object>
+
+	<Object type="0xa74f" id="Radiant Seraphim">
+		<Enemy/>
+		<Class>Character</Class>
+		<Boss>0</Boss>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>96</Index>
+		</AnimatedTexture>
+		<HitSound>monster/slimes_hit</HitSound>
+		<DeathSound>monster/slimes_death</DeathSound>
+		<Size>200</Size>
+		<MaxHitPoints>1500</MaxHitPoints>
+		<Projectile id="0">
+			<ObjectId>Radiant Seraphim Proj</ObjectId>
+			<Damage>50</Damage>
+			<Speed>50</Speed>
+			<Accelerate/>
+			<LifetimeMS>2800</LifetimeMS>
+			<Size>100</Size>
+			<ConditionEffect duration="4">Silenced</ConditionEffect>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Radiant Seraphim Proj 2</ObjectId>
+			<Damage>30</Damage>
+			<Speed>75</Speed>
+			<LifetimeMS>1200</LifetimeMS>
+			<Size>120</Size>
+		</Projectile>
+	</Object>
+
+	<Object type="0xa74e" id="Slime Lair Portal">
+		<Class>Portal</Class>
+		<IntergamePortal/>
+		<ShowName/>
+		<Size>120</Size>
+		<DungeonName>Slime Lair</DungeonName>
+		<Texture>
+			<File>redLootBag</File>
+			<Index>0xba</Index>
+		</Texture>
+	</Object>
+	<Object type="0xa74d" id="Slime Lair Key">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>redLootBag</File>
+			<Index>0xbb</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Sound>use_key</Sound>
+		<Consumable/>
+		<Activate id="Slime Lair Portal">Create</Activate>
+	</Object>
+	<Object type="0xa74c" id="Slime Domain Loot Balloon">
+		<Enemy/>
+		<Class>Character</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x32</Index>
+		</Texture>
+		<HitSound>monster/slimes_hit</HitSound>
+		<DeathSound>monster/slimes_death</DeathSound>
+		<Size>120</Size>
+		<MaxHitPoints>1000</MaxHitPoints>
+	</Object>
+	<Object type="0xa74b" id="Slime Domain Starter">
+		<Enemy/>
+		<Class>Character</Class>
+		<Texture>
+			<File>16x16Objectsb</File>
+			<Index>0x46</Index>
+		</Texture>
+		<Animation prob="1" period="0">
+			<Frame time="0.15">
+				<Texture>
+					<File>16x16Objectsb</File>
+					<Index>0x47</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.15">
+				<Texture>
+					<File>16x16Objectsb</File>
+					<Index>0x48</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.15">
+				<Texture>
+					<File>16x16Objectsb</File>
+					<Index>0x49</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.15">
+				<Texture>
+					<File>16x16Objectsb</File>
+					<Index>0x46</Index>
+				</Texture>
+			</Frame>
+		</Animation>
+		<HitSound>monster/slimes_hit</HitSound>
+		<DeathSound>monster/slimes_death</DeathSound>
+		<Size>150</Size>
+		<MaxHitPoints>3000</MaxHitPoints>
+	</Object>
+	<Object type="0xa74a" id="Blue Radiance Slime Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x51</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xa749" id="Blue Radiance Slime">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>94</Index>
+		</AnimatedTexture>
+		<HitSound>monster/slimes_hit</HitSound>
+		<DeathSound>monster/slimes_death</DeathSound>
+		<Size>100</Size>
+		<MaxHitPoints>600</MaxHitPoints>
+		<Projectile id="0">
+			<ObjectId>Blue Radiance Slime Proj</ObjectId>
+			<Damage>25</Damage>
+			<Speed>70</Speed>
+			<LifetimeMS>1500</LifetimeMS>
+			<Size>90</Size>
+			<ConditionEffect duration="1">Quiet</ConditionEffect>
+		</Projectile>
+	</Object>
+	<Object type="0xa748" id="Red Radiance Slime Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x41</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xa747" id="Red Radiance Slime">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>93</Index>
+		</AnimatedTexture>
+		<HitSound>monster/slimes_hit</HitSound>
+		<DeathSound>monster/slimes_death</DeathSound>
+		<Size>100</Size>
+		<MaxHitPoints>600</MaxHitPoints>
+		<Projectile id="0">
+			<ObjectId>Red Radiance Slime Proj</ObjectId>
+			<Damage>25</Damage>
+			<Speed>70</Speed>
+			<LifetimeMS>1500</LifetimeMS>
+			<Size>90</Size>
+			<ConditionEffect duration="3">Bleeding</ConditionEffect>
+		</Projectile>
+	</Object>
+	<Object type="0xa746" id="Green Radiance Slime Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x31</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xa745" id="Green Radiance Slime">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>92</Index>
+		</AnimatedTexture>
+		<HitSound>monster/slimes_hit</HitSound>
+		<DeathSound>monster/slimes_death</DeathSound>
+		<Size>120</Size>
+		<MaxHitPoints>800</MaxHitPoints>
+		<Projectile id="0">
+			<ObjectId>Green Radiance Slime Proj</ObjectId>
+			<Damage>25</Damage>
+			<Speed>70</Speed>
+			<LifetimeMS>1500</LifetimeMS>
+			<Size>90</Size>
+			<ConditionEffect duration="6">Slowed_II</ConditionEffect>
+		</Projectile>
+	</Object>
+	<Object type="0xa744" id="Slime Domain Portal">
+		<Class>Portal</Class>
+		<IntergamePortal/>
+		<ShowName/>
+		<Size>120</Size>
+		<DungeonName>Slime Domain</DungeonName>
+		<Texture>
+			<File>redLootBag</File>
+			<Index>0xb8</Index>
+		</Texture>
+	</Object>
+	<Object type="0xa743" id="Slime Domain Key">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>redLootBag</File>
+			<Index>0xb9</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Sound>use_key</Sound>
+		<Consumable/>
+		<Activate id="Slime Domain Portal">Create</Activate>
+	</Object>
+	<Object type="0xBF93" id="Risky Potion of Power">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xd6</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Tier>3</Tier>
+		<Rarity>Rare</Rarity>
+		<Description>A potion that permanently increases attack power.</Description>
+		<Sound>use_potion</Sound>
+		<Activate stat="2" amount="3">IncrementStat</Activate>
+		<Activate stat="3" amount="-1">IncrementStat</Activate>
+		<Activate stat="6" amount="-1">IncrementStat</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+		<Stackable size="12"/>
+	</Object>
+	<Object type="0xBF92" id="Risky Potion of Defense">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xd7</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Tier>3</Tier>
+		<Rarity>Rare</Rarity>
+		<Description>A potion that permanently increases defense power.</Description>
+		<Sound>use_potion</Sound>
+		<Activate stat="3" amount="3">IncrementStat</Activate>
+		<Activate stat="5" amount="-1">IncrementStat</Activate>
+		<Activate stat="4" amount="-1">IncrementStat</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+		<Stackable size="12"/>
+	</Object>
+	<Object type="0xBF91" id="Risky Potion of Speed">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xd8</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Tier>3</Tier>
+		<Rarity>Rare</Rarity>
+		<Description>A potion that permanently increases speed.</Description>
+		<Sound>use_potion</Sound>
+		<Activate stat="4" amount="3">IncrementStat</Activate>
+		<Activate stat="10" amount="-5">IncrementStat</Activate>
+		<Activate stat="2" amount="-1">IncrementStat</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+		<Stackable size="12"/>
+	</Object>
+	<Object type="0xBF90" id="Risky Potion of Vitality">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xda</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Tier>3</Tier>
+		<Rarity>Rare</Rarity>
+		<Description>A potion that permanently increases vitality.</Description>
+		<Sound>use_potion</Sound>
+		<Activate stat="6" amount="3">IncrementStat</Activate>
+		<Activate stat="1" amount="-12">IncrementStat</Activate>
+		<Activate stat="4" amount="-1">IncrementStat</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+		<Stackable size="12"/>
+	</Object>
+	<Object type="0xBF89" id="Risky Potion of Wisdom">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xdb</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Tier>3</Tier>
+		<Rarity>Rare</Rarity>
+		<Description>A potion that permanently increases wisdom.</Description>
+		<Sound>use_potion</Sound>
+		<Activate stat="7" amount="3">IncrementStat</Activate>
+		<Activate stat="0" amount="-12">IncrementStat</Activate>
+		<Activate stat="2" amount="-1">IncrementStat</Activate>
+		<Activate stat="2" amount="-1">IncrementStat</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+		<Stackable size="12"/>
+	</Object>
+	<Object type="0xBF88" id="Risky Potion of Dexterity">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xd9</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Tier>3</Tier>
+		<Rarity>Rare</Rarity>
+		<Description>A potion that permanently increases dexterity.</Description>
+		<Sound>use_potion</Sound>
+		<Activate stat="5" amount="3">IncrementStat</Activate>
+		<Activate stat="7" amount="-1">IncrementStat</Activate>
+		<Activate stat="8" amount="-1">IncrementStat</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+		<Stackable size="12"/>
+	</Object>
+	<Object type="0xBF87" id="Risky Potion of Life">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xd4</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Tier>3</Tier>
+		<Rarity>Rare</Rarity>
+		<Description>A potion that permanently increases health.</Description>
+		<Sound>use_potion</Sound>
+		<Activate stat="0" amount="36">IncrementStat</Activate>
+		<Activate stat="2" amount="-1">IncrementStat</Activate>
+		<Activate stat="2" amount="-1">IncrementStat</Activate>
+		<Activate stat="7" amount="-1">IncrementStat</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+		<Stackable size="12"/>
+	</Object>
+	<Object type="0xBF86" id="Risky Potion of Mana">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xd5</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Tier>3</Tier>
+		<Rarity>Rare</Rarity>
+		<Description>A potion that permanently increases magic.</Description>
+		<Sound>use_potion</Sound>
+		<Activate stat="1" amount="36">IncrementStat</Activate>
+		<Activate stat="6" amount="-1">IncrementStat</Activate>
+		<Activate stat="0" amount="-12">IncrementStat</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+		<Stackable size="12"/>
+	</Object>
+
+
+
+
+	<Object type="0xBF85" id="Great Potion of Attack">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xc6</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Tier>2</Tier>
+		<Rarity>Rare</Rarity>
+		<Description>A potion that permanently increases attack power.</Description>
+		<Sound>use_potion</Sound>
+		<Activate stat="2" amount="2">IncrementStat</Activate>
+		<Activate stat="3" amount="-1">IncrementStat</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+		<Stackable size="12"/>
+	</Object>
+	<Object type="0xBF84" id="Great Potion of Defense">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xc7</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Tier>2</Tier>
+		<Rarity>Rare</Rarity>
+		<Description>A potion that permanently increases defense power.</Description>
+		<Sound>use_potion</Sound>
+		<Activate stat="3" amount="2">IncrementStat</Activate>
+		<Activate stat="5" amount="-1">IncrementStat</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+		<Stackable size="12"/>
+	</Object>
+	<Object type="0xBF83" id="Great Potion of Speed">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xc8</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Tier>2</Tier>
+		<Rarity>Rare</Rarity>
+		<Description>A potion that permanently increases speed.</Description>
+		<Sound>use_potion</Sound>
+		<Activate stat="4" amount="2">IncrementStat</Activate>
+		<Activate stat="10" amount="-5">IncrementStat</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+		<Stackable size="12"/>
+	</Object>
+	<Object type="0xBF82" id="Great Potion of Vitality">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xca</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Tier>2</Tier>
+		<Rarity>Rare</Rarity>
+		<Description>A potion that permanently increases vitality.</Description>
+		<Sound>use_potion</Sound>
+		<Activate stat="6" amount="2">IncrementStat</Activate>
+		<Activate stat="1" amount="-12">IncrementStat</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+		<Stackable size="12"/>
+	</Object>
+	<Object type="0xBF81" id="Great Potion of Wisdom">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xcb</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Tier>2</Tier>
+		<Tier>2</Tier>
+		<Rarity>Rare</Rarity>
+		<Description>A potion that permanently increases wisdom.</Description>
+		<Sound>use_potion</Sound>
+		<Activate stat="7" amount="2">IncrementStat</Activate>
+		<Activate stat="0" amount="-12">IncrementStat</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+		<Stackable size="12"/>
+	</Object>
+	<Object type="0xBF80" id="Great Potion of Dexterity">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xc9</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Tier>2</Tier>
+		<Rarity>Rare</Rarity>
+		<Description>A potion that permanently increases dexterity.</Description>
+		<Sound>use_potion</Sound>
+		<Activate stat="5" amount="2">IncrementStat</Activate>
+		<Activate stat="7" amount="-1">IncrementStat</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+		<Stackable size="12"/>
+	</Object>
+	<Object type="0xBF79" id="Great Potion of Life">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xc4</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Tier>2</Tier>
+		<Rarity>Rare</Rarity>
+		<Description>A potion that permanently increases health.</Description>
+		<Sound>use_potion</Sound>
+		<Activate stat="0" amount="24">IncrementStat</Activate>
+		<Activate stat="2" amount="-1">IncrementStat</Activate>
+		<Activate stat="2" amount="-1">IncrementStat</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+		<Stackable size="12"/>
+	</Object>
+	<Object type="0xBF78" id="Great Potion of Mana">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xc5</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Tier>2</Tier>
+		<Rarity>Rare</Rarity>
+		<Description>A potion that permanently increases magic.</Description>
+		<Sound>use_potion</Sound>
+		<Activate stat="1" amount="24">IncrementStat</Activate>
+		<Activate stat="6" amount="-1">IncrementStat</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+		<Stackable size="12"/>
+	</Object>
+	<Object type="0xBF77" id="Basic Potion of Attack">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xb6</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Tier>1</Tier>
+		<Description>A potion that permanently increases attack power.</Description>
+		<Sound>use_potion</Sound>
+		<Activate stat="2" amount="1">IncrementStat</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+		<Stackable size="12"/>
+	</Object>
+	<Object type="0xBF76" id="Basic Potion of Defense">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xb7</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Tier>1</Tier>
+		<Description>A potion that permanently increases defense power.</Description>
+		<Sound>use_potion</Sound>
+		<Activate stat="3" amount="1">IncrementStat</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+		<Stackable size="12"/>
+	</Object>
+	<Object type="0xBF75" id="Basic Potion of Speed">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xb8</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Tier>1</Tier>
+		<Description>A potion that permanently increases speed.</Description>
+		<Sound>use_potion</Sound>
+		<Activate stat="4" amount="1">IncrementStat</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+		<Stackable size="12"/>
+	</Object>
+	<Object type="0xBF74" id="Basic Potion of Vitality">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xba</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Tier>1</Tier>
+		<Description>A potion that permanently increases vitality.</Description>
+		<Sound>use_potion</Sound>
+		<Activate stat="6" amount="1">IncrementStat</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+		<Stackable size="12"/>
+	</Object>
+	<Object type="0xBF73" id="Basic Potion of Wisdom">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xbc</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Tier>1</Tier>
+		<Description>A potion that permanently increases wisdom.</Description>
+		<Sound>use_potion</Sound>
+		<Activate stat="7" amount="1">IncrementStat</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+		<Stackable size="12"/>
+	</Object>
+	<Object type="0xBF72" id="Basic Potion of Dexterity">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xb9</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Tier>1</Tier>
+		<Description>A potion that permanently increases dexterity.</Description>
+		<Sound>use_potion</Sound>
+		<Activate stat="5" amount="1">IncrementStat</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+		<Stackable size="12"/>
+	</Object>
+	<Object type="0xBF71" id="Basic Potion of Life">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xb4</Index>
+		</Texture>
+		<Tier>1</Tier>
+		<SlotType>10</SlotType>
+		<Description>A potion that permanently increases health.</Description>
+		<Sound>use_potion</Sound>
+		<Activate stat="0" amount="12">IncrementStat</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+		<Stackable size="12"/>
+	</Object>
+	<Object type="0xBF70" id="Basic Potion of Mana">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj4</File>
+			<Index>0xb5</Index>
+		</Texture>
+		<Tier>1</Tier>
+		<SlotType>10</SlotType>
+		<Description>A potion that permanently increases magic.</Description>
+		<Sound>use_potion</Sound>
+		<Activate stat="1" amount="12">IncrementStat</Activate>
+		<Consumable/>
+		<Potion/>
+		<BagType>3</BagType>
+		<Stackable size="12"/>
+	</Object>
+
+
+
+
+
+
+
+
+	<Object type="0xBF59" id="Major Potion of Magic">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x2d</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>A major potion of magic that re-energizes the player a large amount.</Description>
+		<Sound>use_potion</Sound>
+		<Stackable size="64"/>
+		<Consumable/>
+		<MagicHeal/>
+		<OldSound>use_potion</OldSound>
+		<Activate amount="175">Magic</Activate>
+		<BagType>1</BagType>
+	</Object>
+	<Object type="0xBF58" id="Potion of Magic">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x1d</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>A potion of magic that re-energizes the player a decent amount.</Description>
+		<Sound>use_potion</Sound>
+		<Stackable size="64"/>
+		<Consumable/>
+		<MagicHeal/>
+		<OldSound>use_potion</OldSound>
+		<Activate amount="100">Magic</Activate>
+		<BagType>1</BagType>
+	</Object>
+	<Object type="0xBF57" id="Minor Potion of Magic">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x0d</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>A minor potion of magic that re-energizes the player.</Description>
+		<Sound>use_potion</Sound>
+		<Stackable size="64"/>
+		<Consumable/>
+		<MagicHeal/>
+		<OldSound>use_potion</OldSound>
+		<Activate amount="50">Magic</Activate>
+		<BagType>1</BagType>
+	</Object>
+	<Object type="0xBF56" id="Major Potion of Health">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x2c</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>A potion of health that heals the player a large amount.</Description>
+		<Sound>use_potion</Sound>
+		<Stackable size="64"/>
+		<Consumable/>
+		<Heal/>
+		<OldSound>use_potion</OldSound>
+		<Activate amount="200">Heal</Activate>
+		<BagType>1</BagType>
+	</Object>
+	<Object type="0xBF55" id="Potion of Health">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x1c</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>A potion of health that heals the player a decent amount.</Description>
+		<Sound>use_potion</Sound>
+		<Stackable size="64"/>
+		<Consumable/>
+		<Heal/>
+		<OldSound>use_potion</OldSound>
+		<Activate amount="125">Heal</Activate>
+		<BagType>1</BagType>
+	</Object>
+	<Object type="0xBF54" id="Minor Potion of Health">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x0c</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>A minor potion of health that heals the player.</Description>
+		<Sound>use_potion</Sound>
+		<Stackable size="64"/>
+		<Consumable/>
+		<Heal/>
+		<OldSound>use_potion</OldSound>
+		<Activate amount="75">Heal</Activate>
+		<BagType>1</BagType>
+	</Object>
+	<Object type="0xBF53" id="Acorn">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x1b</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>An acorn, this taste horrible!</Description>
+		<Sound>use_potion</Sound>
+		<Stackable size="8"/>
+		<Consumable/>
+		<MagicHeal/>
+		<OldSound>use_potion</OldSound>
+		<Activate amount="20">Magic</Activate>
+		<BagType>1</BagType>
+	</Object>
+	<Object type="0xBF52" id="Banana">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x1a</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>Banana, belonged to a monkey named Jast, i guess he didn't want the banana?</Description>
+		<Sound>use_potion</Sound>
+		<Stackable size="4"/>
+		<Consumable/>
+		<Heal/>
+		<OldSound>use_potion</OldSound>
+		<Activate amount="20">Heal</Activate>
+		<BagType>1</BagType>
+	</Object>
+	<Object type="0xBF51" id="Apple">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x0b</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>An Apple, what could go wrong?</Description>
+		<Sound>use_potion</Sound>
+		<Stackable size="16"/>
+		<Consumable/>
+		<Heal/>
+		<OldSound>use_potion</OldSound>
+		<Activate amount="35">Heal</Activate>
+		<BagType>1</BagType>
+	</Object>
+	<Object type="0xBF50" id="Meat">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x0a</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>Meat, smells really good!.</Description>
+		<Sound>use_potion</Sound>
+		<Stackable size="4"/>
+		<Consumable/>
+		<Heal/>
+		<OldSound>use_potion</OldSound>
+		<Activate amount="125">Heal</Activate>
+		<BagType>1</BagType>
+	</Object>
+
+
+	<Object type="0xBF09" id="Golem of the Corruption Bullet">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs</File>
+			<Index>0xfe</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBF08" id="Golem of the Corruption Blade">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs</File>
+			<Index>0xfd</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBF07" id="Golem of the Corruption Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs</File>
+			<Index>0xfc</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBF06" id="Golem of the Corruption">
+		<Class>Character</Class>
+		<Enemy/>
+		<Hero/>
+		<Quest/>
+		<God/>
+		<Encounter/>
+		<Level>50</Level>
+		<Size>130</Size>
+		<XpMult>1.5</XpMult>
+		<PerRealmMax>1</PerRealmMax>
+		<HitSound>monster/medusa_hit</HitSound>
+		<DeathSound>monster/undead_dwarves_hit</DeathSound>
+		<MaxHitPoints>75000</MaxHitPoints>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>2</Index>
+		</AnimatedTexture>
+		<Projectile id="0">
+			<ObjectId>Golem of the Corruption Shot</ObjectId>
+			<Speed>20</Speed>
+			<Damage>125</Damage>
+			<Size>120</Size>
+			<LifetimeMS>8000</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Golem of the Corruption Blade</ObjectId>
+			<Speed>60</Speed>
+			<Damage>80</Damage>
+			<Size>100</Size>
+			<LifetimeMS>8000</LifetimeMS>
+			<Decelerate/>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Golem of the Corruption Blade</ObjectId>
+			<Speed>55</Speed>
+			<Damage>80</Damage>
+			<Size>100</Size>
+			<LifetimeMS>8000</LifetimeMS>
+			<Decelerate/>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Golem of the Corruption Blade</ObjectId>
+			<Speed>50</Speed>
+			<Damage>80</Damage>
+			<Size>100</Size>
+			<LifetimeMS>8000</LifetimeMS>
+			<Decelerate/>
+		</Projectile>
+		<Projectile id="4">
+			<ObjectId>Golem of the Corruption Blade</ObjectId>
+			<Speed>45</Speed>
+			<Damage>80</Damage>
+			<Size>100</Size>
+			<LifetimeMS>8000</LifetimeMS>
+			<Decelerate/>
+		</Projectile>
+		<Projectile id="5">
+			<ObjectId>Golem of the Corruption Blade</ObjectId>
+			<Speed>40</Speed>
+			<Damage>80</Damage>
+			<Size>100</Size>
+			<LifetimeMS>8000</LifetimeMS>
+			<Decelerate/>
+		</Projectile>
+		<Projectile id="6">
+			<ObjectId>Golem of the Corruption Blade</ObjectId>
+			<Speed>35</Speed>
+			<Damage>80</Damage>
+			<Size>100</Size>
+			<LifetimeMS>8000</LifetimeMS>
+			<Decelerate/>
+		</Projectile>
+		<Projectile id="7">
+			<ObjectId>Golem of the Corruption Blade</ObjectId>
+			<Speed>30</Speed>
+			<Damage>80</Damage>
+			<Size>100</Size>
+			<LifetimeMS>8000</LifetimeMS>
+			<Decelerate/>
+		</Projectile>
+		<Projectile id="8">
+			<ObjectId>Golem of the Corruption Bullet</ObjectId>
+			<Speed>80</Speed>
+			<Damage>75</Damage>
+			<Size>80</Size>
+			<LifetimeMS>1833</LifetimeMS>
+		</Projectile>
+	</Object>
+
+
+
+
+	<Object type="0xBD91" id="Bedrock Ring">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xa3</Index>
+		</Texture>
+		<SlotType>9</SlotType>
+		<Description>An ancient stone ring, used by the infamous golems of war, a relic that has lost its past powers.</Description>
+		<ActivateOnEquip stat="1" amount="100">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="9" amount="15">IncrementStat</ActivateOnEquip>
+		<Rarity>Rare</Rarity>
+		<BagType>5</BagType>
+	</Object>
+	<Object type="0xBD90" id="Bedrock Armor">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xa2</Index>
+		</Texture>
+		<SlotType>7</SlotType>
+		<Description>The awoken Ancient Stone Armor, charged with the battle spirit of the golems lost in war, made from obsidian, nearly industructable.</Description>
+		<ActivateOnEquip stat="3" amount="26">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="9" amount="15">IncrementStat</ActivateOnEquip>
+		<BagType>5</BagType>
+		<Rarity>Rare</Rarity>
+	</Object>
+	<Object type="0xBD89" id="Bedrock Helmet">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xa1</Index>
+		</Texture>
+		<SlotType>16</SlotType>
+		<Description>The awoken Ancient Stone Helmet, charged with the battle spirit of the golems lost in war, made from obsidian, nearly industructable.</Description>
+		<ActivateOnEquip stat="3" amount="8">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="9" amount="12">IncrementStat</ActivateOnEquip>
+		<Activate effect="Armored_I" range="6" duration="4" text="I WONT STAND DOWN!" statmod="9">Berserk</Activate>
+		<Usable/>
+		<MpCost>95</MpCost>
+		<Cooldown>5</Cooldown>
+		<Rarity>Rare</Rarity>
+		<BagType>5</BagType>
+	</Object>
+	<Object type="0xBD88" id="Bedrock Blade Projectile">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xb0</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBD87" id="Bedrock Blade">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xa0</Index>
+		</Texture>
+		<SlotType>1</SlotType>
+		<Description>The awoken Ancient Stone Sword, charged with the battle spirit of the golems lost in war, made from obsidian, nearly industructable.</Description>
+		<RateOfFire>1.25</RateOfFire>
+		<Sound>weapon/mithril_sword</Sound>
+		<Projectile>
+			<ObjectId>Bedrock Blade Projectile</ObjectId>
+			<Speed>130</Speed>
+			<Damage>275</Damage>
+			<LifetimeMS>307</LifetimeMS>
+			<Amplitude>0.2</Amplitude>
+			<Frequency>0.3</Frequency>
+		</Projectile>
+		<NumProjectiles>1</NumProjectiles>
+		<ActivateOnEquip stat="3" amount="3">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="9" amount="6">IncrementStat</ActivateOnEquip>
+		<DamageType Physical="1" Magical="0"/>
+		<Rarity>Rare</Rarity>
+		<BagType>5</BagType>
+	</Object>
+	<Object type="0xBD86" id="Ancient Stone Ring">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x93</Index>
+		</Texture>
+		<SlotType>9</SlotType>
+		<Description>An ancient stone ring, used by the infamous golems of war, a relic that has lost its past powers.</Description>
+		<ActivateOnEquip stat="1" amount="70">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="9" amount="13">IncrementStat</ActivateOnEquip>
+		<Rarity>Rare</Rarity>
+		<BagType>5</BagType>
+	</Object>
+	<Object type="0xBD85" id="Ancient Stone Armor">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x92</Index>
+		</Texture>
+		<SlotType>7</SlotType>
+		<Description>The ancient stone armor, used by the infamous golems of war, a relic that has lost its past powers.</Description>
+		<ActivateOnEquip stat="3" amount="22">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="9" amount="13">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="4" amount="-8">IncrementStat</ActivateOnEquip>
+		<BagType>5</BagType>
+		<Rarity>Rare</Rarity>
+	</Object>
+	<Object type="0xBD84" id="Ancient Stone Helmet">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x91</Index>
+		</Texture>
+		<SlotType>16</SlotType>
+		<Description>An ancient stone helmet, used by the infamous golems of war, a relic that has lost its past powers.</Description>
+		<ActivateOnEquip stat="3" amount="6">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="9" amount="10">IncrementStat</ActivateOnEquip>
+		<Activate effect="Armored_I" range="6" duration="4" text="STAND YOUR GROUND!">Berserk</Activate>
+		<Usable/>
+		<MpCost>100</MpCost>
+		<Cooldown>7</Cooldown>
+		<Rarity>Rare</Rarity>
+		<BagType>5</BagType>
+	</Object>
+	<Object type="0xBD83" id="Ancient Stone Sword Projectile">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xb1</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBD82" id="Ancient Stone Sword">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0x90</Index>
+		</Texture>
+		<SlotType>1</SlotType>
+		<Description>An ancient sword, used by the infamous golems of war, a relic that has lost its past powers.</Description>
+		<RateOfFire>1.25</RateOfFire>
+		<Sound>weapon/mithril_sword</Sound>
+		<Projectile>
+			<ObjectId>Ancient Stone Sword Projectile</ObjectId>
+			<Speed>130</Speed>
+			<Damage>260</Damage>
+			<LifetimeMS>307</LifetimeMS>
+			<Amplitude>0.2</Amplitude>
+			<Frequency>0.3</Frequency>
+		</Projectile>
+		<NumProjectiles>1</NumProjectiles>
+		<DamageType Physical="1" Magical="0"/>
+		<Rarity>Rare</Rarity>
+		<BagType>5</BagType>
+	</Object>
+	<Object type="0xBD81" id="Trainees' Helmet">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj6</File>
+			<Index>0x80</Index>
+		</Texture>
+		<SlotType>16</SlotType>
+		<Description>A sturdy helm used by the basic warriors.</Description>
+		<ActivateOnEquip stat="3" amount="3">IncrementStat</ActivateOnEquip>
+		<Activate effect="Berserk_I" range="6" duration="4" text="Uh? What Was I Suppose To Say Again?">Berserk</Activate>
+		<Usable/>
+		<MpCost>70</MpCost>
+		<Cooldown>4</Cooldown>
+		<Rarity>None</Rarity>
+	</Object>
+	<Object type="0xBD80" id="Sandy Breeze Helmet">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj6</File>
+			<Index>0x81</Index>
+		</Texture>
+		<SlotType>16</SlotType>
+		<Description>A a helmet found in the sand of the beach, better than nothing I guess.</Description>
+		<ActivateOnEquip stat="3" amount="4">IncrementStat</ActivateOnEquip>
+		<Activate effect="Berserk_I" range="6" duration="5" text="Arr! I Think...">Berserk</Activate>
+		<Usable/>
+		<MpCost>75</MpCost>
+		<Cooldown>5</Cooldown>
+		<Rarity>None</Rarity>
+	</Object>
+	<Object type="0xBD79" id="Forest Nymph Helmet">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj6</File>
+			<Index>0x82</Index>
+		</Texture>
+		<SlotType>16</SlotType>
+		<Description>A helmet used by the warrior nymphs of the forest.</Description>
+		<ActivateOnEquip stat="2" amount="3">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="3" amount="2">IncrementStat</ActivateOnEquip>
+		<Activate effect="Berserk_I" range="6" duration="6" text="To Battle We Go!">Berserk</Activate>
+		<Usable/>
+		<MpCost>80</MpCost>
+		<Rarity>Common</Rarity>
+		<Cooldown>5.5</Cooldown>
+	</Object>
+	<Object type="0xBD78" id="Sandstone Helmet">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj6</File>
+			<Index>0x83</Index>
+		</Texture>
+		<SlotType>16</SlotType>
+		<Description>A heavy helmet made of sandstone, good for protection.</Description>
+		<ActivateOnEquip stat="3" amount="8">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="4" amount="-5">IncrementStat</ActivateOnEquip>
+		<Activate effect="Berserk_I" range="6" duration="4" text="The Desert Will Guide Us!">Berserk</Activate>
+		<Usable/>
+		<MpCost>85</MpCost>
+		<Cooldown>6</Cooldown>
+		<Rarity>Common</Rarity>
+	</Object>
+	<Object type="0xBD77" id="Damascus Steel Helmet">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj6</File>
+			<Index>0x84</Index>
+		</Texture>
+		<SlotType>16</SlotType>
+		<Description>A fit helmet made from Damascus Steel, very durable and comfortable.</Description>
+		<ActivateOnEquip stat="3" amount="6">IncrementStat</ActivateOnEquip>
+		<ActivateOnEquip stat="11" amount="1">IncrementStat</ActivateOnEquip>
+		<Activate effect="Berserk_I" range="6" duration="4" text="We Charge UNITED!">Berserk</Activate>
+		<Usable/>
+		<MpCost>90</MpCost>
+		<Cooldown>6</Cooldown>
+		<Rarity>Common</Rarity>
+	</Object>
+	<Object type="0xBD76" id="Ice Barrier">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj6</File>
+			<Index>0x85</Index>
+		</Texture>
+		<SlotType>16</SlotType>
+		<Description>A great ice helmet, able to provide keen protection for any head attacks while boosting your moral, just a little too cold to the touch.</Description>
+		<ActivateOnEquip stat="3" amount="10">IncrementStat</ActivateOnEquip>
+		<Activate effect="Berserk_I" range="6" duration="5" text="My face may be frozen... BUT I WILL STILL FIGHT!">Berserk</Activate>
+		<Usable/>
+		<MpCost>95</MpCost>
+		<Cooldown>5.5</Cooldown>
+		<Rarity>Common</Rarity>
+	</Object>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<Object type="0xBC74" id="Guiding Light (extinguished) Projectile">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiItems0</File>
+			<Index>0xed</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBC75" id="Guiding Light (extinguished)">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiItems0</File>
+			<Index>0xfd</Index>
+		</Texture>
+		<SlotType>1</SlotType>
+		<Description>Every so often, a little flare of blue magic comes from the blade, its asking for something.</Description>
+		<RateOfFire>1</RateOfFire>
+		<Sound>weapon/mithril_sword</Sound>
+		<Projectile>
+			<ObjectId>Guiding Light (extinguished) Projectile</ObjectId>
+			<Speed>140</Speed>
+			<Damage>200</Damage>
+			<LifetimeMS>333</LifetimeMS>
+			<Amplitude>.2</Amplitude>
+			<Frequency>.2</Frequency>
+		</Projectile>
+		<NumProjectiles>1</NumProjectiles>
+		<DamageType Physical="1" Magical="0"/>
+		<Rarity>Secret</Rarity>
+		<BagType>7</BagType>
+	</Object>
+	<Object type="0xBC73" id="Guiding Light Projectile">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiItems0</File>
+			<Index>0xee</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBC72" id="Guiding Light">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiItems0</File>
+			<Index>0xfe</Index>
+		</Texture>
+		<SlotType>1</SlotType>
+		<Description>A sword that burns forever, it calls to.</Description>
+		<RateOfFire>1</RateOfFire>
+		<Sound>weapon/mithril_sword</Sound>
+		<Projectile>
+			<ObjectId>Guiding Light Projectile</ObjectId>
+			<Speed>140</Speed>
+			<Damage>450</Damage>
+			<LifetimeMS>333</LifetimeMS>
+			<Amplitude>.5</Amplitude>
+			<Frequency>.5</Frequency>
+		</Projectile>
+		<NumProjectiles>1</NumProjectiles>
+		<DamageType Physical="0" Magical="1"/>
+		<Rarity>Mythical</Rarity>
+		<BagType>7</BagType>
+		<Ability>Guidance</Ability>
+	</Object>
+	<Object type="0x1200" id="Large Mysterious Cloth">
+		<Class>Dye</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x1b</Index>
+		</Texture>
+		<Mask>
+			<File>lofiObj3</File>
+			<Index>0x1c</Index>
+		</Mask>
+		<Tex1>0x4000000</Tex1>
+		<SlotType>10</SlotType>
+		<Description>A large bolt of cloth.</Description>
+		<Activate>Dye</Activate>
+		<Sound>use_potion</Sound>
+		<Consumable/>
+	</Object>
+	<Object type="0x1300" id="Small Mysterious Cloth">
+		<Class>Dye</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x1d</Index>
+		</Texture>
+		<Mask>
+			<File>lofiObj3</File>
+			<Index>0x1e</Index>
+		</Mask>
+		<Tex2>0x4000000</Tex2>
+		<SlotType>10</SlotType>
+		<Description>A small bolt of cloth.</Description>
+		<Activate>Dye</Activate>
+		<Sound>use_potion</Sound>
+		<Consumable/>
+	</Object>
+</Objects>

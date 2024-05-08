@@ -1,0 +1,502 @@
+<Objects>
+	<Object type="0xfe10" id="Wandering Igloo">
+		<Group>FrozenForest</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>32</Index>
+		</AnimatedTexture>
+		<HitSound>monster/demons_hit</HitSound>
+		<DeathSound>monster/demons_death</DeathSound>
+		<Size>120</Size>
+		<MaxHitPoints>6500</MaxHitPoints>
+		<PhysicalDefense>20</PhysicalDefense>
+		<MagicDefense>20</MagicDefense>
+		<XpMult>1.25</XpMult>
+		<Quest/>
+		<Projectile id="0">
+			<ObjectId>Igloo Orange 1</ObjectId>
+			<Damage>100</Damage>
+			<Speed>80</Speed>
+			<LifetimeMS>2000</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Igloo Blue 1</ObjectId>
+			<Damage>75</Damage>
+			<Speed>60</Speed>
+			<Accelerate/>
+			<MultiHit/>
+			<LifetimeMS>2000</LifetimeMS>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Igloo Big Blue 1</ObjectId>
+			<Damage>75</Damage>
+			<Speed>60</Speed>
+			<MultiHit/>
+			<Accelerate/>
+			<Size>180</Size>
+			<LifetimeMS>2000</LifetimeMS>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Igloo Big Orange</ObjectId>
+			<Damage>100</Damage>
+			<Speed>80</Speed>
+			<Frequency>.5</Frequency>
+			<Size>180</Size>
+			<LifetimeMS>800</LifetimeMS>
+		</Projectile>
+		<Projectile id="4">
+			<ObjectId>Igloo Big 2</ObjectId>
+			<Damage>75</Damage>
+			<Speed>80</Speed>
+			<LifetimeMS>2000</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xfe11" id="Frostborn Husk">
+		<Group>FrozenForest</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>33</Index>
+		</AnimatedTexture>
+		<HitSound>monster/demons_hit</HitSound>
+		<DeathSound>monster/demons_death</DeathSound>
+		<Size>110</Size>
+		<MaxHitPoints>6000</MaxHitPoints>
+		<PhysicalDefense>20</PhysicalDefense>
+		<MagicDefense>20</MagicDefense>
+		<XpMult>1.25</XpMult>
+		<Projectile id="0">
+			<ObjectId>Husk Big Shot</ObjectId>
+			<Damage>65</Damage>
+			<Speed>80</Speed>
+			<Size>200</Size>
+			<LifetimeMS>400</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Igloo Blue 2</ObjectId>
+			<Damage>70</Damage>
+			<Speed>60</Speed>
+			<LifetimeMS>2000</LifetimeMS>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Husk Shot 1</ObjectId>
+			<Damage>100</Damage>
+			<Speed>80</Speed>
+			<LifetimeMS>1200</LifetimeMS>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Husk Shot 1</ObjectId>
+			<Damage>85</Damage>
+			<Speed>70</Speed>
+			<LifetimeMS>1200</LifetimeMS>
+		</Projectile>
+		<Projectile id="4">
+			<ObjectId>Husk Shot 1</ObjectId>
+			<Damage>50</Damage>
+			<Speed>50</Speed>
+			<LifetimeMS>1200</LifetimeMS>
+		</Projectile>
+		<Projectile id="5">
+			<ObjectId>Husk Big Shot 2</ObjectId>
+			<Damage>65</Damage>
+			<Speed>70</Speed>
+			<Size>140</Size>
+			<LifetimeMS>800</LifetimeMS>
+		</Projectile>
+		<Projectile id="6">
+			<ObjectId>Husk Shot 4</ObjectId>
+			<Damage>80</Damage>
+			<Speed>90</Speed>
+			<Size>140</Size>
+			<LifetimeMS>800</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xfe12" id="Frostborn Wisp">
+		<Group>FrozenForest</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>34</Index>
+		</AnimatedTexture>
+		<HitSound>monster/demons_hit</HitSound>
+		<DeathSound>monster/demons_death</DeathSound>
+		<Size>100</Size>
+		<MaxHitPoints>3250</MaxHitPoints>
+		<PhysicalDefense>20</PhysicalDefense>
+		<MagicDefense>20</MagicDefense>
+		<XpMult>1.25</XpMult>
+		<Projectile id="0">
+			<ObjectId>Wisp Shot 1</ObjectId>
+			<Damage>70</Damage>
+			<Speed>65</Speed>
+			<Size>100</Size>
+			<Boomerang/>
+			<LifetimeMS>800</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Wisp Shot 2</ObjectId>
+			<Damage>80</Damage>
+			<Speed>65</Speed>
+			<Size>100</Size>
+			<Boomerang/>
+			<LifetimeMS>800</LifetimeMS>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Wisp Shot 3</ObjectId>
+			<Damage>115</Damage>
+			<Speed>60</Speed>
+			<Size>100</Size>
+			<Frequency>.6</Frequency>
+			<Amplitude>3</Amplitude>
+			<LifetimeMS>1200</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xfe16" id="Tempest Sprite">
+		<Group>FrozenForest</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x8rEncounters</File>
+			<Index>89</Index>
+		</AnimatedTexture>
+		<HitSound>monster/demons_hit</HitSound>
+		<DeathSound>monster/demons_death</DeathSound>
+		<Size>100</Size>
+		<MaxHitPoints>3250</MaxHitPoints>
+		<PhysicalDefense>20</PhysicalDefense>
+		<MagicDefense>20</MagicDefense>
+		<XpMult>1.25</XpMult>
+		<Projectile id="0">
+			<ObjectId>Tempest Shot 1</ObjectId>
+			<Damage>100</Damage>
+			<Speed>60</Speed>
+			<Size>100</Size>
+			<LifetimeMS>1500</LifetimeMS>
+			<ArmorPiercing/>
+		</Projectile>
+	</Object>
+	<Object type="0xfe13" id="High Cryomancer">
+		<Group>FrozenForest</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>37</Index>
+		</AnimatedTexture>
+		<HitSound>monster/demons_hit</HitSound>
+		<DeathSound>monster/demons_death</DeathSound>
+		<Size>125</Size>
+		<MaxHitPoints>5000</MaxHitPoints>
+		<PhysicalDefense>20</PhysicalDefense>
+		<MagicDefense>20</MagicDefense>
+		<XpMult>1.25</XpMult>
+		<Projectile id="0">
+			<ObjectId>High Cryomancer Shot</ObjectId>
+			<Damage>120</Damage>
+			<Speed>90</Speed>
+			<Size>120</Size>
+			<Accelerate/>
+			<LifetimeMS>900</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>High Cryomancer Spin</ObjectId>
+			<Damage>100</Damage>
+			<Speed>90</Speed>
+			<Size>130</Size>
+			<Decelerate/>
+			<LifetimeMS>800</LifetimeMS>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>High Cryomancer Small Shot</ObjectId>
+			<Damage>120</Damage>
+			<Speed>80</Speed>
+			<Size>130</Size>
+			<LifetimeMS>1000</LifetimeMS>
+			<ArmorPiercing/>
+			<ConditionEffect duration="3">Weakened_I</ConditionEffect>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>High Cryomancer Small Spin</ObjectId>
+			<Damage>150</Damage>
+			<Speed>60</Speed>
+			<Size>150</Size>
+			<LifetimeMS>1000</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xfe18" id="High Cryomancer Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>Big0</File>
+			<Index>0x90</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfe19" id="High Cryomancer Spin">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>Big0</File>
+			<Index>0x91</Index>
+		</Texture>
+		<Rotation>60</Rotation>
+	</Object>
+	<Object type="0xfe20" id="High Cryomancer Small Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xf4</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfe21" id="High Cryomancer Small Spin">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xf7</Index>
+		</Texture>
+		<Rotation>60</Rotation>
+	</Object>
+
+	<Object type="0xfe14" id="Triclops Shaman">
+		<Group>FrozenForest</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>35</Index>
+		</AnimatedTexture>
+		<HitSound>monster/demons_hit</HitSound>
+		<DeathSound>monster/demons_death</DeathSound>
+		<Size>120</Size>
+		<MaxHitPoints>4500</MaxHitPoints>
+		<PhysicalDefense>20</PhysicalDefense>
+		<MagicDefense>20</MagicDefense>
+		<XpMult>1.25</XpMult>
+		<Projectile id="0">
+			<ObjectId>Triclops Shaman Shot</ObjectId>
+			<Damage>80</Damage>
+			<Speed>90</Speed>
+			<Size>100</Size>
+			<Amplitude>0.5</Amplitude>
+			<Frequency>1</Frequency>
+			<LifetimeMS>1200</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Triclops Shaman Better Shot</ObjectId>
+			<Damage>120</Damage>
+			<Speed>90</Speed>
+			<Size>100</Size>
+			<Amplitude>0.5</Amplitude>
+			<Frequency>1</Frequency>
+			<LifetimeMS>800</LifetimeMS>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Triclops Shaman Debuff</ObjectId>
+			<Damage>60</Damage>
+			<Speed>100</Speed>
+			<Size>80</Size>
+			<LifetimeMS>900</LifetimeMS>
+			<ConditionEffect duration="5">Slowed_II</ConditionEffect>
+		</Projectile>
+	</Object>
+	<Object type="0xfe22" id="Triclops Shaman Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xf9</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfe23" id="Triclops Shaman Better Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xfa</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfe24" id="Triclops Shaman Debuff">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xfb</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfe15" id="Snow Banshee">
+		<Group>FrozenForest</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>36</Index>
+		</AnimatedTexture>
+		<HitSound>monster/demons_hit</HitSound>
+		<DeathSound>monster/demons_death</DeathSound>
+		<Size>100</Size>
+		<MaxHitPoints>3000</MaxHitPoints>
+		<PhysicalDefense>20</PhysicalDefense>
+		<MagicDefense>20</MagicDefense>
+		<XpMult>1.25</XpMult>
+		<Projectile id="0">
+			<ObjectId>Snow Banshee Shot</ObjectId>
+			<Damage>90</Damage>
+			<Speed>60</Speed>
+			<Size>100</Size>
+			<LifetimeMS>1800</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xfe17" id="Snow Banshee Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0xed</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfe25" id="Ice Golem">
+		<Group>FrozenForest</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>50</Index>
+		</AnimatedTexture>
+		<HitSound>monster/rocks_hit</HitSound>
+		<DeathSound>monster/rocks_death</DeathSound>
+		<Size>120</Size>
+		<MaxHitPoints>4500</MaxHitPoints>
+		<PhysicalDefense>50</PhysicalDefense>
+		<MagicDefense>50</MagicDefense>
+		<XpMult>1.25</XpMult>
+		<Projectile id="0">
+			<ObjectId>Ice Golem Brick</ObjectId>
+			<Damage>120</Damage>
+			<Speed>90</Speed>
+			<Size>120</Size>
+			<LifetimeMS>1100</LifetimeMS>
+			<Frequency>0.8</Frequency>
+			<Amplitude>0.6</Amplitude>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Ice Golem Bubble</ObjectId>
+			<Damage>50</Damage>
+			<Speed>70</Speed>
+			<Size>100</Size>
+			<LifetimeMS>1250</LifetimeMS>
+			<ConditionEffect duration="6">Exposed</ConditionEffect>
+			<Decelerate/>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Ice Golem Spike</ObjectId>
+			<Damage>125</Damage>
+			<Speed>90</Speed>
+			<Size>120</Size>
+			<LifetimeMS>1100</LifetimeMS>
+			<Frequency>1</Frequency>
+			<Amplitude>1</Amplitude>
+		</Projectile>
+	</Object>
+	<Object type="0xfe26" id="Ice Golem Brick">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xd8</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfe27" id="Ice Golem Bubble">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xd9</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfe28" id="Ice Golem Spike">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xe9</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfe29" id="Young Ice Mage">
+		<Group>FrozenForest</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>80</Index>
+		</AnimatedTexture>
+		<HitSound>monster/night_elves_hit</HitSound>
+		<DeathSound>monster/night_elves_death</DeathSound>
+		<Size>110</Size>
+		<MaxHitPoints>2500</MaxHitPoints>
+		<XpMult>1.25</XpMult>
+		<Projectile id="0">
+			<ObjectId>Young Ice Mage Attack</ObjectId>
+			<Damage>60</Damage>
+			<Speed>90</Speed>
+			<Size>100</Size>
+			<LifetimeMS>1000</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Young Ice Mage Cube</ObjectId>
+			<Damage>80</Damage>
+			<Speed>30</Speed>
+			<Size>100</Size>
+			<Boomerang/>
+			<LifetimeMS>5000</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xfe30" id="Young Ice Mage Attack">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xda</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfe31" id="Young Ice Mage Cube">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xdb</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfe32" id="Young Ice Soldier">
+		<Group>FrozenForest</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>81</Index>
+		</AnimatedTexture>
+		<HitSound>monster/night_elves_hit</HitSound>
+		<DeathSound>monster/night_elves_death</DeathSound>
+		<Size>120</Size>
+		<MaxHitPoints>3000</MaxHitPoints>
+		<XpMult>1.25</XpMult>
+		<Projectile id="0">
+			<ObjectId>Young Ice Soldier Attack</ObjectId>
+			<Damage>80</Damage>
+			<Speed>110</Speed>
+			<Size>100</Size>
+			<Boomerang/>
+			<LifetimeMS>1000</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xfe33" id="Young Ice Soldier Attack">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xeb</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+</Objects>

@@ -1,0 +1,654 @@
+<Objects>
+	<Object type="0x242b" id="Parasite Egg">
+		<Group>Sanctuary Monsters</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<Texture>
+			<File>12x12ObjectsA</File>
+			<Index>0x00</Index>
+		</Texture>
+		<HitSound>monster/eggs_hit</HitSound>
+		<DeathSound>monster/eggs_death</DeathSound>
+		<Size>100</Size>
+		<MaxHitPoints>50</MaxHitPoints>
+	</Object>
+
+	<Object type="0x2425" id="Blood Spider">
+		<Group>Sanctuary Monsters</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>82</Index>
+		</AnimatedTexture>
+		<HitSound>monster/spiders_hit</HitSound>
+		<DeathSound>monster/spiders_death</DeathSound>
+		<Size>100</Size>
+		<MaxHitPoints>250</MaxHitPoints>
+		<Defense>5</Defense>
+		<Projectile>
+			<ObjectId>Blood Spider Bite</ObjectId>
+			<Speed>80</Speed>
+			<Damage>50</Damage>
+			<LifetimeMS>2000</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0x2426" id="Blood Spider Bite">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xad</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+
+	<Object type="0x2427" id="Parasite">
+		<Group>Sanctuary Monsters</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>83</Index>
+		</AnimatedTexture>
+		<HitSound>monster/elves_hit</HitSound>
+		<DeathSound>monster/elves_death</DeathSound>
+		<Size>80</Size>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Defense>5</Defense>
+		<Projectile>
+			<ObjectId>Parasite Bite</ObjectId>
+			<Speed>80</Speed>
+			<Damage>25</Damage>
+			<Size>50</Size>
+			<LifetimeMS>2000</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0x2428" id="Parasite Bite">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xaf</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+
+
+	<Object type="0x2430" id="Parasite Wormhole">
+		<Group>Sanctuary Monsters</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>84</Index>
+		</AnimatedTexture>
+		<HitSound>monster/spiders_hit</HitSound>
+		<DeathSound>monster/spiders_death</DeathSound>
+		<MaxHitPoints>1000</MaxHitPoints>
+		<Defense>5</Defense>
+		<Projectile>
+			<ObjectId>Parasite Wormhole Bite</ObjectId>
+			<Speed>60</Speed>
+			<Damage>35</Damage>
+			<Size>80</Size>
+			<LifetimeMS>1833</LifetimeMS>
+			<ArmorPiercing/>
+		</Projectile>
+		<NoMiniMap/>
+		<DrawOnGround/>
+	</Object>
+	<Object type="0x2431" id="Parasite Wormhole Bite">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x9e</Index>
+		</Texture>
+		<Rotation>40</Rotation>
+	</Object>
+
+	<Object type="0x2432" id="Mother Blood Spider">
+		<Group>Sanctuary Monsters</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dMountains2</File>
+			<Index>7</Index>
+		</AnimatedTexture>
+		<HitSound>monster/spiders_hit</HitSound>
+		<DeathSound>monster/spiders_death</DeathSound>
+		<Size>120</Size>
+		<MaxHitPoints>3250</MaxHitPoints>
+		<Defense>5</Defense>
+		<Projectile id="0">
+			<ObjectId>Mother Blood Spider Bite</ObjectId>
+			<Speed>110</Speed>
+			<Damage>50</Damage>
+			<LifetimeMS>1300</LifetimeMS>
+			<ConditionEffect duration="1">Sick</ConditionEffect>
+			<ArmorPiercing/>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Parasite Wormhole Bite</ObjectId>
+			<Damage>75</Damage>
+			<Speed>10</Speed>
+			<Size>100</Size>
+			<LifetimeMS>3000</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0x2433" id="Mother Blood Spider Bite">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x9d</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+
+	<Object type="0x2434" id="Blood Brain">
+		<Group>Sanctuary Monsters</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dMountains2</File>
+			<Index>8</Index>
+		</AnimatedTexture>
+		<HitSound>monster/dragons_hit</HitSound>
+		<DeathSound>monster/dragons_death</DeathSound>
+		<Size>120</Size>
+		<MaxHitPoints>5250</MaxHitPoints>
+		<Defense>5</Defense>
+		<Projectile id="0">
+			<ObjectId>Blood Brain Spin</ObjectId>
+			<Speed>30</Speed>
+			<Damage>80</Damage>
+			<LifetimeMS>3000</LifetimeMS>
+			<Boomerang/>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Blood Brain Blast</ObjectId>
+			<Damage>80</Damage>
+			<Speed>100</Speed>
+			<Size>100</Size>
+			<LifetimeMS>3000</LifetimeMS>
+			<Frequency>0.58</Frequency>
+			<Amplitude>0.52</Amplitude>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Blood Brain Blast</ObjectId>
+			<Damage>90</Damage>
+			<Speed>90</Speed>
+			<Size>100</Size>
+			<LifetimeMS>3000</LifetimeMS>
+			<Frequency>0.58</Frequency>
+			<Amplitude>0.52</Amplitude>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Blood Brain Blast</ObjectId>
+			<Damage>100</Damage>
+			<Speed>80</Speed>
+			<Size>100</Size>
+			<LifetimeMS>3000</LifetimeMS>
+			<Frequency>0.58</Frequency>
+			<Amplitude>0.52</Amplitude>
+		</Projectile>
+	</Object>
+	<Object type="0x2435" id="Blood Brain Spin">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xff</Index>
+		</Texture>
+		<Rotation>40</Rotation>
+	</Object>
+	<Object type="0x2436" id="Blood Brain Blast">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xfe</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+
+	<Object type="0x2437" id="Tumor">
+		<Group>Sanctuary Monsters</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dMountains2</File>
+			<Index>9</Index>
+		</AnimatedTexture>
+		<HitSound>monster/dragons_hit</HitSound>
+		<DeathSound>monster/dragons_death</DeathSound>
+		<Size>120</Size>
+		<MaxHitPoints>6000</MaxHitPoints>
+		<Defense>5</Defense>
+		<Projectile id="0">
+			<ObjectId>Tumor Spin</ObjectId>
+			<Speed>80</Speed>
+			<Damage>50</Damage>
+			<LifetimeMS>3000</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Tumor Blast</ObjectId>
+			<Speed>80</Speed>
+			<Damage>60</Damage>
+			<LifetimeMS>3000</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0x2438" id="Tumor Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xfd</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x2439" id="Tumor Blast">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xfc</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x2440" id="Tumor Spin">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xec</Index>
+		</Texture>
+		<Rotation>40</Rotation>
+	</Object>
+
+	<Object type="0x2441" id="Bloody Urgle">
+		<Group>Sanctuary Monsters</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dMountains2</File>
+			<Index>10</Index>
+		</AnimatedTexture>
+		<HitSound>monster/dragons_hit</HitSound>
+		<DeathSound>monster/dragons_death</DeathSound>
+		<Size>130</Size>
+		<MaxHitPoints>12000</MaxHitPoints>
+		<Defense>5</Defense>
+		<Projectile id="0">
+			<ObjectId>Bloody Urgle Spiral</ObjectId>
+			<Size>80</Size>
+			<Speed>80</Speed>
+			<Damage>60</Damage>
+			<LifetimeMS>3000</LifetimeMS>
+			<Boomerang/>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Bloody Urgle Eyes</ObjectId>
+			<Speed>80</Speed>
+			<Size>80</Size>
+			<Damage>0</Damage>
+			<LifetimeMS>3000</LifetimeMS>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Bloody Urgle Ball</ObjectId>
+			<Speed>80</Speed>
+			<Size>80</Size>
+			<Damage>60</Damage>
+			<LifetimeMS>3000</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0x2442" id="Bloody Urgle Eyes">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xed</Index>
+		</Texture>
+		<Rotation>40</Rotation>
+	</Object>
+	<Object type="0x2443" id="Bloody Urgle Ball">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xee</Index>
+		</Texture>
+		<Rotation>40</Rotation>
+	</Object>
+	<Object type="0x2444" id="Bloody Urgle Spiral">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xef</Index>
+		</Texture>
+		<Rotation>40</Rotation>
+	</Object>
+
+	<Object type="0x2445" id="Blood-Coated Skulls">
+		<Group>Sanctuary Boss</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<Texture>
+			<File>Obj32x32</File>
+			<Index>0x00</Index>
+		</Texture>
+		<MaxHitPoints>50000</MaxHitPoints>
+		<HitSound>monster/dragons_hit</HitSound>
+		<DeathSound>monster/dragons_death</DeathSound>
+		<Size>130</Size>
+		 <AltTexture id="0">
+			<Texture>
+				<File>Obj32x32</File>
+				<Index>0x00</Index>
+			</Texture>
+        </AltTexture>
+        <AltTexture id="1">
+			<Texture>
+				<File>Obj32x32</File>
+				<Index>0x01</Index>
+			</Texture>
+        </AltTexture>
+		  <AltTexture id="2">
+			<Texture>
+				<File>Obj32x32</File>
+				<Index>0x02</Index>
+			</Texture>
+        </AltTexture>
+		  <AltTexture id="3">
+			<Texture>
+				<File>Obj32x32</File>
+				<Index>0x03</Index>
+			</Texture>
+        </AltTexture>
+		  <AltTexture id="4">
+			<Texture>
+				<File>Obj32x32</File>
+				<Index>0x04</Index>
+			</Texture>
+        </AltTexture>
+	</Object>
+
+	<Object type="0x2446" id="Blood Seeking Eye">
+		<Group>Sanctuary Boss Helper</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<Texture>
+			<File>Big0</File>
+			<Index>0x74</Index>
+		</Texture>
+		<MaxHitPoints>30000</MaxHitPoints>
+		<HitSound>monster/dragons_hit</HitSound>
+		<DeathSound>monster/dragons_death</DeathSound>
+		<Size>110</Size>
+		<Animation prob="1" period="1">
+			<Frame time="0.25"><Texture><File>Big0</File><Index>0x74</Index></Texture></Frame>
+			<Frame time="0.25"><Texture><File>Big0</File><Index>0x75</Index></Texture></Frame>
+			<Frame time="0.25"><Texture><File>Big0</File><Index>0x76</Index></Texture></Frame>
+			<Frame time="0.25"><Texture><File>Big0</File><Index>0x77</Index></Texture></Frame>
+		</Animation>
+		<Projectile id="0">
+			<ObjectId>Attack With 3 Burst Shots</ObjectId>
+			<Size>100</Size>
+			<Speed>80</Speed>
+			<Damage>50</Damage>
+			<LifetimeMS>3000</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Attack With Acceleration</ObjectId>
+			<Size>120</Size>
+			<Speed>40</Speed>
+			<Damage>150</Damage>
+			<LifetimeMS>4000</LifetimeMS>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Spiral Shooting Shots</ObjectId>
+			<Size>80</Size>
+			<Speed>100</Speed>
+			<Damage>100</Damage>
+			<LifetimeMS>1200</LifetimeMS>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Beam Shooting Shots</ObjectId>
+			<Size>120</Size>
+			<Speed>60</Speed>
+			<Damage>90</Damage>
+			<LifetimeMS>2000</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0x2447" id="Attack With 3 Burst Shots">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xde</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x2448" id="Attack With Acceleration">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xdd</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x2449" id="Spiral Shooting Shots">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xdd</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x2450" id="Beam Shooting Shots">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>Big0</File>
+			<Index>0x94</Index>
+		</Texture>
+		<AngleCorrection>0</AngleCorrection>
+	</Object>
+
+	<Object type="0x2453" id="Blood-Coated Skulls Remains">
+		<Group>Sanctuary Boss</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<Texture>
+			<File>Obj32x32</File>
+			<Index>0x04</Index>
+		</Texture>
+		<MaxHitPoints>100000</MaxHitPoints>
+		<HitSound>monster/dragons_hit</HitSound>
+		<DeathSound>monster/dragons_death</DeathSound>
+		<Size>130</Size>
+	</Object>
+
+	<Object type="0x2458" id="Blood Seeking Bones">
+		<Group>Sanctuary Boss Helper</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<Texture>
+			<File>Big0</File>
+			<Index>0x70</Index>
+		</Texture>
+		<Quest/>
+		<MaxHitPoints>30000</MaxHitPoints>
+		<HitSound>monster/skeletons_hit</HitSound>
+		<DeathSound>monster/skeletons_death</DeathSound>
+		<Size>110</Size>
+		<Animation prob="1" period="0.80">
+			<Frame time="0.20">
+				<Texture>
+					<File>Big0</File>
+					<Index>0x70</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.20">
+				<Texture>
+					<File>Big0</File>
+					<Index>0x71</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.20">
+				<Texture>
+					<File>Big0</File>
+					<Index>0x72</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.20">
+				<Texture>
+					<File>Big0</File>
+					<Index>0x73</Index>
+				</Texture>
+			</Frame>
+		</Animation>
+		<Projectile id="0">
+			<ObjectId>Pure Damage Bolts</ObjectId>
+			<Size>140</Size>
+			<HitboxRadius>0.4</HitboxRadius>
+			<Speed>50</Speed>
+			<Damage>40</Damage>
+			<ArmorPiercing/>
+			<ConditionEffect duration="1">Quiet</ConditionEffect>
+			<LifetimeMS>4000</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Pure Damage Bolts</ObjectId>
+			<Size>100</Size>
+			<Speed>0</Speed>
+			<Damage>60</Damage>
+			<ArmorPiercing/>
+			<LifetimeMS>4000</LifetimeMS>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Laser Ray Attack</ObjectId>
+			<Size>120</Size>
+			<Speed>50</Speed>
+			<Damage>60</Damage>
+			<ArmorPiercing/>
+			<LifetimeMS>3000</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0x2459" id="Pure Damage Bolts">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>Big0</File>
+			<Index>0x9d</Index>
+		</Texture>
+		<Rotation>0</Rotation>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	
+	<Object type="0x2451" id="Blood Magic Skulls">
+		<Group>Sanctuary Boss</Group>
+		<Boss>1</Boss>
+		<Enemy/>
+		<Class>Character</Class>
+		<Texture>
+			<File>Obj32x32</File>
+			<Index>0x13</Index>
+		</Texture>
+		<Quest/>
+		<MaxHitPoints>100000</MaxHitPoints>
+		<HitSound>monster/skeletons_hit</HitSound>
+		<DeathSound>monster/skeletons_death</DeathSound>
+		<Size>130</Size>
+		<AltTexture id="0">
+			<Texture>
+				<File>Obj32x32</File>
+				<Index>0x10</Index>
+			</Texture>
+		</AltTexture>
+		<AltTexture id="1">
+			<Texture>
+				<File>Obj32x32</File>
+				<Index>0x11</Index>
+			</Texture>
+		</AltTexture>
+		<AltTexture id="2">
+			<Texture>
+				<File>Obj32x32</File>
+				<Index>0x12</Index>
+			</Texture>
+		</AltTexture>
+		<AltTexture id="3">
+			<Texture>
+				<File>Obj32x32</File>
+				<Index>0x13</Index>
+			</Texture>
+		</AltTexture>
+		<AltTexture id="4">
+			<Texture>
+				<File>Obj32x32</File>
+				<Index>0x14</Index>
+			</Texture>
+		</AltTexture>
+		<Projectile id="0">
+			<ObjectId>Laser Ray Attack</ObjectId>
+			<Size>300</Size>
+			<Speed>60</Speed>
+			<Damage>100</Damage>
+			<LifetimeMS>4000</LifetimeMS>
+			<ConditionEffect duration="12">Silenced</ConditionEffect>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Spinning Shuriken Attack</ObjectId>
+			<Size>180</Size>
+			<Speed>40</Speed>
+			<Damage>175</Damage>
+			<Boomerang/>
+			<ArmorPiercing/>
+			<LifetimeMS>6000</LifetimeMS>
+			<ConditionEffect duration="4">Sick</ConditionEffect>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Spinning Shuriken Attack</ObjectId>
+			<Size>180</Size>
+			<Speed>20</Speed>
+			<Damage>175</Damage>
+			<Boomerang/>
+			<ArmorPiercing/>
+			<LifetimeMS>12000</LifetimeMS>
+			<ConditionEffect duration="4">Sick</ConditionEffect>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Spinning Shuriken Attack</ObjectId>
+			<Size>100</Size>
+			<Speed>60</Speed>
+			<Damage>175</Damage>
+			<ArmorPiercing/>
+			<LifetimeMS>8000</LifetimeMS>
+			<ConditionEffect duration="4">Sick</ConditionEffect>
+		</Projectile>
+		<Projectile id="4">
+			<ObjectId>Spinning Shuriken Attack</ObjectId>
+			<Size>100</Size>
+			<Speed>40</Speed>
+			<Damage>175</Damage>
+			<ArmorPiercing/>
+			<LifetimeMS>10000</LifetimeMS>
+			<ConditionEffect duration="4">Sick</ConditionEffect>
+		</Projectile>
+		<Projectile id="5">
+			<ObjectId>Pure Damage Bolts</ObjectId>
+			<Size>90</Size>
+			<HitboxRadius>0.2</HitboxRadius>
+			<Speed>40</Speed>
+			<Damage>100</Damage>
+			<ArmorPiercing/>
+			<LifetimeMS>20000</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0x2456" id="Laser Ray Attack">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>Big0</File>
+			<Index>0xa5</Index>
+		</Texture>
+		<Rotation>0</Rotation>
+		<AngleCorrection>0</AngleCorrection>
+	</Object>
+	<Object type="0x2457" id="Spinning Shuriken Attack">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>Big0</File>
+			<Index>0x85</Index>
+		</Texture>
+		<Rotation>36</Rotation>
+	</Object>
+</Objects>

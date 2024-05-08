@@ -1,0 +1,1585 @@
+<Objects>
+	
+
+	<Object type="0x2262" id="Purple Toadstool Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x59</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+
+	<Object type="0x2261" id="Purple Toadstool">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>16</Index>
+		</AnimatedTexture>
+		<HitSound>monster/blobs_hit</HitSound>
+		<DeathSound>monster/blobs_death</DeathSound>
+		<Size>120</Size>
+		<MaxHitPoints>2300</MaxHitPoints>
+		<PhysicalDefense>10</PhysicalDefense>
+		<MagicDefense>10</MagicDefense>
+		<Terrain>Swamp</Terrain>
+		<Quest/>
+		<XpMult>1.0</XpMult>
+		<SpawnProb>0.75</SpawnProb>
+		<Projectile id="0">
+			<ObjectId>Purple Toadstool Shot</ObjectId>
+			<Damage>65</Damage>
+			<Speed>80</Speed>
+			<Size>110</Size>
+			<LifetimeMS>1000</LifetimeMS>
+		</Projectile>
+	</Object>
+
+	<Object type="0x2259" id="Sludge Blast">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x5c</Index>
+		</Texture>
+		<Rotation>360</Rotation>
+	</Object>
+	<Object type="0x2260" id="Sludge Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x5b</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x2258" id="Sludge">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>19</Index>
+		</AnimatedTexture>
+		<HitSound>monster/slimes_hit</HitSound>
+		<DeathSound>monster/slimes_death</DeathSound>
+		<Size>125</Size>
+		<MaxHitPoints>2750</MaxHitPoints>
+		<PhysicalDefense>10</PhysicalDefense>
+		<MagicDefense>10</MagicDefense>
+		<Terrain>Swamp</Terrain>
+		<Quest/>
+		<XpMult>1.0</XpMult>
+		<SpawnProb>0.75</SpawnProb>
+		<Projectile id="0">
+			<ObjectId>Sludge Shot</ObjectId>
+			<Damage>75</Damage>
+			<Speed>80</Speed>
+			<Size>100</Size>
+			<LifetimeMS>1100</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Sludge Blast</ObjectId>
+			<Damage>80</Damage>
+			<Speed>10</Speed>
+			<Size>80</Size>
+			<LifetimeMS>3000</LifetimeMS>
+		</Projectile>
+	</Object>
+
+	<Object type="0x2246" id="Red Toadstool Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x4a</Index>
+		</Texture>
+		<AngleCorrection>0</AngleCorrection>
+	</Object>
+	<Object type="0x2245" id="Red Toadstool">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>17</Index>
+		</AnimatedTexture>
+		<AltTexture id="1">
+			<Texture>
+				<File>Big0</File>
+				<Index>0x22</Index>
+			</Texture>
+		</AltTexture>
+		<AltTexture id="2">
+			<AnimatedTexture>
+				<File>chars16x16dEncounters2</File>
+				<Index>17</Index>
+			</AnimatedTexture>
+		</AltTexture>
+		<HitSound>monster/blobs_hit</HitSound>
+		<DeathSound>monster/blobs_death</DeathSound>
+		<Size>150</Size>
+		<MaxHitPoints>3000</MaxHitPoints>
+		<PhysicalDefense>10</PhysicalDefense>
+		<MagicDefense>10</MagicDefense>
+		<Terrain>Swamp</Terrain>
+		<Quest/>
+		<XpMult>2.5</XpMult>
+		<SpawnProb>0.75</SpawnProb>
+		<Projectile id="0">
+			<ObjectId>Red Toadstool Shot</ObjectId>
+			<Damage>100</Damage>
+			<Speed>100</Speed>
+			<Size>120</Size>
+			<LifetimeMS>1000</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Red Toadstool Shot</ObjectId>
+			<Damage>120</Damage>
+			<Speed>80</Speed>
+			<Size>100</Size>
+			<LifetimeMS>1800</LifetimeMS>
+			<ConditionEffect duration="2">Slowed_I</ConditionEffect>
+		</Projectile>
+	</Object>
+
+	<Object type="0x2242" id="Green Toadstool Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x7a</Index>
+		</Texture>
+		<AngleCorrection>0</AngleCorrection>
+	</Object>
+	<Object type="0x2241" id="Green Toadstool">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>15</Index>
+		</AnimatedTexture>
+		<Quest/>
+		<HitSound>monster/blobs_hit</HitSound>
+		<DeathSound>monster/blobs_death</DeathSound>
+		<Size>110</Size>
+		<MaxHitPoints>2000</MaxHitPoints>
+		<PhysicalDefense>10</PhysicalDefense>
+		<MagicDefense>10</MagicDefense>
+		<Terrain>Swamp</Terrain>
+		<Quest/>
+		<XpMult>1.6</XpMult>
+		<SpawnProb>0.75</SpawnProb>
+		<Projectile id="0">
+			<ObjectId>Green Toadstool Shot</ObjectId>
+			<Damage>80</Damage>
+			<Speed>80</Speed>
+			<LifetimeMS>2000</LifetimeMS>
+			<Accelerate/>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Green Toadstool Shot</ObjectId>
+			<Damage>60</Damage>
+			<Speed>10</Speed>
+			<LifetimeMS>4000</LifetimeMS>
+		</Projectile>
+	</Object>
+
+
+
+	<Object type="0x2240" id="Brown Toadstool Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x8a</Index>
+		</Texture>
+		<AngleCorrection>0</AngleCorrection>
+	</Object>
+	<Object type="0x2239" id="Brown Toadstool">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>9</Index>
+		</AnimatedTexture>
+		<AltTexture id="1">
+			<Texture>
+				<File>Big0</File>
+				<Index>0x20</Index>
+			</Texture>
+		</AltTexture>
+		<AltTexture id="2">
+			<AnimatedTexture>
+				<File>chars16x16dEncounters2</File>
+				<Index>9</Index>
+			</AnimatedTexture>
+		</AltTexture>
+		<HitSound>monster/blobs_hit</HitSound>
+		<DeathSound>monster/blobs_death</DeathSound>
+		<Size>120</Size>
+		<MaxHitPoints>3000</MaxHitPoints>
+		<PhysicalDefense>10</PhysicalDefense>
+		<MagicDefense>10</MagicDefense>
+		<Terrain>Swamp</Terrain>
+		<Quest/>
+		<XpMult>1.6</XpMult>
+		<SpawnProb>0.75</SpawnProb>
+		<Projectile id="0">
+			<ObjectId>Brown Toadstool Shot</ObjectId>
+			<Damage>60</Damage>
+			<Speed>100</Speed>
+			<LifetimeMS>1900</LifetimeMS>
+			<Accelerate/>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Brown Toadstool Shot</ObjectId>
+			<Damage>60</Damage>
+			<Speed>100</Speed>
+			<Size>110</Size>
+			<LifetimeMS>1900</LifetimeMS>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Brown Toadstool Shot</ObjectId>
+			<Damage>60</Damage>
+			<Speed>50</Speed>
+			<LifetimeMS>1900</LifetimeMS>
+			<Size>90</Size>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Brown Toadstool Shot</ObjectId>
+			<Damage>80</Damage>
+			<Speed>60</Speed>
+			<Size>70</Size>
+			<LifetimeMS>1800</LifetimeMS>
+			<Accelerate/>
+		</Projectile>
+	</Object>
+
+	<Object type="0x2238" id="Swamp Hunter Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x39</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x2237" id="Swamp Hunter">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>71</Index>
+		</AnimatedTexture>
+		<Quest/>
+		<HitSound>monster/orcs_hit</HitSound>
+		<DeathSound>monster/orcs_death</DeathSound>
+		<Size>110</Size>
+		<PhysicalDefense>10</PhysicalDefense>
+		<MagicDefense>10</MagicDefense>
+		<MaxHitPoints>1250</MaxHitPoints>
+		<Terrain>Swamp</Terrain>
+		<Projectile id="0">
+			<ObjectId>Swamp Hunter Shot</ObjectId>
+			<Damage>90</Damage>
+			<Speed>130</Speed>
+			<LifetimeMS>850</LifetimeMS>
+		</Projectile>
+	</Object>
+
+
+	<Object type="0x2236" id="Swamp Sorcerer Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x2c</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x2235" id="Swamp Sorcerer">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>70</Index>
+		</AnimatedTexture>
+		<HitSound>monster/orcs_hit</HitSound>
+		<DeathSound>monster/orcs_death</DeathSound>
+		<Size>110</Size>
+		<PhysicalDefense>10</PhysicalDefense>
+		<MagicDefense>10</MagicDefense>
+		<MaxHitPoints>1250</MaxHitPoints>
+		<Terrain>Swamp</Terrain>
+		<Quest/>
+		<Projectile id="0">
+			<ObjectId>Swamp Sorcerer Shot</ObjectId>
+			<Damage>60</Damage>
+			<Speed>100</Speed>
+			<LifetimeMS>850</LifetimeMS>
+			<Amplitude>1</Amplitude>
+			<Frequency>1</Frequency>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Swamp Sorcerer Shot</ObjectId>
+			<Damage>50</Damage>
+			<Speed>90</Speed>
+			<LifetimeMS>850</LifetimeMS>
+			<Amplitude>1</Amplitude>
+			<Frequency>1</Frequency>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Swamp Sorcerer Shot</ObjectId>
+			<Damage>40</Damage>
+			<Speed>80</Speed>
+			<LifetimeMS>850</LifetimeMS>
+			<Amplitude>1</Amplitude>
+			<Frequency>1</Frequency>
+		</Projectile>
+	</Object>
+
+	<Object type="0x2234" id="Living Ent">
+		<Group>Forest</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dMountains1</File>
+			<Index>0x04</Index>
+		</AnimatedTexture>
+		<HitSound>monster/ents_hit</HitSound>
+		<DeathSound>monster/ents_death</DeathSound>
+		<Size>130</Size>
+		<MaxHitPoints>800</MaxHitPoints>
+		<Quest/>
+		<PhysicalDefense>10</PhysicalDefense>
+		<MagicDefense>10</MagicDefense>
+		<Terrain>Forest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Fire Bolt</ObjectId>
+			<Damage>25</Damage>
+			<Speed>70</Speed>
+			<Size>80</Size>
+			<LifetimeMS>2000</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Fire Bolt</ObjectId>
+			<Damage>15</Damage>
+			<Speed>70</Speed>
+			<Size>80</Size>
+			<Accelerate/>
+			<Amplitude>1.62</Amplitude>
+			<Frequency>0.52</Frequency>
+			<LifetimeMS>2000</LifetimeMS>
+		</Projectile>
+	</Object>
+
+	<Object type="0x2233" id="Swamp Mage Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x2b</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x2232" id="Swamp Mage">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>69</Index>
+		</AnimatedTexture>
+		<Quest/>
+		<HitSound>monster/orcs_hit</HitSound>
+		<DeathSound>monster/orcs_death</DeathSound>
+		<Size>110</Size>
+		<PhysicalDefense>10</PhysicalDefense>
+		<MagicDefense>10</MagicDefense>
+		<MaxHitPoints>1100</MaxHitPoints>
+		<Terrain>Swamp</Terrain>
+		<Projectile id="0">
+			<ObjectId>Swamp Mage Shot</ObjectId>
+			<Damage>55</Damage>
+			<Speed>110</Speed>
+			<LifetimeMS>850</LifetimeMS>
+			<Amplitude>-0.25</Amplitude>
+			<Frequency>1.93</Frequency>
+		</Projectile>
+	</Object>
+
+	<Object type="0xfd14" id="Scorpion Lord">
+		<Group>Scorpions</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x8rBeach</File>
+			<Index>5</Index>
+		</AnimatedTexture>
+		<HitSound>monster/scorpions_hit</HitSound>
+		<DeathSound>monster/scorpions_death</DeathSound>
+		<Size>350</Size>
+		<MaxHitPoints>1500</MaxHitPoints>
+		<Defense>5</Defense>
+		<Terrain>Beach</Terrain>
+		<Quest/>
+		<Level>4</Level>
+		<XpMult>2</XpMult>
+		<SpawnProb>0.75</SpawnProb>
+		<Projectile id="0">
+			<ObjectId>Scorpion Queen Proj</ObjectId>
+			<Damage>30</Damage>
+			<Speed>60</Speed>
+			<Size>75</Size>
+			<LifetimeMS>2000</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Scorpion Queen Proj</ObjectId>
+			<Damage>40</Damage>
+			<Speed>70</Speed>
+			<LifetimeMS>2000</LifetimeMS>
+			<Size>75</Size>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Scorpion Queen Proj</ObjectId>
+			<Damage>20</Damage>
+			<Speed>65</Speed>
+			<LifetimeMS>2000</LifetimeMS>
+			<Size>75</Size>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Scorpion Queen Proj</ObjectId>
+			<Damage>40</Damage>
+			<Speed>55</Speed>
+			<LifetimeMS>2000</LifetimeMS>
+			<Size>75</Size>
+		</Projectile>
+	</Object>
+
+
+
+
+
+
+
+	<Object type="0xfd04" id="Graveyard Skeleton Mage Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xc3</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfd03" id="Graveyard Skeleton Mage">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>63</Index>
+		</AnimatedTexture>
+		<HitSound>monster/skeletons_hit</HitSound>
+		<DeathSound>monster/skeletons_death</DeathSound>
+		<Defense>5</Defense>
+		<MaxHitPoints>150</MaxHitPoints>
+		<Terrain>MidForest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Graveyard Skeleton Mage Shot</ObjectId>
+			<Damage>20</Damage>
+			<Size>80</Size>
+			<Speed>70</Speed>
+			<MultiHit/>
+			<LifetimeMS>1285</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xfd02" id="Graveyard Skeleton Archer Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xc2</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfd01" id="Graveyard Skeleton Archer">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>62</Index>
+		</AnimatedTexture>
+		<HitSound>monster/skeletons_hit</HitSound>
+		<DeathSound>monster/skeletons_death</DeathSound>
+		<Defense>5</Defense>
+		<MaxHitPoints>150</MaxHitPoints>
+		<Terrain>MidForest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Graveyard Skeleton Archer Shot</ObjectId>
+			<Damage>30</Damage>
+			<Size>80</Size>
+			<Speed>70</Speed>
+			<LifetimeMS>1285</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xfc10" id="Graveyard Skeleton Knight Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xc1</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfca9" id="Graveyard Skeleton Knight">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>61</Index>
+		</AnimatedTexture>
+		<HitSound>monster/skeletons_hit</HitSound>
+		<DeathSound>monster/skeletons_death</DeathSound>
+		<Defense>5</Defense>
+		<MaxHitPoints>250</MaxHitPoints>
+		<Terrain>MidForest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Graveyard Skeleton Knight Shot</ObjectId>
+			<Damage>20</Damage>
+			<Size>80</Size>
+			<Speed>80</Speed>
+			<MultiHit/>
+			<LifetimeMS>750</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xfca8" id="Risen Skeleton Bone">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xc0</Index>
+		</Texture>
+		<Rotation>360</Rotation>
+	</Object>
+	<Object type="0xfca7" id="Risen Skeleton">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>60</Index>
+		</AnimatedTexture>
+		<AltTexture id="1">
+			<Texture>
+				<File>lofiProjs1</File>
+				<Index>0x19</Index>
+			</Texture>
+		</AltTexture>
+		<AltTexture id="2">
+			<Texture>
+				<File>lofiProjs1</File>
+				<Index>0x1a</Index>
+			</Texture>
+		</AltTexture>
+		<AltTexture id="3">
+			<Texture>
+				<File>lofiProjs1</File>
+				<Index>0x1b</Index>
+			</Texture>
+		</AltTexture>
+		<HitSound>monster/skeletons_hit</HitSound>
+		<DeathSound>monster/skeletons_death</DeathSound>
+		<Defense>5</Defense>
+		<MaxHitPoints>250</MaxHitPoints>
+		<Terrain>MidForest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Risen Skeleton Bone</ObjectId>
+			<Damage>20</Damage>
+			<Size>90</Size>
+			<Speed>25</Speed>
+			<Decelerate/>
+			<MultiHit/>
+			<LifetimeMS>6000</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xfca6" id="Sorcerer of the Undead Spin">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xb2</Index>
+		</Texture>
+		<Rotation>360</Rotation>
+	</Object>
+	<Object type="0xfca5" id="Sorcerer of the Undead Bolt">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xb1</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfca4" id="Sorcerer of the Undead Skull">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xb0</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfca3" id="Sorcerer of the Undead">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>59</Index>
+		</AnimatedTexture>
+		<HitSound>monster/mummies_hit</HitSound>
+		<DeathSound>monster/mummies_death</DeathSound>
+		<Defense>5</Defense>
+		<Size>130</Size>
+		<MaxHitPoints>11000</MaxHitPoints>
+		<Terrain>MidForest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Sorcerer of the Undead Skull</ObjectId>
+			<Damage>45</Damage>
+			<Size>120</Size>
+			<Speed>90</Speed>
+			<Accelerate/>
+			<MultiHit/>
+			<LifetimeMS>2200</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Sorcerer of the Undead Bolt</ObjectId>
+			<Damage>30</Damage>
+			<Size>100</Size>
+			<Speed>60</Speed>
+			<LifetimeMS>2200</LifetimeMS>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Sorcerer of the Undead Spin</ObjectId>
+			<Damage>60</Damage>
+			<Size>110</Size>
+			<Speed>60</Speed>
+			<LifetimeMS>2200</LifetimeMS>
+			<PassesCover/>
+			<MultiHit/>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Sorcerer of the Undead Bolt</ObjectId>
+			<Damage>30</Damage>
+			<Size>100</Size>
+			<Speed>70</Speed>
+			<Amplitude>0.5</Amplitude>
+			<Frequency>1.24</Frequency>
+			<LifetimeMS>2500</LifetimeMS>
+			<Boomerang/>
+		</Projectile>
+		<Projectile id="4">
+			<ObjectId>Sorcerer of the Undead Spin</ObjectId>
+			<Damage>0</Damage>
+			<Size>100</Size>
+			<Speed>130</Speed>
+			<LifetimeMS>2500</LifetimeMS>
+			<ConditionEffect duration="15">Quiet</ConditionEffect>
+			<Boomerang/>
+			<PassesCover/>
+			<MultiHit/>
+		</Projectile>
+	</Object>
+	<Object type="0xfca2" id="Blue Gelatinous Cube">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>56</Index>
+		</AnimatedTexture>
+		<HitSound>monster/blobs_hit</HitSound>
+		<DeathSound>monster/blobs_death</DeathSound>
+		<MinSize>80</MinSize>
+		<MaxSize>90</MaxSize>
+		<Defense>0</Defense>
+		<MaxHitPoints>50</MaxHitPoints>
+		<Terrain>Shore</Terrain>
+		<Projectile id="0">
+			<ObjectId>Blue Slime Bolt</ObjectId>
+			<Damage>10</Damage>
+			<Size>80</Size>
+			<Speed>60</Speed>
+			<LifetimeMS>1500</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xfca1" id="Green Gelatinous Cube">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>57</Index>
+		</AnimatedTexture>
+		<HitSound>monster/blobs_hit</HitSound>
+		<DeathSound>monster/blobs_death</DeathSound>
+		<MinSize>80</MinSize>
+		<MaxSize>90</MaxSize>
+		<Defense>0</Defense>
+		<MaxHitPoints>50</MaxHitPoints>
+		<Terrain>Shore</Terrain>
+		<Projectile id="0">
+			<ObjectId>Green Slime Bolt</ObjectId>
+			<Damage>10</Damage>
+			<Size>80</Size>
+			<Speed>60</Speed>
+			<LifetimeMS>1500</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xfca0" id="Red Gelatinous Cube">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>56</Index>
+		</AnimatedTexture>
+		<HitSound>monster/blobs_hit</HitSound>
+		<DeathSound>monster/blobs_death</DeathSound>
+		<MinSize>80</MinSize>
+		<MaxSize>90</MaxSize>
+		<Defense>0</Defense>
+		<MaxHitPoints>50</MaxHitPoints>
+		<Terrain>Shore</Terrain>
+		<Projectile id="0">
+			<ObjectId>Red Slime Bolt</ObjectId>
+			<Damage>10</Damage>
+			<Size>80</Size>
+			<Speed>60</Speed>
+			<LifetimeMS>1500</LifetimeMS>
+		</Projectile>
+	</Object>
+	
+	<Object type="0xfb33" id="Mother Wasp">
+		<Group>Wasp</Group>
+		<Enemy />
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>5</Index>
+		</AnimatedTexture>
+		<HitSound>monster/flayers_hit</HitSound>
+		<DeathSound>monster/flayers_death</DeathSound>
+		<MinSize>120</MinSize>
+		<Quest/>
+		<MaxSize>150</MaxSize>
+		<MaxHitPoints>1625</MaxHitPoints>
+		<Terrain>MidForest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Mother Wasp Shot</ObjectId>
+			<Damage>50</Damage>
+			<Speed>95</Speed>
+			<LifetimeMS>1200</LifetimeMS>
+			<MultiHit/>
+			<ConditionEffect duration="2">Bleeding</ConditionEffect>
+		</Projectile>
+	</Object>
+	<Object type="0xfb34" id="Mother Wasp Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0x4d</Index>
+		</Texture>
+	</Object>
+	<Object type="0xfb35" id="Blue Wasp">
+		<Group>Wasp</Group>
+		<Enemy />
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>6</Index>
+		</AnimatedTexture>
+		<HitSound>monster/flayers_hit</HitSound>
+		<DeathSound>monster/flayers_death</DeathSound>
+		<MinSize>100</MinSize>
+		<MaxSize>100</MaxSize>
+		<Defense>5</Defense>
+		<MaxHitPoints>1000</MaxHitPoints>
+		<Terrain>MidForest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Blue Wasp Shot</ObjectId>
+			<Damage>40</Damage>
+			<Speed>25</Speed>
+			<LifetimeMS>3200</LifetimeMS>
+			<MultiHit/>
+		</Projectile>
+	</Object>
+	<Object type="0xfb36" id="Blue Wasp Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0x4e</Index>
+		</Texture>
+	</Object>
+	<Object type="0xfb37" id="Orange Wasp">
+		<Group>Wasp</Group>
+		<Enemy />
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>7</Index>
+		</AnimatedTexture>
+		<HitSound>monster/flayers_hit</HitSound>
+		<DeathSound>monster/flayers_death</DeathSound>
+		<MinSize>100</MinSize>
+		<MaxSize>100</MaxSize>
+		<Defense>5</Defense>
+		<MaxHitPoints>1000</MaxHitPoints>
+		<Terrain>MidForest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Orange Wasp Shot</ObjectId>
+			<Damage>45</Damage>
+			<Speed>50</Speed>
+			<LifetimeMS>1600</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xfb38" id="Orange Wasp Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0x4f</Index>
+		</Texture>
+	</Object>
+	
+
+	<Object type="0xfb61" id="Paper Golem">
+		<Enemy />
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>14</Index>
+		</AnimatedTexture>
+		<HitSound>monster/tiger_hit</HitSound>
+		<DeathSound>monster/tiger_death</DeathSound>
+		<Size>135</Size>
+		<Defense>0</Defense>
+		<MaxHitPoints>3500</MaxHitPoints>
+		<Terrain>MidForest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Paper Golem Bullet</ObjectId>
+			<Damage>100</Damage>
+			<Speed>90</Speed>
+			<LifetimeMS>1058</LifetimeMS>
+			<Size>100</Size>
+			<Wavy/>
+			<ConditionEffect duration="2">Confused</ConditionEffect>
+		</Projectile>
+	</Object>
+	<Object type="0xfb62" id="Paper Golem Bullet">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0x6e</Index>
+		</Texture>
+		<Rotation>70</Rotation>
+	</Object>
+
+	<Object type="0xfb65" id="Shadow Samurai Dwarf King">
+		<Enemy />
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>17</Index>
+		</AnimatedTexture>
+		<HitSound>monster/dark_elves_hit</HitSound>
+		<DeathSound>monster/dark_elves_death</DeathSound>
+		<Size>125</Size>
+		<Defense>7</Defense>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Terrain>MidForest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Shadow Samurai Dwarf Shot</ObjectId>
+			<Damage>25</Damage>
+			<Speed>85</Speed>
+			<LifetimeMS>1058</LifetimeMS>
+			<Size>100</Size>
+		</Projectile>
+	</Object>
+	<Object type="0xfb66" id="Shadow Samurai Dwarf Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0x1d</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfb67" id="Shadow Ninja Dwarf">
+		<Enemy />
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>18</Index>
+		</AnimatedTexture>
+		<HitSound>monster/dark_elves_hit</HitSound>
+		<DeathSound>monster/dark_elves_death</DeathSound>
+		<Size>100</Size>
+		<Defense>5</Defense>
+		<MaxHitPoints>300</MaxHitPoints>
+		<Terrain>MidForest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Shadow Ninja Dwarf Shot</ObjectId>
+			<Damage>15</Damage>
+			<Speed>85</Speed>
+			<LifetimeMS>1058</LifetimeMS>
+			<Size>100</Size>
+		</Projectile>
+	</Object>
+	<Object type="0xfb68" id="Shadow Ninja Dwarf Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0x1e</Index>
+		</Texture>
+	</Object>
+	<Object type="0xfb69" id="Shadow Wizard Dwarf">
+		<Enemy />
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>19</Index>
+		</AnimatedTexture>
+		<HitSound>monster/dark_elves_hit</HitSound>
+		<DeathSound>monster/dark_elves_death</DeathSound>
+		<Size>100</Size>
+		<Defense>5</Defense>
+		<MaxHitPoints>300</MaxHitPoints>
+		<Terrain>MidForest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Shadow Wizard Dwarf Shot</ObjectId>
+			<Damage>15</Damage>
+			<Speed>75</Speed>
+			<LifetimeMS>1058</LifetimeMS>
+			<Size>100</Size>
+		</Projectile>
+	</Object>
+	<Object type="0xfb71" id="Shadow Wizard Dwarf Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0x1f</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfb72" id="Shadow Archer Dwarf">
+		<Enemy />
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>20</Index>
+		</AnimatedTexture>
+		<HitSound>monster/dark_elves_hit</HitSound>
+		<DeathSound>monster/dark_elves_death</DeathSound>
+		<Size>100</Size>
+		<Defense>5</Defense>
+		<MaxHitPoints>300</MaxHitPoints>
+		<Terrain>MidForest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Shadow Archer Dwarf Shot</ObjectId>
+			<Damage>25</Damage>
+			<Speed>85</Speed>
+			<LifetimeMS>1058</LifetimeMS>
+			<Size>100</Size>
+		</Projectile>
+	</Object>
+	<Object type="0xfb73" id="Shadow Archer Dwarf Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0x2d</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfb74" id="Shadow Hunter Dwarf">
+		<Enemy />
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>21</Index>
+		</AnimatedTexture>
+		<HitSound>monster/dark_elves_hit</HitSound>
+		<DeathSound>monster/dark_elves_death</DeathSound>
+		<Size>100</Size>
+		<Defense>5</Defense>
+		<MaxHitPoints>300</MaxHitPoints>
+		<Terrain>MidForest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Shadow Hunter Dwarf Shot</ObjectId>
+			<Damage>15</Damage>
+			<Speed>100</Speed>
+			<LifetimeMS>1058</LifetimeMS>
+			<Size>100</Size>
+		</Projectile>
+	</Object>
+	<Object type="0xfb75" id="Shadow Hunter Dwarf Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0x2e</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfb78" id="Shadow Hunting Fox">
+		<Enemy />
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>22</Index>
+		</AnimatedTexture>
+		<HitSound>monster/hobbits_hit</HitSound>
+		<DeathSound>monster/hobbits_death</DeathSound>
+		<Size>130</Size>
+		<Defense>5</Defense>
+		<MaxHitPoints>750</MaxHitPoints>
+		<Terrain>MidForest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Shadow Hunting Fox Claw</ObjectId>
+			<Damage>35</Damage>
+			<Speed>100</Speed>
+			<LifetimeMS>1058</LifetimeMS>
+			<Size>90</Size>
+		</Projectile>
+	</Object>
+	<Object type="0xfb79" id="Shadow Hunting Fox Claw">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0x2f</Index>
+		</Texture>
+	</Object>
+	<Object type="0xfb80" id="Shadow Baby Fox">
+		<Enemy />
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>23</Index>
+		</AnimatedTexture>
+		<AltTexture id="1">
+			<AnimatedTexture>
+				<File>8x8Enemies0</File>
+				<Index>24</Index>
+			</AnimatedTexture>
+		</AltTexture>
+		<HitSound>monster/hobbits_hit</HitSound>
+		<DeathSound>monster/hobbits_death</DeathSound>
+		<Size>115</Size>
+		<Defense>5</Defense>
+		<MaxHitPoints>450</MaxHitPoints>
+		<Terrain>MidForest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Shadow Baby Fox Claw</ObjectId>
+			<Damage>15</Damage>
+			<Speed>90</Speed>
+			<LifetimeMS>1058</LifetimeMS>
+			<Size>90</Size>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Shadow Mad Baby Fox Claw</ObjectId>
+			<Damage>25</Damage>
+			<Speed>95</Speed>
+			<LifetimeMS>1058</LifetimeMS>
+			<Size>100</Size>
+		</Projectile>
+	</Object>
+	<Object type="0xfb81" id="Shadow Baby Fox Claw">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0x8e</Index>
+		</Texture>
+	</Object>
+	<Object type="0xfb82" id="Shadow Mad Baby Fox Claw">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0x8f</Index>
+		</Texture>
+	</Object>
+	
+	<Object type="0xfb88" id="Black Phantom">
+		<Enemy />
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>26</Index>
+		</AnimatedTexture>
+		<HitSound>monster/ghosts_hit</HitSound>
+		<DeathSound>monster/ghosts_death</DeathSound>
+		<MinSize>80</MinSize>
+		<MaxSize>90</MaxSize>
+		<Flying />
+		<Defense>10</Defense>
+		<MaxHitPoints>1250</MaxHitPoints>
+		<Terrain>MidForest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Yellow Phantom Bolt</ObjectId>
+			<Damage>45</Damage>
+			<Speed>90</Speed>
+			<LifetimeMS>600</LifetimeMS>
+			<Size>80</Size>
+			<Amplitude>0.8</Amplitude>
+			<Frequency>0.9</Frequency>
+			<PassesCover />
+			<MultiHit />
+		</Projectile>
+	</Object>
+	<Object type="0xfb89" id="Yellow Phantom Bolt">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0xbb</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfb90" id="White Phantom">
+		<Enemy />
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>27</Index>
+		</AnimatedTexture>
+		<HitSound>monster/ghosts_hit</HitSound>
+		<DeathSound>monster/ghosts_death</DeathSound>
+		<MinSize>80</MinSize>
+		<MaxSize>90</MaxSize>
+		<Flying />
+		<Defense>10</Defense>
+		<MaxHitPoints>1250</MaxHitPoints>
+		<Terrain>MidForest</Terrain>
+		<Projectile id="0">
+			<ObjectId>White Phantom Bolt</ObjectId>
+			<Damage>45</Damage>
+			<Speed>100</Speed>
+			<LifetimeMS>600</LifetimeMS>
+			<Size>80</Size>
+			<Amplitude>0.8</Amplitude>
+			<Frequency>0.9</Frequency>
+			<PassesCover />
+			<MultiHit />
+		</Projectile>
+	</Object>
+	<Object type="0xfb91" id="White Phantom Bolt">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0xb9</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfb92" id="Spectral Phantom">
+		<Enemy />
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>28</Index>
+		</AnimatedTexture>
+		<HitSound>monster/ghosts_hit</HitSound>
+		<DeathSound>monster/ghosts_death</DeathSound>
+		<MinSize>100</MinSize>
+		<MaxSize>120</MaxSize>
+		<Flying />
+		<Defense>10</Defense>
+		<MaxHitPoints>1750</MaxHitPoints>
+		<Terrain>MidForest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Spectral Phantom Bolt</ObjectId>
+			<Damage>70</Damage>
+			<Speed>80</Speed>
+			<LifetimeMS>600</LifetimeMS>
+			<Size>100</Size>
+			<Amplitude>0</Amplitude>
+			<Frequency>0</Frequency>
+			<PassesCover />
+			<MultiHit />
+		</Projectile>
+	</Object>
+	<Object type="0xfb93" id="Spectral Phantom Bolt">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0xba</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+
+	<Object type="0xfb94" id="Undead Reaper">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>29</Index>
+		</AnimatedTexture>
+		<HitSound>monster/skeletons_hit</HitSound>
+		<DeathSound>monster/skeletons_death</DeathSound>
+		<MinSize>85</MinSize>
+		<MaxSize>100</MaxSize>
+		<Defense>15</Defense>
+		<MaxHitPoints>1250</MaxHitPoints>
+		<Terrain>MidForest</Terrain>
+		<Spawn>
+			<Mean>5</Mean>
+			<StdDev>1</StdDev>
+			<Min>3</Min>
+			<Max>5</Max>
+		</Spawn>
+		<Projectile id="0">
+			<ObjectId>Undead Reaper Shot</ObjectId>
+			<Damage>65</Damage>
+			<Speed>80</Speed>
+			<LifetimeMS>600</LifetimeMS>
+			<Size>80</Size>
+			<Amplitude>0</Amplitude>
+			<Frequency>0</Frequency>
+			<MultiHit />
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Undead Reaper Spiral</ObjectId>
+			<Damage>75</Damage>
+			<Speed>80</Speed>
+			<LifetimeMS>600</LifetimeMS>
+			<Size>80</Size>
+			<Amplitude>0.2</Amplitude>
+			<Frequency>0.8</Frequency>
+			<MultiHit/>
+		</Projectile>
+	</Object>
+	<Object type="0xfb95" id="Undead Reaper Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0xca</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfb96" id="Undead Reaper Spiral">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0xcb</Index>
+		</Texture>
+		<Rotation>60</Rotation>
+	</Object>
+	<Object type="0xfb97" id="Undead King Mummy">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>30</Index>
+		</AnimatedTexture>
+		<HitSound>monster/mummies_hit</HitSound>
+		<DeathSound>monster/mummies_death</DeathSound>
+		<MinSize>115</MinSize>
+		<MaxSize>115</MaxSize>
+		<Defense>15</Defense>
+		<MaxHitPoints>1000</MaxHitPoints>
+		<Terrain>MidForest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Undead King Mummy Shot</ObjectId>
+			<Damage>75</Damage>
+			<Speed>80</Speed>
+			<LifetimeMS>850</LifetimeMS>
+			<Size>80</Size>
+			<Amplitude>0</Amplitude>
+			<Frequency>0</Frequency>
+			<ConditionEffect duration="4">Sick</ConditionEffect>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Undead King Mummy Bullet</ObjectId>
+			<Damage>55</Damage>
+			<Speed>100</Speed>
+			<LifetimeMS>800</LifetimeMS>
+			<Size>80</Size>
+			<Amplitude>0</Amplitude>
+			<Frequency>0</Frequency>
+			<MultiHit/>
+		</Projectile>
+	</Object>
+	<Object type="0xfb98" id="Undead King Mummy Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0xcd</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfc05" id="Undead King Mummy Bullet">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0xce</Index>
+		</Texture>
+	</Object>
+	<Object type="0xfb99" id="Undead Mummy">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>31</Index>
+		</AnimatedTexture>
+		<HitSound>monster/mummies_hit</HitSound>
+		<DeathSound>monster/mummies_death</DeathSound>
+		<MinSize>100</MinSize>
+		<MaxSize>100</MaxSize>
+		<Defense>15</Defense>
+		<MaxHitPoints>1000</MaxHitPoints>
+		<Terrain>MidForest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Undead Mummy Shot</ObjectId>
+			<Damage>65</Damage>
+			<Speed>90</Speed>
+			<LifetimeMS>800</LifetimeMS>
+			<Size>80</Size>
+			<Amplitude>0</Amplitude>
+			<Frequency>0</Frequency>
+			<MultiHit/>
+		</Projectile>
+	</Object>
+	<Object type="0xfc0" id="Undead Mummy Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0xdf</Index>
+		</Texture>
+	</Object>
+	<Object type="0xfc01" id="Spectral Undead Mummy">
+		<Group>Spectral Tomb</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>32</Index>
+		</AnimatedTexture>
+		<HitSound>monster/mummies_hit</HitSound>
+		<DeathSound>monster/djinn_death</DeathSound>
+		<MinSize>110</MinSize>
+		<MaxSize>110</MaxSize>
+		<Defense>15</Defense>
+		<MaxHitPoints>1000</MaxHitPoints>
+		<Terrain>MidForest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Spectral Undead Mummy Shot</ObjectId>
+			<Damage>60</Damage>
+			<Speed>90</Speed>
+			<LifetimeMS>800</LifetimeMS>
+			<Size>80</Size>
+			<Amplitude>0</Amplitude>
+			<Frequency>0</Frequency>
+		</Projectile>
+	</Object>
+	<Object type="0xfc02" id="Spectral Undead Mummy Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0xdd</Index>
+		</Texture>
+	</Object>
+	<Object type="0xfc03" id="Spectral Reanimation Tombstone">
+		<Group>Spectral Tomb</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>6</Index>
+		</AnimatedTexture>
+		<HitSound>monster/golems_hit</HitSound>
+		<DeathSound>monster/djinn_death</DeathSound>
+		<MinSize>120</MinSize>
+		<MaxSize>140</MaxSize>
+		<Defense>20</Defense>
+		<MaxHitPoints>4500</MaxHitPoints>
+		<Terrain>MidForest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Reanimation Tombstone Shot</ObjectId>
+			<Damage>60</Damage>
+			<Speed>80</Speed>
+			<LifetimeMS>900</LifetimeMS>
+			<Size>80</Size>
+			<Amplitude>0</Amplitude>
+			<Frequency>0</Frequency>
+			<Decelerate/>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Reanimation Tombstone Bullet</ObjectId>
+			<Damage>120</Damage>
+			<Speed>70</Speed>
+			<LifetimeMS>900</LifetimeMS>
+			<Size>80</Size>
+			<Amplitude>0</Amplitude>
+			<Frequency>0</Frequency>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Reanimation Tombstone Bullet</ObjectId>
+			<Damage>50</Damage>
+			<Speed>90</Speed>
+			<LifetimeMS>900</LifetimeMS>
+			<Size>90</Size>
+			<Amplitude>0</Amplitude>
+			<Frequency>0</Frequency>
+			<MultiHit/>
+			<Accelerate/>
+			<ConditionEffect duration="1">Paralyzed</ConditionEffect>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Reanimation Tombstone Second Bullet</ObjectId>
+			<Damage>25</Damage>
+			<Speed>100</Speed>
+			<LifetimeMS>900</LifetimeMS>
+			<Size>90</Size>
+			<Amplitude>0</Amplitude>
+			<Frequency>0</Frequency>
+			<MultiHit/>
+			<ArmorPiercing/>
+		</Projectile>
+	</Object>
+	<Object type="0xfc04" id="Reanimation Tombstone Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0xe7</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfc06" id="Reanimation Tombstone Bullet">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0xe6</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfc07" id="Reanimation Tombstone Bolt">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0xe8</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfc08" id="Reanimation Tombstone Second Bullet">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0xe9</Index>
+		</Texture>
+	</Object>
+	<Object type="0x60a" id="Goblin Knight">
+		<Group>Sandsmen</Group>
+		<Enemy />
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>39</Index>
+		</AnimatedTexture>
+		<HitSound>monster/goblins_hit</HitSound>
+		<DeathSound>monster/goblins_death</DeathSound>
+		<Size>90</Size>
+		<MaxHitPoints>270</MaxHitPoints>
+		<Defense>10</Defense>
+		<Terrain>LowSand</Terrain>
+		<Projectile id="0">
+			<ObjectId>Goblin Knight Bolt</ObjectId>
+			<Damage>28</Damage>
+			<Speed>85</Speed>
+			<LifetimeMS>1400</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Goblin Knight Blast</ObjectId>
+			<Damage>30</Damage>
+			<Speed>70</Speed>
+			<LifetimeMS>1400</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xfc12" id="Goblin Knight Bolt">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0xef</Index>
+		</Texture>
+		<AngleCorrection>0</AngleCorrection>
+	</Object>
+	<Object type="0xfc13" id="Goblin Knight Blast">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0xff</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x60c" id="Goblin Sorcerer">
+		<Group>Sandsmen</Group>
+		<Enemy />
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>40</Index>
+		</AnimatedTexture>
+		<HitSound>monster/goblins_hit</HitSound>
+		<DeathSound>monster/goblins_death</DeathSound>
+		<Size>90</Size>
+		<MaxHitPoints>270</MaxHitPoints>
+		<Defense>10</Defense>
+		<Terrain>LowSand</Terrain>
+		<Projectile id="0">
+			<ObjectId>Goblin Sorcerer Blast Two</ObjectId>
+			<Damage>25</Damage>
+			<Speed>8</Speed>
+			<LifetimeMS>10000</LifetimeMS>
+			<PassesCover />
+			<Parametric />
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Goblin Sorcerer Blast</ObjectId>
+			<Damage>15</Damage>
+			<Speed>80</Speed>
+			<LifetimeMS>300</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xfc14" id="Goblin Sorcerer Blast">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0xfd</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfc15" id="Goblin Sorcerer Blast Two">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0xfe</Index>
+		</Texture>
+	</Object>
+	<Object type="0x60d" id="Goblin Commander">
+		<Enemy />
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>38</Index>
+		</AnimatedTexture>
+		<HitSound>monster/goblins_hit</HitSound>
+		<DeathSound>monster/goblins_death</DeathSound>
+		<Size>110</Size>
+		<MaxHitPoints>670</MaxHitPoints>
+		<Defense>10</Defense>
+		<Terrain>LowSand</Terrain>
+		<Quest/>
+		<Level>4</Level>
+		<XpMult>1.6</XpMult>
+		<SpawnProb>0.75</SpawnProb>
+		<Projectile id="0">
+			<ObjectId>Goblin King Bolt</ObjectId>
+			<Damage>25</Damage>
+			<Speed>70</Speed>
+			<LifetimeMS>1200</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Goblin King Blast</ObjectId>
+			<Damage>30</Damage>
+			<Speed>80</Speed>
+			<LifetimeMS>1200</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xfc09" id="Goblin King Bolt">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0xee</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfc11" id="Goblin King Blast">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0xed</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+</Objects>

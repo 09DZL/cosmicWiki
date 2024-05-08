@@ -1,0 +1,1035 @@
+<Objects>
+	<Object type="0xa741" id="Ocean Abyss">
+		<Class>Portal</Class>
+		<IntergamePortal/>
+		<ShowName/>
+		<Size>120</Size>
+		<DungeonName>Abyssal</DungeonName>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0xc1</Index>
+		</Texture>
+	</Object>
+	<Object type="0xa740" id="Abyssal Key">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0xc0</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>A key that opens the portal to the Ocean Abyss.</Description>
+		<Sound>monster/eggs_death</Sound>
+		<Consumable/>
+		<Activate id="Ocean Abyss">Create</Activate>
+	</Object>
+	<Object type="0xa739" id="Overgrown Snail Three">
+		<Class>Projectile</Class>
+		<RandomTexture>
+			<Texture>
+				<File>lofiObj7</File>
+				<Index>0x0f</Index>
+			</Texture>
+			<Texture>
+				<File>lofiObj7</File>
+				<Index>0x1f</Index>
+			</Texture>
+		</RandomTexture>
+		<Rotation>120</Rotation>
+	</Object>
+	<Object type="0xa738" id="Overgrown Snail Two">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x1e</Index>
+		</Texture>
+		<Rotation>120</Rotation>
+	</Object>
+	<Object type="0xa737" id="Overgrown Snail Attack">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>16x16Objectsb</File>
+			<Index>0x41</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xa736" id="Overgrown Snail">
+		<Group>Abyssal</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>60</Index>
+		</AnimatedTexture>
+		<HitSound>monster/medusa_hit</HitSound>
+		<DeathSound>monster/medusa_death</DeathSound>
+		<MaxHitPoints>15000</MaxHitPoints>
+		<PhysicalDefense>60</PhysicalDefense>
+		<MagicDefense>50</MagicDefense>
+		<ShadowSize>200</ShadowSize>
+		<Quest/>
+		<Level>60</Level>
+		<XpMult>1.5</XpMult>
+		<Size>130</Size>
+		<Projectile id="0">
+			<ObjectId>Overgrown Snail Attack</ObjectId>
+			<Speed>80</Speed>
+			<Damage>150</Damage>
+			<Size>120</Size>
+			<LifetimeMS>1500</LifetimeMS>
+			<PassesCover/>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Overgrown Snail Two</ObjectId>
+			<Speed>80</Speed>
+			<Damage>100</Damage>
+			<Size>120</Size>
+			<LifetimeMS>1500</LifetimeMS>
+			<PassesCover/>
+			<ConditionEffect duration="6">Confused</ConditionEffect>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Overgrown Snail Three</ObjectId>
+			<Speed>60</Speed>
+			<Damage>100</Damage>
+			<Size>75</Size>
+			<LifetimeMS>1600</LifetimeMS>
+			<PassesCover/>
+			<Decelerate/>
+			<Amplitude>0.3</Amplitude>
+			<Frequency>0.4</Frequency>
+			<ConditionEffect duration="1">Confused</ConditionEffect>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Overgrown Snail Attack</ObjectId>
+			<Speed>60</Speed>
+			<Damage>160</Damage>
+			<Size>120</Size>
+			<LifetimeMS>1800</LifetimeMS>
+			<PassesCover/>
+		</Projectile>
+		<Projectile id="4">
+			<ObjectId>Overgrown Snail Three</ObjectId>
+			<Speed>40</Speed>
+			<Damage>35</Damage>
+			<Size>100</Size>
+			<LifetimeMS>1000</LifetimeMS>
+			<PassesCover/>
+			<Decelerate/>
+		</Projectile>
+		<ShadowColor>0x739980</ShadowColor>
+	</Object>
+	<Object type="0xa735" id="Siphonophorae Four">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>16x16Objectsb</File>
+			<Index>0x40</Index>
+		</Texture>
+		<Rotation>120</Rotation>
+	</Object>
+	<Object type="0xa734" id="Siphonophorae Baby Attack">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x2b</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xa733" id="Siphonophorae Baby">
+		<Group>Abyssal</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>59</Index>
+		</AnimatedTexture>
+		<HitSound>monster/medusa_hit</HitSound>
+		<DeathSound>monster/medusa_death</DeathSound>
+		<MaxHitPoints>12500</MaxHitPoints>
+		<ShadowSize>120</ShadowSize>
+		<Quest/>
+		<Level>60</Level>
+		<XpMult>1.5</XpMult>
+		<Size>130</Size>
+		<Projectile id="0">
+			<ObjectId>Siphonophorae Baby Attack</ObjectId>
+			<Speed>130</Speed>
+			<Damage>35</Damage>
+			<Size>100</Size>
+			<LifetimeMS>346</LifetimeMS>
+			<ArmorPiercing/>
+			<PassesCover/>
+			<Decelerate/>
+			<ConditionEffect duration="2">Paralyzed</ConditionEffect>
+		</Projectile>
+		<ShadowColor>0x739980</ShadowColor>
+	</Object>
+	<Object type="0xa732" id="Siphonophorae Three">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x1c</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xa731" id="Siphonophorae Two">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x1d</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xa730" id="Siphonophorae Attack">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>16x16Objectsb</File>
+			<Index>0x3f</Index>
+		</Texture>
+		<Rotation>120</Rotation>
+	</Object>
+	<Object type="0xa72f" id="Siphonophorae">
+		<Group>Abyssal</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>58</Index>
+		</AnimatedTexture>
+		<HitSound>monster/medusa_hit</HitSound>
+		<DeathSound>monster/medusa_death</DeathSound>
+		<MaxHitPoints>85000</MaxHitPoints>
+		<ShadowSize>200</ShadowSize>
+		<Quest/>
+		<Level>60</Level>
+		<XpMult>1.5</XpMult>
+		<Size>150</Size>
+		<Projectile id="0">
+			<ObjectId>Siphonophorae Attack</ObjectId>
+			<Speed>90</Speed>
+			<Damage>150</Damage>
+			<Size>120</Size>
+			<Accelerate/>
+			<Amplitude>0.2</Amplitude>
+			<Frequency>0.3</Frequency>
+			<LifetimeMS>1000</LifetimeMS>
+			<PassesCover/>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Siphonophorae Two</ObjectId>
+			<Speed>50</Speed>
+			<Damage>25</Damage>
+			<Size>80</Size>
+			<LifetimeMS>8000</LifetimeMS>
+			<Boomerang/>
+			<PassesCover/>
+			<Amplitude>0.5</Amplitude>
+			<Frequency>0.7</Frequency>
+			<ConditionEffect duration="11">Exposed</ConditionEffect>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Siphonophorae Three</ObjectId>
+			<Speed>30</Speed>
+			<Damage>90</Damage>
+			<Size>100</Size>
+			<Accelerate/>
+			<Boomerang/>
+			<Amplitude>0.2</Amplitude>
+			<Frequency>0.3</Frequency>
+			<LifetimeMS>9500</LifetimeMS>
+			<PassesCover/>
+			<ConditionEffect duration="2">Exposed</ConditionEffect>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Siphonophorae Four</ObjectId>
+			<Speed>30</Speed>
+			<Damage>90</Damage>
+			<Size>100</Size>
+			<Accelerate/>
+			<Boomerang/>
+			<Amplitude>0.2</Amplitude>
+			<Frequency>0.3</Frequency>
+			<LifetimeMS>9500</LifetimeMS>
+			<PassesCover/>
+			<ConditionEffect duration="2">Exposed</ConditionEffect>
+		</Projectile>
+		<ShadowColor>0x739980</ShadowColor>
+	</Object>
+	<Object type="0xa72e" id="Muk Monster Four">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>16x16Objectsb</File>
+			<Index>0x3e</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xa72d" id="Muk Monster Baby Attack">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x0b</Index>
+		</Texture>
+		<Rotation>120</Rotation>
+	</Object>
+	<Object type="0xa72c" id="Muk Monster Baby">
+		<Group>Abyssal</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>57</Index>
+		</AnimatedTexture>
+		<HitSound>monster/medusa_hit</HitSound>
+		<DeathSound>monster/medusa_death</DeathSound>
+		<MaxHitPoints>12500</MaxHitPoints>
+		<ShadowSize>120</ShadowSize>
+		<Quest/>
+		<Level>60</Level>
+		<XpMult>1.5</XpMult>
+		<Size>130</Size>
+		<Projectile id="0">
+			<ObjectId>Muk Monster Baby Attack</ObjectId>
+			<Speed>80</Speed>
+			<Damage>60</Damage>
+			<Size>100</Size>
+			<LifetimeMS>1100</LifetimeMS>
+			<PassesCover/>
+			<ConditionEffect duration="4">Sick</ConditionEffect>
+			<Amplitude>2</Amplitude>
+			<Frequency>1</Frequency>
+		</Projectile>
+		<ShadowColor>0x739980</ShadowColor>
+	</Object>
+	<Object type="0xa72b" id="Muk Monster Three">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>16x16Objectsb</File>
+			<Index>0x3d</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xa72a" id="Muk Monster Two">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x1a</Index>
+		</Texture>
+		<Rotation>120</Rotation>
+	</Object>
+	<Object type="0xa729" id="Muk Monster Attack">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x2a</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xa728" id="Muk Monster">
+		<Group>Abyssal</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>56</Index>
+		</AnimatedTexture>
+		<HitSound>monster/medusa_hit</HitSound>
+		<DeathSound>monster/medusa_death</DeathSound>
+		<MaxHitPoints>45000</MaxHitPoints>
+		<ShadowSize>200</ShadowSize>
+		<Quest/>
+		<Level>60</Level>
+		<XpMult>1.5</XpMult>
+		<Size>160</Size>
+		<Projectile id="0">
+			<ObjectId>Muk Monster Attack</ObjectId>
+			<Speed>90</Speed>
+			<Damage>130</Damage>
+			<Size>100</Size>
+			<LifetimeMS>1000</LifetimeMS>
+			<PassesCover/>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Muk Monster Two</ObjectId>
+			<Speed>40</Speed>
+			<Damage>75</Damage>
+			<Size>80</Size>
+			<LifetimeMS>6600</LifetimeMS>
+			<PassesCover/>
+			<ConditionEffect duration="8">Sick</ConditionEffect>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Muk Monster Attack</ObjectId>
+			<Speed>90</Speed>
+			<Damage>130</Damage>
+			<Size>100</Size>
+			<LifetimeMS>1000</LifetimeMS>
+			<PassesCover/>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Muk Monster Attack</ObjectId>
+			<Speed>80</Speed>
+			<Damage>130</Damage>
+			<Size>100</Size>
+			<LifetimeMS>1000</LifetimeMS>
+			<PassesCover/>
+		</Projectile>
+		<Projectile id="4">
+			<ObjectId>Muk Monster Attack</ObjectId>
+			<Speed>70</Speed>
+			<Damage>130</Damage>
+			<Size>100</Size>
+			<LifetimeMS>1000</LifetimeMS>
+			<PassesCover/>
+		</Projectile>
+		<Projectile id="5">
+			<ObjectId>Muk Monster Three</ObjectId>
+			<Speed>60</Speed>
+			<Damage>130</Damage>
+			<Size>130</Size>
+			<Accelerate/>
+			<LifetimeMS>1600</LifetimeMS>
+			<PassesCover/>
+		</Projectile>
+		<Projectile id="6">
+			<ObjectId>Muk Monster Four</ObjectId>
+			<Speed>70</Speed>
+			<Damage>100</Damage>
+			<Size>125</Size>
+			<LifetimeMS>3200</LifetimeMS>
+			<PassesCover/>
+			<Boomerang/>
+		</Projectile>
+		<ShadowColor>0x739980</ShadowColor>
+	</Object>
+	
+	<Object type="0xa727" id="Black Poison Squid Three">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x19</Index>
+		</Texture>
+		<Rotation>120</Rotation>
+	</Object>
+	<Object type="0xa726" id="Black Poison Squid Two">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x18</Index>
+		</Texture>
+		<Rotation>120</Rotation>
+	</Object>
+	<Object type="0xa725" id="Black Poison Squid Attack">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>16x16Objectsb</File>
+			<Index>0x3c</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xa724" id="Black Poison Squid">
+		<Group>Abyssal</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>55</Index>
+		</AnimatedTexture>
+		<HitSound>monster/medusa_hit</HitSound>
+		<DeathSound>monster/medusa_death</DeathSound>
+		<MaxHitPoints>40000</MaxHitPoints>
+		<ShadowSize>200</ShadowSize>
+		<Quest/>
+		<Level>60</Level>
+		<XpMult>1.5</XpMult>
+		<Size>160</Size>
+		<Projectile id="0">
+			<ObjectId>Black Poison Squid Attack</ObjectId>
+			<Speed>60</Speed>
+			<Damage>180</Damage>
+			<Size>120</Size>
+			<LifetimeMS>346</LifetimeMS>
+			<PassesCover/>
+			<ConditionEffect duration="5">Blind</ConditionEffect>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Black Poison Squid Two</ObjectId>
+			<Speed>10</Speed>
+			<Damage>75</Damage>
+			<Size>100</Size>
+			<LifetimeMS>6600</LifetimeMS>
+			<PassesCover/>
+			<Decelerate/>
+			<ConditionEffect duration="12">Blind</ConditionEffect>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Black Poison Squid Three</ObjectId>
+			<Speed>25</Speed>
+			<Damage>75</Damage>
+			<Size>80</Size>
+			<LifetimeMS>9500</LifetimeMS>
+			<PassesCover/>
+			<Decelerate/>
+			<ConditionEffect duration="2">Slowed_III</ConditionEffect>
+		</Projectile>
+		<ShadowColor>0x739980</ShadowColor>
+	</Object>
+	<Object type="0xa723" id="Abyssal Angler Fish Three">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>16x16Objectsb</File>
+			<Index>0x3b</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xa722" id="Abyssal Angler Fish Two">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x27</Index>
+		</Texture>
+		<Rotation>45</Rotation>
+	</Object>
+	<Object type="0xa721" id="Abyssal Angler Fish Attack">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x17</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xa720" id="Abyssal Angler Fish">
+		<Group>Abyssal</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>54</Index>
+		</AnimatedTexture>
+		<HitSound>monster/medusa_hit</HitSound>
+		<DeathSound>monster/medusa_death</DeathSound>
+		<MaxHitPoints>30000</MaxHitPoints>
+		<ShadowSize>200</ShadowSize>
+		<Quest/>
+		<Level>60</Level>
+		<XpMult>1.5</XpMult>
+		<Size>160</Size>
+		<Projectile id="0">
+			<ObjectId>Abyssal Angler Fish Attack</ObjectId>
+			<Speed>130</Speed>
+			<Damage>110</Damage>
+			<Size>100</Size>
+			<LifetimeMS>1000</LifetimeMS>
+			<PassesCover/>
+			<ConditionEffect duration="5">Slowed_II</ConditionEffect>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Abyssal Angler Fish Attack</ObjectId>
+			<Speed>120</Speed>
+			<Damage>110</Damage>
+			<Size>95</Size>
+			<LifetimeMS>1000</LifetimeMS>
+			<PassesCover/>
+			<ConditionEffect duration="7">Slowed_II</ConditionEffect>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Abyssal Angler Fish Attack</ObjectId>
+			<Speed>110</Speed>
+			<Damage>110</Damage>
+			<Size>90</Size>
+			<LifetimeMS>1000</LifetimeMS>
+			<PassesCover/>
+			<ConditionEffect duration="9">Slowed_II</ConditionEffect>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Abyssal Angler Fish Two</ObjectId>
+			<Speed>110</Speed>
+			<Damage>120</Damage>
+			<Size>80</Size>
+			<LifetimeMS>1200</LifetimeMS>
+			<PassesCover/>
+		</Projectile>
+		<Projectile id="4">
+			<ObjectId>Abyssal Angler Fish Three</ObjectId>
+			<Speed>130</Speed>
+			<Damage>150</Damage>
+			<Size>130</Size>
+			<LifetimeMS>1200</LifetimeMS>
+			<PassesCover/>
+			<Accelerate/>
+		</Projectile>
+		<Projectile id="5">
+			<ObjectId>Abyssal Angler Fish Three</ObjectId>
+			<Speed>100</Speed>
+			<Damage>180</Damage>
+			<Size>130</Size>
+			<LifetimeMS>1000</LifetimeMS>
+			<PassesCover/>
+		</Projectile>
+		<Projectile id="6">
+			<ObjectId>Abyssal Angler Fish Attack</ObjectId>
+			<Speed>70</Speed>
+			<Damage>60</Damage>
+			<Size>90</Size>
+			<LifetimeMS>1500</LifetimeMS>
+			<PassesCover/>
+			<ConditionEffect duration="2">Slowed_II</ConditionEffect>
+		</Projectile>
+		<ShadowColor>0x739980</ShadowColor>
+	</Object>
+
+	<Object type="0xa719" id="Dark Coral Heart Three">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x15</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xa718" id="Dark Coral Heart Two">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x24</Index>
+		</Texture>
+		<Rotation>60</Rotation>
+	</Object>
+	<Object type="0xa717" id="Dark Coral Heart Attack">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>16x16Objectsb</File>
+			<Index>0x39</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xa716" id="Dark Coral Heart">
+		<Group>Abyssal</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>53</Index>
+		</AnimatedTexture>
+		<HitSound>monster/medusa_hit</HitSound>
+		<DeathSound>monster/medusa_death</DeathSound>
+		<MaxHitPoints>20000</MaxHitPoints>
+		<PhysicalDefense>40</PhysicalDefense>
+		<MagicDefense>30</MagicDefense>
+		<ShadowSize>200</ShadowSize>
+		<Quest/>
+		<Level>60</Level>
+		<XpMult>1.5</XpMult>
+		<Size>160</Size>
+		<Projectile id="0">
+			<ObjectId>Dark Coral Heart Attack</ObjectId>
+			<Speed>140</Speed>
+			<Damage>110</Damage>
+			<Size>140</Size>
+			<LifetimeMS>2100</LifetimeMS>
+			<PassesCover/>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Dark Coral Heart Three</ObjectId>
+			<Speed>60</Speed>
+			<Damage>75</Damage>
+			<Size>100</Size>
+			<LifetimeMS>4600</LifetimeMS>
+			<PassesCover/>
+			<Accelerate/>
+			<Boomerang/>
+			<Amplitude>0.1</Amplitude>
+			<Frequency>0.3</Frequency>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Dark Coral Heart Two</ObjectId>
+			<Speed>30</Speed>
+			<Damage>80</Damage>
+			<Size>80</Size>
+			<LifetimeMS>18000</LifetimeMS>
+			<PassesCover/>
+			<ConditionEffect duration="6">Sick</ConditionEffect>
+			<Parametric/>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Dark Coral Heart Three</ObjectId>
+			<Speed>60</Speed>
+			<Damage>120</Damage>
+			<Size>80</Size>
+			<Boomerang/>
+			<LifetimeMS>3500</LifetimeMS>
+			<PassesCover/>
+			<ConditionEffect duration="3">Weakened_II</ConditionEffect>
+		</Projectile>
+		<ShadowColor>0x739980</ShadowColor>
+	</Object>
+
+
+	<Object type="0xa715" id="Submechanophobia Five">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x23</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xa714" id="Submechanophobia Four">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x22</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xa713" id="Submechanophobia Three">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x12</Index>
+		</Texture>
+		<Rotation>60</Rotation>
+	</Object>
+	<Object type="0xa712" id="Submechanophobia Two">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>16x16Objectsb</File>
+			<Index>0x37</Index>
+		</Texture>
+		<Rotation>60</Rotation>
+	</Object>
+	<Object type="0xa711" id="Submechanophobia Attack">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>16x16Objectsb</File>
+			<Index>0x38</Index>
+		</Texture>
+		<Rotation>60</Rotation>
+	</Object>
+	<Object type="0xa710" id="Submechanophobia">
+		<Group>Abyssal</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>52</Index>
+		</AnimatedTexture>
+		<HitSound>monster/medusa_hit</HitSound>
+		<DeathSound>monster/medusa_death</DeathSound>
+		<MaxHitPoints>45000</MaxHitPoints>
+		<ShadowSize>200</ShadowSize>
+		<God/>
+		<Quest/>
+		<PerRealmMax>2</PerRealmMax>
+		<Level>60</Level>
+		<XpMult>1.5</XpMult>
+		<Size>180</Size>
+		<Projectile id="0">
+			<ObjectId>Submechanophobia Attack</ObjectId>
+			<Speed>60</Speed>
+			<Damage>100</Damage>
+			<Size>120</Size>
+			<LifetimeMS>2100</LifetimeMS>
+			<PassesCover/>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Submechanophobia Four</ObjectId>
+			<Speed>80</Speed>
+			<Damage>100</Damage>
+			<Size>120</Size>
+			<LifetimeMS>2200</LifetimeMS>
+			<PassesCover/>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Submechanophobia Five</ObjectId>
+			<Speed>70</Speed>
+			<Damage>100</Damage>
+			<Size>150</Size>
+			<LifetimeMS>2100</LifetimeMS>
+			<PassesCover/>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Submechanophobia Attack</ObjectId>
+			<Speed>20</Speed>
+			<Damage>180</Damage>
+			<Size>180</Size>
+			<LifetimeMS>5000</LifetimeMS>
+			<PassesCover/>
+		</Projectile>
+		<Projectile id="4">
+			<ObjectId>Submechanophobia Five</ObjectId>
+			<Speed>60</Speed>
+			<Damage>10</Damage>
+			<Size>100</Size>
+
+			<ConditionEffect duration="8">Slowed_I</ConditionEffect>
+			
+			<Boomerang/>
+			<LifetimeMS>1700</LifetimeMS>
+			<PassesCover/>
+		</Projectile>
+		<ShadowColor>0x739980</ShadowColor>
+	</Object>
+	<Object type="0xa709" id="Bubble Heavy Spin Attack">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>16x16Objectsb</File>
+			<Index>0x36</Index>
+		</Texture>
+		<Rotation>60</Rotation>
+	</Object>
+	<Object type="0xa708" id="Coral Heavy Spin Attack">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>16x16Objectsb</File>
+			<Index>0x35</Index>
+		</Texture>
+		<Rotation>125</Rotation>
+	</Object>
+	<Object type="0xa707" id="Spear Heavy Attack">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>16x16Objectsb</File>
+			<Index>0x34</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xa706" id="Coral Attack">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x07</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xa705" id="Coral Spin Attack">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x06</Index>
+		</Texture>
+		<Rotation>120</Rotation>
+	</Object>
+	<Object type="0xa704" id="Coral Bubble Attack">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x05</Index>
+		</Texture>
+		<Rotation>45</Rotation>
+	</Object>
+	<Object type="0xa703" id="Light Bubble Attack">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x04</Index>
+		</Texture>
+		<Rotation>45</Rotation>
+	</Object>
+	<Object type="0xa702" id="Light Spin Attack">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x03</Index>
+		</Texture>
+		<Rotation>60</Rotation>
+	</Object>
+	<Object type="0xa701" id="Spear Light Attack">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x02</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xa700" id="Sunken Scuba Diver">
+		<Group>Abyssal</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dMountains2</File>
+			<Index>23</Index>
+		</AnimatedTexture>
+		<HitSound>monster/medusa_hit</HitSound>
+		<DeathSound>monster/medusa_death</DeathSound>
+		<MaxHitPoints>67000</MaxHitPoints>
+		<ShadowSize>200</ShadowSize>
+		<God/>
+		<Quest/>
+		<PerRealmMax>2</PerRealmMax>
+		<Level>60</Level>
+		<XpMult>1.5</XpMult>
+		<Size>180</Size>
+		<Projectile id="0">
+			<ObjectId>Coral Heavy Spin Attack</ObjectId>
+			<Speed>10</Speed>
+			<Damage>100</Damage>
+			<Size>150</Size>
+			<LifetimeMS>2400</LifetimeMS>
+			<Parametric/>
+			<PassesCover/>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Spear Heavy Attack</ObjectId>
+			<Speed>120</Speed>
+			<Damage>100</Damage>
+			<Size>300</Size>
+			<Accelerate/>
+			<LifetimeMS>950</LifetimeMS>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Spear Heavy Attack</ObjectId>
+			<Speed>110</Speed>
+			<Damage>100</Damage>
+			<Size>275</Size>
+			<Accelerate/>
+			<LifetimeMS>950</LifetimeMS>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Spear Heavy Attack</ObjectId>
+			<Speed>100</Speed>
+			<Damage>100</Damage>
+			<Size>250</Size>
+			<Accelerate/>
+			<LifetimeMS>950</LifetimeMS>
+		</Projectile>
+		<Projectile id="4">
+			<ObjectId>Light Spin Attack</ObjectId>
+			<Speed>45</Speed>
+			<Damage>80</Damage>
+			<Size>150</Size>
+			<LifetimeMS>2000</LifetimeMS>
+			<Amplitude>0.5</Amplitude>
+			<Frequency>2</Frequency>
+			<PassesCover/>
+		</Projectile>
+		<Projectile id="5">
+			<ObjectId>Coral Spin Attack</ObjectId>
+			<Speed>45</Speed>
+			<Damage>80</Damage>
+			<Size>100</Size>
+			<LifetimeMS>4888</LifetimeMS>
+			<Amplitude>0.8</Amplitude>
+			<Frequency>1</Frequency>
+			<PassesCover/>
+			<Boomerang/>
+		</Projectile>
+		<Projectile id="6">
+			<ObjectId>Coral Bubble Attack</ObjectId>
+			<Speed>10</Speed>
+			<Damage>80</Damage>
+			<Size>90</Size>
+			<LifetimeMS>7800</LifetimeMS>
+			<Wavy/>
+			<PassesCover/>
+			<Decelerate/>
+		</Projectile>
+		<Projectile id="7">
+			<ObjectId>Light Bubble Attack</ObjectId>
+			<Speed>15</Speed>
+			<Damage>80</Damage>
+			<Size>90</Size>
+			<LifetimeMS>7800</LifetimeMS>
+			<Wavy/>
+			<PassesCover/>
+			<Decelerate/>
+		</Projectile>
+		<Projectile id="8">
+			<ObjectId>Coral Bubble Attack</ObjectId>
+			<Speed>20</Speed>
+			<Damage>80</Damage>
+			<Size>90</Size>
+			<LifetimeMS>7800</LifetimeMS>
+			<Wavy/>
+			<PassesCover/>
+			<Decelerate/>
+		</Projectile>
+		<Projectile id="9">
+			<ObjectId>Light Bubble Attack</ObjectId>
+			<Speed>25</Speed>
+			<Damage>80</Damage>
+			<Size>90</Size>
+			<LifetimeMS>7800</LifetimeMS>
+			<Wavy/>
+			<PassesCover/>
+			<Decelerate/>
+		</Projectile>
+		<Projectile id="10">
+			<ObjectId>Coral Bubble Attack</ObjectId>
+			<Speed>30</Speed>
+			<Damage>80</Damage>
+			<Size>90</Size>
+			<LifetimeMS>7800</LifetimeMS>
+			<Wavy/>
+			<PassesCover/>
+			<Decelerate/>
+		</Projectile>
+		<Projectile id="11">
+			<ObjectId>Light Bubble Attack</ObjectId>
+			<Speed>35</Speed>
+			<Damage>80</Damage>
+			<Size>90</Size>
+			<LifetimeMS>7800</LifetimeMS>
+			<Wavy/>
+			<PassesCover/>
+			<Decelerate/>
+		</Projectile>
+		<Projectile id="12">
+			<ObjectId>Coral Bubble Attack</ObjectId>
+			<Speed>40</Speed>
+			<Damage>80</Damage>
+			<Size>90</Size>
+			<LifetimeMS>7800</LifetimeMS>
+			<Wavy/>
+			<PassesCover/>
+			<Decelerate/>
+		</Projectile>
+		<Projectile id="13">
+			<ObjectId>Light Bubble Attack</ObjectId>
+			<Speed>45</Speed>
+			<Damage>80</Damage>
+			<Size>90</Size>
+			<LifetimeMS>7800</LifetimeMS>
+			<Wavy/>
+			<PassesCover/>
+			<Decelerate/>
+		</Projectile>
+		<Projectile id="14">
+			<ObjectId>Spear Light Attack</ObjectId>
+			<Speed>60</Speed>
+			<Damage>80</Damage>
+			<Size>130</Size>
+			<LifetimeMS>2000</LifetimeMS>
+			<Amplitude>0.5</Amplitude>
+			<Frequency>1</Frequency>
+			<Accelerate/>
+			<PassesCover/>
+		</Projectile>
+		<Projectile id="15">
+			<ObjectId>Coral Attack</ObjectId>
+			<Speed>60</Speed>
+			<Damage>80</Damage>
+			<Size>110</Size>
+			<LifetimeMS>2000</LifetimeMS>
+			<Amplitude>0.3</Amplitude>
+			<Frequency>1</Frequency>
+			<PassesCover/>
+		</Projectile>
+		<Projectile id="16">
+			<ObjectId>Spear Heavy Attack</ObjectId>
+			<Speed>40</Speed>
+			<Damage>150</Damage>
+			<Size>240</Size>
+			<Boomerang/>
+			<Decelerate/>
+			<LifetimeMS>4600</LifetimeMS>
+		</Projectile>
+		<Projectile id="17">
+			<ObjectId>Bubble Heavy Spin Attack</ObjectId>
+			<Speed>5</Speed>
+			<Damage>50</Damage>
+			<Size>145</Size>
+			<LifetimeMS>4500</LifetimeMS>
+			<Parametric/>
+			<PassesCover/>
+		</Projectile>
+		<ShadowColor>0x739980</ShadowColor>
+	</Object>
+</Objects>

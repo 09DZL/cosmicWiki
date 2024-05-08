@@ -1,0 +1,1033 @@
+<Objects>
+	<Object type="0xBC68" id="Desert Cube Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0xf2</Index>
+		</Texture>
+		<AngleCorrection>0</AngleCorrection>
+	</Object>
+	<Object type="0xBC67" id="Desert Cube">
+		<Enemy/>
+		<Class>Character</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0xf1</Index>
+		</Texture>
+		<HitSound>monster/wooden_walls_hit</HitSound>
+		<DeathSound>monster/wooden_walls_death</DeathSound>
+		<MinSize>80</MinSize>
+		<MaxSize>90</MaxSize>
+		<PhysicalDefense>4</PhysicalDefense>
+		<MagicDefense>4</MagicDefense>
+		<Spawn>
+			<Mean>5</Mean>
+			<StdDev>1</StdDev>
+			<Min>3</Min>
+			<Max>4</Max>
+		</Spawn>
+		<MaxHitPoints>800</MaxHitPoints>
+		<Terrain>Desert</Terrain>
+		<Projectile id="0">
+			<ObjectId>Desert Cube Shot</ObjectId>
+			<Damage>50</Damage>
+			<Speed>60</Speed>
+			<LifetimeMS>2100</LifetimeMS>
+			<Amplitude>1</Amplitude>
+			<Frequency>3</Frequency>
+		</Projectile>
+	</Object>
+	<Object type="0xBC66" id="Sand Cube Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0xe2</Index>
+		</Texture>
+		<AngleCorrection>0</AngleCorrection>
+	</Object>
+	<Object type="0xBC65" id="Sand Cube">
+		<Enemy/>
+		<Class>Character</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0xe1</Index>
+		</Texture>
+		<HitSound>monster/wooden_walls_hit</HitSound>
+		<DeathSound>monster/wooden_walls_death</DeathSound>
+		<MinSize>80</MinSize>
+		<MaxSize>90</MaxSize>
+		<PhysicalDefense>4</PhysicalDefense>
+		<MagicDefense>4</MagicDefense>
+		<Spawn>
+			<Mean>5</Mean>
+			<StdDev>1</StdDev>
+			<Min>3</Min>
+			<Max>4</Max>
+		</Spawn>
+		<MaxHitPoints>600</MaxHitPoints>
+		<Terrain>Desert</Terrain>
+		<Projectile id="0">
+			<ObjectId>Sand Cube Shot</ObjectId>
+			<Damage>45</Damage>
+			<Speed>50</Speed>
+			<LifetimeMS>2100</LifetimeMS>
+			<Amplitude>1</Amplitude>
+			<Frequency>4</Frequency>
+		</Projectile>
+	</Object>
+	<Object type="0xfc44" id="Sidewinder Snake Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x20</Index>
+		</Texture>
+		<AngleCorrection>0</AngleCorrection>
+	</Object>
+	<Object type="0xfc43" id="Sidewinder Snake">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>50</Index>
+		</AnimatedTexture>
+		<HitSound>monster/snake_queen_hit</HitSound>
+		<DeathSound>monster/snakes_death</DeathSound>
+		<MinSize>70</MinSize>
+		<MaxSize>90</MaxSize>
+		<PhysicalDefense>1</PhysicalDefense>
+		<MagicDefense>1</MagicDefense>
+		<Spawn>
+			<Mean>5</Mean>
+			<StdDev>1</StdDev>
+			<Min>4</Min>
+			<Max>6</Max>
+		</Spawn>
+		<MaxHitPoints>150</MaxHitPoints>
+		<Terrain>Desert</Terrain>
+		<Projectile id="0">
+			<ObjectId>Sidewinder Snake Shot</ObjectId>
+			<Damage>15</Damage>
+			<Speed>50</Speed>
+			<LifetimeMS>2100</LifetimeMS>
+			<ConditionEffect duration="5">Bleeding</ConditionEffect>
+		</Projectile>
+	</Object>
+	<Object type="0xfc42" id="Mage Nomad Enraged Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x50</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfc41" id="Mage Nomad Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x51</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfc40" id="Mage Nomad">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>49</Index>
+		</AnimatedTexture>
+		<HitSound>monster/tiger_hit</HitSound>
+		<DeathSound>monster/trees_death</DeathSound>
+		<Size>110</Size>
+		<Quest/>
+		<PhysicalDefense>5</PhysicalDefense>
+		<MagicDefense>10</MagicDefense>
+		<MaxHitPoints>650</MaxHitPoints>
+		<Terrain>Desert</Terrain>
+		<Projectile id="0">
+			<ObjectId>Mage Nomad Shot</ObjectId>
+			<Damage>30</Damage>
+			<Speed>60</Speed>
+			<LifetimeMS>2100</LifetimeMS>
+			<Amplitude>0.5</Amplitude>
+			<Frequency>2</Frequency>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Mage Nomad Enraged Shot</ObjectId>
+			<Damage>35</Damage>
+			<Speed>70</Speed>
+			<LifetimeMS>2100</LifetimeMS>
+			<Amplitude>0.5</Amplitude>
+			<Frequency>2</Frequency>
+		</Projectile>
+	</Object>
+	<Object type="0xfc37" id="Rogue Nomad">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>48</Index>
+		</AnimatedTexture>
+		<HitSound>monster/tiger_hit</HitSound>
+		<DeathSound>monster/trees_death</DeathSound>
+		<Size>110</Size>
+		<Quest/>
+		<PhysicalDefense>5</PhysicalDefense>
+		<MagicDefense>5</MagicDefense>
+		<MaxHitPoints>1250</MaxHitPoints>
+		<Terrain>Desert</Terrain>
+		<Projectile id="0">
+			<ObjectId>Rogue Nomad Shot</ObjectId>
+			<Damage>35</Damage>
+			<Speed>70</Speed>
+			<LifetimeMS>3900</LifetimeMS>
+			<Wavy/>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Rogue Nomad Bigger Shot</ObjectId>
+			<Damage>35</Damage>
+			<Speed>60</Speed>
+			<LifetimeMS>4000</LifetimeMS>
+			<MultiHit/>
+			<ConditionEffect duration="6">Vulnerable_I</ConditionEffect>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Rogue Nomad Bigger Shot</ObjectId>
+			<Damage>45</Damage>
+			<Speed>40</Speed>
+			<LifetimeMS>2250</LifetimeMS>
+			<MultiHit/>
+			<Decelerate/>
+		</Projectile>
+	</Object>
+	<Object type="0xfc36" id="Rogue Nomad Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x40</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfc35" id="Rogue Nomad Bigger Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x41</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfc34" id="Crooked Ghoul">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>47</Index>
+		</AnimatedTexture>
+		<Quest/>
+		<HitSound>monster/mummies_hit</HitSound>
+		<DeathSound>monster/mummies_death</DeathSound>
+		<Size>100</Size>
+		<Defense>10</Defense>
+		<MaxHitPoints>1250</MaxHitPoints>
+		<Terrain>Desert</Terrain>
+		<Projectile id="0">
+			<ObjectId>Crooked Ghoul Shot</ObjectId>
+			<Damage>50</Damage>
+			<Speed>40</Speed>
+			<LifetimeMS>1150</LifetimeMS>
+			<Amplitude>0.2</Amplitude>
+			<Frequency>0.8</Frequency>
+			<MultiHit/>
+			<Decelerate/>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Crooked Ghoul Blast</ObjectId>
+			<Damage>50</Damage>
+			<Speed>45</Speed>
+			<LifetimeMS>1250</LifetimeMS>
+			<Wavy/>
+		</Projectile>
+	</Object>
+	<Object type="0xfc33" id="Crooked Ghoul Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x31</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfc32" id="Crooked Ghoul Blast">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x30</Index>
+		</Texture>
+		<Rotation>60</Rotation>
+	</Object>
+	<Object type="0xfc30" id="Ragged Ghoul">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>46</Index>
+		</AnimatedTexture>
+		<Quest/>
+		<HitSound>monster/mummies_hit</HitSound>
+		<DeathSound>monster/mummies_death</DeathSound>
+		<Size>100</Size>
+		<Defense>5</Defense>
+		<MaxHitPoints>800</MaxHitPoints>
+		<Terrain>Desert</Terrain>
+		<Projectile id="0">
+			<ObjectId>Ragged Ghoul Shot</ObjectId>
+			<Damage>40</Damage>
+			<Speed>75</Speed>
+			<LifetimeMS>1000</LifetimeMS>
+			<MultiHit/>
+			<Decelerate/>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Ragged Ghoul Blast</ObjectId>
+			<Damage>60</Damage>
+			<Speed>60</Speed>
+			<LifetimeMS>1750</LifetimeMS>
+			<Wavy/>
+		</Projectile>
+	</Object>
+	<Object type="0xfc29" id="Ragged Ghoul Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x11</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfc28" id="Ragged Ghoul Blast">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x10</Index>
+		</Texture>
+		<Rotation>60</Rotation>
+	</Object>
+	<Object type="0xfc27" id="Phantom Cactus">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>44</Index>
+		</AnimatedTexture>
+		<AltTexture id="1">
+			<Texture>
+				<File>lofiProjs1</File>
+				<Index>0x08</Index>
+			</Texture>
+		</AltTexture>
+		<AltTexture id="2">
+			<Texture>
+				<File>lofiProjs1</File>
+				<Index>0x09</Index>
+			</Texture>
+		</AltTexture>
+		<AltTexture id="3">
+			<Texture>
+				<File>lofiProjs1</File>
+				<Index>0x0a</Index>
+			</Texture>
+		</AltTexture>
+		<AltTexture id="4">
+			<Texture>
+				<File>lofiProjs1</File>
+				<Index>0x0b</Index>
+			</Texture>
+		</AltTexture>
+		<AltTexture id="5">
+			<AnimatedTexture>
+				<File>8x8Enemies0</File>
+				<Index>45</Index>
+			</AnimatedTexture>
+		</AltTexture>
+		<Quest/>
+		<HitSound>monster/lich_hit</HitSound>
+		<DeathSound>monster/lich_death</DeathSound>
+		<MinSize>100</MinSize>
+		<MaxSize>110</MaxSize>
+		<PhysicalDefense>15</PhysicalDefense>
+		<MagicDefense>20</MagicDefense>
+		<MaxHitPoints>2000</MaxHitPoints>
+		<Terrain>Desert</Terrain>
+		<Projectile id="0">
+			<ObjectId>Phantom Cactus Shot</ObjectId>
+			<Damage>30</Damage>
+			<Speed>75</Speed>
+			<LifetimeMS>1100</LifetimeMS>
+			<MultiHit/>
+			<Decelerate/>
+			<ConditionEffect duration="5">Silenced</ConditionEffect>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Phantom Cactus Blast</ObjectId>
+			<Damage>50</Damage>
+			<Speed>85</Speed>
+			<LifetimeMS>1020</LifetimeMS>
+			<MultiHit/>
+		</Projectile>
+	</Object>
+	<Object type="0xfc31" id="Phantom Cactus Blast">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x21</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfc26" id="Phantom Cactus Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x00</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfc25" id="Sentient Cactus">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>42</Index>
+		</AnimatedTexture>
+		<AltTexture id="1">
+			<AnimatedTexture>
+				<File>8x8Enemies0</File>
+				<Index>43</Index>
+			</AnimatedTexture>
+		</AltTexture>
+		<PhysicalDefense>10</PhysicalDefense>
+		<MagicDefense>25</MagicDefense>
+		<HitSound>monster/lich_hit</HitSound>
+		<DeathSound>monster/lich_death</DeathSound>
+		<MinSize>100</MinSize>
+		<MaxSize>110</MaxSize>
+		<MaxHitPoints>750</MaxHitPoints>
+		<Terrain>Desert</Terrain>
+		<Projectile id="0">
+			<ObjectId>Sentient Cactus Shot</ObjectId>
+			<Damage>30</Damage>
+			<Speed>70</Speed>
+			<LifetimeMS>1200</LifetimeMS>
+			<MultiHit/>
+			<Decelerate/>
+			<ConditionEffect duration="5">Bleeding</ConditionEffect>
+		</Projectile>
+	</Object>
+	<Object type="0xfc24" id="Sentient Cactus Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x01</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfc22" id="Sand Tortoise">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>41</Index>
+		</AnimatedTexture>
+		<HitSound>monster/tiger_hit</HitSound>
+		<DeathSound>monster/trees_death</DeathSound>
+		<Size>100</Size>
+		<PhysicalDefense>20</PhysicalDefense>
+		<MagicDefense>10</MagicDefense>
+		<MaxHitPoints>550</MaxHitPoints>
+		<Terrain>Desert</Terrain>
+		<Projectile id="0">
+			<ObjectId>Sand Tortoise Shot</ObjectId>
+			<Damage>25</Damage>
+			<Speed>70</Speed>
+			<LifetimeMS>1000</LifetimeMS>
+			<MultiHit/>
+		</Projectile>
+	</Object>
+	<Object type="0xfc23" id="Sand Tortoise Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x12</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfc16" id="Giant Sand Tortoise">
+		<Enemy />
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>7</Index>
+		</AnimatedTexture>
+		<AltTexture id="1">
+			<AnimatedTexture>
+				<File>chars16x16dEncounters2</File>
+				<Index>8</Index>
+			</AnimatedTexture>
+		</AltTexture>
+		<AltTexture id="2">
+			<AnimatedTexture>
+				<File>chars16x16dEncounters2</File>
+				<Index>7</Index>
+			</AnimatedTexture>
+		</AltTexture>
+		<HitSound>monster/tiger_hit</HitSound>
+		<DeathSound>monster/trees_death</DeathSound>
+		<Size>130</Size>
+		<MaxHitPoints>3000</MaxHitPoints>
+		<PhysicalDefense>20</PhysicalDefense>
+		<MagicDefense>20</MagicDefense>
+		<Terrain>Desert</Terrain>
+		<Quest/>
+		<XpMult>1.6</XpMult>
+		<SpawnProb>0.75</SpawnProb>
+		<Projectile id="0">
+			<ObjectId>Giant Sand Tortoise Proj One</ObjectId>
+			<Damage>40</Damage>
+			<Speed>70</Speed>
+			<LifetimeMS>2900</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Giant Sand Tortoise Proj One</ObjectId>
+			<Damage>40</Damage>
+			<Speed>65</Speed>
+			<LifetimeMS>2900</LifetimeMS>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Giant Sand Tortoise Proj One</ObjectId>
+			<Damage>40</Damage>
+			<Speed>60</Speed>
+			<LifetimeMS>2900</LifetimeMS>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Giant Sand Tortoise Proj Two</ObjectId>
+			<Damage>35</Damage>
+			<Speed>60</Speed>
+			<Size>80</Size>
+			<LifetimeMS>3400</LifetimeMS>
+			<Decelerate/>
+		</Projectile>
+		<Projectile id="4">
+			<ObjectId>Giant Sand Tortoise Proj Three</ObjectId>
+			<Damage>40</Damage>
+			<Speed>35</Speed>
+			<Size>90</Size>
+			<LifetimeMS>3400</LifetimeMS>
+			<Decelerate/>
+		</Projectile>
+		<Projectile id="5">
+			<ObjectId>Giant Sand Tortoise Proj Four</ObjectId>
+			<Damage>45</Damage>
+			<Speed>40</Speed>
+			<Size>100</Size>
+			<LifetimeMS>4400</LifetimeMS>
+			<Decelerate/>
+		</Projectile>
+		<Projectile id="6">
+			<ObjectId>Giant Sand Tortoise Proj Five</ObjectId>
+			<Damage>75</Damage>
+			<Speed>60</Speed>
+			<LifetimeMS>4000</LifetimeMS>
+			<Size>80</Size>
+			<Multihit/>
+		</Projectile>
+		<Projectile id="7">
+			<ObjectId>Giant Sand Tortoise Proj Three</ObjectId>
+			<Damage>50</Damage>
+			<Speed>60</Speed>
+			<Size>90</Size>
+			<LifetimeMS>4000</LifetimeMS>
+		</Projectile>
+		<Projectile id="8">
+			<ObjectId>Giant Sand Tortoise Proj Three</ObjectId>
+			<Damage>50</Damage>
+			<Speed>55</Speed>
+			<Size>90</Size>
+			<LifetimeMS>4000</LifetimeMS>
+		</Projectile>
+		<Projectile id="9">
+			<ObjectId>Giant Sand Tortoise Proj Three</ObjectId>
+			<Damage>50</Damage>
+			<Speed>50</Speed>
+			<Size>90</Size>
+			<LifetimeMS>4000</LifetimeMS>
+		</Projectile>
+		<Projectile id="10">
+			<ObjectId>Giant Sand Tortoise Proj Three</ObjectId>
+			<Damage>50</Damage>
+			<Speed>45</Speed>
+			<Size>90</Size>
+			<LifetimeMS>4000</LifetimeMS>
+		</Projectile>
+		<Projectile id="11">
+			<ObjectId>Giant Sand Tortoise Proj Three</ObjectId>
+			<Damage>50</Damage>
+			<Speed>40</Speed>
+			<Size>90</Size>
+			<LifetimeMS>3000</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xfc17" id="Giant Sand Tortoise Proj One">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x02</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfc18" id="Giant Sand Tortoise Proj Two">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x03</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfc19" id="Giant Sand Tortoise Proj Three">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x03</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfc20" id="Giant Sand Tortoise Proj Four">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x03</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfc21" id="Giant Sand Tortoise Proj Five">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x04</Index>
+		</Texture>
+		<Rotation>60</Rotation>
+	</Object>
+	<Object type="0xfb39" id="Occultist">
+		<Enemy />
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>8</Index>
+		</AnimatedTexture>
+		<HitSound>monster/ghost_hit</HitSound>
+		<DeathSound>monster/ghost_death</DeathSound>
+		<Size>120</Size>
+		<Defense>10</Defense>
+		<MaxHitPoints>900</MaxHitPoints>
+		<Terrain>Desert</Terrain>
+		<Projectile id="0">
+			<ObjectId>Occultist Shot</ObjectId>
+			<Damage>45</Damage>
+			<Speed>90</Speed>
+			<Amplitude>0.4</Amplitude>
+			<Frequency>1</Frequency>
+			<LifetimeMS>1058</LifetimeMS>
+			<MultiHit/>
+		</Projectile>
+	</Object>
+	<Object type="0xfb41" id="Occultist Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0x5c</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfb44" id="Sand Golem">
+		<Enemy />
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>10</Index>
+		</AnimatedTexture>
+		<HitSound>monster/lizard_god_death</HitSound>
+		<DeathSound>monster/ghost_death</DeathSound>
+		<Size>135</Size>
+		<Defense>5</Defense>
+		<MaxHitPoints>1200</MaxHitPoints>
+		<Terrain>LowSand</Terrain>
+		<Projectile id="0">
+			<ObjectId>Sand Golem Shot</ObjectId>
+			<Damage>20</Damage>
+			<Speed>100</Speed>
+			<Amplitude>0.3</Amplitude>
+			<Frequency>1.1</Frequency>
+			<LifetimeMS>1058</LifetimeMS>
+			<MultiHit/>
+			<ConditionEffect duration="8">Sick</ConditionEffect>
+		</Projectile>
+	</Object>
+	<Object type="0xfb45" id="Sand Golem Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0x5e</Index>
+		</Texture>
+		<Rotation>120</Rotation>
+	</Object>
+	<Object type="0xfb63" id="Desert Ghost">
+		<Enemy />
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>16</Index>
+		</AnimatedTexture>
+		<HitSound>monster/flaming_skulls_hit</HitSound>
+		<DeathSound>monster/flaming_skulls_death</DeathSound>
+		<Size>105</Size>
+		<Defense>4</Defense>
+		<MaxHitPoints>1200</MaxHitPoints>
+		<Terrain>MidForest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Desert Ghost Blast</ObjectId>
+			<Damage>40</Damage>
+			<Speed>70</Speed>
+			<LifetimeMS>1058</LifetimeMS>
+			<Size>100</Size>
+		</Projectile>
+	</Object>
+	<Object type="0xfb64" id="Desert Ghost Blast">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0x7f</Index>
+		</Texture>
+	</Object>
+	<Object type="0xfb76" id="Magma Golem">
+		<Enemy />
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>15</Index>
+		</AnimatedTexture>
+		<HitSound>monster/skull_shrine_hit</HitSound>
+		<DeathSound>monster/skull_shrine_death</DeathSound>
+		<Size>135</Size>
+		<Defense>8</Defense>
+		<MaxHitPoints>650</MaxHitPoints>
+		<Terrain>MidForest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Magma Golem Star</ObjectId>
+			<Damage>60</Damage>
+			<Speed>80</Speed>
+			<LifetimeMS>1058</LifetimeMS>
+			<Size>100</Size>
+			<Amplitude>0.5</Amplitude>
+			<Frequency>2</Frequency>
+		</Projectile>
+	</Object>
+	<Object type="0xfb77" id="Magma Golem Star">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0x6d</Index>
+		</Texture>
+		<Rotation>60</Rotation>
+	</Object>
+	<Object type="0x148" id="Archer Nomad Enraged Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x2a</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x147" id="Archer Nomad Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x29</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x146" id="Archer Nomad">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>68</Index>
+		</AnimatedTexture>
+		<HitSound>monster/dark_elves_hit</HitSound>
+		<DeathSound>monster/dark_elves_death</DeathSound>
+		<Size>110</Size>
+		<PhysicalDefense>5</PhysicalDefense>
+		<MagicDefense>5</MagicDefense>
+		<MaxHitPoints>650</MaxHitPoints>
+		<Terrain>Desert</Terrain>
+		<Quest/>
+		<Projectile id="0">
+			<ObjectId>Archer Nomad Shot</ObjectId>
+			<Damage>30</Damage>
+			<Speed>86</Speed>
+			<LifetimeMS>930</LifetimeMS>
+			<Amplitude>1.34</Amplitude>
+			<Frequency>0.55</Frequency>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Archer Nomad Enraged Shot</ObjectId>
+			<Damage>50</Damage>
+			<Speed>70</Speed>
+			<LifetimeMS>1142</LifetimeMS>
+			<ConditionEffect duration="1">Paralyzed</ConditionEffect>
+		</Projectile>
+	</Object>
+	<Object type="0xab79" id="Desert Ghoulron">
+		<Enemy/>
+		<Class>Character</Class>
+		<Texture>
+			<File>Big0</File>
+			<Index>0x86</Index>
+		</Texture>
+		<Quest/>
+		<HitSound>monster/dark_elves_hit</HitSound>
+		<DeathSound>monster/dark_elves_death</DeathSound>
+		<Size>150</Size>
+		<Defense>50</Defense>
+		<MaxHitPoints>15000</MaxHitPoints>
+		<Terrain>Desert</Terrain>
+		<Projectile id="0">
+			<ObjectId>Ghoulron Bullet</ObjectId>
+			<Damage>50</Damage>
+			<Size>25</Size>
+			<Speed>70</Speed>
+			<LifetimeMS>3000</LifetimeMS>
+			<Accelerate/>
+			<ConditionEffect duration="3">Blind</ConditionEffect>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Ghoulron Spiral Shot</ObjectId>
+			<Damage>50</Damage>
+			<Speed>70</Speed>
+			<LifetimeMS>1714</LifetimeMS>
+			<ConditionEffect duration="3">Slowed_I</ConditionEffect>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Ghoulron Star</ObjectId>
+			<Damage>60</Damage>
+			<Speed>60</Speed>
+			<LifetimeMS>2000</LifetimeMS>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Ghoulron Red Star</ObjectId>
+			<Damage>40</Damage>
+			<Speed>65</Speed>
+			<LifetimeMS>1846</LifetimeMS>
+			<ConditionEffect duration="3">Bleeding</ConditionEffect>
+		</Projectile>
+		<Projectile id="4">
+			<ObjectId>Ghoulron Ring</ObjectId>
+			<Damage>20</Damage>
+			<Speed>80</Speed>
+			<LifetimeMS>1625</LifetimeMS>
+			<ArmorPiercing/>
+			<Decelerate/>
+		</Projectile>
+		<Projectile id="5">
+			<ObjectId>Ghoulron Red Ring</ObjectId>
+			<Damage>25</Damage>
+			<Speed>80</Speed>
+			<LifetimeMS>1625</LifetimeMS>
+			<ArmorPiercing/>
+			<Decelerate/>
+			<ConditionEffect duration="3">Stunned</ConditionEffect>
+		</Projectile>
+	</Object>
+	<Object type="0xab7a" id="Ghoulron Bullet">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x13</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xab7b" id="Ghoulron Spiral Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x16</Index>
+		</Texture>
+		<Rotation>50</Rotation>
+	</Object>
+	<Object type="0xab7c" id="Ghoulron Star">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x14</Index>
+		</Texture>
+		<Rotation>40</Rotation>
+	</Object>
+	<Object type="0xab7d" id="Ghoulron Red Star">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x17</Index>
+		</Texture>
+		<Rotation>40</Rotation>
+	</Object>
+	<Object type="0xab7e" id="Ghoulron Ring">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x15</Index>
+		</Texture>
+		<Rotation>15</Rotation>
+	</Object>
+	<Object type="0xab7f" id="Ghoulron Red Ring">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x18</Index>
+		</Texture>
+		<Rotation>15</Rotation>
+	</Object>
+	<Object type="0xab80" id="Ghoulron Hand">
+		<Enemy/>
+		<Class>Character</Class>
+		<Texture>
+			<File>Big0</File>
+			<Index>0x7a</Index>
+		</Texture>
+		<AltTexture id="0">
+			<Texture>
+				<File>Big0</File>
+				<Index>0x7a</Index>
+			</Texture>
+		</AltTexture>
+		<AltTexture id="1">
+			<Texture>
+				<File>Big0</File>
+				<Index>0x7b</Index>
+			</Texture>
+		</AltTexture>
+		<AltTexture id="2">
+			<Texture>
+				<File>Big0</File>
+				<Index>0x7c</Index>
+			</Texture>
+		</AltTexture>
+		<AltTexture id="3">
+			<Texture>
+				<File>Big0</File>
+				<Index>0x7d</Index>
+			</Texture>
+		</AltTexture>
+		<AltTexture id="4">
+			<Texture>
+				<File>Big0</File>
+				<Index>0x7e</Index>
+			</Texture>
+		</AltTexture>
+		<AltTexture id="5">
+			<Texture>
+				<File>Big0</File>
+				<Index>0x7f</Index>
+			</Texture>
+		</AltTexture>
+		<HitSound>monster/dark_elves_hit</HitSound>
+		<DeathSound>monster/dark_elves_death</DeathSound>
+		<Size>75</Size>
+		<Defense>50</Defense>
+		<MaxHitPoints>25000</MaxHitPoints>
+		<Terrain>Desert</Terrain>
+		<Projectile id="0">
+			<ObjectId>Invisible</ObjectId>
+			<Damage>100</Damage>
+			<Size>0</Size>
+			<Speed>0</Speed>
+			<LifetimeMS>200</LifetimeMS>
+			<ConditionEffect>Blind</ConditionEffect>
+		</Projectile>
+	</Object>
+	<Object type="0xaaa1" id="Death Worm">
+		<Group>Beach Worm</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>Beach</File>
+			<Index>0</Index>
+		</AnimatedTexture>
+		<HitSound>monster/scorpions_hit</HitSound>
+		<DeathSound>monster/scorpions_death</DeathSound>
+		<MinSize>180</MinSize>
+		<MaxSize>220</MaxSize>
+		<MaxHitPoints>2500</MaxHitPoints>
+		<PhysicalDefense>10</PhysicalDefense>
+		<MagicDefense>10</MagicDefense>
+		<Terrain>ShoreSand</Terrain>
+		<Quest/>
+		<Projectile id="0">
+			<ObjectId>Death Worm Claw Proj</ObjectId>
+			<Damage>45</Damage>
+			<Speed>60</Speed>
+			<LifetimeMS>2000</LifetimeMS>
+			<Size>80</Size>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Death Worm Blind Proj</ObjectId>
+			<Damage>30</Damage>
+			<Speed>20</Speed>
+			<LifetimeMS>5000</LifetimeMS>
+			<Size>90</Size>
+			<Decelerate/>
+			<ConditionEffect duration="2">Sick</ConditionEffect>
+		</Projectile>
+	</Object>
+	<Object type="0xaaa2" id="Death Worm Claw Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>redLootBag</File>
+			<Index>0x72</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xaaa3" id="Death Worm Blind Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>redLootBag</File>
+			<Index>0x71</Index>
+		</Texture>
+		<Rotation>160</Rotation>
+	</Object>
+	<Object type="0xaaa4" id="Death Worm Baby">
+		<Group>Beach Worm</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>Beach</File>
+			<Index>1</Index>
+		</AnimatedTexture>
+		<HitSound>monster/scorpions_hit</HitSound>
+		<DeathSound>monster/scorpions_death</DeathSound>
+		<MinSize>80</MinSize>
+		<MaxSize>100</MaxSize>
+		<MaxHitPoints>75</MaxHitPoints>
+		<PhysicalDefense>0</PhysicalDefense>
+		<MagicDefense>0</MagicDefense>
+		<Terrain>ShoreSand</Terrain>
+		<Projectile id="0">
+			<ObjectId>Death Worm Baby Proj</ObjectId>
+			<Damage>8</Damage>
+			<Speed>40</Speed>
+			<LifetimeMS>2000</LifetimeMS>
+			<Size>50</Size>
+		</Projectile>
+	</Object>
+	<Object type="0xaaa5" id="Death Worm Baby Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>redLootBag</File>
+			<Index>0x61</Index>
+		</Texture>
+		<AngleCorrection>0</AngleCorrection>
+	</Object>
+</Objects>

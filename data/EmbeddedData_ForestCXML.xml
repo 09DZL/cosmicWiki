@@ -1,0 +1,1071 @@
+<Objects>
+	<Object type="0xfc83" id="Rootwraith Vine Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjsBig</File>
+			<Index>0x10</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+		<HitboxRadius>10</HitboxRadius>
+	</Object>
+	<Object type="0xfc82" id="Rootwraith Sword Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjsBig</File>
+			<Index>0x11</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfc81" id="Rootwraith Spiral">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x34</Index>
+		</Texture>
+		<Rotation>120</Rotation>
+	</Object>
+	<Object type="0xfc80" id="Rootwraith Claw">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x44</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfc79" id="Rootwraith">
+		<Group>Forest</Group>
+		<Enemy />
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>14</Index>
+		</AnimatedTexture>
+		<HitSound>monster/trees_hit</HitSound>
+		<DeathSound>monster/trees_death</DeathSound>
+		<Size>100</Size>
+		<Defense>10</Defense>
+		<MaxHitPoints>600</MaxHitPoints>
+		<Terrain>Forest</Terrain>
+		<Quest/>
+		<XpMult>1.6</XpMult>
+		<SpawnProb>0.75</SpawnProb>
+		<Projectile id="0">
+			<ObjectId>Rootwraith Claw</ObjectId>
+			<Damage>20</Damage>
+			<Speed>80</Speed>
+			<ConditionEffect duration="1">Paralyzed</ConditionEffect>
+			<LifetimeMS>2100</LifetimeMS>
+			<Accelerate/>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Rootwraith Spiral</ObjectId>
+			<Damage>5</Damage>
+			<Speed>75</Speed>
+			<Size>90</Size>
+			<LifetimeMS>2100</LifetimeMS>
+			<Accelerate/>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Rootwraith Spiral</ObjectId>
+			<Damage>5</Damage>
+			<Speed>70</Speed>
+			<Size>90</Size>
+			<LifetimeMS>2100</LifetimeMS>
+			<Accelerate/>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Rootwraith Spiral</ObjectId>
+			<Damage>5</Damage>
+			<Speed>65</Speed>
+			<Size>90</Size>
+			<LifetimeMS>2100</LifetimeMS>
+			<Accelerate/>
+		</Projectile>
+		<Projectile id="4">
+			<ObjectId>Rootwraith Spiral</ObjectId>
+			<Damage>5</Damage>
+			<Speed>60</Speed>
+			<Size>90</Size>
+			<LifetimeMS>2100</LifetimeMS>
+			<Accelerate/>
+		</Projectile>
+		<Projectile id="5">
+			<ObjectId>Rootwraith Spiral</ObjectId>
+			<Damage>5</Damage>
+			<Speed>55</Speed>
+			<Size>90</Size>
+			<LifetimeMS>2100</LifetimeMS>
+			<Accelerate/>
+		</Projectile>
+		<Projectile id="6">
+			<ObjectId>Rootwraith Vine Shot</ObjectId>
+			<Damage>14</Damage>
+			<Speed>90</Speed>
+			<Size>200</Size>
+			<LifetimeMS>2900</LifetimeMS>
+			<ConditionEffect duration="3">Bleeding</ConditionEffect>
+		</Projectile>
+		<Projectile id="7">
+			<ObjectId>Rootwraith Sword Shot</ObjectId>
+			<Damage>25</Damage>
+			<Speed>100</Speed>
+			<Size>200</Size>
+			<LifetimeMS>2100</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xfc78" id="Masked Shaman Bullet">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x52</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfc77" id="Masked Shaman Magic Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x53</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfc76" id="Masked Shaman">
+		<Group>Forest</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>55</Index>
+		</AnimatedTexture>
+		<HitSound>monster/orcs_hit</HitSound>
+		<DeathSound>monster/orcs_death</DeathSound>
+		<MinSize>100</MinSize>
+		<MaxSize>110</MaxSize>
+		<Defense>5</Defense>
+		<MaxHitPoints>150</MaxHitPoints>
+		<Terrain>Forest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Masked Shaman Magic Shot</ObjectId>
+			<Damage>18</Damage>
+			<Size>90</Size>
+			<Speed>60</Speed>
+			<LifetimeMS>2000</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Masked Shaman Bullet</ObjectId>
+			<Damage>16</Damage>
+			<Size>90</Size>
+			<Speed>60</Speed>
+			<LifetimeMS>2000</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xfc75" id="Masked Spearman Spear">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x42</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfc74" id="Masked Spearman Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x43</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfc73" id="Masked Spearman">
+		<Group>Forest</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>54</Index>
+		</AnimatedTexture>
+		<HitSound>monster/orcs_hit</HitSound>
+		<DeathSound>monster/orcs_death</DeathSound>
+		<MinSize>100</MinSize>
+		<MaxSize>110</MaxSize>
+		<Defense>5</Defense>
+		<MaxHitPoints>150</MaxHitPoints>
+		<Terrain>Forest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Masked Spearman Spear</ObjectId>
+			<Damage>34</Damage>
+			<Size>100</Size>
+			<Speed>80</Speed>
+			<Decelerate/>
+			<LifetimeMS>2800</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Masked Spearman Shot</ObjectId>
+			<Damage>17</Damage>
+			<Size>90</Size>
+			<Speed>50</Speed>
+			<LifetimeMS>2700</LifetimeMS>
+			<Decelerate/>
+		</Projectile>
+	</Object>
+	<Object type="0xfc70" id="Will-o'-wisp Bullet">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x24</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfc69" id="Will-o'-wisp Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x25</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfc68" id="Will-o'-wisp">
+		<Group>Forest</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>53</Index>
+		</AnimatedTexture>
+		<HitSound>monster/snake_queen_hit</HitSound>
+		<DeathSound>monster/snakes_death</DeathSound>
+		<MinSize>90</MinSize>
+		<MaxSize>110</MaxSize>
+		<Defense>0</Defense>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Terrain>Forest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Will-o'-wisp Shot</ObjectId>
+			<Damage>14</Damage>
+			<Size>50</Size>
+			<Speed>50</Speed>
+			<LifetimeMS>2100</LifetimeMS>
+			<Accelerate/>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Will-o'-wisp Bullet</ObjectId>
+			<Damage>17</Damage>
+			<Size>50</Size>
+			<Speed>50</Speed>
+			<LifetimeMS>2100</LifetimeMS>
+			<Wavy/>
+			<Decelerate/>
+		</Projectile>
+	</Object>
+	<Object type="0xfc72" id="Decaying Ent Hash Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x33</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfc71" id="Decaying Ent Spinner Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x23</Index>
+		</Texture>
+		<Rotation>120</Rotation>
+	</Object>
+	<Object type="0xfc67" id="Decaying Ent Ball Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x22</Index>
+		</Texture>
+		<Rotation>120</Rotation>
+	</Object>
+	<Object type="0xfc66" id="Decaying Ent Shot Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x32</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfc65" id="Decaying Ent">
+		<Group>Forest</Group>
+		<Enemy />
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>13</Index>
+		</AnimatedTexture>
+		<HitSound>monster/trees_hit</HitSound>
+		<DeathSound>monster/trees_death</DeathSound>
+		<Size>150</Size>
+		<Defense>0</Defense>
+		<MaxHitPoints>800</MaxHitPoints>
+		<Terrain>Forest</Terrain>
+		<Quest/>
+		<XpMult>1.6</XpMult>
+		<SpawnProb>0.75</SpawnProb>
+		<Projectile id="0">
+			<ObjectId>Decaying Ent Shot Proj</ObjectId>
+			<Damage>22</Damage>
+			<Speed>80</Speed>
+			<LifetimeMS>2100</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Decaying Ent Ball Proj</ObjectId>
+			<Damage>19</Damage>
+			<Speed>70</Speed>
+			<Size>80</Size>
+			<LifetimeMS>2100</LifetimeMS>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Decaying Ent Spinner Proj</ObjectId>
+			<Damage>22</Damage>
+			<Size>90</Size>
+			<Speed>50</Speed>
+			<LifetimeMS>2100</LifetimeMS>
+			<Decelerate/>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Decaying Ent Hash Proj</ObjectId>
+			<Damage>20</Damage>
+			<Size>70</Size>
+			<Speed>50</Speed>
+			<LifetimeMS>2100</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xfc64" id="Cockatrice Feather Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xa0</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfc63" id="Cockatrice Beam Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xa1</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfc62" id="Cockatrice">
+		<Group>Forest</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>12</Index>
+		</AnimatedTexture>
+		<Quest/>
+		<HitSound>monster/chicken_hit</HitSound>
+		<DeathSound>monster/chicken_death</DeathSound>
+		<Size>130</Size>
+		<Defense>10</Defense>
+		<MaxHitPoints>400</MaxHitPoints>
+		<Terrain>Forest</Terrain>
+		<Projectile id="1">
+			<ObjectId>Cockatrice Beam Proj</ObjectId>
+			<Damage>18</Damage>
+			<Speed>80</Speed>
+			<LifetimeMS>2100</LifetimeMS>
+		</Projectile>
+		<Projectile id="0">
+			<ObjectId>Cockatrice Feather Proj</ObjectId>
+			<Damage>5</Damage>
+			<Speed>70</Speed>
+			<LifetimeMS>2100</LifetimeMS>
+			<ConditionEffect duration="3">Bleeding</ConditionEffect>
+		</Projectile>
+	</Object>
+	<Object type="0xfc61" id="Red Sentient Toadstool">
+		<Group>Forest</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>52</Index>
+		</AnimatedTexture>
+		<HitSound>monster/slimes_hit</HitSound>
+		<DeathSound>monster/slimes_death</DeathSound>
+		<MinSize>80</MinSize>
+		<MaxSize>90</MaxSize>
+		<Defense>3</Defense>
+		<Spawn>
+			<Mean>5</Mean>
+			<StdDev>1</StdDev>
+			<Min>2</Min>
+			<Max>3</Max>
+		</Spawn>
+		<MaxHitPoints>150</MaxHitPoints>
+		<Terrain>Forest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Red Sentient Toadstool Seeds</ObjectId>
+			<Damage>18</Damage>
+			<Speed>30</Speed>
+			<LifetimeMS>2100</LifetimeMS>
+			<ConditionEffect duration="2">Confused</ConditionEffect>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Red Sentient Toadstool Cap</ObjectId>
+			<Damage>6</Damage>
+			<Speed>70</Speed>
+			<LifetimeMS>2100</LifetimeMS>
+			<ArmorPiercing/>
+		</Projectile>
+	</Object>
+	<Object type="0xfc60" id="Red Sentient Toadstool Cap">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x82</Index>
+		</Texture>
+		<Rotation>120</Rotation>
+	</Object>
+	<Object type="0xfc59" id="Red Sentient Toadstool Seeds">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x81</Index>
+		</Texture>
+		<Rotation>120</Rotation>
+	</Object>
+	<Object type="0xfc58" id="Yellow Sentient Toadstool Blast">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x92</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfc57" id="Yellow Sentient Toadstool Stun">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x91</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfc56" id="Yellow Sentient Toadstool Paralyze">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x90</Index>
+		</Texture>
+		<Rotation>120</Rotation>
+	</Object>
+	<Object type="0xfc55" id="Yellow Sentient Toadstool">
+		<Group>Forest</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>51</Index>
+		</AnimatedTexture>
+		<HitSound>monster/slimes_hit</HitSound>
+		<DeathSound>monster/slimes_death</DeathSound>
+		<MinSize>80</MinSize>
+		<MaxSize>90</MaxSize>
+		<Defense>2</Defense>
+		<Spawn>
+			<Mean>5</Mean>
+			<StdDev>1</StdDev>
+			<Min>3</Min>
+			<Max>5</Max>
+		</Spawn>
+		<MaxHitPoints>150</MaxHitPoints>
+		<Terrain>Forest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Yellow Sentient Toadstool Blast</ObjectId>
+			<Damage>17</Damage>
+			<Speed>70</Speed>
+			<LifetimeMS>2100</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Yellow Sentient Toadstool Paralyze</ObjectId>
+			<Damage>0</Damage>
+			<Speed>30</Speed>
+			<LifetimeMS>2100</LifetimeMS>
+			<ConditionEffect duration="2">Paralyzed</ConditionEffect>
+		</Projectile>
+	</Object>
+	<Object type="0xfc54" id="Mosswalker">
+		<Group>Forest</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>11</Index>
+		</AnimatedTexture>
+		<HitSound>monster/snake_queen_hit</HitSound>
+		<DeathSound>monster/snakes_death</DeathSound>
+		<Size>130</Size>
+		<MaxHitPoints>600</MaxHitPoints>
+		<Defense>0</Defense>
+		<Terrain>Forest</Terrain>
+		<Quest/>
+		<XpMult>1.6</XpMult>
+		<SpawnProb>0.75</SpawnProb>
+		<Projectile id="0">
+			<ObjectId>Mosswalker Projectile Bullets</ObjectId>
+			<Damage>12</Damage>
+			<Speed>50</Speed>
+			<LifetimeMS>1900</LifetimeMS>
+			<Size>90</Size>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Mosswalker Projectile Strike</ObjectId>
+			<Damage>18</Damage>
+			<Speed>80</Speed>
+			<LifetimeMS>1900</LifetimeMS>
+			<Size>90</Size>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Mosswalker Projectile Claw</ObjectId>
+			<Damage>26</Damage>
+			<Speed>40</Speed>
+			<LifetimeMS>1900</LifetimeMS>
+			<Size>90</Size>
+			<Accelerate/>
+		</Projectile>
+	</Object>
+	<Object type="0xfc53" id="Mosswalker Projectile Claw">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x70</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfc52" id="Mosswalker Projectile Strike">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x71</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfc51" id="Mosswalker Projectile Bullets">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x72</Index>
+		</Texture>
+		<Rotation>70</Rotation>
+	</Object>
+
+	<Object type="0xfb5" id="Orc Lord">
+		<Group>Orcs</Group>
+		<Enemy />
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>1</Index>
+		</AnimatedTexture>
+		<HitSound>monster/dark_elves_hit</HitSound>
+		<DeathSound>monster/dark_elves_death</DeathSound>
+		<Size>130</Size>
+		<Quest/>
+		<MaxHitPoints>300</MaxHitPoints>
+		<Defense>0</Defense>
+		<Terrain>MidForest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Orc Warrior Bash</ObjectId>
+			<Damage>18</Damage>
+			<Speed>65</Speed>
+			<LifetimeMS>538</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Orc Warrior poke</ObjectId>
+			<Damage>20</Damage>
+			<Speed>65</Speed>
+			<LifetimeMS>615</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xfb6" id="Orc Warrior Bash">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0x45</Index>
+		</Texture>
+	</Object>
+	<Object type="0xfb7" id="Orc Warrior poke">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0x46</Index>
+		</Texture>
+	</Object>
+	<Object type="0xfb8" id="Orc Sorcerer">
+		<Group>Orcs</Group>
+		<Enemy />
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>0</Index>
+		</AnimatedTexture>
+		<HitSound>monster/dark_elves_hit</HitSound>
+		<DeathSound>monster/dark_elves_death</DeathSound>
+		<Size>100</Size>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Defense>0</Defense>
+		<Terrain>MidForest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Orc Sorcerer Nugget</ObjectId>
+			<Damage>35</Damage>
+			<Speed>75</Speed>
+			<LifetimeMS>1333</LifetimeMS>
+			<Amplitude>0.9</Amplitude>
+			<Frequency>2</Frequency>
+			<MultiHit />
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Orc Sorcerer Blast</ObjectId>
+			<Damage>15</Damage>
+			<Speed>80</Speed>
+			<LifetimeMS>1250</LifetimeMS>
+			<Amplitude>0.3</Amplitude>
+			<Frequency>1</Frequency>
+		</Projectile>
+	</Object>
+	<Object type="0xfb9" id="Orc Sorcerer Blast">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0x47</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfb12" id="Orc Sorcerer Nugget">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0x48</Index>
+		</Texture>
+	</Object>
+	<Object type="0xfb13" id="Orc Mage">
+		<Group>Orcs</Group>
+		<Enemy />
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>2</Index>
+		</AnimatedTexture>
+		<HitSound>monster/dark_elves_hit</HitSound>
+		<DeathSound>monster/dark_elves_death</DeathSound>
+		<Size>100</Size>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Defense>0</Defense>
+		<Terrain>MidForest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Orc Mage Blast</ObjectId>
+			<Damage>25</Damage>
+			<Speed>60</Speed>
+			<LifetimeMS>1666</LifetimeMS>
+			<Amplitude>0</Amplitude>
+			<Frequency>0</Frequency>
+			<MultiHit />
+		</Projectile>
+	</Object>
+	<Object type="0xfb14" id="Orc Mage Blast">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0x49</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+
+	<Object type="0xfb15" id="Orc Nobleman">
+		<Group>Orcs</Group>
+		<Enemy />
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>4</Index>
+		</AnimatedTexture>
+		<HitSound>monster/dark_elves_hit</HitSound>
+		<DeathSound>monster/dark_elves_death</DeathSound>
+		<Size>100</Size>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Defense>0</Defense>
+		<Terrain>MidForest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Orc Nobleman Shot</ObjectId>
+			<Damage>15</Damage>
+			<Speed>60</Speed>
+			<LifetimeMS>750</LifetimeMS>
+			<Amplitude>0</Amplitude>
+			<Frequency>0</Frequency>
+		</Projectile>
+	</Object>
+	<Object type="0xfb16" id="Orc Nobleman Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0x4a</Index>
+		</Texture>
+	</Object>
+
+	<Object type="0xfb17" id="Orc Apprentice">
+		<Group>Orcs</Group>
+		<Enemy />
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>3</Index>
+		</AnimatedTexture>
+		<HitSound>monster/dark_elves_hit</HitSound>
+		<DeathSound>monster/dark_elves_death</DeathSound>
+		<Size>100</Size>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Defense>0</Defense>
+		<Terrain>MidForest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Orc Apprentice Blast</ObjectId>
+			<Damage>10</Damage>
+			<Speed>60</Speed>
+			<LifetimeMS>1500</LifetimeMS>
+			<Amplitude>0.2</Amplitude>
+			<Frequency>1.5</Frequency>
+		</Projectile>
+	</Object>
+	<Object type="0xfb18" id="Orc Apprentice Blast">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0x4b</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfb42" id="Bat">
+		<Group>Forest</Group>
+		<Enemy />
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>9</Index>
+		</AnimatedTexture>
+		<HitSound>monster/bats_hit</HitSound>
+		<DeathSound>monster/bats_death</DeathSound>
+		<MinSize>45</MinSize>
+		<MaxSize>75</MaxSize>
+		<Defense>0</Defense>
+		<Flying/>
+		<Z>0.27</Z>
+		<MaxHitPoints>125</MaxHitPoints>
+		<Terrain>Forest</Terrain>
+		<Spawn>
+			<Mean>5</Mean>
+			<StdDev>1</StdDev>
+			<Min>4</Min>
+			<Max>6</Max>
+		</Spawn>
+		<Projectile id="0">
+			<ObjectId>Bat Shot</ObjectId>
+			<Damage>10</Damage>
+			<Speed>85</Speed>
+			<LifetimeMS>1058</LifetimeMS>
+			<Size>75</Size>
+			<ArmorPiercing/>
+		</Projectile>
+	</Object>
+	<Object type="0xfb43" id="Bat Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0x5d</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfb85" id="Green Slime">
+		<Group>Forest</Group>
+		<Enemy />
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>25</Index>
+		</AnimatedTexture>
+		<HitSound>monster/slimes_hit</HitSound>
+		<DeathSound>monster/slimes_death</DeathSound>
+		<Size>115</Size>
+		<Defense>3</Defense>
+		<MaxHitPoints>300</MaxHitPoints>
+		<Terrain>MidForest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Green Slime Bullet</ObjectId>
+			<Damage>10</Damage>
+			<Speed>90</Speed>
+			<LifetimeMS>1250</LifetimeMS>
+			<Size>90</Size>
+			<PassesCover />
+			<MultiHit />
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Green Slime Boom</ObjectId>
+			<Damage>25</Damage>
+			<Speed>25</Speed>
+			<LifetimeMS>1500</LifetimeMS>
+			<Size>100</Size>
+			<Amplitude>2.5</Amplitude>
+			<Frequency>0.5</Frequency>
+			<Boomerang />
+		</Projectile>
+	</Object>
+	<Object type="0xfb86" id="Green Slime Bullet">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0xaf</Index>
+		</Texture>
+	</Object>
+	<Object type="0xfb87" id="Green Slime Boom">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0xae</Index>
+		</Texture>
+		<Rotation>60</Rotation>
+	</Object>
+	<Object type="0xfb46" id="Rocker Golem">
+		<Group>Forest</Group>
+		<Enemy />
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>11</Index>
+		</AnimatedTexture>
+		<HitSound>monster/golems_hit</HitSound>
+		<DeathSound>monster/golems_death</DeathSound>
+		<Size>135</Size>
+		<Defense>10</Defense>
+		<MaxHitPoints>350</MaxHitPoints>
+		<Terrain>Forest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Rocker Golem Shot</ObjectId>
+			<Damage>13</Damage>
+			<Speed>80</Speed>
+			<Amplitude>0.2</Amplitude>
+			<Frequency>1.2</Frequency>
+			<LifetimeMS>1058</LifetimeMS>
+			<MultiHit />
+			<ConditionEffect duration="1">Paralyzed</ConditionEffect>
+		</Projectile>
+	</Object>
+	<Object type="0xfb47" id="Rocker Golem Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0x5f</Index>
+		</Texture>
+	</Object>
+	<Object type="0xfb48" id="Swarm">
+		<Group>Forest</Group>
+		<Enemy />
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>12</Index>
+		</AnimatedTexture>
+		<HitSound>monster/scorpions_hit</HitSound>
+		<DeathSound>monster/scorpions_death</DeathSound>
+		<Size>125</Size>
+		<Defense>0</Defense>
+		<MaxHitPoints>100</MaxHitPoints>
+		<Terrain>MidForest</Terrain>
+		<Spawn>
+			<Mean>5</Mean>
+			<StdDev>1</StdDev>
+			<Min>2</Min>
+			<Max>3</Max>
+		</Spawn>
+		<Projectile id="0">
+			<ObjectId>Swarm Shot</ObjectId>
+			<Damage>11</Damage>
+			<Speed>70</Speed>
+			<Amplitude>0.5</Amplitude>
+			<Frequency>1</Frequency>
+			<LifetimeMS>1058</LifetimeMS>
+			<Size>60</Size>
+		</Projectile>
+	</Object>
+	<Object type="0xfb49" id="Swarm Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0x4c</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfb50" id="Dirt Golem">
+		<Group>Forest</Group>
+		<Enemy />
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>13</Index>
+		</AnimatedTexture>
+		<HitSound>monster/skull_shrine_hit</HitSound>
+		<DeathSound>monster/skull_shrine_death</DeathSound>
+		<Size>135</Size>
+		<Defense>0</Defense>
+		<MaxHitPoints>450</MaxHitPoints>
+		<Terrain>Forest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Dirt Golem Bullet</ObjectId>
+			<Damage>15</Damage>
+			<Speed>90</Speed>
+			<LifetimeMS>1058</LifetimeMS>
+			<Size>100</Size>
+			<ConditionEffect duration="2.5">Slowed_III</ConditionEffect>
+		</Projectile>
+	</Object>
+	<Object type="0xfb51" id="Dirt Golem Bullet">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0x6f</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfb58" id="Adult Green Dragon">
+		<Enemy />
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>4</Index>
+		</AnimatedTexture>
+		<HitSound>monster/dragons_hit</HitSound>
+		<DeathSound>monster/dragons_death</DeathSound>
+		<Size>135</Size>
+		<Defense>15</Defense>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Terrain>MidForest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Adult Dragon Bolt</ObjectId>
+			<Damage>35</Damage>
+			<Speed>90</Speed>
+			<LifetimeMS>1058</LifetimeMS>
+			<Size>90</Size>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Adult Dragon Bullet</ObjectId>
+			<Damage>45</Damage>
+			<Speed>80</Speed>
+			<LifetimeMS>1058</LifetimeMS>
+			<Size>90</Size>
+		</Projectile>
+	</Object>
+	<Object type="0xfb59" id="Adult Dragon Bolt">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0x7d</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfb60" id="Adult Dragon Bullet">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment5</File>
+			<Index>0x7e</Index>
+		</Texture>
+		<Rotation>70</Rotation>
+	</Object>
+
+
+	<Object type="0xfd13" id="Floral Sprite">
+		<Group>Forest</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>66</Index>
+		</AnimatedTexture>
+		<HitSound>monster/sprites_hit</HitSound>
+		<DeathSound>monster/sprites_death</DeathSound>
+		<MinSize>80</MinSize>
+		<MaxSize>90</MaxSize>
+		<Defense>5</Defense>
+		<MaxHitPoints>75</MaxHitPoints>
+		<Terrain>Forest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Floral Sprite Basic Bullet</ObjectId>
+			<Damage>12</Damage>
+			<Size>80</Size>
+			<Speed>60</Speed>
+			<LifetimeMS>1500</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Floral Sprite Advanced Bullet</ObjectId>
+			<Damage>17</Damage>
+			<Size>90</Size>
+			<Speed>70</Speed>
+			<LifetimeMS>1500</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xfd12" id="Floral Sprite Basic Bullet">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xd0</Index>
+		</Texture>
+		<AngleCorrection>0</AngleCorrection>
+	</Object>
+	<Object type="0xfd11" id="Floral Sprite Advanced Bullet">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xd1</Index>
+		</Texture>
+		<AngleCorrection>0</AngleCorrection>
+	</Object>
+	<Object type="0xfd10" id="Masked Hunter">
+		<Group>Forest</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>67</Index>
+		</AnimatedTexture>
+		<HitSound>monster/orcs_hit</HitSound>
+		<DeathSound>monster/orcs_death</DeathSound>
+		<MinSize>100</MinSize>
+		<MaxSize>110</MaxSize>
+		<Defense>5</Defense>
+		<MaxHitPoints>150</MaxHitPoints>
+		<Terrain>Forest</Terrain>
+		<Projectile id="0">
+			<ObjectId>Masked Hunter Arrow</ObjectId>
+			<Damage>16</Damage>
+			<Size>90</Size>
+			<Speed>80</Speed>
+			<LifetimeMS>1500</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Masked Hunter Red Arrow</ObjectId>
+			<Damage>20</Damage>
+			<Size>90</Size>
+			<Speed>90</Speed>
+			<LifetimeMS>1500</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xfd09" id="Masked Hunter Red Arrow">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xe0</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xfd8" id="Masked Hunter Arrow">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xe1</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+
+</Objects>

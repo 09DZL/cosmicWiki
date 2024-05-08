@@ -1,0 +1,1200 @@
+<Objects>
+	<Object type="0xBD56" id="Forgotten Sentry Bubble">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x3e</Index>
+		</Texture>
+		<Rotation>70</Rotation>
+	</Object>
+	<Object type="0xBD55" id="Forgotten Sentry Slash">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x3f</Index>
+		</Texture>
+		<AngleCorrection>0</AngleCorrection>
+	</Object>
+	<Object type="0xBD54" id="Forgotten Sentry Pebble">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x2f</Index>
+		</Texture>
+		<AngleCorrection>0</AngleCorrection>
+	</Object>
+	<Object type="0xBD53" id="Forgotten Sentry Beam">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x2e</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBD52" id="Forgotten Sentry">
+		<Class>Character</Class>
+		<Boss>1</Boss>
+		<Enemy/>
+		<Hero/>
+		<Quest/>
+		<God/>
+		<Encounter/>
+		<Level>50</Level>
+		<Size>150</Size>
+		<XpMult>1.5</XpMult>
+		<PerRealmMax>1</PerRealmMax>
+		<HitSound>monster/medusa_hit</HitSound>
+		<DeathSound>monster/undead_dwarves_hit</DeathSound>
+		<MaxHitPoints>50000</MaxHitPoints>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>49</Index>
+		</AnimatedTexture>
+		<Projectile id="0">
+			<ObjectId>Forgotten Sentry Beam</ObjectId>
+			<Speed>20</Speed>
+			<Damage>125</Damage>
+			<Size>120</Size>
+			<LifetimeMS>8000</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Forgotten Sentry Pebble</ObjectId>
+			<Speed>80</Speed>
+			<Damage>160</Damage>
+			<Size>100</Size>
+			<MultiHit/>
+			<LifetimeMS>3500</LifetimeMS>
+			<Amplitude>.5</Amplitude>
+			<Frequency>.5</Frequency>
+			<Accelerate/>
+			<Boomerang/>
+			<PassesCover/>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Guiding Light (extinguished) Projectile</ObjectId>
+			<Speed>10</Speed>
+			<Damage>80</Damage>
+			<Size>80</Size>
+			<LifetimeMS>8000</LifetimeMS>
+			<Amplitude>0.5</Amplitude>
+			<Frequency>2</Frequency>
+			<Accelerate/>
+			<PassesCover/>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Forgotten Sentry Slash</ObjectId>
+			<Speed>60</Speed>
+			<Damage>200</Damage>
+			<Size>100</Size>
+			<LifetimeMS>320</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xBD49" id="Cyclops Minion Projectile">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x1e</Index>
+		</Texture>
+		<AngleCorrection>0</AngleCorrection>
+	</Object>
+	<Object type="0xBD48" id="Cyclops Projectile">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>Big0</File>
+			<Index>0x40</Index>
+		</Texture>
+		<AngleCorrection>0</AngleCorrection>
+	</Object>
+	<Object type="0xBD47" id="Loud Projectile">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x2d</Index>
+		</Texture>
+		<AngleCorrection>0</AngleCorrection>
+	</Object>
+	<Object type="0xBD46" id="Cyclops">
+		<Class>Character</Class>
+		<Boss>0</Boss>
+		<Enemy/>
+		<Quest/>
+		<HitSound>monster/slimes_death</HitSound>
+		<DeathSound>monster/flying_brain_death</DeathSound>
+		<Size>150</Size>
+		<MaxHitPoints>25000</MaxHitPoints>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>31</Index>
+		</AnimatedTexture>
+		<Projectile id="0">
+			<ObjectId>Loud Projectile</ObjectId>
+			<Speed>20</Speed>
+			<Damage>30</Damage>
+			<LifetimeMS>5500</LifetimeMS>
+			<Size>100</Size>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Cyclops Projectile</ObjectId>
+			<Speed>50</Speed>
+			<Damage>30</Damage>
+			<LifetimeMS>2400</LifetimeMS>
+			<Size>100</Size>
+		</Projectile>
+	</Object>
+	<Object type="0xBD50" id="Young Cyclops">
+		<Class>Character</Class>
+		<Enemy/>
+		<HitSound>monster/slimes_death</HitSound>
+		<DeathSound>monster/flying_brain_death</DeathSound>
+		<Size>110</Size>
+		<MaxHitPoints>500</MaxHitPoints>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>85</Index>
+		</AnimatedTexture>
+		<Projectile id="0">
+			<ObjectId>Cyclops Minion Projectile</ObjectId>
+			<Speed>80</Speed>
+			<Damage>20</Damage>
+			<LifetimeMS>1200</LifetimeMS>
+			<Size>100</Size>
+		</Projectile>
+	</Object>
+	<Object type="0xBD31" id="Raijin The Lightning Guardian">
+		<Enemy/>
+		<Class>Character</Class>
+		<Boss>1</Boss>
+		<Hero/>
+		<Quest/>
+		<God/>
+		<Encounter/>
+		<Size>150</Size>
+		<Level>50</Level>
+		<PerRealmMax>1</PerRealmMax>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>44</Index>
+		</AnimatedTexture>
+		<XpMult>1.8</XpMult>
+		<HitSound>monster/medusa_hit</HitSound>
+		<DeathSound>monster/undead_dwarves_hit</DeathSound>
+		<MaxHitPoints>80000</MaxHitPoints>
+		<Projectile id="0">
+			<ObjectId>Electric Projectile</ObjectId>
+			<Speed>65</Speed>
+			<Damage>125</Damage>
+			<Size>100</Size>
+			<MultiHit/>
+			<Wavy/>
+			<LifetimeMS>4400</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Fist Projectile</ObjectId>
+			<Speed>60</Speed>
+			<Damage>80</Damage>
+			<Size>120</Size>
+			<MultiHit/>
+			<LifetimeMS>2000</LifetimeMS>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Wind Projectile</ObjectId>
+			<Speed>60</Speed>
+			<Damage>80</Damage>
+			<Size>110</Size>
+			<MultiHit/>
+			<ConditionEffect duration="1">Stunned</ConditionEffect>
+			<LifetimeMS>5000</LifetimeMS>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Electric Projectile</ObjectId>
+			<Speed>50</Speed>
+			<Size>120</Size>
+			<Damage>80</Damage>
+			<MultiHit/>
+			<LifetimeMS>8000</LifetimeMS>
+		</Projectile>
+		<Projectile id="4">
+			<ObjectId>God Projectile</ObjectId>
+			<Speed>50</Speed>
+			<Damage>80</Damage>
+			<Size>130</Size>
+			<MultiHit/>
+			<Boomerang/>
+			<LifetimeMS>8000</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xBD36" id="Electric Projectile">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x0c</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBD35" id="Wind Projectile">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x0d</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBD34" id="God Projectile">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x0e</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBD33" id="Fist Projectile">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x0f</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBD05" id="Spectres' Guardian">
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>28</Index>
+		</AnimatedTexture>
+		<HitSound>monster/cubes_hit</HitSound>
+		<DeathSound>monster/cubes_death</DeathSound>
+		<Size>150</Size>
+		<MaxHitPoints>80000</MaxHitPoints>
+		<Hero/>
+		<Quest/>
+		<God/>
+		<Encounter/>
+		<Level>40</Level>
+		<Projectile id="0">
+			<ObjectId>Spectre's Phantom Light Arrow</ObjectId>
+			<Speed>40</Speed>
+			<Damage>80</Damage>
+			<MultiHit/>
+			<Amplitude>1</Amplitude>
+			<Frequency>1</Frequency>
+			<LifetimeMS>3500</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Spectre's Phantom Light Shuriken</ObjectId>
+			<Damage>100</Damage>
+			<Speed>60</Speed>
+			<MultiHit/>
+			<LifetimeMS>4000</LifetimeMS>
+			<Boomerang/>
+			<Accelerate/>
+		</Projectile>
+		<Enemy/>
+	</Object>
+	<Object type="0xBD20" id="Bloody Tissue">
+		<Enemy/>
+		<Class>Character</Class>
+		<Boss>1</Boss>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>30</Index>
+		</AnimatedTexture>
+		<HitSound>monster/flaming_skulls_hit</HitSound>
+		<DeathSound>monster/flaming_skulls_death</DeathSound>
+		<Size>150</Size>
+		<MaxHitPoints>50000</MaxHitPoints>
+		<Flying/>
+		<Hero/>
+		<Quest/>
+		<God/>
+		<Level>40</Level>
+		<XpMult>1.2</XpMult>
+		<Projectile id="6">
+			<ObjectId>Blood Tissue Blast</ObjectId>
+			<Damage>90</Damage>
+			<Speed>30</Speed>
+			<MultiHit/>
+			<LifetimeMS>3000</LifetimeMS>
+			<Size>140</Size>
+			<Accelerate/>
+		</Projectile>
+		<Projectile id="5">
+			<ObjectId>Blood Tissue Blast</ObjectId>
+			<Damage>90</Damage>
+			<Speed>50</Speed>
+			<MultiHit/>
+			<LifetimeMS>2500</LifetimeMS>
+			<Size>140</Size>
+			<Accelerate/>
+		</Projectile>
+		<Projectile id="4">
+			<ObjectId>Blood Tissue Blast 2</ObjectId>
+			<Damage>110</Damage>
+			<Speed>20</Speed>
+			<MultiHit/>
+			<LifetimeMS>5600</LifetimeMS>
+			<Size>140</Size>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Blood Tissue Blast 3</ObjectId>
+			<Damage>150</Damage>
+			<Speed>50</Speed>
+			<MultiHit/>
+			<LifetimeMS>3200</LifetimeMS>
+			<Size>250</Size>
+			<Boomerang/>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Blood Tissue Blast 4</ObjectId>
+			<Damage>120</Damage>
+			<Speed>60</Speed>
+			<MultiHit/>
+			<LifetimeMS>2500</LifetimeMS>
+			<Size>80</Size>
+			<Accelerate/>
+		</Projectile>
+		<Projectile id="0">
+			<ObjectId>Blood Tissue Blast 2</ObjectId>
+			<Damage>120</Damage>
+			<Speed>30</Speed>
+			<MultiHit/>
+			<LifetimeMS>4333</LifetimeMS>
+			<Size>140</Size>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Blood Tissue Blast</ObjectId>
+			<Damage>80</Damage>
+			<Speed>60</Speed>
+			<MultiHit/>
+			<LifetimeMS>2500</LifetimeMS>
+			<PassesCover/>
+		</Projectile>
+		<DisplayId>Bloody Tissue</DisplayId>
+	</Object>
+	<Object type="0xBD19" id="Blood Tissue Blast">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x6f</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBD18" id="Blood Tissue Blast 2">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x7f</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBD17" id="Blood Tissue Blast 3">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x8f</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBD16" id="Blood Tissue Blast 4">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x9f</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBD30" id="Golden Totem Spawner">
+		<Class>Character</Class>
+		<Enemy/>
+		<Texture>
+			<File>invisible</File>
+			<Index>0</Index>
+		</Texture>
+		<NoMiniMap/>
+		<Size>0</Size>
+		<XpMult>0.0</XpMult>
+		<StasisImmune/>
+		<DisplayId>Golden Totem Spawner</DisplayId>
+	</Object>
+	<Object type="0xBD29" id="Primaeval The Ancient Totem">
+		<Enemy/>
+		<Class>Character</Class>
+		<Boss>1</Boss>
+		<Hero/>
+		<Quest/>
+		<God/>
+		<Size>150</Size>
+		<Encounter/>
+		<Level>40</Level>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>43</Index>
+		</AnimatedTexture>
+		<Projectile id="0">
+			<ObjectId>Yellow paralyze shot</ObjectId>
+			<Damage>180</Damage>
+			<Speed>50</Speed>
+			<MultiHit/>
+			<Size>100</Size>
+			<LifetimeMS>3000</LifetimeMS>
+			<ConditionEffect duration="1">Paralyzed</ConditionEffect>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Yellow Spin Shot</ObjectId>
+			<Damage>130</Damage>
+			<Speed>60</Speed>
+			<Size>100</Size>
+			<MultiHit/>
+			<LifetimeMS>3000</LifetimeMS>
+			<ArmorPiercing/>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Red Bleeding shot</ObjectId>
+			<Damage>5</Damage>
+			<Speed>120</Speed>
+			<MultiHit/>
+			<Size>100</Size>
+			<LifetimeMS>3000</LifetimeMS>
+			<ConditionEffect duration="5">Bleeding</ConditionEffect>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Gray Confused Spin shot</ObjectId>
+			<Damage>50</Damage>
+			<Speed>70</Speed>
+			<Size>100</Size>
+			<MultiHit/>
+			<LifetimeMS>3000</LifetimeMS>
+			<ConditionEffect duration="1">Confused</ConditionEffect>
+			<ArmorPiercing/>
+		</Projectile>
+		<Projectile id="4">
+			<ObjectId>Yellow Blast Shot</ObjectId>
+			<Damage>250</Damage>
+			<Speed>90</Speed>
+			<Size>100</Size>
+			<MultiHit/>
+			<LifetimeMS>3000</LifetimeMS>
+		</Projectile>
+		<MaxHitPoints>75000</MaxHitPoints>
+		<XpMult>1.5</XpMult>
+	</Object>
+	<Object type="0xBD28" id="Yellow Blast Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xf4</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBD27" id="Yellow paralyze shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xf5</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBD26" id="Red Bleeding shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xf8</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBD25" id="Gray Confused Spin shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xf7</Index>
+		</Texture>
+		<Rotation>70</Rotation>
+	</Object>
+	<Object type="0xBD24" id="Yellow Spin Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xf6</Index>
+		</Texture>
+		<Rotation>70</Rotation>
+	</Object>
+	<Object type="0xBD23" id="Golden Totem Paralyzed">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xf3</Index>
+		</Texture>
+		<Rotation>70</Rotation>
+	</Object>
+	<Object type="0xBD22" id="Golden Totem Bleed">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xf2</Index>
+		</Texture>
+		<Rotation>70</Rotation>
+	</Object>
+	<Object type="0xBD21" id="Golden Totem">
+		<Group>EpicForbiddenJungle</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>42</Index>
+		</AnimatedTexture>
+		<HitSound>monster/stone_walls_hit</HitSound>
+		<DeathSound>monster/stone_walls_death</DeathSound>
+		<Size>140</Size>
+		<Projectile id="0">
+			<ObjectId>Golden Totem Paralyzed</ObjectId>
+			<Damage>80</Damage>
+			<Size>100</Size>
+			<Speed>50</Speed>
+			<LifetimeMS>1600</LifetimeMS>
+			<ConditionEffect duration="1">Paralyzed</ConditionEffect>
+			<ArmorPiercing/>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Golden Totem Bleed</ObjectId>
+			<Damage>80</Damage>
+			<Speed>50</Speed>
+			<Size>100</Size>
+			<LifetimeMS>1600</LifetimeMS>
+			<ConditionEffect duration="2">Bleeding</ConditionEffect>
+			<ArmorPiercing/>
+		</Projectile>
+		<DisplayId>Golden Totem</DisplayId>
+	</Object>
+	<Object type="0xBD43" id="Amalgamation Shot Head">
+		<Class>Projectile</Class>
+		<RandomTexture>
+			<Texture>
+				<File>Big0</File>
+				<Index>0xbb</Index>
+			</Texture>
+		</RandomTexture>
+		<AngleCorrection>2</AngleCorrection>
+	</Object>
+	<Object type="0xBD42" id="Amalgamation Shot Ball">
+		<Class>Projectile</Class>
+		<RandomTexture>
+			<Texture>
+				<File>Big0</File>
+				<Index>0xba</Index>
+			</Texture>
+		</RandomTexture>
+		<Rotation>70</Rotation>
+	</Object>
+	<Object type="0xBD41" id="Amalgamation Shot Boomerang">
+		<Class>Projectile</Class>
+		<RandomTexture>
+			<Texture>
+				<File>Big0</File>
+				<Index>0xb9</Index>
+			</Texture>
+		</RandomTexture>
+		<Rotation>70</Rotation>
+	</Object>
+	<Object type="0xBD40" id="Amalgamation Shot Bash">
+		<Class>Projectile</Class>
+		<RandomTexture>
+			<Texture>
+				<File>Big0</File>
+				<Index>0xb8</Index>
+			</Texture>
+		</RandomTexture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBD39" id="Amalgamation Shot BIG">
+		<Class>Projectile</Class>
+		<RandomTexture>
+			<Texture>
+				<File>Big0</File>
+				<Index>0xb7</Index>
+			</Texture>
+		</RandomTexture>
+		<Rotation>70</Rotation>
+	</Object>
+	<Object type="0xBD38" id="Amalgamation">
+		<Enemy/>
+		<Class>Character</Class>
+		<Boss>1</Boss>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>46</Index>
+		</AnimatedTexture>
+		<HitSound>monster/default_hit</HitSound>
+		<DeathSound>spell/fire_spray</DeathSound>
+		<Size>200</Size>
+		<ShadowSize>130</ShadowSize>
+		<Hero/>
+		<Quest/>
+		<God/>
+		<Encounter/>
+		<Level>40</Level>
+		<MaxHitPoints>60000</MaxHitPoints>
+		<Projectile id="0">
+			<ObjectId>Amalgamation Shot BIG</ObjectId>
+			<Damage>180</Damage>
+			<Size>150</Size>
+			<Speed>30</Speed>
+			<LifetimeMS>10000</LifetimeMS>
+			<MultiHit/>
+			<Boomerang/>
+			<Amplitude>5</Amplitude>
+			<Frequency>1</Frequency>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Amalgamation Shot Bash</ObjectId>
+			<Damage>120</Damage>
+			<Size>140</Size>
+			<Speed>80</Speed>
+			<LifetimeMS>5000</LifetimeMS>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Amalgamation Shot Boomerang</ObjectId>
+			<Damage>90</Damage>
+			<Size>130</Size>
+			<Speed>60</Speed>
+			<LifetimeMS>5000</LifetimeMS>
+			<Amplitude>3</Amplitude>
+			<Frequency>0.6</Frequency>
+			<Boomerang/>
+			<MultiHit/>
+			<ConditionEffect duration="3">Quiet</ConditionEffect>
+		</Projectile>
+	</Object>
+	<Object type="0xBD44" id="Amalgamation Child">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>47</Index>
+		</AnimatedTexture>
+		<HitSound>monster/default_hit</HitSound>
+		<DeathSound>spell/fire_spray</DeathSound>
+		<Size>100</Size>
+		<ShadowSize>130</ShadowSize>
+		<MaxHitPoints>5000</MaxHitPoints>
+		<Projectile id="0">
+			<ObjectId>Amalgamation Shot Head</ObjectId>
+			<Damage>45</Damage>
+			<Size>90</Size>
+			<Speed>70</Speed>
+			<LifetimeMS>10000</LifetimeMS>
+			<MultiHit/>
+			<Boomerang/>
+			<ArmorPiercing/>
+			<Amplitude>3</Amplitude>
+			<Frequency>0.6</Frequency>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Amalgamation Shot Ball</ObjectId>
+			<Damage>50</Damage>
+			<Size>80</Size>
+			<ArmorPiercing/>
+			<MultiHit/>
+			<Speed>0</Speed>
+			<ConditionEffect duration="1">Blind</ConditionEffect>
+			<LifetimeMS>5000</LifetimeMS>
+		</Projectile>
+	</Object>
+
+
+	<!--Fenrir-->
+
+
+	<Object type="0xCDB1" id="Fenrir, the Storm">
+		<Enemy/>
+		<Class>Character</Class>
+		<Boss>2</Boss>
+
+		<AnimatedTexture>
+			<File>chars20x20</File>
+			<Index>0</Index>
+		</AnimatedTexture>
+		<AltTexture id="1">
+			<AnimatedTexture>
+				<File>chars20x20</File>
+				<Index>1</Index>
+			</AnimatedTexture>
+		</AltTexture>
+		<AltTexture id="2">
+			<AnimatedTexture>
+				<File>chars20x20</File>
+				<Index>2</Index>
+			</AnimatedTexture>
+		</AltTexture>
+		<AltTexture id="3">
+			<AnimatedTexture>
+				<File>chars20x20</File>
+				<Index>3</Index>
+			</AnimatedTexture>
+		</AltTexture>
+		<AltTexture id="4">
+			<Animation prob="1.0" period="2.0">
+				<Frame time="0.2">
+					<Texture>
+						<File>18x32Objects</File>
+						<Index>0</Index>
+					</Texture>
+				</Frame>
+				<Frame time="0.1">
+					<Texture>
+						<File>18x32Objects</File>
+						<Index>1</Index>
+					</Texture>
+				</Frame>
+				<Frame time="0.1">
+					<Texture>
+						<File>18x32Objects</File>
+						<Index>2</Index>
+					</Texture>
+				</Frame>
+				<Frame time="0.1">
+					<Texture>
+						<File>18x32Objects</File>
+						<Index>3</Index>
+					</Texture>
+				</Frame>
+				<Frame time="0.5">
+					<Texture>
+						<File>18x32Objects</File>
+						<Index>4</Index>
+					</Texture>
+				</Frame>
+				<Frame time="0.4">
+					<Texture>
+						<File>18x32Objects</File>
+						<Index>5</Index>
+					</Texture>
+				</Frame>
+				<Frame time="0.2">
+					<Texture>
+						<File>18x32Objects</File>
+						<Index>6</Index>
+					</Texture>
+				</Frame>
+				<Frame time="0.1">
+					<Texture>
+						<File>18x32Objects</File>
+						<Index>7</Index>
+					</Texture>
+				</Frame>
+				<Frame time="0.1">
+					<Texture>
+						<File>18x32Objects</File>
+						<Index>8</Index>
+					</Texture>
+				</Frame>
+				<Frame time="0.2">
+					<Texture>
+						<File>18x32Objects</File>
+						<Index>9</Index>
+					</Texture>
+				</Frame>
+			</Animation>
+		</AltTexture>
+
+		<HitSound>monster/default_hit</HitSound>
+		<DeathSound>spell/fire_spray</DeathSound>
+		<Size>160</Size>
+		<ShadowSize>50</ShadowSize>
+		<Defense>100</Defense>
+		<MaxHitPoints>200000</MaxHitPoints>
+		<Projectile id="0">
+			<ObjectId>Fenrir Spinner</ObjectId>
+			<Damage>175</Damage>
+			<Size>150</Size>
+			<Speed>60</Speed>
+			<LifetimeMS>3500</LifetimeMS>
+			<Boomerang/>
+			<MultiHit/>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Fenrir Big Sharp</ObjectId>
+			<Damage>140</Damage>
+			<Size>150</Size>
+			<Speed>60</Speed>
+			<LifetimeMS>5000</LifetimeMS>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Fenrir Enchanced Spinner</ObjectId>
+			<Damage>170</Damage>
+			<Size>200</Size>
+			<Speed>60</Speed>
+			<Parametric/>
+			<MultiHit/>
+			<LifetimeMS>4000</LifetimeMS>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Fenrir Big Enchanced Sharp</ObjectId>
+			<Damage>160</Damage>
+			<Size>175</Size>
+			<Speed>60</Speed>
+			<LifetimeMS>10000</LifetimeMS>
+		</Projectile>
+		<Projectile id="4">
+			<ObjectId>Fenrir Blunt 1</ObjectId>
+			<Damage>100</Damage>
+			<Size>130</Size>
+			<Speed>40</Speed>
+			<ConditionEffect duration="1">Bleeding</ConditionEffect>
+			<LifetimeMS>5000</LifetimeMS>
+		</Projectile>
+		<Projectile id="5">
+			<ObjectId>Fenrir Blunt 2</ObjectId>
+			<Damage>100</Damage>
+			<Size>110</Size>
+			<Speed>70</Speed>
+			<ConditionEffect duration="2">Bleeding</ConditionEffect>
+			<LifetimeMS>5000</LifetimeMS>
+		</Projectile>
+		<Projectile id="6">
+			<ObjectId>Fenrir Enhanced Blunt 1</ObjectId>
+			<Damage>70</Damage>
+			<Size>150</Size>
+			<Speed>50</Speed>
+			<LifetimeMS>5000</LifetimeMS>
+			<ConditionEffect duration="0.5">Paralyzed</ConditionEffect>
+			<MultiHit/>
+		</Projectile>
+		<Projectile id="7">
+			<ObjectId>Fenrir Enhanced Blunt 2</ObjectId>
+			<Damage>70</Damage>
+			<Size>150</Size>
+			<Speed>45</Speed>
+			<LifetimeMS>5000</LifetimeMS>
+			<ConditionEffect duration="1">Paralyzed</ConditionEffect>
+			<MultiHit/>
+		</Projectile>
+	</Object>
+
+	<Object type="0xCDB2" id="Fenrir Thunder Clouds">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars20x20</File>
+			<Index>4</Index>
+		</AnimatedTexture>
+		<AltTexture id="1">
+			<AnimatedTexture>
+				<File>chars20x20</File>
+				<Index>5</Index>
+			</AnimatedTexture>
+		</AltTexture>
+		<HitSound>monster/default_hit</HitSound>
+		<DeathSound>spell/fire_spray</DeathSound>
+		<Size>150</Size>
+		<ShadowSize>50</ShadowSize>
+		<MaxHitPoints>5000</MaxHitPoints>
+		<Projectile id="0">
+			<ObjectId>Tornado Shot 1</ObjectId>
+			<Damage>85</Damage>
+			<Size>160</Size>
+			<Speed>20</Speed>
+			<ConditionEffect duration="1">Slowed_I</ConditionEffect>
+			<LifetimeMS>12500</LifetimeMS>
+			<MultiHit/>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Tornado Shot 2</ObjectId>
+			<Damage>100</Damage>
+			<Size>140</Size>
+			<Speed>15</Speed>
+			<ConditionEffect duration="0.5">Paralyzed</ConditionEffect>
+			<LifetimeMS>3000</LifetimeMS>
+			<MultiHit/>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Tornado Enchanced Shot 1</ObjectId>
+			<Damage>75</Damage>
+			<Size>200</Size>
+			<Speed>25</Speed>
+			<ConditionEffect duration="1">Slowed_III</ConditionEffect>
+			<LifetimeMS>7500</LifetimeMS>
+			<MultiHit/>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Tornado Enchanced Shot 2</ObjectId>
+			<Damage>100</Damage>
+			<Size>200</Size>
+			<Speed>25</Speed>
+			<ConditionEffect duration="1">Slowed_III</ConditionEffect>
+			<LifetimeMS>5000</LifetimeMS>
+			<MultiHit/>
+		</Projectile>
+		<Projectile id="4">
+			<ObjectId>Tornado Enchanced Shot 3</ObjectId>
+			<Damage>75</Damage>
+			<Size>125</Size>
+			<Speed>50</Speed>
+			<ConditionEffect duration="1">Slowed_III</ConditionEffect>
+			<LifetimeMS>5000</LifetimeMS>
+		</Projectile>
+	</Object>
+
+	<Object type="0xCDB6" id="Fenrir Mini Storm">
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars20x20</File>
+			<Index>6</Index>
+		</AnimatedTexture>
+		<HitSound>monster/default_hit</HitSound>
+		<DeathSound>spell/fire_spray</DeathSound>
+		<Size>125</Size>
+		<ShadowSize>50</ShadowSize>
+		<MaxHitPoints>4000</MaxHitPoints>
+		<Projectile id="0">
+			<ObjectId>Tornado Mini Sharp</ObjectId>
+			<Damage>100</Damage>
+			<Size>160</Size>
+			<Speed>60</Speed>
+			<ConditionEffect duration="1">Slowed_III</ConditionEffect>
+			<LifetimeMS>4000</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Tornado Mini Electric</ObjectId>
+			<Damage>80</Damage>
+			<Size>140</Size>
+			<Speed>50</Speed>
+			<ConditionEffect duration="0.5">Paralyzed</ConditionEffect>
+			<LifetimeMS>3000</LifetimeMS>
+		</Projectile>
+	</Object>
+	<!--End-Fenrir-->
+
+	<!--Frost-Giant-->
+	<Object type="0xFFFF" id="Bergelmir Shadow Crystal">
+		<Enemy/>
+		<Class>Character</Class>
+
+		<Texture>
+			<File>12x12ObjectsA</File>
+			<Index>2</Index>
+		</Texture>
+		<HitSound>monster/default_hit</HitSound>
+		<DeathSound>spell/fire_spray</DeathSound>
+		<Size>100</Size>
+
+		<Projectile id="0">
+			<ObjectId>Bergelmir Shadow Shot 1</ObjectId>
+			<Speed>20</Speed>
+			<Damage>125</Damage>
+			<Size>120</Size>
+			<LifetimeMS>8000</LifetimeMS>
+			<Boomerang/>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Bergelmir Shadow Shot 2</ObjectId>
+			<Speed>40</Speed>
+			<Damage>125</Damage>
+			<Size>120</Size>
+			<LifetimeMS>18000</LifetimeMS>
+		</Projectile>
+
+	</Object>
+
+	<Object type="0xFFFE" id="Bergelmir Soul Shade">
+		<Enemy/>
+		<Class>Character</Class>
+
+		<Texture>
+			<File>12x12ObjectsA</File>
+			<Index>3</Index>
+		</Texture>
+
+		<HitSound>monster/default_hit</HitSound>
+		<DeathSound>spell/fire_spray</DeathSound>
+		<Size>100</Size>
+
+		<Projectile id="0">
+			<ObjectId>Bergelmir Shade Shot 1</ObjectId>
+			<Speed>5</Speed>
+			<Damage>125</Damage>
+			<Size>120</Size>
+			<LifetimeMS>8000</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Bergelmir Shade Shot 2</ObjectId>
+			<Speed>100</Speed>
+			<Damage>125</Damage>
+			<Size>120</Size>
+			<LifetimeMS>5000</LifetimeMS>
+		</Projectile>
+
+	</Object>
+
+	<Object type="0xFFFD" id="Bergelmir, the Frost Giant">
+		<Enemy/>
+		<Class>Character</Class>
+		<Boss>2</Boss>
+		<AnimatedTexture>
+			<File>chars40x40a</File>
+			<Index>0</Index>
+		</AnimatedTexture>
+		<AltTexture id="1">
+			<AnimatedTexture>
+				<File>chars40x40a</File>
+				<Index>1</Index>
+			</AnimatedTexture>
+		</AltTexture>
+		<AltTexture id="2">
+			<AnimatedTexture>
+				<File>chars40x40a</File>
+				<Index>2</Index>
+			</AnimatedTexture>
+		</AltTexture>
+		<AltTexture id="3">
+			<AnimatedTexture>
+				<File>chars40x40a</File>
+				<Index>3</Index>
+			</AnimatedTexture>
+		</AltTexture>
+		<AltTexture id="4">
+			<AnimatedTexture>
+				<File>chars40x40a</File>
+				<Index>4</Index>
+			</AnimatedTexture>
+		</AltTexture>
+		<HitSound>monster/default_hit</HitSound>
+		<DeathSound>spell/fire_spray</DeathSound>
+		<Quest/>
+		<Size>160</Size>
+		<ShadowSize>50</ShadowSize>
+		<Defense>50</Defense>
+		<MaxHitPoints>150000</MaxHitPoints>
+
+
+		<Projectile id="0">
+			<ObjectId>Bergelmir Shot 1</ObjectId>
+			<Speed>40</Speed>
+			<Damage>125</Damage>
+			<Size>120</Size>
+			<LifetimeMS>10000</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Bergelmir Shot 2</ObjectId>
+			<Speed>150</Speed>
+			<Damage>125</Damage>
+			<Size>120</Size>
+			<LifetimeMS>18000</LifetimeMS>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Bergelmir Shot 3</ObjectId>
+			<Speed>30</Speed>
+			<Damage>125</Damage>
+			<Size>120</Size>
+			<LifetimeMS>6000</LifetimeMS>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Bergelmir Shot 4</ObjectId>
+			<Speed>25</Speed>
+			<Damage>125</Damage>
+			<Size>120</Size>
+			<LifetimeMS>18000</LifetimeMS>
+		</Projectile>
+
+	</Object>
+
+	<Object type="0xCDB4" id="Suttungr, the Frost Giant">
+		<Enemy/>
+		<Class>Character</Class>
+		<Boss>1</Boss>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>66</Index>
+		</AnimatedTexture>
+		<HitSound>monster/default_hit</HitSound>
+		<DeathSound>spell/fire_spray</DeathSound>
+		<Size>150</Size>
+		<ShadowSize>50</ShadowSize>
+		<Defense>50</Defense>
+		<MaxHitPoints>75000</MaxHitPoints>
+		<Projectile id="0">
+			<ObjectId>Suttungr Shot</ObjectId>
+			<Damage>120</Damage>
+			<Size>150</Size>
+			<Speed>40</Speed>
+			<LifetimeMS>10000</LifetimeMS>
+			<MultiHit/>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Suttungr Shot 1</ObjectId>
+			<Damage>175</Damage>
+			<Size>150</Size>
+			<Speed>70</Speed>
+			<LifetimeMS>2500</LifetimeMS>
+			<Boomerang/>
+			<MultiHit/>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Suttungr Shot 2</ObjectId>
+			<Damage>120</Damage>
+			<Size>150</Size>
+			<Speed>80</Speed>
+			<LifetimeMS>10000</LifetimeMS>
+			<MultiHit/>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Suttungr Strike</ObjectId>
+			<Damage>120</Damage>
+			<Size>150</Size>
+			<Speed>80</Speed>
+			<LifetimeMS>2000</LifetimeMS>
+			<MultiHit/>
+		</Projectile>
+	</Object>
+
+	<Object type="0xCDB5" id="Geirror, the Frost Giant">
+		<Enemy/>
+		<Class>Character</Class>
+		<Boss>1</Boss>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters2</File>
+			<Index>67</Index>
+		</AnimatedTexture>
+		<HitSound>monster/default_hit</HitSound>
+		<DeathSound>spell/fire_spray</DeathSound>
+		<Size>150</Size>
+		<ShadowSize>50</ShadowSize>
+		<Defense>50</Defense>
+		<MaxHitPoints>75000</MaxHitPoints>
+		<Projectile id="0">
+			<ObjectId>Geirror Shot</ObjectId>
+			<Damage>120</Damage>
+			<Size>150</Size>
+			<Speed>60</Speed>
+			<LifetimeMS>10000</LifetimeMS>
+			<MultiHit/>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Geirror Shot 1</ObjectId>
+			<Damage>175</Damage>
+			<Size>150</Size>
+			<Speed>100</Speed>
+			<LifetimeMS>2500</LifetimeMS>
+			<Boomerang/>
+			<MultiHit/>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Geirror Shot 2</ObjectId>
+			<Damage>250</Damage>
+			<Size>150</Size>
+			<Speed>100</Speed>
+			<LifetimeMS>3000</LifetimeMS>
+			<MultiHit/>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Geirror Strike</ObjectId>
+			<Damage>120</Damage>
+			<Size>150</Size>
+			<Speed>80</Speed>
+			<LifetimeMS>2000</LifetimeMS>
+			<MultiHit/>
+		</Projectile>
+	</Object>
+
+	<!--End-Frost-Giant-->
+
+</Objects>

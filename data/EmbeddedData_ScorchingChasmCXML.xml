@@ -1,0 +1,1494 @@
+<Objects>
+	<Object type="0x3ab4" id="[ScorchingChasm] Cooling Effect">
+		<Class>GameObject</Class>
+		<DrawOnGround/>
+		<Effect>Vent</Effect>
+		<Texture>
+			<File>invisible</File>
+			<Index>0</Index>
+		</Texture>
+	</Object>
+	<Object type="0xBFf9" id="[ScorchingChasm] Second Door Lit">
+		<Class>Character</Class>
+		<Enemy/>
+		<NoExp/>
+		<NotHittable/>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x4a</Index>
+		</Texture>
+		<Animation prob="1" period="0.4">
+			<Frame time="0.2">
+				<Texture>
+					<File>lofiEnvironment4</File>
+					<Index>0x4b</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.2">
+				<Texture>
+					<File>lofiEnvironment4</File>
+					<Index>0x4c</Index>
+				</Texture>
+			</Frame>
+		</Animation>
+	</Object>
+	<Object type="0xBFf8" id="[ScorchingChasm] Second Door Unlit">
+		<Class>Character</Class>
+		<Enemy/>
+		<NoExp/>
+		<NotHittable/>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x49</Index>
+		</Texture>
+	</Object>
+	<Object type="0xBFf7" id="[ScorchingChasm] Second Door Wall">
+		<Class>Wall</Class>
+		<Height>3</Height>
+		<NoExp/>
+		<NotHittable/>
+		<RandomTexture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x19</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x1a</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x1b</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x1c</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x1d</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x1e</Index>
+			</Texture>
+		</RandomTexture>
+		<Top>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x12</Index>
+			</Texture>
+		</Top>
+		<HitSound>monster/stone_walls_hit</HitSound>
+		<DeathSound>monster/stone_walls_death</DeathSound>
+		<Static/>
+		<FullOccupy/>
+		<OccupySquare/>
+		<EnemyOccupySquare/>
+		<BlocksSight/>
+	</Object>
+	<Object type="0xBFd8" id="Inferno Dragon Flow">
+		<Class>Character</Class>
+		<Enemy/>
+		<NoExp/>
+		<NotHittable/>
+		<AnimatedTexture>
+			<File>chars16x16dMountains2</File>
+			<Index>22</Index>
+		</AnimatedTexture>
+		<Size>120</Size>
+		<StasisImmune/>
+		<Defense>30</Defense>
+		<HitSound>monster/stone_walls_hit</HitSound>
+		<DeathSound>monster/stone_walls_hit</DeathSound>
+		<Projectile id="0">
+			<ObjectId>Inferno Dragon Super Shuriken</ObjectId>
+			<Speed>60</Speed>
+			<Damage>80</Damage>
+			<LifetimeMS>6250</LifetimeMS>
+			<Size>150</Size>
+			<MultiHit/>
+			<Accelerate/>
+		</Projectile>
+	</Object>
+	<Object type="0xBFd7" id="Inferno Dragon Super Shuriken">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>Big0</File>
+			<Index>0x4e</Index>
+		</Texture>
+		<Rotation>70</Rotation>
+	</Object>
+	<Object type="0xBFd6" id="Inferno Dragon Flame">
+		<Class>Character</Class>
+		<Enemy/>
+		<NoExp/>
+		<NotHittable/>
+		<AnimatedTexture>
+			<File>chars16x16dMountains2</File>
+			<Index>22</Index>
+		</AnimatedTexture>
+		<Size>120</Size>
+		<StasisImmune/>
+		<Defense>30</Defense>
+		<HitSound>monster/stone_walls_hit</HitSound>
+		<DeathSound>monster/stone_walls_hit</DeathSound>
+		<Projectile id="0">
+			<ObjectId>Inferno Dragon Super Shuriken</ObjectId>
+			<Speed>60</Speed>
+			<Damage>80</Damage>
+			<LifetimeMS>6250</LifetimeMS>
+			<Size>150</Size>
+			<MultiHit/>
+			<Accelerate/>
+		</Projectile>
+	</Object>
+	<Object type="0xBFd5" id="Inferno Dragon Line">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x01</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBFd4" id="Inferno Dragon Dark Line">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x11</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBFd3" id="Inferno Dragon Dark Blast">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x21</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBFd2" id="Inferno Dragon Blast">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj7</File>
+			<Index>0x20</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBFd1" id="Inferno Dragon Super Blast">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>Big0</File>
+			<Index>0x3e</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBFd0" id="Inferno Dragon">
+		<Group>Demons</Group>
+		<Boss>1</Boss>
+		<Enemy/>
+		<Class>Character</Class>
+		<Quest/>
+		<God/>
+		<AnimatedTexture>
+			<File>chars16x16dMountains2</File>
+			<Index>21</Index>
+		</AnimatedTexture>
+		<HitSound>monster/demons_hit</HitSound>
+		<DeathSound>monster/demons_death</DeathSound>
+		<MaxHitPoints>75000</MaxHitPoints>
+		<Size>150</Size>
+		<XpMult>0.7</XpMult>
+		<Projectile id="0">
+			<ObjectId>Inferno Dragon Blast</ObjectId>
+			<Damage>40</Damage>
+			<Speed>20</Speed>
+			<ArmorPiercing/>
+			<Size>100</Size>
+			<LifetimeMS>7000</LifetimeMS>
+			<Amplitude>2</Amplitude>
+			<Frequency>1</Frequency>
+			<MultiHit/>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Inferno Dragon Dark Blast</ObjectId>
+			<Damage>60</Damage>
+			<Speed>20</Speed>
+			<Size>100</Size>
+			<LifetimeMS>7000</LifetimeMS>
+			<Amplitude>2</Amplitude>
+			<Frequency>1</Frequency>
+			<MultiHit/>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Inferno Dragon Super Blast</ObjectId>
+			<Damage>80</Damage>
+			<Speed>80</Speed>
+			<Size>180</Size>
+			<LifetimeMS>3500</LifetimeMS>
+			<Amplitude>1</Amplitude>
+			<Frequency>1</Frequency>
+			<MultiHit/>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Inferno Dragon Super Blast</ObjectId>
+			<Damage>120</Damage>
+			<Speed>100</Speed>
+			<Size>180</Size>
+			<LifetimeMS>3500</LifetimeMS>
+			<MultiHit/>
+		</Projectile>
+		<Projectile id="4">
+			<ObjectId>Inferno Dragon Line</ObjectId>
+			<Damage>0</Damage>
+			<Speed>200</Speed>
+			<Size>80</Size>
+			<LifetimeMS>3500</LifetimeMS>
+			<MultiHit/>
+		</Projectile>
+		<Projectile id="5">
+			<ObjectId>Inferno Dragon Blast</ObjectId>
+			<Damage>40</Damage>
+			<Speed>15</Speed>
+			<ArmorPiercing/>
+			<Size>80</Size>
+			<LifetimeMS>7000</LifetimeMS>
+			<Amplitude>2</Amplitude>
+			<Frequency>1</Frequency>
+			<MultiHit/>
+		</Projectile>
+		<Projectile id="6">
+			<ObjectId>Inferno Dragon Dark Blast</ObjectId>
+			<Damage>40</Damage>
+			<Speed>15</Speed>
+			<ArmorPiercing/>
+			<Size>80</Size>
+			<LifetimeMS>7000</LifetimeMS>
+			<Amplitude>2</Amplitude>
+			<Frequency>1</Frequency>
+			<MultiHit/>
+		</Projectile>
+		<Projectile id="7">
+			<ObjectId>Inferno Dragon Dark Line</ObjectId>
+			<Damage>100</Damage>
+			<Speed>100</Speed>
+			<Size>100</Size>
+			<LifetimeMS>3500</LifetimeMS>
+			<MultiHit/>
+		</Projectile>
+	</Object>
+	<Object type="0xBFb9" id="Burning Idol">
+		<Class>Character</Class>
+		<Enemy/>
+		<NoExp/>
+		<NotHittable/>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters</File>
+			<Index>8</Index>
+		</AnimatedTexture>
+		<Size>80</Size>
+		<StasisImmune/>
+		<Defense>30</Defense>
+		<HitSound>monster/stone_walls_hit</HitSound>
+		<DeathSound>monster/stone_walls_hit</DeathSound>
+		<Projectile id="0">
+			<ObjectId>Bahaams Proj Big Shuriken</ObjectId>
+			<Speed>40</Speed>
+			<Damage>120</Damage>
+			<LifetimeMS>6250</LifetimeMS>
+			<Size>90</Size>
+			<MultiHit/>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Bahaams Proj Big Shuriken</ObjectId>
+			<Speed>40</Speed>
+			<Damage>120</Damage>
+			<LifetimeMS>8250</LifetimeMS>
+			<Size>90</Size>
+			<MultiHit/>
+			<Boomerang/>
+		</Projectile>
+	</Object>
+	<Object type="0xBFb8" id="Bahaams Proj Big Pentagram">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>Big0</File>
+			<Index>0x38</Index>
+		</Texture>
+		<Rotation>160</Rotation>
+	</Object>
+	<Object type="0xBFb7" id="Bahaams Proj Big Shuriken">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>Big0</File>
+			<Index>0x37</Index>
+		</Texture>
+		<Rotation>60</Rotation>
+	</Object>
+	<Object type="0xBFb6" id="Bahaams Proj Big 3 Shot Spin">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>Big0</File>
+			<Index>0x36</Index>
+		</Texture>
+		<Rotation>60</Rotation>
+	</Object>
+	<Object type="0xBFb5" id="Bahaams Proj Big Wave">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>Big0</File>
+			<Index>0x35</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBFb4" id="Bahaams Proj Big Many Blast">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>Big0</File>
+			<Index>0x55</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBFb3" id="Bahaams Proj Big Serious Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>Big0</File>
+			<Index>0x54</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBFb2" id="Bahaams Proj Serious Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x72</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBFb1" id="Bahaams Proj Small Many Blast">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x71</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBFb0" id="Bahaams Proj Small Many Ball">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x70</Index>
+		</Texture>
+		<Rotation>60</Rotation>
+	</Object>
+	<Object type="0x090a" id="Bahaams, Ruler of the Scorched">
+		<Group>Demons</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<Boss>2</Boss>
+		<Quest/>
+		<God/>
+		<AnimatedTexture>
+			<File>chars16x16dEncounters</File>
+			<Index>0</Index>
+		</AnimatedTexture>
+		<AltTexture id="1">
+			<AnimatedTexture>
+				<File>chars16x16dEncounters</File>
+				<Index>1</Index>
+			</AnimatedTexture>
+		</AltTexture>
+		<AltTexture id="2">
+			<AnimatedTexture>
+				<File>chars16x16dEncounters</File>
+				<Index>2</Index>
+			</AnimatedTexture>
+		</AltTexture>
+		<AltTexture id="3">
+			<AnimatedTexture>
+				<File>chars16x16dEncounters</File>
+				<Index>3</Index>
+			</AnimatedTexture>
+		</AltTexture>
+		<AltTexture id="4">
+			<AnimatedTexture>
+				<File>chars16x16dEncounters</File>
+				<Index>5</Index>
+			</AnimatedTexture>
+		</AltTexture>
+		<AltTexture id="5">
+			<AnimatedTexture>
+				<File>chars16x16dEncounters</File>
+				<Index>6</Index>
+			</AnimatedTexture>
+		</AltTexture>
+		<AltTexture id="6">
+			<AnimatedTexture>
+				<File>chars16x16dEncounters</File>
+				<Index>7</Index>
+			</AnimatedTexture>
+		</AltTexture>
+		<HitSound>monster/demons_hit</HitSound>
+		<DeathSound>monster/demons_death</DeathSound>
+		<MaxHitPoints>140000</MaxHitPoints>
+		<Size>140</Size>
+		<XpMult>0.7</XpMult>
+		<Projectile id="0">
+			<ObjectId>Bahaams Proj Small Many Ball</ObjectId>
+			<Damage>60</Damage>
+			<Speed>20</Speed>
+			<ArmorPiercing/>
+			<Size>80</Size>
+			<LifetimeMS>9000</LifetimeMS>
+			<Amplitude>1.5</Amplitude>
+			<Frequency>1</Frequency>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Bahaams Proj Small Many Blast</ObjectId>
+			<Damage>60</Damage>
+			<Speed>40</Speed>
+			<Size>80</Size>
+			<ArmorPiercing/>
+			<LifetimeMS>7500</LifetimeMS>
+			<Amplitude>0.75</Amplitude>
+			<Frequency>2</Frequency>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Bahaams Proj Serious Shot</ObjectId>
+			<Damage>80</Damage>
+			<Speed>80</Speed>
+			<Size>100</Size>
+			<LifetimeMS>7500</LifetimeMS>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Bahaams Proj Big Serious Shot</ObjectId>
+			<Damage>100</Damage>
+			<Speed>80</Speed>
+			<Size>120</Size>
+			<LifetimeMS>7500</LifetimeMS>
+		</Projectile>
+		<Projectile id="4">
+			<ObjectId>Bahaams Proj Big Many Blast</ObjectId>
+			<Damage>110</Damage>
+			<Speed>120</Speed>
+			<Size>100</Size>
+			<LifetimeMS>7500</LifetimeMS>
+			<Accelerate/>
+		</Projectile>
+		<Projectile id="5">
+			<ObjectId>Bahaams Proj Big Many Blast</ObjectId>
+			<Damage>110</Damage>
+			<Speed>60</Speed>
+			<Size>90</Size>
+			<LifetimeMS>7500</LifetimeMS>
+		</Projectile>
+		<Projectile id="6">
+			<ObjectId>Bahaams Proj Big Many Blast</ObjectId>
+			<Damage>110</Damage>
+			<Speed>80</Speed>
+			<Size>80</Size>
+			<LifetimeMS>7500</LifetimeMS>
+		</Projectile>
+		<Projectile id="7">
+			<ObjectId>Bahaams Proj Big Many Blast</ObjectId>
+			<Damage>110</Damage>
+			<Speed>40</Speed>
+			<Size>80</Size>
+			<LifetimeMS>8500</LifetimeMS>
+		</Projectile>
+		<Projectile id="8">
+			<ObjectId>Bahaams Proj Big 3 Shot Spin</ObjectId>
+			<Damage>160</Damage>
+			<Speed>40</Speed>
+			<Size>80</Size>
+			<LifetimeMS>8500</LifetimeMS>
+		</Projectile>
+		<Projectile id="9">
+			<ObjectId>Bahaams Proj Big 3 Shot Spin</ObjectId>
+			<Damage>160</Damage>
+			<Speed>80</Speed>
+			<Size>100</Size>
+			<LifetimeMS>8500</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xBFaf" id="[ScorchingChasm] UnLit Husk">
+		<Class>Character</Class>
+		<Enemy/>
+		<NoExp/>
+		<NotHittable/>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x49</Index>
+		</Texture>
+	</Object>
+	<Object type="0xBFae" id="[ScorchingChasm] Lit Pillars">
+		<Class>Character</Class>
+		<Enemy/>
+		<NotHittable/>
+		<NoExp/>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x4a</Index>
+		</Texture>
+		<Animation prob="1" period="0.4">
+			<Frame time="0.2">
+				<Texture>
+					<File>lofiEnvironment4</File>
+					<Index>0x4b</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.2">
+				<Texture>
+					<File>lofiEnvironment4</File>
+					<Index>0x4c</Index>
+				</Texture>
+			</Frame>
+		</Animation>
+	</Object>
+	<Object type="0xBFad" id="[ScorchingChasm] UnLit Pillars">
+		<Class>Character</Class>
+		<Enemy/>
+		<NoExp/>
+		<NotHittable/>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x49</Index>
+		</Texture>
+	</Object>
+	<Object type="0xBFac" id="[ScorchingChasm] Fire Spark Spawner">
+		<Class>Character</Class>
+		<Enemy/>
+		<NoExp/>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x4a</Index>
+		</Texture>
+		<Animation prob="1" period="0.4">
+			<Frame time="0.2">
+				<Texture>
+					<File>lofiEnvironment4</File>
+					<Index>0x4b</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.2">
+				<Texture>
+					<File>lofiEnvironment4</File>
+					<Index>0x4c</Index>
+				</Texture>
+			</Frame>
+		</Animation>
+	</Object>
+	<Object type="0xBFab" id="[ScorchingChasm] First Door Wall">
+		<Class>Wall</Class>
+		<Height>3</Height>
+		<NoExp/>
+		<NotHittable/>
+		<RandomTexture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x19</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x1a</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x1b</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x1c</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x1d</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x1e</Index>
+			</Texture>
+		</RandomTexture>
+		<Top>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x12</Index>
+			</Texture>
+		</Top>
+		<HitSound>monster/stone_walls_hit</HitSound>
+		<DeathSound>monster/stone_walls_death</DeathSound>
+		<Static/>
+		<FullOccupy/>
+		<OccupySquare/>
+		<EnemyOccupySquare/>
+		<BlocksSight/>
+	</Object>
+	<Object type="0xBFaa" id="Fire Spark Key">
+		<Group>Lava Wisps</Group>
+		<Enemy/>
+		<NoExp/>
+		<Flying/>
+		<NotHittable/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x8rHero1</File>
+			<Index>0x1e</Index>
+		</AnimatedTexture>
+		<HitSound>monster/abyss_brutes_hit</HitSound>
+		<DeathSound>monster/abyss_brutes_death</DeathSound>
+		<Size>100</Size>
+		<MaxHitPoints>1000000</MaxHitPoints>
+		<Defense>30</Defense>
+	</Object>
+	<Object type="0xffca" id="Lava Wisp">
+		<Group>Lava Wisps</Group>
+		<Enemy/>
+		<Flying/>
+		<Class>Character</Class>
+		<NotHittable/>
+		<AnimatedTexture>
+			<File>chars8x8rHero1</File>
+			<Index>0x1e</Index>
+		</AnimatedTexture>
+		<HitSound>monster/abyss_brutes_hit</HitSound>
+		<DeathSound>monster/abyss_brutes_death</DeathSound>
+		<Size>100</Size>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Defense>30</Defense>
+		<Projectile id="0">
+			<ObjectId>Scorched Lava Wisp Proj X</ObjectId>
+			<Damage>80</Damage>
+			<Speed>120</Speed>
+			<LifetimeMS>400</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Scorched Lava Wisp Proj O</ObjectId>
+			<Damage>80</Damage>
+			<Speed>120</Speed>
+			<LifetimeMS>400</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xffc9" id="Scorched Lava Wisp Proj X">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x6e</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xffc8" id="Scorched Lava Wisp Proj O">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x6f</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xffcd" id="Scorched Sword Mage">
+		<Group>Scorched Brutes</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x8rHero1</File>
+			<Index>0x1d</Index>
+		</AnimatedTexture>
+		<HitSound>monster/abyss_brutes_hit</HitSound>
+		<DeathSound>monster/abyss_brutes_death</DeathSound>
+
+		<Size>110</Size>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Defense>30</Defense>
+		<Projectile id="0">
+			<ObjectId>Scorched sMage Proj Small</ObjectId>
+			<Damage>80</Damage>
+			<Speed>120</Speed>
+			<LifetimeMS>400</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Scorched sMage Proj</ObjectId>
+			<Damage>80</Damage>
+			<Speed>120</Speed>
+			<LifetimeMS>400</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xffcc" id="Scorched sMage Proj Small">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x6c</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xffcb" id="Scorched sMage Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x6d</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x672" id="Scorched Fire Mage">
+		<Group>Scorched Brutes</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x8rHero1</File>
+			<Index>0x1c</Index>
+		</AnimatedTexture>
+		<HitSound>monster/abyss_brutes_hit</HitSound>
+		<DeathSound>monster/abyss_brutes_death</DeathSound>
+		<Size>110</Size>
+		<MaxHitPoints>500</MaxHitPoints>
+		<Defense>30</Defense>
+		<Projectile id="0">
+			<ObjectId>Scorched fMage Proj Small</ObjectId>
+			<Damage>80</Damage>
+			<Speed>120</Speed>
+			<LifetimeMS>400</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Scorched fMage Proj</ObjectId>
+			<Damage>80</Damage>
+			<Speed>120</Speed>
+			<LifetimeMS>400</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xffcf" id="Scorched fMage Proj Small">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x6a</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xffce" id="Scorched fMage Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x6b</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x671" id="Scorched Brute">
+		<Group>Scorched Brutes</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x8rHero1</File>
+			<Index>0x1b</Index>
+		</AnimatedTexture>
+		<HitSound>monster/abyss_brutes_hit</HitSound>
+		<DeathSound>monster/abyss_brutes_death</DeathSound>
+		<Size>160</Size>
+		<MaxHitPoints>20000</MaxHitPoints>
+		<PhysicalDefense>30</PhysicalDefense>
+		<MagicDefense>10</MagicDefense>
+		<Projectile id="0">
+			<ObjectId>Scorched Brute Proj Small</ObjectId>
+			<Damage>120</Damage>
+			<Speed>120</Speed>
+			<LifetimeMS>875</LifetimeMS>
+			<Size>100</Size>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Scorched Brute Proj</ObjectId>
+			<Damage>80</Damage>
+			<Speed>20</Speed>
+			<LifetimeMS>5500</LifetimeMS>
+			<Size>60</Size>
+		</Projectile>
+	</Object>
+	<Object type="0xffd1" id="Scorched Brute Proj Small">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x68</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xffd0" id="Scorched Brute Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x69</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x670" id="Scorched Mage">
+		<Group>Scorched</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x8rHero1</File>
+			<Index>0x1a</Index>
+		</AnimatedTexture>
+		<HitSound>monster/abyss_demons_hit</HitSound>
+		<DeathSound>monster/abyss_demons_death</DeathSound>
+
+		<Size>110</Size>
+		<MaxHitPoints>1600</MaxHitPoints>
+		<Defense>30</Defense>
+		<Projectile id="0">
+			<ObjectId>Scorched Mage Proj</ObjectId>
+			<Damage>80</Damage>
+			<Speed>80</Speed>
+			<LifetimeMS>1000</LifetimeMS>
+			<Size>80</Size>
+		</Projectile>
+	</Object>
+	<Object type="0xffd2" id="Scorched Mage Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x67</Index>
+		</Texture>
+		<Rotation>60</Rotation>
+	</Object>
+	<Object type="0x66f" id="Scorched Warrior">
+		<Group>Scorched</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x8rHero1</File>
+			<Index>0x19</Index>
+		</AnimatedTexture>
+		<HitSound>monster/abyss_demons_hit</HitSound>
+		<DeathSound>monster/abyss_demons_death</DeathSound>
+
+		<Size>110</Size>
+		<MaxHitPoints>1800</MaxHitPoints>
+		<Defense>30</Defense>
+		<Projectile id="0">
+			<ObjectId>Scorched Demon Warrior Proj</ObjectId>
+			<Damage>110</Damage>
+			<Speed>90</Speed>
+			<LifetimeMS>666</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Scorched Demon Warrior Wave</ObjectId>
+			<Damage>110</Damage>
+			<Speed>90</Speed>
+			<LifetimeMS>666</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xffd4" id="Scorched Demon Warrior Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x65</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xffd3" id="Scorched Demon Warrior Wave">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x66</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x66e" id="Scorched Beast">
+		<Group>Scorched</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x8rHero1</File>
+			<Index>0x18</Index>
+		</AnimatedTexture>
+		<HitSound>monster/abyss_demons_hit</HitSound>
+		<DeathSound>monster/abyss_demons_death</DeathSound>
+
+		<Size>110</Size>
+		<MaxHitPoints>2300</MaxHitPoints>
+		<Defense>30</Defense>
+		<Projectile id="0">
+			<ObjectId>Scorched Beast Proj</ObjectId>
+			<Damage>120</Damage>
+			<Speed>50</Speed>
+			<LifetimeMS>1000</LifetimeMS>
+			<Size>100</Size>
+		</Projectile>
+	</Object>
+	<Object type="0xffd5" id="Scorched Beast Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x64</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x66d" id="Scorched Imp">
+		<Group>Scorched</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x8rHero1</File>
+			<Index>0x17</Index>
+		</AnimatedTexture>
+		<HitSound>monster/abyss_demons_hit</HitSound>
+		<DeathSound>monster/abyss_demons_death</DeathSound>
+
+		<Size>110</Size>
+		<MaxHitPoints>2000</MaxHitPoints>
+		<Defense>30</Defense>
+		<Projectile id="0">
+			<ObjectId>Scorched Imp Fire Bolt Proj</ObjectId>
+			<Damage>60</Damage>
+			<Speed>70</Speed>
+			<LifetimeMS>1285</LifetimeMS>
+			<Accelerate/>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Scorched Imp Ball Proj</ObjectId>
+			<Damage>60</Damage>
+			<Speed>70</Speed>
+			<LifetimeMS>1285</LifetimeMS>
+			<Accelerate/>
+		</Projectile>
+	</Object>
+	<Object type="0xffd7" id="Scorched Imp Fire Bolt Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x62</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xffd6" id="Scorched Imp Ball Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x63</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x090b" id="Scorched Flamer">
+		<Group>Scorched</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x8dEncounters</File>
+			<Index>1</Index>
+		</AnimatedTexture>
+		<HitSound>monster/demons_hit</HitSound>
+		<DeathSound>monster/demons_death</DeathSound>
+		<Projectile id="0">
+			<ObjectId>Scorched Flamer Proj</ObjectId>
+			<Speed>80</Speed>
+			<Damage>50</Damage>
+			<Size>100</Size>
+			<ArmorPiercing/>
+			<LifetimeMS>2000</LifetimeMS>
+			<Amplitude>0.3</Amplitude>
+			<Frequency>0.5</Frequency>
+			<Accelerate/>
+		</Projectile>
+		<MaxHitPoints>2100</MaxHitPoints>
+		<Size>110</Size>
+		<Defense>6</Defense>
+		<XpMult>0.0</XpMult>
+	</Object>
+	<Object type="0xffd8" id="Scorched Flamer Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x61</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x0908" id="Scorched Spear-man">
+		<Group>Scorched</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars8x8rHero1</File>
+			<Index>0x13</Index>
+		</AnimatedTexture>
+		<HitSound>monster/demons_hit</HitSound>
+		<DeathSound>monster/demons_death</DeathSound>
+
+		<Size>110</Size>
+		<MaxHitPoints>2000</MaxHitPoints>
+		<Defense>7</Defense>
+		<XpMult>0.1</XpMult>
+		<Projectile id="0">
+			<ObjectId>Scorched Spearman Proj</ObjectId>
+			<Damage>100</Damage>
+			<Speed>120</Speed>
+			<LifetimeMS>1200</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xffd9" id="Scorched Spearman Proj">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x60</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xffe8" id="[ScorchingChasm] Light Monument">
+		<Class>GameObject</Class>
+		<Texture>
+			<File>lofiCharBig</File>
+			<Index>0x0e</Index>
+		</Texture>
+		<Static/>
+	</Object>
+	<Object type="0xffe7" id="[ScorchingChasm] Dark Monument">
+		<Class>GameObject</Class>
+		<Texture>
+			<File>lofiCharBig</File>
+			<Index>0x0f</Index>
+		</Texture>
+	</Object>
+	<Object type="0xffe6" id="[ScorchingChasm] Sigil 1">
+		<Class>Character</Class>
+		<Enemy/>
+		<NoExp/>
+		<NotHittable/>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x53</Index>
+		</Texture>
+	</Object>
+	<Object type="0xffe5" id="[ScorchingChasm] Sigil 2">
+		<Class>Character</Class>
+		<Enemy/>
+		<NoExp/>
+		<NotHittable/>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x54</Index>
+		</Texture>
+	</Object>
+	<Object type="0xffe4" id="[ScorchingChasm] Sigil 3">
+		<Class>Character</Class>
+		<Enemy/>
+		<NoExp/>
+		<NotHittable/>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x55</Index>
+		</Texture>
+	</Object>
+	<Object type="0xffe3" id="[ScorchingChasm] Sigil 4">
+		<Class>Character</Class>
+		<Enemy/>
+		<NoExp/>
+		<NotHittable/>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x56</Index>
+		</Texture>
+	</Object>
+	<Object type="0xffea" id="[ScorchingChasm] Light Sculpture">
+		<Class>GameObject</Class>
+		<RandomTexture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x4d</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x4e</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x4f</Index>
+			</Texture>
+			<Texture>
+				<File>lofiCharBig</File>
+				<Index>0x0c</Index>
+			</Texture>
+		</RandomTexture>
+		<Static/>
+	</Object>
+
+	<Object type="0xffe9" id="[ScorchingChasm] Dark Sculpture">
+		<Class>GameObject</Class>
+		<RandomTexture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x50</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x51</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x52</Index>
+			</Texture>
+			<Texture>
+				<File>lofiCharBig</File>
+				<Index>0x0d</Index>
+			</Texture>
+		</RandomTexture>
+		<Static/>
+	</Object>
+	<Object type="0xBFa9" id="[ScorchingChasm] Lit">
+		<Class>Character</Class>
+		<Enemy/>
+		<NoExp/>
+		<NotHittable/>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x4a</Index>
+		</Texture>
+		<Animation prob="1" period="0.4">
+			<Frame time="0.2">
+				<Texture>
+					<File>lofiEnvironment4</File>
+					<Index>0x4b</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.2">
+				<Texture>
+					<File>lofiEnvironment4</File>
+					<Index>0x4c</Index>
+				</Texture>
+			</Frame>
+		</Animation>
+	</Object>
+	<Object type="0xBFa8" id="[ScorchingChasm] Unlit">
+		<Class>Character</Class>
+		<Enemy/>
+		<NoExp/>
+		<NotHittable/>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x49</Index>
+		</Texture>
+	</Object>
+	<Object type="0xBFa7" id="[ScorchingChasm] Lava Blob Object">
+		<Class>GameObject</Class>
+		<Texture>
+			<File>lofiEnvironment4</File>
+			<Index>0x40</Index>
+		</Texture>
+		<Animation prob="1" period="1">
+			<Frame time="0.25">
+				<Texture>
+					<File>lofiEnvironment4</File>
+					<Index>0x41</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.25">
+				<Texture>
+					<File>lofiEnvironment4</File>
+					<Index>0x42</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.25">
+				<Texture>
+					<File>lofiEnvironment4</File>
+					<Index>0x43</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.25">
+				<Texture>
+					<File>lofiEnvironment4</File>
+					<Index>0x44</Index>
+				</Texture>
+			</Frame>
+		</Animation>
+	</Object>
+	<Object type="0xBFa6" id="[ScorchingChasm] Two Random Objects">
+		<Class>GameObject</Class>
+		<RandomTexture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x3e</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x3f</Index>
+			</Texture>
+		</RandomTexture>
+		<Static/>
+	</Object>
+	<Object type="0xBFa5" id="[ScorchingChasm] Four Random Objects">
+		<Class>GameObject</Class>
+		<RandomTexture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x3a</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x3b</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x3c</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x3d</Index>
+			</Texture>
+		</RandomTexture>
+		<Static/>
+	</Object>
+	<Object type="0xBFa4" id="[ScorchingChasm] Light Rock">
+		<Class>GameObject</Class>
+		<RandomTexture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x37</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x38</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x39</Index>
+			</Texture>
+		</RandomTexture>
+		<Static/>
+	</Object>
+	<Object type="0xBFa3" id="[ScorchingChasm] Dark Rock">
+		<Class>GameObject</Class>
+		<RandomTexture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x34</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x35</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x36</Index>
+			</Texture>
+		</RandomTexture>
+		<Static/>
+	</Object>
+	<Object type="0xBFa2" id="[ScorchingChasm] Secondary Light Wall">
+		<Class>Wall</Class>
+		<RandomTexture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x19</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x1a</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x1b</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x1c</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x1d</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x1e</Index>
+			</Texture>
+		</RandomTexture>
+		<Top>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x12</Index>
+			</Texture>
+		</Top>
+		<HitSound>monster/stone_walls_hit</HitSound>
+		<DeathSound>monster/stone_walls_death</DeathSound>
+		<Static/>
+		<FullOccupy/>
+		<OccupySquare/>
+		<EnemyOccupySquare/>
+		<BlocksSight/>
+	</Object>
+	<Object type="0xBFa1" id="[ScorchingChasm] Dark Wall">
+		<Class>Wall</Class>
+		<RandomTexture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x13</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x14</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x15</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x16</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x17</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x18</Index>
+			</Texture>
+		</RandomTexture>
+		<Top>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x12</Index>
+			</Texture>
+		</Top>
+		<HitSound>monster/stone_walls_hit</HitSound>
+		<DeathSound>monster/stone_walls_death</DeathSound>
+		<Static/>
+		<FullOccupy/>
+		<OccupySquare/>
+		<EnemyOccupySquare/>
+		<BlocksSight/>
+	</Object>
+	<Object type="0xBFa0" id="[ScorchingChasm] Light Wall">
+		<Class>Wall</Class>
+		<Height>2</Height>
+		<RandomTexture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x0a</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x0b</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x0c</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x0d</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x0e</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x0f</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x10</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x11</Index>
+			</Texture>
+		</RandomTexture>
+		<Top>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x06</Index>
+			</Texture>
+		</Top>
+		<HitSound>monster/stone_walls_hit</HitSound>
+		<DeathSound>monster/stone_walls_death</DeathSound>
+		<Static/>
+		<FullOccupy/>
+		<OccupySquare/>
+		<EnemyOccupySquare/>
+		<BlocksSight/>
+	</Object>
+	<Object type="0xBF99" id="[ScorchingChasm] Wall">
+		<Class>Wall</Class>
+		<Height>2</Height>
+		<RandomTexture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x06</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x07</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x08</Index>
+			</Texture>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x09</Index>
+			</Texture>
+		</RandomTexture>
+		<Top>
+			<Texture>
+				<File>lofiEnvironment4</File>
+				<Index>0x05</Index>
+			</Texture>
+		</Top>
+		<HitSound>monster/stone_walls_hit</HitSound>
+		<DeathSound>monster/stone_walls_death</DeathSound>
+		<Static/>
+		<FullOccupy/>
+		<OccupySquare/>
+		<EnemyOccupySquare/>
+		<BlocksSight/>
+	</Object>
+	<Object type="0xBF98" id="Scorching Chasm">
+		<Class>Portal</Class>
+		<IntergamePortal/>
+		<ShowName/>
+		<Size>120</Size>
+		<DungeonName>Scorching Chasm</DungeonName>
+		<Texture>
+			<File>redLootBag</File>
+			<Index>0xc6</Index>
+		</Texture>
+		<Animation prob="1" period="1">
+			<Frame time="0.15">
+				<Texture>
+					<File>redLootBag</File>
+					<Index>0xc6</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.15">
+				<Texture>
+					<File>redLootBag</File>
+					<Index>0xc7</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.15">
+				<Texture>
+					<File>redLootBag</File>
+					<Index>0xc8</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.15">
+				<Texture>
+					<File>redLootBag</File>
+					<Index>0xc9</Index>
+				</Texture>
+			</Frame>
+			<Frame time="0.15">
+				<Texture>
+					<File>redLootBag</File>
+					<Index>0xca</Index>
+				</Texture>
+			</Frame>
+		</Animation>
+	</Object>
+	<Object type="0xBF97" id="Scorching Chasm Key">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>redLootBag</File>
+			<Index>0xc5</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>A key that opens the portal to a scorching area, filled with lava and can found deep below the world.</Description>
+		<OldSound>use_key</OldSound>
+		<Consumable/>
+		<Activate id="Scorching Chasm">Create</Activate>
+	</Object>
+</Objects>

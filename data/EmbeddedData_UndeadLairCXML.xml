@@ -1,0 +1,455 @@
+<Objects>
+	<Object type="0x071a" id="Haunted Lair">
+		<Class>Portal</Class>
+		<IntergamePortal/>
+		<ShowName/>
+		<Size>120</Size>
+		<ShadowColor>0x7ac8d8</ShadowColor>
+		<DungeonName>Haunted Lair</DungeonName>
+		<Texture>
+			<File>redLootBag</File>
+			<Index>0xf7</Index>
+		</Texture>
+		<Animation prob="1" period="0">
+			<Frame time=".1">
+				<Texture>
+					<File>redLootBag</File>
+					<Index>0xf7</Index>
+				</Texture>
+			</Frame>
+			<Frame time=".1">
+				<Texture>
+					<File>redLootBag</File>
+					<Index>0xf8</Index>
+				</Texture>
+			</Frame>
+			<Frame time=".1">
+				<Texture>
+					<File>redLootBag</File>
+					<Index>0xf9</Index>
+				</Texture>
+			</Frame>
+			<Frame time=".1">
+				<Texture>
+					<File>redLootBag</File>
+					<Index>0xfa</Index>
+				</Texture>
+			</Frame>
+			<Frame time=".1">
+				<Texture>
+					<File>redLootBag</File>
+					<Index>0xfb</Index>
+				</Texture>
+			</Frame>
+		</Animation>
+	</Object>
+	<Object type="0x701" id="Haunted Lair Key">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>redLootBag</File>
+			<Index>0xf6</Index>
+		</Texture>
+		<SlotType>10</SlotType>
+		<Description>A key that opens the portal to the Haunted Lair.</Description>
+		<Sound>monster/eggs_death</Sound>
+		<Consumable/>
+		<Activate id="Haunted Lair">Create</Activate>
+	</Object>
+	<Object type="0xBF32" id="Sephiran Bullet">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x5e</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBF31" id="Sephiran Circle Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x5f</Index>
+		</Texture>
+		<Rotation>30</Rotation>
+	</Object>
+	<Object type="0xBF30" id="Sephiran Spiral Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x4e</Index>
+		</Texture>
+		<Rotation>70</Rotation>
+	</Object>
+	<Object type="0xBF29" id="Sephiran Head Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x4f</Index>
+		</Texture>
+		<AngleCorrection>0</AngleCorrection>
+	</Object>
+	<Object type="0xBF28" id="Sephiran, Controller of Spirits">
+		<Group>Undead Boss</Group>
+		<Boss>1</Boss>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dMountains2</File>
+			<Index>11</Index>
+		</AnimatedTexture>
+		<ShadowColor>0xB1c5c9</ShadowColor>
+		<HitSound>monster/skeletons_hit</HitSound>
+		<DeathSound>monster/skeletons_death</DeathSound>
+		<Size>140</Size>
+		<Quest/>
+		<MaxHitPoints>75000</MaxHitPoints>
+		<PhysicalDefense>50</PhysicalDefense>
+		<Projectile id="0">
+			<ObjectId>Sephiran Circle Shot</ObjectId>
+			<Damage>100</Damage>
+			<Speed>30</Speed>
+			<LifetimeMS>6666</LifetimeMS>
+			<Decelerate/>
+			<MultiHit/>
+			<Size>120</Size>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Sephiran Spiral Shot</ObjectId>
+			<Damage>100</Damage>
+			<Speed>15</Speed>
+			<LifetimeMS>12500</LifetimeMS>
+			<Decelerate/>
+			<MultiHit/>
+			<Size>100</Size>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Sephiran Bullet</ObjectId>
+			<Damage>45</Damage>
+			<Speed>120</Speed>
+			<Accelerate/>
+			<LifetimeMS>3500</LifetimeMS>
+			<Size>100</Size>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Sephiran Bullet</ObjectId>
+			<Damage>80</Damage>
+			<Speed>60</Speed>
+			<LifetimeMS>2500</LifetimeMS>
+			<Size>100</Size>
+      		<Accelerate/>
+		</Projectile>
+		<Projectile id="4">
+			<ObjectId>Sephiran Head Shot</ObjectId>
+			<Damage>110</Damage>
+			<Speed>40</Speed>
+			<LifetimeMS>2000</LifetimeMS>
+			<Size>100</Size>
+			<Amplitude>1.5</Amplitude>
+			<Frequency>0.75</Frequency>
+			<Decelerate/>
+		</Projectile>
+		<Projectile id="5">
+			<ObjectId>Sephiran Head Shot</ObjectId>
+			<Damage>110</Damage>
+			<Speed>40</Speed>
+			<LifetimeMS>2000</LifetimeMS>
+			<Size>100</Size>
+			<Amplitude>.75</Amplitude>
+			<Frequency>0.65</Frequency>
+			<Decelerate/>
+		</Projectile>
+		<Projectile id="6">
+			<ObjectId>Sephiran Head Shot</ObjectId>
+			<Damage>110</Damage>
+			<Speed>40</Speed>
+			<LifetimeMS>2000</LifetimeMS>
+			<Size>100</Size>
+			<Amplitude>3</Amplitude>
+			<Frequency>0.6</Frequency>
+			<Decelerate/>
+		</Projectile>
+		<Projectile id="7">
+			<ObjectId>Sephiran Head Shot</ObjectId>
+			<Damage>110</Damage>
+			<Speed>40</Speed>
+			<LifetimeMS>2000</LifetimeMS>
+			<Size>100</Size>
+			<Amplitude>2.25</Amplitude>
+			<Frequency>0.7</Frequency>
+			<Decelerate/>
+		</Projectile>
+		<Projectile id="8">
+			<ObjectId>Sephiran Circle Shot</ObjectId>
+			<Damage>80</Damage>
+			<Speed>30</Speed>
+			<LifetimeMS>10000</LifetimeMS>
+			<Accelerate/>
+			<MultiHit/>
+			<Size>100</Size>
+		</Projectile>
+		<Projectile id="9">
+			<ObjectId>Sephiran Spiral Shot</ObjectId>
+			<Damage>40</Damage>
+			<Speed>30</Speed>
+			<LifetimeMS>6666</LifetimeMS>
+			<Decelerate/>
+			<ArmorPiercing/>
+			<Size>120</Size>
+			<ConditionEffect duration="3">Slowed_III</ConditionEffect>
+		</Projectile>
+	</Object>
+	<Object type="0x2488" id="Spirit Blue Candle">
+		<Group>Undead Boss</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<HitSound>monster/skeletons_hit</HitSound>
+		<DeathSound>monster/skeletons_death</DeathSound>
+		<Size>120</Size>
+		<MaxHitPoints>20000</MaxHitPoints>
+		<ShadowColor>0x7ac8d8</ShadowColor>
+		<Texture>
+			<File>Big0</File>
+			<Index>0xec</Index>
+		</Texture>
+		<AltTexture id="1">
+			<Texture>
+				<File>Big0</File>
+				<Index>0xec</Index>
+			</Texture>
+		</AltTexture>
+		<AltTexture id="2">
+			<Texture>
+				<File>Big0</File>
+				<Index>0xfa</Index>
+			</Texture>
+		</AltTexture>
+		<AltTexture id="3">
+			<Texture>
+				<File>Big0</File>
+				<Index>0xea</Index>
+			</Texture>
+		</AltTexture>
+		<AltTexture id="4">
+			<Texture>
+				<File>Big0</File>
+				<Index>0xfb</Index>
+			</Texture>
+		</AltTexture>
+		<AltTexture id="5">
+			<Texture>
+				<File>Big0</File>
+				<Index>0xeb</Index>
+			</Texture>
+		</AltTexture>
+		<AltTexture id="6">
+			<Texture>
+				<File>Big0</File>
+				<Index>0xfc</Index>
+			</Texture>
+		</AltTexture>
+		<Projectile id="0">
+			<ObjectId>Blue Candle Shot</ObjectId>
+			<Damage>50</Damage>
+			<Speed>20</Speed>
+			<LifetimeMS>12500</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Blue Candle Shot</ObjectId>
+			<Damage>50</Damage>
+			<Speed>30</Speed>
+			<LifetimeMS>10000</LifetimeMS>
+			<Size>100</Size>
+		</Projectile>
+	</Object>
+  <Object type="0xCF29" id="Blue Candle Shot">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiProjs</File>
+      <Index>0xf1</Index>
+    </Texture>
+    <AngleCorrection>0</AngleCorrection>
+  </Object>
+	<Object type="0xBF27" id="Skeleton Necromancer Bullet">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x1f</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBF26" id="Skeleton Necromancer">
+		<Group>Undead Skeletons</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>91</Index>
+		</AnimatedTexture>
+		<HitSound>monster/skeletons_hit</HitSound>
+		<DeathSound>monster/skeletons_death</DeathSound>
+		<Size>100</Size>
+		<MaxHitPoints>1300</MaxHitPoints>
+		<PhysicalDefense>11</PhysicalDefense>
+		<Projectile id="0">
+			<ObjectId>Skeleton Necromancer Bullet</ObjectId>
+			<Damage>50</Damage>
+			<Speed>80</Speed>
+			<LifetimeMS>400</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xBF25" id="Ghost Bat Bullet">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x5d</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBF24" id="Ghost Bat">
+		<Group>Undead Skeletons</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>90</Index>
+		</AnimatedTexture>
+		<HitSound>monster/skeletons_hit</HitSound>
+		<DeathSound>monster/skeletons_death</DeathSound>
+		<Size>100</Size>
+		<MaxHitPoints>350</MaxHitPoints>
+		<PhysicalDefense>3</PhysicalDefense>
+		<Projectile id="0">
+			<ObjectId>Ghost Bat Bullet</ObjectId>
+			<Damage>30</Damage>
+			<Speed>80</Speed>
+			<LifetimeMS>400</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xBF23" id="Skeleton Bat King Bullet">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x68</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBF22" id="Skeleton Bat King">
+		<Group>Undead Skeletons</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>89</Index>
+		</AnimatedTexture>
+		<HitSound>monster/skeletons_hit</HitSound>
+		<DeathSound>monster/skeletons_death</DeathSound>
+		<Size>125</Size>
+		<MaxHitPoints>1450</MaxHitPoints>
+		<PhysicalDefense>17</PhysicalDefense>
+		<Projectile id="0">
+			<ObjectId>Skeleton Bat King Bullet</ObjectId>
+			<Damage>50</Damage>
+			<Speed>120</Speed>
+			<LifetimeMS>600</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xBF21" id="Metal Skeleton Shot">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x58</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBF20" id="Metal Skeleton Bullet">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x57</Index>
+		</Texture>
+		<AngleCorrection>0</AngleCorrection>
+	</Object>
+	<Object type="0xBF19" id="Metal Skeleton">
+		<Group>Undead Skeletons</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>88</Index>
+		</AnimatedTexture>
+		<HitSound>monster/skeletons_hit</HitSound>
+		<DeathSound>monster/skeletons_death</DeathSound>
+		<Size>125</Size>
+		<MaxHitPoints>1800</MaxHitPoints>
+		<PhysicalDefense>50</PhysicalDefense>
+		<Projectile id="0">
+			<ObjectId>Metal Skeleton Bullet</ObjectId>
+			<Damage>50</Damage>
+			<Speed>120</Speed>
+			<LifetimeMS>400</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Metal Skeleton Shot</ObjectId>
+			<Damage>50</Damage>
+			<Speed>20</Speed>
+			<LifetimeMS>4000</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xBF18" id="Armored Skeleton Bullet">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x3d</Index>
+		</Texture>
+		<AngleCorrection>0</AngleCorrection>
+	</Object>
+	<Object type="0xBF17" id="Armored Undead Skeleton">
+		<Group>Undead Skeletons</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>87</Index>
+		</AnimatedTexture>
+		<HitSound>monster/skeletons_hit</HitSound>
+		<DeathSound>monster/skeletons_death</DeathSound>
+		<Size>100</Size>
+		<MaxHitPoints>1650</MaxHitPoints>
+		<PhysicalDefense>40</PhysicalDefense>
+		<Projectile id="0">
+			<ObjectId>Armored Skeleton Bullet</ObjectId>
+			<Damage>30</Damage>
+			<Speed>100</Speed>
+			<LifetimeMS>400</LifetimeMS>
+		</Projectile>
+	</Object>
+
+	<Object type="0xBF16" id="Undead Skeleton Bullet">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x4d</Index>
+		</Texture>
+		<Rotation>70</Rotation>
+	</Object>
+	<Object type="0x0d91" id="Undead Skeleton">
+		<Group>Undead Skeletons</Group>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>86</Index>
+		</AnimatedTexture>
+		<HitSound>monster/skeletons_hit</HitSound>
+		<DeathSound>monster/skeletons_death</DeathSound>
+		<Size>100</Size>
+		<MaxHitPoints>1150</MaxHitPoints>
+		<PhysicalDefense>17</PhysicalDefense>
+		<Projectile id="0">
+			<ObjectId>Undead Skeleton Bullet</ObjectId>
+			<Damage>30</Damage>
+			<Speed>120</Speed>
+			<LifetimeMS>400</LifetimeMS>
+		</Projectile>
+	</Object>
+</Objects>

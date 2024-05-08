@@ -1,0 +1,851 @@
+<Objects>
+	<Object type="0xBC63" id="Baby Death Centipede Slow">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xd3</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBC62" id="Baby Death Centipede Strike">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xd2</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBC64" id="Baby Death Centipede Paralyze">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xd4</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0xBC58" id="Baby Death Centipede Head">
+		<DisplayId>Baby Death Centipede</DisplayId>
+		<Enemy/>
+		<Class>Character</Class>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xd0</Index>
+		</Texture>
+		<AltTexture id="1">
+			<Texture>
+				<File>lofiObj5</File>
+				<Index>0xd1</Index>
+			</Texture>
+		</AltTexture>
+		<HitSound>monster/spiders_hit</HitSound>
+		<DeathSound>monster/spider_queen_death</DeathSound>
+		<Size>120</Size>
+		<trackPosition/>
+		<Quest/>
+		<MaxHitPoints>3000</MaxHitPoints>
+		<PhysicalDefense>10</PhysicalDefense>
+		<MagicDefense>5</MagicDefense>
+		<XpMult>1.5</XpMult>
+		<Projectile id="0">
+			<ObjectId>Baby Death Centipede Strike</ObjectId>
+			<Damage>50</Damage>
+			<Speed>40</Speed>
+			<Size>90</Size>
+			<ArmorPiercing/>
+			<LifetimeMS>1500</LifetimeMS>
+			<Amplitude>1</Amplitude>
+			<Frequency>2</Frequency>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Baby Death Centipede Paralyze</ObjectId>
+			<Damage>60</Damage>
+			<Speed>50</Speed>
+			<Size>100</Size>
+			<LifetimeMS>1500</LifetimeMS>
+			<ConditionEffect duration="3">Dazed_II</ConditionEffect>
+			<Amplitude>1</Amplitude>
+			<Frequency>2</Frequency>
+		</Projectile>
+	</Object>
+	<Object type="0xBC59" id="Baby Death Centipede Segment 1">
+		<DisplayId>Baby Death Centipede</DisplayId>
+		<Enemy/>
+		<Class>Character</Class>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xe0</Index>
+		</Texture>
+		<AltTexture id="1">
+			<Texture>
+				<File>lofiObj5</File>
+				<Index>0xe1</Index>
+			</Texture>
+		</AltTexture>
+		<trackPosition/>
+		<HitSound>monster/spiders_hit</HitSound>
+		<DeathSound>monster/spiders_death</DeathSound>
+		<Size>120</Size>
+		<MaxHitPoints>1500</MaxHitPoints>
+		<PhysicalDefense>10</PhysicalDefense>
+		<MagicDefense>0</MagicDefense>
+		<XpMult>1.0</XpMult>
+		<Projectile id="0">
+			<ObjectId>Baby Death Centipede Slow</ObjectId>
+			<Damage>40</Damage>
+			<Speed>50</Speed>
+			<Size>100</Size>
+			<Boomerang/>
+			<ConditionEffect duration="3">Slowed_III</ConditionEffect>
+			<LifetimeMS>2000</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xBC60" id="Baby Death Centipede Segment 2">
+		<DisplayId>Baby Death Centipede</DisplayId>
+		<Enemy/>
+		<Class>Character</Class>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xe0</Index>
+		</Texture>
+		<AltTexture id="1">
+			<Texture>
+				<File>lofiObj5</File>
+				<Index>0xe1</Index>
+			</Texture>
+		</AltTexture>
+		<trackPosition/>
+		<HitSound>monster/spiders_hit</HitSound>
+		<DeathSound>monster/spiders_death</DeathSound>
+		<Size>120</Size>
+		<MaxHitPoints>1500</MaxHitPoints>
+		<PhysicalDefense>10</PhysicalDefense>
+		<MagicDefense>0</MagicDefense>
+		<XpMult>1.0</XpMult>
+		<Projectile id="0">
+			<ObjectId>Baby Death Centipede Slow</ObjectId>
+			<Damage>40</Damage>
+			<Speed>50</Speed>
+			<Size>100</Size>
+			<Boomerang/>
+			<ConditionEffect duration="3">Slowed_III</ConditionEffect>
+			<LifetimeMS>2000</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0xBC61" id="Baby Death Centipede Tail">
+		<DisplayId>Baby Death Centipede</DisplayId>
+		<Enemy/>
+		<Class>Character</Class>
+		<Texture>
+			<File>lofiObj5</File>
+			<Index>0xf0</Index>
+		</Texture>
+		<AltTexture id="1">
+			<Texture>
+				<File>lofiObj5</File>
+				<Index>0xf1</Index>
+			</Texture>
+		</AltTexture>
+		<trackPosition/>
+		<HitSound>monster/spiders_hit</HitSound>
+		<DeathSound>monster/spiders_death</DeathSound>
+		<Size>120</Size>
+		<MaxHitPoints>1000</MaxHitPoints>
+		<PhysicalDefense>10</PhysicalDefense>
+		<MagicDefense>0</MagicDefense>
+		<XpMult>1.0</XpMult>
+	</Object>
+	
+	<Object type="0x2395" id="Death Widow Spider Strike">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xe7</Index>
+		</Texture>
+		<AngleCorrection>0</AngleCorrection>
+	</Object>
+	<Object type="0x2394" id="Death Widow Spider Ball">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xe6</Index>
+		</Texture>
+		<AngleCorrection>0</AngleCorrection>
+	</Object>
+	<Object type="0x2393" id="Death Widow Spider Poke">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xe5</Index>
+		</Texture>
+		<AngleCorrection>0</AngleCorrection>
+	</Object>
+	<Object type="0x2392" id="Death Widow Spider">
+		<DisplayId>Death Widow Spider</DisplayId>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>78</Index>
+		</AnimatedTexture>
+		<HitSound>monster/spiders_hit</HitSound>
+		<DeathSound>monster/spiders_death</DeathSound>
+		<MinSize>90</MinSize>
+		<MaxSize>100</MaxSize>
+		<MaxHitPoints>450</MaxHitPoints>
+		<PhysicalDefense>0</PhysicalDefense>
+		<MagicDefense>0</MagicDefense>
+		<Spawn>
+			<Mean>5</Mean>
+			<StdDev>1</StdDev>
+			<Min>2</Min>
+			<Max>3</Max>
+		</Spawn>
+		<XpMult>1.0</XpMult>
+		<Projectile id="0">
+			<ObjectId>Death Widow Spider Ball</ObjectId>
+			<Damage>40</Damage>
+			<Speed>0</Speed>
+			<Size>30</Size>
+			<LifetimeMS>2500</LifetimeMS>
+			<ArmorPiercing/>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Death Widow Spider Strike</ObjectId>
+			<Damage>50</Damage>
+			<Speed>80</Speed>
+			<Size>80</Size>
+			<LifetimeMS>625</LifetimeMS>
+		</Projectile>
+	</Object>
+
+	<Object type="0x2391" id="Unknown Survivor Strike">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xd5</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x2390" id="Unknown Survivor Confuse">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xd6</Index>
+		</Texture>
+		<AngleCorrection>2</AngleCorrection>
+	</Object>
+	<Object type="0x2389" id="Unknown Survivor">
+		<DisplayId>Unknown Survivor</DisplayId>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>8x8Enemies0</File>
+			<Index>77</Index>
+		</AnimatedTexture>
+		<HitSound>monster/mummies_hit</HitSound>
+		<DeathSound>monster/mummies_death</DeathSound>
+		<Size>110</Size>
+		<MaxHitPoints>1250</MaxHitPoints>
+		<PhysicalDefense>0</PhysicalDefense>
+		<MagicDefense>0</MagicDefense>
+		<XpMult>1.0</XpMult>
+		<Projectile id="0">
+			<ObjectId>Unknown Survivor Confuse</ObjectId>
+			<Damage>80</Damage>
+			<Speed>5</Speed>
+			<Size>100</Size>
+			<LifetimeMS>1500</LifetimeMS>
+			<ArmorPiercing/>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Unknown Survivor Strike</ObjectId>
+			<Damage>80</Damage>
+			<Speed>90</Speed>
+			<Size>100</Size>
+			<LifetimeMS>777</LifetimeMS>
+		</Projectile>
+	</Object>
+
+	<Object type="0x2388" id="Poison Death Scorpion Strike">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xc6</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x2387" id="Poison Death Scorpion Tail">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xc5</Index>
+		</Texture>
+		<AngleCorrection>0</AngleCorrection>
+	</Object>
+	<Object type="0x2386" id="Poison Death Scorpion">
+		<DisplayId>Poison Death Scorpion</DisplayId>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dMountains2</File>
+			<Index>6</Index>
+		</AnimatedTexture>
+		<HitSound>monster/spiders_hit</HitSound>
+		<DeathSound>monster/snakes_hit</DeathSound>
+		<Size>130</Size>
+		<MaxHitPoints>3000</MaxHitPoints>
+		<PhysicalDefense>10</PhysicalDefense>
+		<MagicDefense>0</MagicDefense>
+		<XpMult>1.0</XpMult>
+		<Projectile id="0">
+			<ObjectId>Poison Death Scorpion Tail</ObjectId>
+			<Damage>100</Damage>
+			<Speed>70</Speed>
+			<Size>110</Size>
+			<LifetimeMS>1571</LifetimeMS>
+			<ArmorPiercing/>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Poison Death Scorpion Strike</ObjectId>
+			<Damage>50</Damage>
+			<Speed>50</Speed>
+			<Size>100</Size>
+			<LifetimeMS>1571</LifetimeMS>
+			<ArmorPiercing/>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Poison Death Scorpion Strike</ObjectId>
+			<Damage>50</Damage>
+			<Speed>55</Speed>
+			<Size>100</Size>
+			<LifetimeMS>1571</LifetimeMS>
+			<ArmorPiercing/>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Poison Death Scorpion Strike</ObjectId>
+			<Damage>40</Damage>
+			<Speed>60</Speed>
+			<Size>100</Size>
+			<LifetimeMS>1571</LifetimeMS>
+			<ArmorPiercing/>
+		</Projectile>
+		<Projectile id="4">
+			<ObjectId>Poison Death Scorpion Strike</ObjectId>
+			<Damage>40</Damage>
+			<Speed>65</Speed>
+			<Size>100</Size>
+			<LifetimeMS>1571</LifetimeMS>
+			<ArmorPiercing/>
+		</Projectile>
+		<Projectile id="5">
+			<ObjectId>Poison Death Scorpion Tail</ObjectId>
+			<Damage>120</Damage>
+			<Speed>40</Speed>
+			<Size>110</Size>
+			<LifetimeMS>2857</LifetimeMS>
+			<ArmorPiercing/>
+		</Projectile>
+		<Projectile id="6">
+			<ObjectId>Poison Death Scorpion Strike</ObjectId>
+			<Damage>80</Damage>
+			<Speed>35</Speed>
+			<Size>100</Size>
+			<LifetimeMS>2857</LifetimeMS>
+			<ArmorPiercing/>
+		</Projectile>
+	</Object>
+
+	<Object type="0x2385" id="Death Scorpion Strike">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xb6</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x2384" id="Death Scorpion Tail">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xb5</Index>
+		</Texture>
+		<AngleCorrection>0</AngleCorrection>
+	</Object>
+	<Object type="0x2383" id="Death Scorpion">
+		<DisplayId>Death Scorpion</DisplayId>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dMountains2</File>
+			<Index>5</Index>
+		</AnimatedTexture>
+		<HitSound>monster/spiders_hit</HitSound>
+		<DeathSound>monster/snakes_hit</DeathSound>
+		<Size>130</Size>
+		<MaxHitPoints>2000</MaxHitPoints>
+		<PhysicalDefense>10</PhysicalDefense>
+		<MagicDefense>0</MagicDefense>
+		<XpMult>1.0</XpMult>
+		<Projectile id="0">
+			<ObjectId>Death Scorpion Tail</ObjectId>
+			<Damage>80</Damage>
+			<Speed>70</Speed>
+			<Size>110</Size>
+			<LifetimeMS>1571</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Death Scorpion Strike</ObjectId>
+			<Damage>30</Damage>
+			<Speed>50</Speed>
+			<Size>100</Size>
+			<LifetimeMS>1571</LifetimeMS>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Death Scorpion Strike</ObjectId>
+			<Damage>30</Damage>
+			<Speed>55</Speed>
+			<Size>100</Size>
+			<LifetimeMS>1571</LifetimeMS>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Death Scorpion Strike</ObjectId>
+			<Damage>30</Damage>
+			<Speed>60</Speed>
+			<Size>100</Size>
+			<LifetimeMS>1571</LifetimeMS>
+		</Projectile>
+		<Projectile id="4">
+			<ObjectId>Death Scorpion Strike</ObjectId>
+			<Damage>30</Damage>
+			<Speed>65</Speed>
+			<Size>100</Size>
+			<LifetimeMS>1571</LifetimeMS>
+		</Projectile>
+	</Object>
+
+	<Object type="0x2382" id="Winged Death Beetle Punch">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xb8</Index>
+		</Texture>
+	</Object>
+	<Object type="0x2381" id="Winged Death Beetle Spin">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xc8</Index>
+		</Texture>
+		<Rotation>360</Rotation>
+	</Object>
+	<Object type="0x2380" id="Winged Death Beetle Bolt">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xc7</Index>
+		</Texture>
+		<AngleCorrection>0</AngleCorrection>
+	</Object>
+	<Object type="0x2379" id="Winged Death Beetle Slash">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xb7</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x2378" id="Winged Death Beetle">
+		<DisplayId>Winged Death Beetle</DisplayId>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dMountains2</File>
+			<Index>4</Index>
+		</AnimatedTexture>
+		<HitSound>monster/spider_queen_hit</HitSound>
+		<DeathSound>monster/snakes_death</DeathSound>
+		<Size>130</Size>
+		<MaxHitPoints>3000</MaxHitPoints>
+		<PhysicalDefense>10</PhysicalDefense>
+		<MagicDefense>0</MagicDefense>
+		<XpMult>1.0</XpMult>
+		<Projectile id="0">
+			<ObjectId>Winged Death Beetle Slash</ObjectId>
+			<Damage>80</Damage>
+			<Speed>80</Speed>
+			<Size>100</Size>
+			<LifetimeMS>1500</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Winged Death Beetle Spin</ObjectId>
+			<Damage>70</Damage>
+			<Speed>30</Speed>
+			<Size>100</Size>
+			<LifetimeMS>4000</LifetimeMS>
+			<ArmorPiercing/>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Winged Death Beetle Bolt</ObjectId>
+			<Damage>60</Damage>
+			<Speed>40</Speed>
+			<Size>100</Size>
+			<LifetimeMS>4000</LifetimeMS>
+		</Projectile>
+	</Object>
+
+
+	<Object type="0x2377" id="Death Beetle Punch">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x98</Index>
+		</Texture>
+	</Object>
+	<Object type="0x2376" id="Death Beetle Spin">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xa8</Index>
+		</Texture>
+		<Rotation>360</Rotation>
+	</Object>
+	<Object type="0x2375" id="Death Beetle Bolt">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xa7</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x2374" id="Death Beetle Slash">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x97</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x2373" id="Death Beetle">
+		<DisplayId>Death Beetle</DisplayId>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dMountains2</File>
+			<Index>3</Index>
+		</AnimatedTexture>
+		<HitSound>monster/spider_queen_hit</HitSound>
+		<DeathSound>monster/snakes_death</DeathSound>
+		<Size>130</Size>
+		<MaxHitPoints>2000</MaxHitPoints>
+		<PhysicalDefense>10</PhysicalDefense>
+		<MagicDefense>0</MagicDefense>
+		<XpMult>1.0</XpMult>
+		<Projectile id="0">
+			<ObjectId>Death Beetle Spin</ObjectId>
+			<Damage>70</Damage>
+			<Speed>30</Speed>
+			<Size>100</Size>
+			<LifetimeMS>4000</LifetimeMS>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Death Beetle Punch</ObjectId>
+			<Damage>80</Damage>
+			<Speed>60</Speed>
+			<Size>100</Size>
+			<LifetimeMS>1500</LifetimeMS>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Death Beetle Punch</ObjectId>
+			<Damage>80</Damage>
+			<Speed>50</Speed>
+			<Size>100</Size>
+			<LifetimeMS>1600</LifetimeMS>
+		</Projectile>
+	</Object>
+
+	<Object type="0x2371" id="Death Centipede Bolt">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xa6</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x2370" id="Death Centipede Small Paralyze">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x96</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x2369" id="Death Centipede Orb">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0x95</Index>
+		</Texture>
+		<Rotation>20</Rotation>
+	</Object>
+	<Object type="0x2368" id="Death Centipede Paralyze">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>lofiProjs1</File>
+			<Index>0xa5</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x2367" id="Serious Death Centipede Paralyze">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>Big0</File>
+			<Index>0x92</Index>
+		</Texture>
+		<AngleCorrection>1</AngleCorrection>
+	</Object>
+	<Object type="0x2366" id="Serious Death Centipede Orb">
+		<Class>Projectile</Class>
+		<Texture>
+			<File>Big0</File>
+			<Index>0x93</Index>
+		</Texture>
+		<Rotation>20</Rotation>
+	</Object>
+	<Object type="0x2356" id="Centipede Orbiter">
+		<ShadowSize>0</ShadowSize>
+		<Enemy/>
+		<Class>Character</Class>
+		<Texture>
+			<File>invisible</File>
+			<Index>0</Index>
+		</Texture>
+		<NoMiniMap/>
+		<Size>0</Size>
+	</Object>
+	<Object type="0x2348" id="Death Centipede Head">
+		<DisplayId>Death Centipede</DisplayId>
+		<Enemy/>
+		<Class>Character</Class>
+		<Boss>1</Boss>
+		<AnimatedTexture>
+			<File>chars16x16dMountains2</File>
+			<Index>0</Index>
+		</AnimatedTexture>
+		<HitSound>monster/spiders_hit</HitSound>
+		<DeathSound>monster/spider_queen_death</DeathSound>
+		<Size>160</Size>
+		<trackPosition/>
+		<Hero/>
+		<Quest/>
+		<MaxHitPoints>50000</MaxHitPoints>
+		<PhysicalDefense>15</PhysicalDefense>
+		<MagicDefense>5</MagicDefense>
+		<XpMult>1.0</XpMult>
+		<Projectile id="0">
+			<ObjectId>Death Centipede Bolt</ObjectId>
+			<Damage>100</Damage>
+			<Speed>70</Speed>
+			<Size>110</Size>
+			<LifetimeMS>1250</LifetimeMS>
+		</Projectile>
+		<Projectile id="1">
+			<ObjectId>Death Centipede Orb</ObjectId>
+			<Damage>80</Damage>
+			<Speed>60</Speed>
+			<Size>100</Size>
+			<LifetimeMS>2666</LifetimeMS>
+		</Projectile>
+		<Projectile id="2">
+			<ObjectId>Death Centipede Small Paralyze</ObjectId>
+			<Damage>90</Damage>
+			<Speed>80</Speed>
+			<Size>90</Size>
+			<LifetimeMS>3200</LifetimeMS>
+			<ConditionEffect duration="1">Paralyzed</ConditionEffect>
+		</Projectile>
+		<Projectile id="3">
+			<ObjectId>Death Centipede Paralyze</ObjectId>
+			<Damage>120</Damage>
+			<Speed>60</Speed>
+			<Size>130</Size>
+			<LifetimeMS>2666</LifetimeMS>
+			<ConditionEffect duration="5">Dazed_II</ConditionEffect>
+		</Projectile>
+		<Projectile id="4">
+			<ObjectId>Death Centipede Small Paralyze</ObjectId>
+			<Damage>80</Damage>
+			<Speed>20</Speed>
+			<Size>40</Size>
+			<LifetimeMS>7000</LifetimeMS>
+			<ConditionEffect duration="1">Paralyzed</ConditionEffect>
+		</Projectile>
+	</Object>
+	<Object type="0x2349" id="Death Centipede Segment 1">
+		<DisplayId>Death Centipede</DisplayId>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dMountains2</File>
+			<Index>1</Index>
+		</AnimatedTexture>
+		<trackPosition/>
+		<HitSound>monster/spiders_hit</HitSound>
+		<DeathSound>monster/spiders_death</DeathSound>
+		<Size>160</Size>
+		<MaxHitPoints>5000</MaxHitPoints>
+		<PhysicalDefense>10</PhysicalDefense>
+		<MagicDefense>0</MagicDefense>
+		<XpMult>1.0</XpMult>
+		<Projectile id="0">
+			<ObjectId>Serious Death Centipede Orb</ObjectId>
+			<Damage>70</Damage>
+			<Speed>70</Speed>
+			<Size>110</Size>
+			<LifetimeMS>2285</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0x2350" id="Death Centipede Segment 2">
+		<DisplayId>Death Centipede</DisplayId>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dMountains2</File>
+			<Index>1</Index>
+		</AnimatedTexture>
+		<trackPosition/>
+		<HitSound>monster/spiders_hit</HitSound>
+		<DeathSound>monster/spiders_death</DeathSound>
+		<Size>160</Size>
+		<MaxHitPoints>5000</MaxHitPoints>
+		<PhysicalDefense>10</PhysicalDefense>
+		<MagicDefense>0</MagicDefense>
+		<XpMult>1.0</XpMult>
+		<Projectile id="0">
+			<ObjectId>Serious Death Centipede Orb</ObjectId>
+			<Damage>70</Damage>
+			<Speed>70</Speed>
+			<Size>110</Size>
+			<LifetimeMS>2285</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0x2351" id="Death Centipede Segment 3">
+		<DisplayId>Death Centipede</DisplayId>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dMountains2</File>
+			<Index>1</Index>
+		</AnimatedTexture>
+		<trackPosition/>
+		<HitSound>monster/spiders_hit</HitSound>
+		<DeathSound>monster/spiders_death</DeathSound>
+		<Size>160</Size>
+		<MaxHitPoints>5000</MaxHitPoints>
+		<PhysicalDefense>10</PhysicalDefense>
+		<MagicDefense>0</MagicDefense>
+		<XpMult>1.0</XpMult>
+		<Projectile id="0">
+			<ObjectId>Serious Death Centipede Orb</ObjectId>
+			<Damage>70</Damage>
+			<Speed>70</Speed>
+			<Size>110</Size>
+			<LifetimeMS>2285</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0x2352" id="Death Centipede Segment 4">
+		<DisplayId>Death Centipede</DisplayId>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dMountains2</File>
+			<Index>1</Index>
+		</AnimatedTexture>
+		<trackPosition/>
+		<HitSound>monster/spiders_hit</HitSound>
+		<DeathSound>monster/spiders_death</DeathSound>
+		<Size>160</Size>
+		<MaxHitPoints>5000</MaxHitPoints>
+		<PhysicalDefense>10</PhysicalDefense>
+		<MagicDefense>0</MagicDefense>
+		<XpMult>1.0</XpMult>
+		<Projectile id="0">
+			<ObjectId>Serious Death Centipede Orb</ObjectId>
+			<Damage>70</Damage>
+			<Speed>70</Speed>
+			<Size>110</Size>
+			<LifetimeMS>2285</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0x2353" id="Death Centipede Segment 5">
+		<DisplayId>Death Centipede</DisplayId>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dMountains2</File>
+			<Index>1</Index>
+		</AnimatedTexture>
+		<trackPosition/>
+		<HitSound>monster/spiders_hit</HitSound>
+		<DeathSound>monster/spiders_death</DeathSound>
+		<Size>160</Size>
+		<MaxHitPoints>5000</MaxHitPoints>
+		<PhysicalDefense>10</PhysicalDefense>
+		<MagicDefense>0</MagicDefense>
+		<XpMult>1.0</XpMult>
+		<Projectile id="0">
+			<ObjectId>Serious Death Centipede Orb</ObjectId>
+			<Damage>70</Damage>
+			<Speed>70</Speed>
+			<Size>110</Size>
+			<LifetimeMS>2285</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0x2354" id="Death Centipede Segment 6">
+		<DisplayId>Death Centipede</DisplayId>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dMountains2</File>
+			<Index>1</Index>
+		</AnimatedTexture>
+		<trackPosition/>
+		<HitSound>monster/spiders_hit</HitSound>
+		<DeathSound>monster/spiders_death</DeathSound>
+		<Size>160</Size>
+		<MaxHitPoints>5000</MaxHitPoints>
+		<PhysicalDefense>10</PhysicalDefense>
+		<MagicDefense>0</MagicDefense>
+		<XpMult>1.0</XpMult>
+		<Projectile id="0">
+			<ObjectId>Serious Death Centipede Orb</ObjectId>
+			<Damage>70</Damage>
+			<Speed>70</Speed>
+			<Size>110</Size>
+			<LifetimeMS>2285</LifetimeMS>
+		</Projectile>
+	</Object>
+	<Object type="0x2355" id="Death Centipede Tail">
+		<DisplayId>Death Centipede</DisplayId>
+		<Enemy/>
+		<Class>Character</Class>
+		<AnimatedTexture>
+			<File>chars16x16dMountains2</File>
+			<Index>2</Index>
+		</AnimatedTexture>
+		<HitSound>monster/spiders_hit</HitSound>
+		<DeathSound>monster/spiders_death</DeathSound>
+		<Size>160</Size>
+		<MaxHitPoints>5000</MaxHitPoints>
+		<PhysicalDefense>10</PhysicalDefense>
+		<MagicDefense>0</MagicDefense>
+		<XpMult>1.0</XpMult>
+		<Projectile id="1">
+			<ObjectId>Serious Death Centipede Paralyze</ObjectId>
+			<Damage>50</Damage>
+			<Speed>10</Speed>
+			<Size>150</Size>
+			<LifetimeMS>16000</LifetimeMS>
+			<ConditionEffect duration="1">Paralyzed</ConditionEffect>
+		</Projectile>
+	</Object>
+</Objects>

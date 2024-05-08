@@ -1,0 +1,57 @@
+﻿<Objects>
+	<Object type="0x11c2" id="Sharpshooter Statue">
+		<Class>GameObject</Class>
+		<Texture>
+			<File>16x16Objectsb</File>
+			<Index>112</Index>
+		</Texture>
+		<LegendStatue/>
+		<ShowName/>
+	</Object>
+	<Object type="0x11c3" id="Stormcaster Statue">
+		<Class>GameObject</Class>
+		<Texture>
+			<File>16x16Objectsb</File>
+			<Index>113</Index>
+		</Texture>
+		<LegendStatue/>
+		<ShowName/>
+	</Object>
+	<Object type="0x11c4" id="Cleric Statue">
+		<Class>GameObject</Class>
+		<Texture>
+			<File>16x16Objectsb</File>
+			<Index>114</Index>
+		</Texture>
+		<LegendStatue/>
+		<ShowName/>
+	</Object>
+	<Object type="0x11c5" id="Sentinel Statue">
+		<Class>GameObject</Class>
+		<Texture>
+			<File>16x16Objectsb</File>
+			<Index>115</Index>
+		</Texture>
+		<LegendStatue/>
+		<ShowName/>
+	</Object>
+	<Object type="0x11c6" id="Vanguard Statue">
+		<Class>GameObject</Class>
+		<Texture>
+			<File>16x16Objectsb</File>
+			<Index>116</Index>
+		</Texture>
+		<LegendStatue/>
+		<ShowName/>
+	</Object>
+	
+	
+	<Object type="0x11c7" id="Legend Memorial">
+		<Class>Memorial</Class>
+		<Texture>
+			<File>16x16Objectsb</File>
+			<Index>117</Index>
+		</Texture>
+		<Static/>
+	</Object>
+</Objects>

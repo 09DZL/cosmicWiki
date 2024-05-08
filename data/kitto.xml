@@ -1,0 +1,1064 @@
+<Objects>
+  <Object type="0xfe34" id="Bloodfly Nest">
+    <Enemy/>
+    <Class>Character</Class>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0xae</Index>
+    </Texture>
+    <RandomTexture>
+      <Texture>
+        <File>lofiObj2</File>
+        <Index>0xae</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj2</File>
+        <Index>0xaf</Index>
+      </Texture>
+    </RandomTexture>
+    <HitSound>monster/snake_queen_hit</HitSound>
+    <DeathSound>monster/spiders_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>3250</MaxHitPoints>
+    <Defense>12</Defense>
+    <XpMult>0.2</XpMult>
+  </Object>
+  <Object type="0xfe38" id="Orange Bloodfly Swarm">
+    <DisplayId>Bloodfly Swarm</DisplayId>
+    <Enemy/>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>94</Index>
+    </AnimatedTexture>
+    <HitSound>monster/snake_queen_hit</HitSound>
+    <DeathSound>monster/spiders_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Defense>2</Defense>
+    <XpMult>0.1</XpMult>
+    <Projectile id="0">
+      <ObjectId>Orange Bloodfly Proj</ObjectId>
+      <Damage>35</Damage>
+      <Speed>60</Speed>
+      <Size>100</Size>
+      <LifetimeMS>833</LifetimeMS>
+      <MultiHit/>
+      <ConditionEffect duration="2">Dazed_I</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object type="0xfe42" id="Orange Bloodfly Proj">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiProjs1</File>
+      <Index>0xab</Index>
+      <AngleCorrection>1</AngleCorrection>
+    </Texture>
+  </Object>
+  <Object type="0xfe39" id="Red Bloodfly Swarm">
+    <DisplayId>Bloodfly Swarm</DisplayId>
+    <Enemy/>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>95</Index>
+    </AnimatedTexture>
+    <HitSound>monster/snake_queen_hit</HitSound>
+    <DeathSound>monster/spiders_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>1000</MaxHitPoints>
+    <Defense>3</Defense>
+    <XpMult>0.1</XpMult>
+    <Projectile id="0">
+      <ObjectId>Red Bloodfly Proj</ObjectId>
+      <Damage>35</Damage>
+      <Speed>60</Speed>
+      <Size>100</Size>
+      <LifetimeMS>833</LifetimeMS>
+      <MultiHit/>
+      <ConditionEffect duration="2">Bleeding</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object type="0xfe43" id="Red Bloodfly Proj">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiProjs1</File>
+      <Index>0xac</Index>
+      <AngleCorrection>1</AngleCorrection>
+    </Texture>
+  </Object>
+  <Object type="0xfe35" id="Giant Flytrap">
+    <Enemy/>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>38</Index>
+    </AnimatedTexture>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <Size>125</Size>
+    <MaxHitPoints>5000</MaxHitPoints>
+    <Defense>36</Defense>
+    <XpMult>0.5</XpMult>
+    <Projectile id="0">
+      <ObjectId>Razor Petal</ObjectId>
+      <Damage>60</Damage>
+      <Speed>80</Speed>
+      <Size>100</Size>
+      <LifetimeMS>1000</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Razor Petal</ObjectId>
+      <Damage>40</Damage>
+      <Speed>60</Speed>
+      <Size>100</Size>
+      <LifetimeMS>2000</LifetimeMS>
+      <MultiHit/>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Petal Wind</ObjectId>
+      <Damage>45</Damage>
+      <Speed>70</Speed>
+      <Size>100</Size>
+      <LifetimeMS>1250</LifetimeMS>
+      <Decelerate/>
+      <MultiHit/>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Petal Wind</ObjectId>
+      <Damage>55</Damage>
+      <Speed>60</Speed>
+      <Size>125</Size>
+      <LifetimeMS>1250</LifetimeMS>
+      <Decelerate/>
+      <MultiHit/>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Petal Wind</ObjectId>
+      <Damage>65</Damage>
+      <Speed>50</Speed>
+      <Size>150</Size>
+      <LifetimeMS>1250</LifetimeMS>
+      <Decelerate/>
+      <MultiHit/>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Petal Wind</ObjectId>
+      <Damage>45</Damage>
+      <Speed>60</Speed>
+      <Size>100</Size>
+      <Amplitude>0.5</Amplitude>
+      <Frequency>0.5</Frequency>
+      <LifetimeMS>1250</LifetimeMS>
+      <Decelerate/>
+      <MultiHit/>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Petal Wind</ObjectId>
+      <Damage>55</Damage>
+      <Speed>50</Speed>
+      <Size>125</Size>
+      <Amplitude>0.5</Amplitude>
+      <Frequency>0.5</Frequency>
+      <LifetimeMS>1250</LifetimeMS>
+      <Decelerate/>
+      <MultiHit/>
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Petal Wind</ObjectId>
+      <Damage>45</Damage>
+      <Speed>50</Speed>
+      <Size>100</Size>
+      <Amplitude>1</Amplitude>
+      <Frequency>0.5</Frequency>
+      <LifetimeMS>1250</LifetimeMS>
+      <Decelerate/>
+      <MultiHit/>
+    </Projectile>
+  </Object>
+  <Object type="0xfe3f" id="Razor Petal">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiProjs1</File>
+      <Index>0xa9</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xfe36" id="Sentient Flytrap">
+    <Enemy/>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>92</Index>
+    </AnimatedTexture>
+    <HitSound>monster/snake_queen_hit</HitSound>
+    <DeathSound>monster/spiders_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>3250</MaxHitPoints>
+    <Defense>20</Defense>
+    <XpMult>0.35</XpMult>
+    <Projectile id="0">
+      <ObjectId>Plant Teeth</ObjectId>
+      <Damage>45</Damage>
+      <Speed>60</Speed>
+      <Size>80</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <Boomerang/>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object type="0xfe40" id="Plant Teeth">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiProjs1</File>
+      <Index>0x9a</Index>
+    </Texture>
+    <Rotation>40</Rotation>
+  </Object>
+  <Object type="0xfe37" id="Spiky Vine">
+    <Enemy/>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>93</Index>
+    </AnimatedTexture>
+    <HitSound>monster/snake_queen_hit</HitSound>
+    <DeathSound>monster/spiders_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>3250</MaxHitPoints>
+    <Defense>5</Defense>
+    <XpMult>0.1</XpMult>
+    <Projectile id="0">
+      <ObjectId>Vine</ObjectId>
+      <Damage>65</Damage>
+      <Speed>20</Speed>
+      <Size>100</Size>
+      <LifetimeMS>2400</LifetimeMS>
+      <Decelerate/>
+      <MultiHit/>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Vine</ObjectId>
+      <Damage>65</Damage>
+      <Speed>23</Speed>
+      <Size>100</Size>
+      <LifetimeMS>2400</LifetimeMS>
+      <Decelerate/>
+      <MultiHit/>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Vine</ObjectId>
+      <Damage>65</Damage>
+      <Speed>26</Speed>
+      <Size>100</Size>
+      <LifetimeMS>2400</LifetimeMS>
+      <Decelerate/>
+      <MultiHit/>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Vine</ObjectId>
+      <Damage>65</Damage>
+      <Speed>29</Speed>
+      <Size>100</Size>
+      <LifetimeMS>2400</LifetimeMS>
+      <Decelerate/>
+      <MultiHit/>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Vine</ObjectId>
+      <Damage>65</Damage>
+      <Speed>32</Speed>
+      <Size>100</Size>
+      <LifetimeMS>2400</LifetimeMS>
+      <Decelerate/>
+      <MultiHit/>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Vine</ObjectId>
+      <Damage>65</Damage>
+      <Speed>35</Speed>
+      <Size>100</Size>
+      <LifetimeMS>2400</LifetimeMS>
+      <Decelerate/>
+      <MultiHit/>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Vine</ObjectId>
+      <Damage>100</Damage>
+      <Speed>1</Speed>
+      <Size>100</Size>
+      <LifetimeMS>4800</LifetimeMS>
+      <Decelerate/>
+      <MultiHit/>
+    </Projectile>
+  </Object>
+  <Object type="0xfe41" id="Vine">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiProjs1</File>
+      <Index>0x99</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xfe48" id="Petal Wind">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiProjs1</File>
+      <Index>0xaa</Index>
+    </Texture>
+    <Rotation>80</Rotation>
+  </Object>
+  <Object type="0xfe3a" id="Sludge Amalgam">
+    <Enemy/>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>40</Index>
+    </AnimatedTexture>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <Size>125</Size>
+    <MaxHitPoints>5000</MaxHitPoints>
+    <Defense>27</Defense>
+    <XpMult>0.3</XpMult>
+    <Projectile id="0">
+      <ObjectId>Sludge Amalgam Slick</ObjectId>
+      <Damage>70</Damage>
+      <Speed>1</Speed>
+      <Size>80</Size>
+      <ConditionEffect duration="10">Silenced</ConditionEffect>
+      <LifetimeMS>20000</LifetimeMS>
+      <Parametric/>
+      <Magnitude>1</Magnitude>
+      <PassesCover/>
+    </Projectile>
+  </Object>
+  <Object type="0xfe3b" id="Sludge Abomination">
+    <Enemy/>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>39</Index>
+    </AnimatedTexture>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <Size>140</Size>
+    <MaxHitPoints>5000</MaxHitPoints>
+    <Defense>48</Defense>
+    <XpMult>0.2</XpMult>
+    <Projectile id="0">
+      <ObjectId>Sludge Skull</ObjectId>
+      <Damage>75</Damage>
+      <Speed>70</Speed>
+      <Size>160</Size>
+      <Accelerate/>
+      <Amplitude>1.62</Amplitude>
+      <Frequency>0.52</Frequency>
+      <LifetimeMS>1571</LifetimeMS>
+      <ConditionEffect duration="1">Manaburn</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Sludge Abomination Shot</ObjectId>
+      <Damage>100</Damage>
+      <Speed>20</Speed>
+      <Size>110</Size>
+      <LifetimeMS>6000</LifetimeMS>
+      <ConditionEffect duration="4">Blind</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object type="0xfa48" id="Sludge Skull">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>Big0</File>
+      <Index>0x18</Index>
+    </Texture>
+  </Object>
+  <Object type="0xfa4a" id="Sludge Abomination Shot">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiProjs1</File>
+      <Index>0xcc</Index>
+    </Texture>
+  </Object>
+  <Object type="0xfa49" id="Sludge Amalgam Slick">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiProjs1</File>
+      <Index>0xcd</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xfe3c" id="Sludge Carcass">
+    <Enemy/>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>96</Index>
+    </AnimatedTexture>
+    <HitSound>monster/snake_queen_hit</HitSound>
+    <DeathSound>monster/spiders_death</DeathSound>
+    <Size>110</Size>
+    <MaxHitPoints>3250</MaxHitPoints>
+    <Defense>33</Defense>
+    <XpMult>0.2</XpMult>
+    <Projectile id="0">
+      <ObjectId>Sludge Carcass Bullet</ObjectId>
+      <Damage>60</Damage>
+      <Speed>70</Speed>
+      <Size>100</Size>
+      <LifetimeMS>1100</LifetimeMS>
+      <ConditionEffect duration="7">Vulnerable_II</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Sludge Carcass Star</ObjectId>
+      <Damage>40</Damage>
+      <Speed>70</Speed>
+      <Size>30</Size>
+      <Amplitude>0.5</Amplitude>
+      <Frequency>1</Frequency>
+      <LifetimeMS>1300</LifetimeMS>
+      <ConditionEffect duration="1">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Sludge Carcass Star</ObjectId>
+      <Damage>50</Damage>
+      <Speed>70</Speed>
+      <Size>40</Size>
+      <Amplitude>0.5</Amplitude>
+      <Frequency>1</Frequency>
+      <LifetimeMS>1300</LifetimeMS>
+      <ConditionEffect duration="2">Exposed</ConditionEffect>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Sludge Carcass Star</ObjectId>
+      <Damage>70</Damage>
+      <Speed>70</Speed>
+      <Size>60</Size>
+      <Amplitude>0.5</Amplitude>
+      <Frequency>1</Frequency>
+      <LifetimeMS>1300</LifetimeMS>
+      <ConditionEffect duration="3">Exposed</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object type="0xfa55" id="Sludge Carcass Bullet">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiProjs1</File>
+      <Index>0xce</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xfa54" id="Sludge Carcass Star">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiProjs1</File>
+      <Index>0xcf</Index>
+    </Texture>
+    <Rotation>30</Rotation>
+  </Object>
+  <Object type="0xfe3e" id="Soulsucker Sprout">
+    <Enemy/>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>41</Index>
+    </AnimatedTexture>
+    <HitSound>monster/demons_hit</HitSound>
+    <DeathSound>monster/demons_death</DeathSound>
+    <Size>125</Size>
+    <MaxHitPoints>5000</MaxHitPoints>
+    <Defense>46</Defense>
+    <XpMult>0.4</XpMult>
+    <Projectile id="0">
+      <ObjectId>Soul Root Bolt</ObjectId>
+      <Damage>90</Damage>
+      <Speed>70</Speed>
+      <Size>120</Size>
+      <Decelerate/>
+      <LifetimeMS>1000</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Soul Root Bolt</ObjectId>
+      <Damage>90</Damage>
+      <Speed>90</Speed>
+      <Size>120</Size>
+      <LifetimeMS>1000</LifetimeMS>
+      <Decelerate/>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Soul Root Bolt</ObjectId>
+      <Damage>90</Damage>
+      <Speed>110</Speed>
+      <Size>120</Size>
+      <LifetimeMS>1000</LifetimeMS>
+      <Decelerate/>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Soul Root Shock</ObjectId>
+      <Damage>25</Damage>
+      <Speed>40</Speed>
+      <Size>80</Size>
+      <ConditionEffect duration="3">Paralyzed</ConditionEffect>
+      <LifetimeMS>1500</LifetimeMS>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Soul Root Spiral</ObjectId>
+      <Damage>20</Damage>
+      <Speed>70</Speed>
+      <Size>80</Size>
+      <Amplitude>0.3</Amplitude>
+      <Frequency>2</Frequency>
+      <LifetimeMS>2285</LifetimeMS>
+      <MultiHit/>
+      <ArmorPiercing/>
+      <ConditionEffect duration="2">Bleeding</ConditionEffect>
+      <ConditionEffect duration="2">Manaburn</ConditionEffect>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Soul Root Shock</ObjectId>
+      <Damage>45</Damage>
+      <Speed>30</Speed>
+      <Size>80</Size>
+      <Boomerang/>
+      <Amplitude>0.3</Amplitude>
+      <Frequency>2</Frequency>
+      <ConditionEffect duration="1">Paralyzed</ConditionEffect>
+      <LifetimeMS>6666</LifetimeMS>
+    </Projectile>
+  </Object>
+  <Object type="0xfa56" id="Soul Root Bolt">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiProjs1</File>
+      <Index>0xbc</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xfa57" id="Soul Root Shock">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiProjs1</File>
+      <Index>0xbb</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xfa58" id="Soul Root Spiral">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiProjs1</File>
+      <Index>0xcb</Index>
+    </Texture>
+    <Rotation>60</Rotation>
+  </Object>
+
+  <Object type="0x626f" id="Catenae Bud">
+    <DisplayId>The Catenae</DisplayId>
+    <Class>Character</Class>
+    <Enemy/>
+    <Texture>
+      <File>Obj32x32</File>
+      <Index>0x20</Index>
+    </Texture>
+    <Animation prob="1" period="1">
+      <Frame time="1">
+        <Texture>
+          <File>Obj32x32</File>
+          <Index>0x20</Index>
+        </Texture>
+      </Frame>
+      <Frame time="1">
+        <Texture>
+          <File>Obj32x32</File>
+          <Index>0x21</Index>
+        </Texture>
+      </Frame>
+      <Frame time="1">
+        <Texture>
+          <File>Obj32x32</File>
+          <Index>0x22</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <HitSound>monster/default_hit</HitSound>
+    <DeathSound>spell/fire_spray</DeathSound>
+    <Size>100</Size>
+    <ShadowSize>80</ShadowSize>
+    <StasisImmune/>
+    <MaxHitPoints>10000</MaxHitPoints>
+    <Defense>80</Defense>
+    <Projectile id="0">
+      <ObjectId>Catenae Spell Star</ObjectId>
+      <Damage>90</Damage>
+      <Speed>60</Speed>
+      <Size>80</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit/>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+    </Projectile>
+  </Object>
+
+  <Object type="0x6256" id="The Catenae">
+    <Class>Character</Class>
+    <Enemy/>
+    <Texture>
+      <File>Obj32x32</File>
+      <Index>0x33</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>Obj32x32</File>
+        <Index>0x30</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>Obj32x32</File>
+        <Index>0x31</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="3">
+      <Texture>
+        <File>Obj32x32</File>
+        <Index>0x30</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="4">
+      <Texture>
+        <File>Obj32x32</File>
+        <Index>0x32</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="5">
+      <Texture>
+        <File>Obj32x32</File>
+        <Index>0x40</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="6">
+      <Texture>
+        <File>Obj32x32</File>
+        <Index>0x41</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="7">
+      <Texture>
+        <File>Obj32x32</File>
+        <Index>0x40</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="8">
+      <Texture>
+        <File>Obj32x32</File>
+        <Index>0x42</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="9">
+      <Texture>
+        <File>16x16T0</File>
+        <Index>0x70</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="10">
+      <Texture>
+        <File>16x16T0</File>
+        <Index>0x71</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="11">
+      <Texture>
+        <File>16x16T0</File>
+        <Index>0x72</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="12">
+      <Texture>
+        <File>16x16T0</File>
+        <Index>0x73</Index>
+      </Texture>
+    </AltTexture>
+    <HitSound>monster/default_hit</HitSound>
+    <DeathSound>spell/fire_spray</DeathSound>
+    <Size>110</Size>
+    <ShadowSize>80</ShadowSize>
+    <StasisImmune/>
+    <MaxHitPoints>55000</MaxHitPoints>
+    <Defense>40</Defense>
+    <trackPosition/>
+    <Projectile id="0">
+      <ObjectId>Catenae Razor Leaf</ObjectId>
+      <Damage>200</Damage>
+      <Size>220</Size>
+      <Speed>60</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <MultiHit/>
+      <ConditionEffect duration="3">Bleeding</ConditionEffect>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Catenae Leaf</ObjectId>
+      <Damage>60</Damage>
+      <Size>80</Size>
+      <Speed>60</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <MultiHit/>
+      <ArmorPiercing/>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Catenae Leaf</ObjectId>
+      <Damage>60</Damage>
+      <Size>80</Size>
+      <Speed>30</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <MultiHit/>
+      <ArmorPiercing/>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Catenae Star</ObjectId>
+      <Damage>60</Damage>
+      <Size>100</Size>
+      <Speed>60</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <Amplitude>0.1</Amplitude>
+      <Frequency>5</Frequency>
+      <MultiHit/>
+      <ArmorPiercing/>
+      <ConditionEffect duration="1">Confused</ConditionEffect>
+      <ConditionEffect duration="2">Manaburn</ConditionEffect>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Catenae Big Star</ObjectId>
+      <Damage>200</Damage>
+      <Size>270</Size>
+      <Speed>70</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit/>
+      <ConditionEffect duration="5">Manaburn</ConditionEffect>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Catenae Leaf</ObjectId>
+      <Damage>50</Damage>
+      <Size>80</Size>
+      <Speed>50</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <MultiHit/>
+      <ArmorPiercing/>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Catenae Leaf</ObjectId>
+      <Damage>60</Damage>
+      <Size>80</Size>
+      <Speed>40</Speed>
+      <LifetimeMS>1500</LifetimeMS>
+      <MultiHit/>
+      <ArmorPiercing/>
+      <Decelerate/>
+    </Projectile>
+    <Projectile id="7">
+      <ObjectId>Catenae Leaf</ObjectId>
+      <Damage>90</Damage>
+      <Size>80</Size>
+      <Speed>60</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit/>
+    </Projectile>
+    <Projectile id="8">
+      <ObjectId>Catenae Leaf</ObjectId>
+      <Damage>65</Damage>
+      <Size>80</Size>
+      <Speed>60</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <MultiHit/>
+    </Projectile>
+    <Projectile id="9">
+      <ObjectId>Catenae Leaf</ObjectId>
+      <Damage>50</Damage>
+      <Size>80</Size>
+      <Speed>50</Speed>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit/>
+      <ArmorPiercing/>
+    </Projectile>
+    <Projectile id="10">
+      <ObjectId>Catenae Leaf</ObjectId>
+      <Damage>50</Damage>
+      <Size>80</Size>
+      <Speed>70</Speed>
+      <LifetimeMS>5000</LifetimeMS>
+      <MultiHit/>
+      <ArmorPiercing/>
+    </Projectile>
+    <Projectile id="11">
+      <ObjectId>Catenae Wave</ObjectId>
+      <Damage>100</Damage>
+      <Size>80</Size>
+      <Speed>40</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <Accelerate/>
+      <ConditionEffect duration="1.5">Manaburn</ConditionEffect>
+    </Projectile>
+    <Projectile id="12">
+      <ObjectId>Catenae Wave</ObjectId>
+      <Damage>100</Damage>
+      <Size>80</Size>
+      <Speed>40</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <Decelerate/>
+      <ConditionEffect duration="1.5">Manaburn</ConditionEffect>
+    </Projectile>
+    <Projectile id="13">
+      <ObjectId>Sludge Carcass Bullet</ObjectId>
+      <Damage>50</Damage>
+      <Size>80</Size>
+      <Speed>50</Speed>
+      <LifetimeMS>4000</LifetimeMS>
+      <Decelerate/>
+      <ConditionEffect duration="0.5">Manaburn</ConditionEffect>
+    </Projectile>
+    <Projectile id="14">
+      <ObjectId>Soul Root Bolt</ObjectId>
+      <Damage>100</Damage>
+      <Size>100</Size>
+      <Speed>100</Speed>
+      <LifetimeMS>7500</LifetimeMS>
+      <ConditionEffect duration="3">Manaburn</ConditionEffect>
+    </Projectile>
+  </Object>
+  <Object type="0xfe49" id="Catenae Leaf">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiProjs1</File>
+      <Index>0xb9</Index>
+    </Texture>
+    <Rotation>110</Rotation>
+  </Object>
+  <Object type="0xfe4a" id="Catenae Razor Leaf">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiProjsBig</File>
+      <Index>0x14</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0xfe4b" id="Catenae Star">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiProjs1</File>
+      <Index>0xbe</Index>
+    </Texture>
+    <Rotation>60</Rotation>
+  </Object>
+  <Object type="0xfe4c" id="Catenae Big Star">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiProjsBig</File>
+      <Index>0x16</Index>
+    </Texture>
+    <Rotation>60</Rotation>
+  </Object>
+  <Object type="0x625d" id="Catenae Wave">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiProjs1</File>
+      <Index>0xbd</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+
+  <Object type="0x6252" id="Catenae Anchor">
+    <DisplayId>Catenae Anchor</DisplayId>
+    <Class>Character</Class>
+    <Enemy/>
+    <Texture>
+      <File>16x16T0</File>
+      <Index>0x62</Index>
+    </Texture>
+    <HitSound>monster/default_hit</HitSound>
+    <DeathSound>spell/fire_spray</DeathSound>
+    <Size>150</Size>
+    <ShadowSize>130</ShadowSize>
+    <StasisImmune/>
+    <MaxHitPoints>35000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Projectile id="0">
+      <ObjectId>Petal Wind</ObjectId>
+      <Damage>125</Damage>
+      <Speed>45</Speed>
+      <LifetimeMS>300</LifetimeMS>
+      <MultiHit/>
+      <ArmorPiercing/>
+    </Projectile>
+  </Object>
+
+  <Object type="0x6253" id="Catenae Core 1">
+    <DisplayId>Catenae Core</DisplayId>
+    <Class>Character</Class>
+    <Enemy/>
+    <Texture>
+      <File>16x16T0</File>
+      <Index>0x60</Index>
+    </Texture>
+    <Animation prob="1" period="4">
+      <Frame time="1">
+        <Texture>
+          <File>16x16T0</File>
+          <Index>0x60</Index>
+        </Texture>
+      </Frame>
+      <Frame time="1">
+        <Texture>
+          <File>16x16T0</File>
+          <Index>0x61</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <HitSound>monster/default_hit</HitSound>
+    <DeathSound>spell/fire_spray</DeathSound>
+    <Size>70</Size>
+    <ShadowSize>60</ShadowSize>
+    <StasisImmune/>
+    <MaxHitPoints>35000</MaxHitPoints>
+    <Defense>20</Defense>
+    <trackPosition/>
+  </Object>
+
+  <Object type="0x6254" id="Catenae Core 2">
+    <DisplayId>Catenae Core</DisplayId>
+    <Class>Character</Class>
+    <Enemy/>
+    <Texture>
+      <File>16x16T0</File>
+      <Index>0x60</Index>
+    </Texture>
+    <Animation prob="1" period="4">
+      <Frame time="1">
+        <Texture>
+          <File>16x16T0</File>
+          <Index>0x60</Index>
+        </Texture>
+      </Frame>
+      <Frame time="1">
+        <Texture>
+          <File>16x16T0</File>
+          <Index>0x61</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <HitSound>monster/default_hit</HitSound>
+    <DeathSound>spell/fire_spray</DeathSound>
+    <Size>70</Size>
+    <ShadowSize>60</ShadowSize>
+    <StasisImmune/>
+    <MaxHitPoints>35000</MaxHitPoints>
+    <Defense>20</Defense>
+    <trackPosition/>
+  </Object>
+
+  <Object type="0x6255" id="Catenae Core 3">
+    <DisplayId>Catenae Core</DisplayId>
+    <Class>Character</Class>
+    <Enemy/>
+    <Texture>
+      <File>16x16T0</File>
+      <Index>0x60</Index>
+    </Texture>
+    <Animation prob="1" period="4">
+      <Frame time="1">
+        <Texture>
+          <File>16x16T0</File>
+          <Index>0x60</Index>
+        </Texture>
+      </Frame>
+      <Frame time="1">
+        <Texture>
+          <File>16x16T0</File>
+          <Index>0x61</Index>
+        </Texture>
+      </Frame>
+    </Animation>
+    <HitSound>monster/default_hit</HitSound>
+    <DeathSound>spell/fire_spray</DeathSound>
+    <Size>70</Size>
+    <ShadowSize>60</ShadowSize>
+    <StasisImmune/>
+    <MaxHitPoints>35000</MaxHitPoints>
+    <Defense>20</Defense>
+    <trackPosition/>
+  </Object>
+  <Object type="0x6259" id="Catenae Spellbomb">
+    <DisplayId>The Catenae</DisplayId>
+    <Class>Character</Class>
+    <Enemy/>
+    <Texture>
+      <File>16x16T0</File>
+      <Index>0x50</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>lofiObjBig</File>
+        <Index>0x51</Index>
+      </Texture>
+    </AltTexture>
+    <HitSound>monster/default_hit</HitSound>
+    <DeathSound>spell/fire_spray</DeathSound>
+    <Size>100</Size>
+    <ShadowSize>80</ShadowSize>
+    <StasisImmune/>
+    <MaxHitPoints>35000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Projectile id="0">
+      <ObjectId>Catenae Spell Star</ObjectId>
+      <Damage>60</Damage>
+      <Speed>60</Speed>
+      <Size>70</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit/>
+    </Projectile>
+  </Object>
+  <Object type="0x625b" id="Catenae Spellbomb X">
+    <DisplayId>The Catenae</DisplayId>
+    <Class>Character</Class>
+    <Enemy/>
+    <Texture>
+      <File>16x16T0</File>
+      <Index>0x52</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>lofiObjBig</File>
+        <Index>0x53</Index>
+      </Texture>
+    </AltTexture>
+    <HitSound>monster/default_hit</HitSound>
+    <DeathSound>spell/fire_spray</DeathSound>
+    <Size>100</Size>
+    <ShadowSize>80</ShadowSize>
+    <StasisImmune/>
+    <MaxHitPoints>35000</MaxHitPoints>
+    <Defense>20</Defense>
+    <Projectile id="0">
+      <ObjectId>Catenae Spell</ObjectId>
+      <Damage>90</Damage>
+      <Speed>60</Speed>
+      <Size>80</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <MultiHit/>
+    </Projectile>
+  </Object>
+  <Object type="0x625a" id="Catenae Spell Star">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiProjs1</File>
+      <Index>0xba</Index>
+    </Texture>
+    <Rotation>60</Rotation>
+  </Object>
+  <Object type="0x625c" id="Catenae Spell">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiProjs1</File>
+      <Index>0xc9</Index>
+    </Texture>
+    <Rotation>80</Rotation>
+  </Object>
+
+</Objects>
