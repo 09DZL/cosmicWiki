@@ -1,0 +1,10 @@
+.sprite {
+    background-repeat: no-repeat;
+    display: inline-block;
+    image-rendering: pixelated;
+    filter: url(#sprite-outline);
+    margin: 4px;
+}
+.category {
+    color: white;
+}
