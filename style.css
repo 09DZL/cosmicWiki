@@ -79,7 +79,6 @@ iframe {
 	margin-right: auto;
 	margin-top: 5px;
 	
-	float: top;
 	position: relative;
 	
 	background-color: #C1C1C1;
@@ -113,7 +112,7 @@ iframe {
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 	
 	position:absolute;
-	top:25vh;
+	top: 25vh;
 	padding-left: 12%;
 }
 
@@ -139,7 +138,7 @@ footer {
 	text-decoration: none;
 	font-size: 1.3em;
 	opacity: 0.7;
-	transform: 0.5s;
+	transition: 0.5s;
 }
 
 .footBody ul li a:hover {
