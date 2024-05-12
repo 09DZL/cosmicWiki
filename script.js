@@ -386,9 +386,15 @@ function onLoadItems() {
                 div.className = 'sprite';
                 div.style.width = '64px';
                 div.style.height = '64px';
+                div.title = item.id;
+                div.onclick = function() {
+                    showDetailPanel(item);
+                };
                 itemDivs.push({div: div, item: item});
                 categoryDiv.appendChild(div);
             });
+            
+            
 
             itemDivs.forEach(({div, item}) => {
                 const spriteInfo = getSpriteDimension(item.filepath);
@@ -412,6 +418,57 @@ function onLoadItems() {
         }
     });
 }
+
+function showDetailPanel(item) {
+    const panel = document.getElementById('detailPanel');
+    const spriteInfo = getSpriteDimension(item.filepath);
+    const spriteWidth = spriteInfo[0];
+    const spriteHeight = spriteInfo[1];
+    const imageIndex = item.fileindex;
+    const img = new Image();
+    img.onload = function() {
+        const columns = this.naturalWidth / spriteWidth;
+        const row = Math.floor(imageIndex / columns);
+        const col = imageIndex % columns;
+
+        // Scaling calculations
+        const scaleX = 128 / spriteWidth;
+        const scaleY = 128 / spriteHeight;
+        const scaledWidth = this.naturalWidth * scaleX;
+        const scaledHeight = this.naturalHeight * scaleY;
+        const backgroundPosition = `-${col * spriteWidth * scaleX}px -${row * spriteHeight * scaleY}px`;
+        const backgroundSize = `${scaledWidth}px ${scaledHeight}px`;
+
+        // Creating and inserting the HTML
+        panel.innerHTML = `
+            <span class="close-btn">&times;</span>
+            <div class="item-display">
+                <div class="sprite" style="background-image: url('${img.src}');
+                                            background-position: ${backgroundPosition};
+                                            background-size: ${backgroundSize};
+                                            width: 128px; height: 128px;
+                                            filter: url('#sprite-outline');">
+                </div>
+                <div>
+                    <h2 id="itemName">${item.id}</h2>
+                    <p id="itemDescription">${item.description}</p>
+                </div>
+            </div>`;
+
+        // Adding close button functionality after setting innerHTML
+        panel.querySelector('.close-btn').onclick = closeDetailPanel;
+    };
+    img.src = getFileUrl(getFileName(item.filepath));
+    
+    document.getElementById('content').style.display = 'none';
+    panel.style.display = 'flex';
+}
+
+function closeDetailPanel() {
+    document.getElementById('content').style.display = 'block'; // Show the items grid
+    document.getElementById('detailPanel').style.display = 'none'; // Hide the detail panel
+}
+
 
 function onLoadEnemies() {
     var content = document.getElementById('content');
